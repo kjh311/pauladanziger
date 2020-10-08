@@ -6363,16 +6363,4 @@ a.text-dark:focus, a.text-dark:hover {
   right: 0;
   left: 0; }
 
-div {
-  outline: 2px solid yellow; }
-  @media (min-width: 576px) {
-    div {
-      outline: 2px solid orange; } }
-  @media (min-width: 768px) {
-    div {
-      outline: 2px solid red; } }
-  @media (min-width: 992px) {
-    div {
-      outline: 2px solid purple; } }
-
 /*# sourceMappingURL=style.css.map */
