@@ -1,0 +1,9 @@
+@import "../bootstrap/scss/bootstrap";
+@import "mockup";
+
+
+// COLORS and VARIABLES
+
+div{
+  @extend %color-border;
+}
