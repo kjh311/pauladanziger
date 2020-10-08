@@ -2,3 +2,8 @@
 @import "mockup";
 
 
+// COLORS and VARIABLES
+
+div{
+  @extend %color-border;
+}
