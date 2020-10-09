@@ -10,6 +10,16 @@ div{
   // @extend %color-border;
 }
 
+// .user-image{
+// 	float: left;
+// 	display: inline;
+// }
+
+.navbar{
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
  .navbar-nav li:hover > ul.dropdown-menu {
     display: block;
 }
@@ -38,3 +48,4 @@ div{
 	position: relative;
 	margin-right: 20px;
 }
+

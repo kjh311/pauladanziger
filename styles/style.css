@@ -6363,6 +6363,11 @@ a.text-dark:focus, a.text-dark:hover {
   right: 0;
   left: 0; }
 
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%; }
+
 .navbar-nav li:hover > ul.dropdown-menu {
   display: block; }
 
