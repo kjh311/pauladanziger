@@ -6364,6 +6364,7 @@ a.text-dark:focus, a.text-dark:hover {
   left: 0; }
 
 .navbar {
+  position: fixed;
   top: 0;
   width: 100%; }
 
