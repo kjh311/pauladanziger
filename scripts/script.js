@@ -1,3 +1,6 @@
 $( document ).ready(function() {
     console.log( "ready!" );
-    $(".dropdown-toggle").dropdown();});
+    $('#btn-id').click(function(e){
+    e.stopPropagation()
+});
+});
