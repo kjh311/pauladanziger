@@ -6446,7 +6446,7 @@ li {
   position: fixed;
   overflow: hidden;
   left: 0px;
-  top: 0px;
+  top: 20px;
   padding: 0px;
   z-index: 99;
   text-align: center;
@@ -6498,13 +6498,14 @@ li {
   z-index: 1001;
   color: #fff;
   position: absolute;
-  top: 43px;
+  top: 39px;
   left: 50%;
-  font-size: 15px;
+  font-size: 20px;
   line-height: 26px;
   text-align: center;
   width: 50px;
-  height: 23px;
+  height: 41px;
+  padding-top: 8px;
   overflow: hidden;
   margin-left: -25px;
   opacity: 0;
@@ -6605,7 +6606,8 @@ pre {
 .navbar {
   position: fixed;
   top: 0;
-  width: 100%; }
+  width: 100%;
+  z-index: 100; }
 
 .navbar-nav li:hover > ul.dropdown-menu {
   display: block; }
