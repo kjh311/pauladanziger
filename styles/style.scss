@@ -17,6 +17,27 @@ div{
 // 	display: inline;
 // }
 
+
+.form-wrapper{
+	border: 2px solid black;
+	padding: 30px 0px 30px 0px;
+	// margin: 20px 0px 20px 0px;
+	width: 90%;
+	@include media-breakpoint-up(md) {
+  		width: 40%;
+}
+.name-input, .email-input, .message-input{
+		margin: 10px;
+		width: 200px;
+	@include media-breakpoint-up(md) {
+  		width: 280px;
+}
+}
+.message-input{
+	height: 100px;
+}
+}
+
 .navbar{
 	position: fixed;
 	top: 0;
