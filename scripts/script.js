@@ -1,5 +1,5 @@
 $( document ).ready(function() {
-    // alert( "ready!" );
+   console.log( "ready!" );
 
 
     $(".dropdown-toggle").dropdown();
