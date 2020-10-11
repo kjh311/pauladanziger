@@ -1,0 +1,19 @@
+.about-paula-div{
+	padding: 10px 10% 10px 10%;
+}
+.about-paula-div > p{
+	
+	text-indent: 50px;
+	line-height: 30px;
+	font-size: 1em;
+	@include media-breakpoint-up(sm) {
+  		line-height: 40px;
+		font-size: 1.3em;
+	}
+}
+.about-paula-div > img{
+	margin: 30px;
+	display: inline;
+	width: 20%;
+	height: 20%;
+}
