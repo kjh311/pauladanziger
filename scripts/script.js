@@ -2,6 +2,7 @@ $( document ).ready(function() {
    console.log( "ready!" );
 
 
+
     $(".dropdown-toggle").dropdown();
     // $(".navbar-toggler").dropdown();
 
