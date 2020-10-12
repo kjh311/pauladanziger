@@ -6661,7 +6661,8 @@ pre {
   margin-left: 3px; }
 
 footer {
-  border-top: 2px solid #E6E6EA; }
+  border-top: 2px solid #E6E6EA;
+  margin-top: 40px; }
 
 .footer-copyright {
   background-color: #009FB7;
@@ -6786,7 +6787,8 @@ li a {
   margin-left: 3px; }
 
 footer {
-  border-top: 2px solid #E6E6EA; }
+  border-top: 2px solid #E6E6EA;
+  margin-top: 40px; }
 
 .footer-copyright {
   background-color: #009FB7;
@@ -6834,7 +6836,7 @@ img {
 .book-container {
   padding: 30px 0 30px 0; }
 
-p {
+.book-container p {
   font-family: "Chilanka", cursive;
   font-size: 1.2em;
   padding: 5px 5% 5px 5%;
@@ -6946,7 +6948,8 @@ a {
   margin-left: 3px; }
 
 footer {
-  border-top: 2px solid #E6E6EA; }
+  border-top: 2px solid #E6E6EA;
+  margin-top: 40px; }
 
 .footer-copyright {
   background-color: #009FB7;
@@ -7039,7 +7042,8 @@ li a {
   margin-left: 3px; }
 
 footer {
-  border-top: 2px solid #E6E6EA; }
+  border-top: 2px solid #E6E6EA;
+  margin-top: 40px; }
 
 .footer-copyright {
   background-color: #009FB7;
@@ -7073,6 +7077,9 @@ li a {
 
 .links {
   color: #FE4A49; }
+
+body {
+  font-family: "Chilanka", cursive; }
 
 .navbar {
   position: fixed;
