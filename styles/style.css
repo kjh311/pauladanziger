@@ -6823,7 +6823,16 @@ li a {
 
 img {
   align-self: center;
-  padding-top: 10%; }
+  padding-top: 10%;
+  width: 80%;
+  height: 80%; }
+  @media (min-width: 768px) {
+    img {
+      width: auto;
+      height: auto; } }
+
+.book-container {
+  padding: 30px 0 30px 0; }
 
 p {
   font-family: "Chilanka", cursive;
@@ -6861,6 +6870,9 @@ button {
     button {
       margin: 0px 40% 0px 40%; } }
 
+hr {
+  padding: 0 15% 0 15%; }
+
 .book {
   border-radius: 10px; }
 
@@ -6870,7 +6882,8 @@ button {
 .purchase-button {
   margin-top: 10%;
   text-decoration: none !important;
-  cursor: pointer; }
+  cursor: pointer;
+  font-size: 1.3em; }
 
 a {
   text-decoration: none !important; }
