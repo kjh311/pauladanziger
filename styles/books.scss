@@ -1,0 +1,79 @@
+@import "variables";
+@import "navbar";
+@import "footer";
+
+img{
+	align-self: center;
+	padding-top: 10%;
+	
+}
+img:hover{
+	
+}
+p{
+	font-family: $chilanka;
+	font-size: 1.2em;
+	padding: 5px 5% 5px 5%;
+	text-indent: 50px;
+	margin:0 0 10px 0;
+	text-align: justify;
+}
+.details{
+	// position: relative;
+	text-align: justify;
+	margin-right: 40px !important;
+	@include media-breakpoint-up(md) {
+  		margin-right: 0px !important;
+	}
+}
+.review{
+	font-size: 1em;
+	text-indent: 0px;
+}
+#more {
+	display: none;
+}
+
+.content {
+	display:none;
+}
+
+button {
+	margin-top:10px;
+	cursor: pointer;
+	// text-decoration: none !important;
+	margin: 0px 20% 0px 20%;
+
+	@include media-breakpoint-up(md) {
+  		margin: 0px 20% 0px 20%;
+	}
+	@include media-breakpoint-up(lg) {
+  		margin: 0px 40% 0px 40%;
+	}
+}
+
+
+	
+
+.book{
+	// border: 2px solid rgba(0,0,0,0);
+	border-radius: 10px;
+
+	
+
+}
+.book:hover{
+	// border: 2px solid $red;
+	border-radius: 10px;
+	
+	
+	
+}
+.purchase-button{
+	margin-top: 10%;
+	text-decoration: none !important;
+	cursor: pointer;
+}
+a{
+	text-decoration: none !important;
+}

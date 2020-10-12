@@ -6613,9 +6613,7 @@ pre {
   background-color: #009FB7; }
 
 .navbar-brand {
-  position: absolute;
-  top: 25px;
-  left: 20px; }
+  margin-top: 10px; }
 
 .nav-item {
   margin-top: 15px; }
@@ -6649,6 +6647,21 @@ pre {
 
 .navbar-expand-md .navbar-nav .dropdown-menu {
   position: initial; }
+
+.about {
+  position: relative;
+  margin-right: 22px; }
+
+.fanart {
+  position: relative;
+  margin-right: 13px; }
+
+.contact {
+  position: relative;
+  margin-left: 3px; }
+
+footer {
+  border-top: 2px solid #E6E6EA; }
 
 .footer-copyright {
   background-color: #009FB7;
@@ -6725,9 +6738,7 @@ li a {
   background-color: #009FB7; }
 
 .navbar-brand {
-  position: absolute;
-  top: 25px;
-  left: 20px; }
+  margin-top: 10px; }
 
 .nav-item {
   margin-top: 15px; }
@@ -6761,6 +6772,351 @@ li a {
 
 .navbar-expand-md .navbar-nav .dropdown-menu {
   position: initial; }
+
+.about {
+  position: relative;
+  margin-right: 22px; }
+
+.fanart {
+  position: relative;
+  margin-right: 13px; }
+
+.contact {
+  position: relative;
+  margin-left: 3px; }
+
+footer {
+  border-top: 2px solid #E6E6EA; }
+
+.footer-copyright {
+  background-color: #009FB7;
+  height: 80px; }
+
+.footer-copyright > p {
+  font-size: 1.3em;
+  margin-top: 13px; }
+
+.kevin-link {
+  color: white;
+  transition: 0.3s; }
+
+.kevin-link:hover {
+  color: #FE4A49;
+  transition: 0.3s; }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; }
+
+li a {
+  display: block;
+  color: #009FB7;
+  margin-bottom: 10px;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none; }
+
+.links {
+  color: #FE4A49; }
+
+img {
+  align-self: center;
+  padding-top: 10%; }
+
+p {
+  font-family: "Chilanka", cursive;
+  font-size: 1.2em;
+  padding: 5px 5% 5px 5%;
+  text-indent: 50px;
+  margin: 0 0 10px 0;
+  text-align: justify; }
+
+.details {
+  text-align: justify;
+  margin-right: 40px !important; }
+  @media (min-width: 768px) {
+    .details {
+      margin-right: 0px !important; } }
+
+.review {
+  font-size: 1em;
+  text-indent: 0px; }
+
+#more {
+  display: none; }
+
+.content {
+  display: none; }
+
+button {
+  margin-top: 10px;
+  cursor: pointer;
+  margin: 0px 20% 0px 20%; }
+  @media (min-width: 768px) {
+    button {
+      margin: 0px 20% 0px 20%; } }
+  @media (min-width: 992px) {
+    button {
+      margin: 0px 40% 0px 40%; } }
+
+.book {
+  border-radius: 10px; }
+
+.book:hover {
+  border-radius: 10px; }
+
+.purchase-button {
+  margin-top: 10%;
+  text-decoration: none !important;
+  cursor: pointer; }
+
+a {
+  text-decoration: none !important; }
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  font-family: "Chilanka", cursive;
+  font-size: 1.2em;
+  background-color: #009FB7; }
+
+.navbar-brand {
+  margin-top: 10px; }
+
+.nav-item {
+  margin-top: 15px; }
+
+.navbar-nav li:hover > ul.dropdown-menu {
+  display: block; }
+
+.dropdown-submenu {
+  position: relative; }
+
+.dropdown-submenu > .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px; }
+
+/* rotate caret on hover */
+.dropdown-menu > li > a:hover:after {
+  text-decoration: underline;
+  transform: rotate(-90deg); }
+
+.dropdown-menu {
+  position: relative;
+  margin-top: -10px; }
+
+#navbarDropdownMenuLink {
+  cursor: default; }
+
+.nav-item, .dropdown-item {
+  position: relative;
+  margin-right: 20px; }
+
+.navbar-expand-md .navbar-nav .dropdown-menu {
+  position: initial; }
+
+.about {
+  position: relative;
+  margin-right: 22px; }
+
+.fanart {
+  position: relative;
+  margin-right: 13px; }
+
+.contact {
+  position: relative;
+  margin-left: 3px; }
+
+footer {
+  border-top: 2px solid #E6E6EA; }
+
+.footer-copyright {
+  background-color: #009FB7;
+  height: 80px; }
+
+.footer-copyright > p {
+  font-size: 1.3em;
+  margin-top: 13px; }
+
+.kevin-link {
+  color: white;
+  transition: 0.3s; }
+
+.kevin-link:hover {
+  color: #FE4A49;
+  transition: 0.3s; }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; }
+
+li a {
+  display: block;
+  color: #009FB7;
+  margin-bottom: 10px;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none; }
+
+.links {
+  color: #FE4A49; }
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  font-family: "Chilanka", cursive;
+  font-size: 1.2em;
+  background-color: #009FB7; }
+
+.navbar-brand {
+  margin-top: 10px; }
+
+.nav-item {
+  margin-top: 15px; }
+
+.navbar-nav li:hover > ul.dropdown-menu {
+  display: block; }
+
+.dropdown-submenu {
+  position: relative; }
+
+.dropdown-submenu > .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px; }
+
+/* rotate caret on hover */
+.dropdown-menu > li > a:hover:after {
+  text-decoration: underline;
+  transform: rotate(-90deg); }
+
+.dropdown-menu {
+  position: relative;
+  margin-top: -10px; }
+
+#navbarDropdownMenuLink {
+  cursor: default; }
+
+.nav-item, .dropdown-item {
+  position: relative;
+  margin-right: 20px; }
+
+.navbar-expand-md .navbar-nav .dropdown-menu {
+  position: initial; }
+
+.about {
+  position: relative;
+  margin-right: 22px; }
+
+.fanart {
+  position: relative;
+  margin-right: 13px; }
+
+.contact {
+  position: relative;
+  margin-left: 3px; }
+
+footer {
+  border-top: 2px solid #E6E6EA; }
+
+.footer-copyright {
+  background-color: #009FB7;
+  height: 80px; }
+
+.footer-copyright > p {
+  font-size: 1.3em;
+  margin-top: 13px; }
+
+.kevin-link {
+  color: white;
+  transition: 0.3s; }
+
+.kevin-link:hover {
+  color: #FE4A49;
+  transition: 0.3s; }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; }
+
+li a {
+  display: block;
+  color: #009FB7;
+  margin-bottom: 10px;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none; }
+
+.links {
+  color: #FE4A49; }
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  font-family: "Chilanka", cursive;
+  font-size: 1.2em;
+  background-color: #009FB7; }
+
+.navbar-brand {
+  margin-top: 10px; }
+
+.nav-item {
+  margin-top: 15px; }
+
+.navbar-nav li:hover > ul.dropdown-menu {
+  display: block; }
+
+.dropdown-submenu {
+  position: relative; }
+
+.dropdown-submenu > .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px; }
+
+/* rotate caret on hover */
+.dropdown-menu > li > a:hover:after {
+  text-decoration: underline;
+  transform: rotate(-90deg); }
+
+.dropdown-menu {
+  position: relative;
+  margin-top: -10px; }
+
+#navbarDropdownMenuLink {
+  cursor: default; }
+
+.nav-item, .dropdown-item {
+  position: relative;
+  margin-right: 20px; }
+
+.navbar-expand-md .navbar-nav .dropdown-menu {
+  position: initial; }
+
+.about {
+  position: relative;
+  margin-right: 22px; }
+
+.fanart {
+  position: relative;
+  margin-right: 13px; }
+
+.contact {
+  position: relative;
+  margin-left: 3px; }
 
 body {
   font-size: 16px; }

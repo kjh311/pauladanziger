@@ -9,9 +9,7 @@
 	background-color: $blue;
 }
 .navbar-brand{
-	position: absolute;
-	top: 25px;
-	left: 20px;
+	margin-top: 10px;
 }
 .nav-item{
 	margin-top: 15px;
@@ -51,4 +49,19 @@
 }
 .navbar-expand-md .navbar-nav .dropdown-menu {
 	position: initial;
+}
+.books{
+
+}
+.about{
+	position: relative;
+	margin-right: 22px;
+}
+.fanart{
+	position: relative;
+	margin-right: 13px;
+}
+.contact{
+	position: relative;
+	margin-left: 3px;
 }

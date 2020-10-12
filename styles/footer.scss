@@ -1,7 +1,9 @@
 @import "variables";
 
 
-
+footer{
+	border-top: 2px solid $medium-grey;
+}
 .footer-copyright{
 	background-color: $blue;
 	height: 80px;
