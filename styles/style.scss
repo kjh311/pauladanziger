@@ -2,10 +2,9 @@
 @import "mockup";
 @import "lightbox";
 @import "about";
+@import "navbar";
+@import "variables";
 
-
-
-// COLORS and VARIABLES
 
 
 
@@ -45,39 +44,5 @@ div{
 }
 
 
-// NAVBAR
-.navbar{
-	position: fixed;
-	top: 0;
-	width: 100%;
-	z-index: 100;
-}
- .navbar-nav li:hover > ul.dropdown-menu {
-    display: block;
-}
-.dropdown-submenu {
-    position:relative;
-}
-.dropdown-submenu>.dropdown-menu {
-    top: 0;
-    left: 100%;
-    margin-top:-6px;
-}
 
-/* rotate caret on hover */
-.dropdown-menu > li > a:hover:after {
-    text-decoration: underline;
-    transform: rotate(-90deg);
-} 
-.dropdown-menu{
-	position: relative;
-	margin-top: -10px;
-}
-#navbarDropdownMenuLink{
-	cursor: default;
-}
-.nav-item, .dropdown-item{
-	position: relative;
-	margin-right: 20px;
-}
 

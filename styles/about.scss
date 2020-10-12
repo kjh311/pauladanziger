@@ -1,23 +1,42 @@
+@import "variables";
+@import "navbar";
+@import "footer";
+
+
+
+
+
 .about-paula-div{
 	padding: 10px 10% 10px 10%;
 }
 .about-paula-div > p{
-	
 	text-indent: 50px;
 	line-height: 30px;
 	font-size: 1em;
+	font-family: $chilanka;
+	text-align: justify;
 	@include media-breakpoint-up(sm) {
   		line-height: 40px;
-		font-size: 1.3em;
+		font-size: 1.5em;
 	}
 }
 .about-paula-div > img{
-	margin: 30px;
-	display: inline;
-	width: 90%;
-	height: 90%;
+	
+	// display: inline;
+	width: 100%;
+	height: 100%;
 	@include media-breakpoint-up(sm) {
   		width: 20%;
+  		margin: 30px;
 	height: 20%;
 	}
+}
+.jumbotron > h1{
+	font-family: $chilanka;
+	text-align: center;
+}
+.paula-about-quote{
+	font-style: italic;
+	text-align: center;
+	margin: 0px 20% 0px 20%;
 }

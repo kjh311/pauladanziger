@@ -1,0 +1,39 @@
+@import "variables";
+
+
+
+.footer-copyright{
+	background-color: $blue;
+	height: 80px;
+}
+.footer-copyright > p{
+	font-size: 1.3em;
+	margin-top: 13px;
+	// color: #fff;
+}
+.kevin-link{
+	color: white;
+	transition: 0.3s;
+}
+.kevin-link:hover{
+	color: $red;
+	transition: 0.3s;
+}
+ul{
+	list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  // background-color: #333333;
+}
+li a{
+	display: block;
+  color: $blue;
+  margin-bottom: 10px;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+.links{
+	color: $red;
+}
