@@ -6861,15 +6861,15 @@ img {
 .content {
   display: none; }
 
-button {
+.book-container button {
   margin-top: 10px;
   cursor: pointer;
   margin: 0px 20% 0px 20%; }
   @media (min-width: 768px) {
-    button {
+    .book-container button {
       margin: 0px 20% 0px 20%; } }
   @media (min-width: 992px) {
-    button {
+    .book-container button {
       margin: 0px 40% 0px 40%; } }
 
 hr {
