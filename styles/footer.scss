@@ -4,6 +4,7 @@
 footer{
 	border-top: 2px solid $medium-grey;
 	margin-top: 40px;
+	// bottom: 0;
 }
 .footer-copyright{
 	background-color: $blue;
@@ -17,6 +18,9 @@ footer{
 .kevin-link{
 	color: white;
 	transition: 0.3s;
+}
+#amberbrownwantsextracredit{
+
 }
 .kevin-link:hover{
 	color: $red;
@@ -39,4 +43,7 @@ li a{
 }
 .links{
 	color: $red;
+}
+.book-container{
+	// max-height: 780px;
 }

@@ -6825,14 +6825,16 @@ li a {
 
 .book-img {
   align-self: center;
-  width: 80%;
   height: 80%;
   -webkit-box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.4);
   box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.4);
   transition: 0.3s;
   border: 2px solid black;
   transform: scale(1, 1);
-  width: 40vw; }
+  width: 50vw; }
+  @media (min-width: 576px) {
+    .book-img {
+      width: 40vw; } }
   @media (min-width: 768px) {
     .book-img {
       width: auto;
