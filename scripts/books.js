@@ -1,5 +1,21 @@
 $( document ).ready(function() {
 
+
+
+// ANCHOR TAG OFFSET
+    jQuery('a[href^="#"]').on('click',function (e) {
+        e.preventDefault();
+        var target = this.hash,
+        jQuerytarget = jQuery(target);
+        jQuery('html, body').stop().animate({
+            'scrollTop': jQuerytarget.offset().top-70
+        }, 0, 'smooth', function () {
+            window.location.hash = target;
+        });
+    });
+
+
+// ACCORDIONS
 // 01
     $(".read-more-button01").click(function() {
         $(".content01").slideToggle("slow");

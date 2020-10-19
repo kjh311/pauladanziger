@@ -6823,6 +6823,9 @@ li a {
 .links {
   color: #FE4A49; }
 
+html {
+  scroll-behavior: smooth; }
+
 .book-img {
   align-self: center;
   height: 80%;
