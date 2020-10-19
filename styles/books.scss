@@ -51,6 +51,18 @@ html{
 .book-title{
 	padding: 0 10% 0 10%;
 }
+.book-dropdown{
+	overflow: auto;
+	max-height:200px;
+}
+a.anchor{
+	
+}
+
+#dropdownMenuButton > .dropdown-item{
+	// display: block;
+	// float: left;
+}
 .details{
 	// position: relative;
 	text-align: justify;

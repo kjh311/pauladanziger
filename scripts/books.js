@@ -3,16 +3,12 @@ $( document ).ready(function() {
 
 
 // ANCHOR TAG OFFSET
-    jQuery('a[href^="#"]').on('click',function (e) {
-        e.preventDefault();
-        var target = this.hash,
-        jQuerytarget = jQuery(target);
-        jQuery('html, body').stop().animate({
-            'scrollTop': jQuerytarget.offset().top-70
-        }, 0, 'smooth', function () {
-            window.location.hash = target;
-        });
-    });
+$(document).on('click', 'a[href^="#"]', function (event) {
+    event.preventDefault();
+    $('html, body').animate({
+        scrollTop: $($.attr(this, 'href')).offset().top + -80
+    }, 0);
+});
 
 
 // ACCORDIONS

@@ -6867,6 +6867,10 @@ html {
 .book-title {
   padding: 0 10% 0 10%; }
 
+.book-dropdown {
+  overflow: auto;
+  max-height: 200px; }
+
 .details {
   text-align: justify;
   margin-right: 40px !important; }
