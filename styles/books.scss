@@ -7,6 +7,7 @@ html{
 
 }
 
+
 .book-img{
 	align-self: center;
 	// padding-top: 10%;
@@ -52,18 +53,47 @@ html{
 	padding: 0 10% 0 10%;
 }
 .book-dropdown{
-	overflow: auto;
+	overflow-y: auto;
+	overflow-x: hidden;
 	max-height:200px;
 	// position: relative;
-	left: -50px !important;
-	width: 80vw;
+	// left: -45px !important;
+	width: 90vw;
 }
-a.anchor{
-	
+.book-dropdown img{
+	width: 20px;
+	height: 20px;
+	display: inline;
+}
+.book-dropdown::-webkit-scrollbar {
+    -webkit-appearance: none;
+    background-color: #fff;
+}
+
+.book-dropdown::-webkit-scrollbar:vertical {
+    width: 11px;
+}
+
+.book-dropdown::-webkit-scrollbar:horizontal {
+    height: 11px;
+}
+
+.book-dropdown::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    border: 2px solid white; /* should match background, can't be transparent */
+    background-color: rgba(0, 0, 0, .5);
+}
+.jumbotron{
+	// width: 105vw !important;
+}
+.series{
+	user-select: none;
+	font-family: $kanit;
+	text-transform: uppercase;
 }
 .hangingindent {
 	position: relative !important;
-  left: 22px  !important;
+	left: 35px  !important;
 }
 .book-dropdown .dropdown-item{
 	// display: block;
@@ -72,7 +102,7 @@ a.anchor{
 	// overflow-wrap: normal;
 	// text-indent: 50px;
 	// text-indent: hanging;
-	list-style-type: circle;
+	// list-style-type: circle;
 }
  .book-dropdown .dropdown-item:hover{
 	background-color: $medium-grey;

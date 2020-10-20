@@ -6868,17 +6868,40 @@ html {
   padding: 0 10% 0 10%; }
 
 .book-dropdown {
-  overflow: auto;
+  overflow-y: auto;
+  overflow-x: hidden;
   max-height: 200px;
-  left: -50px !important;
-  width: 80vw; }
+  width: 90vw; }
+
+.book-dropdown img {
+  width: 20px;
+  height: 20px;
+  display: inline; }
+
+.book-dropdown::-webkit-scrollbar {
+  -webkit-appearance: none;
+  background-color: #fff; }
+
+.book-dropdown::-webkit-scrollbar:vertical {
+  width: 11px; }
+
+.book-dropdown::-webkit-scrollbar:horizontal {
+  height: 11px; }
+
+.book-dropdown::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  border: 2px solid white;
+  /* should match background, can't be transparent */
+  background-color: rgba(0, 0, 0, 0.5); }
+
+.series {
+  user-select: none;
+  font-family: "Kanit", sans-serif;
+  text-transform: uppercase; }
 
 .hangingindent {
   position: relative !important;
-  left: 22px  !important; }
-
-.book-dropdown .dropdown-item {
-  list-style-type: circle; }
+  left: 35px  !important; }
 
 .book-dropdown .dropdown-item:hover {
   background-color: #E9ECEF; }
