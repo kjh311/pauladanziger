@@ -56,10 +56,16 @@ html{
 	overflow-y: auto;
 	overflow-x: hidden;
 	max-height:200px;
-
-	// position: relative;
-	left: 15px !important;
+	left: 10% !important;
 	width: 90vw;
+	@include media-breakpoint-up(md) {
+		width: 50vw;
+		transform: translate3d(-35%, 38px, 0px) !important;
+	}
+	@include media-breakpoint-up(lg) {
+		width: 35vw;
+		transform: translate3d(-30%, 38px, 0px) !important;
+	}
 }
 .book-dropdown img{
 	width: 20px;

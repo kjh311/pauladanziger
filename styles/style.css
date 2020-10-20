@@ -6871,8 +6871,16 @@ html {
   overflow-y: auto;
   overflow-x: hidden;
   max-height: 200px;
-  left: 15px !important;
+  left: 10% !important;
   width: 90vw; }
+  @media (min-width: 768px) {
+    .book-dropdown {
+      width: 50vw;
+      transform: translate3d(-35%, 38px, 0px) !important; } }
+  @media (min-width: 992px) {
+    .book-dropdown {
+      width: 35vw;
+      transform: translate3d(-30%, 38px, 0px) !important; } }
 
 .book-dropdown img {
   width: 20px;
