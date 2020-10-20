@@ -6,7 +6,11 @@ $breakpoint: 799px;
 $nav-height: 70px;
 // $blue: #262626;
 $nav-font-color: #ffffff;
-$link-hover-color: #2581DC;
+.active{
+	color: white !important;
+	background-color: $dark-blue !important;
+}
+// $link-hover-color: grey;
 
 // Outer navigation wrapper
 .navigation {
@@ -32,7 +36,7 @@ $link-hover-color: #2581DC;
   font-size: 1.4em;
   a,
   a:visited {
-    color: $nav-font-color;
+    color: $light-grey;
     text-decoration: none;
   }
 }
@@ -59,11 +63,12 @@ nav {
         padding: 0 20px;
         line-height: $nav-height;
         background: $blue;
-        color: $nav-font-color;
+        color: $light-grey;
         text-decoration: none !important;
         &:hover {
           background: $dark-blue;
-          color: $nav-font-color;
+          color: white;
+          // font-weight: 800;
         }
         &:not(:only-child):after {
           padding-left: 4px;
@@ -145,7 +150,7 @@ nav {
     border-radius: 1px;
     height: 5px;
     width: 35px;
-    background: $nav-font-color;
+    background: $light-grey;
     position: absolute;
     display: block;
     content: '';
