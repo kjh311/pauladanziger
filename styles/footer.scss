@@ -26,14 +26,14 @@ footer{
 	color: $red;
 	transition: 0.3s;
 }
-ul{
+footer ul{
 	list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   // background-color: #333333;
 }
-li a{
+footer li a{
 	display: block;
   color: $blue;
   margin-bottom: 10px;

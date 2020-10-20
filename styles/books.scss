@@ -4,10 +4,28 @@
 
 html{
 	scroll-behavior: smooth;
+	// padding-right: 0;
+	// overflow-x: hidden;
+}
+body{
+	// padding-right: 0 !important;
 
 }
+.row.no-gutters {
+  margin-right: 0;
+  // margin-left: 0;
+margin-left: 15px;
 
-
+  & > [class^="col-"],
+  & > [class*=" col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+.book{
+	// padding-right: 0px !important;
+	// margin-left: 15px;
+}
 .book-img{
 	align-self: center;
 	// padding-top: 10%;
