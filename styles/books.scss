@@ -54,15 +54,30 @@ html{
 .book-dropdown{
 	overflow: auto;
 	max-height:200px;
+	// position: relative;
+	left: -50px !important;
+	width: 80vw;
 }
 a.anchor{
 	
 }
-
-#dropdownMenuButton > .dropdown-item{
+.hangingindent {
+	position: relative !important;
+  left: 22px  !important;
+}
+.book-dropdown .dropdown-item{
 	// display: block;
 	// float: left;
+	// display: inline-block !important;
+	// overflow-wrap: normal;
+	// text-indent: 50px;
+	// text-indent: hanging;
+	list-style-type: circle;
 }
+ .book-dropdown .dropdown-item:hover{
+	background-color: $medium-grey;
+}
+
 .details{
 	// position: relative;
 	text-align: justify;

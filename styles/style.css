@@ -6621,27 +6621,27 @@ pre {
 .navbar-nav li:hover > ul.dropdown-menu {
   display: block; }
 
-.dropdown-submenu {
+.navbar-nav .dropdown-submenu {
   position: relative; }
 
-.dropdown-submenu > .dropdown-menu {
+.navbar-nav .dropdown-submenu > .dropdown-menu {
   top: 0;
   left: 100%;
   margin-top: -6px; }
 
 /* rotate caret on hover */
-.dropdown-menu > li > a:hover:after {
+.navbar-nav .dropdown-menu > li > a:hover:after {
   text-decoration: underline;
   transform: rotate(-90deg); }
 
-.dropdown-menu {
+.navbar-nav .dropdown-menu {
   position: relative;
   margin-top: -10px; }
 
 #navbarDropdownMenuLink {
   cursor: default; }
 
-.nav-item, .dropdown-item {
+.navbar-nav .nav-item, .dropdown-item {
   position: relative;
   margin-right: 20px; }
 
@@ -6747,27 +6747,27 @@ li a {
 .navbar-nav li:hover > ul.dropdown-menu {
   display: block; }
 
-.dropdown-submenu {
+.navbar-nav .dropdown-submenu {
   position: relative; }
 
-.dropdown-submenu > .dropdown-menu {
+.navbar-nav .dropdown-submenu > .dropdown-menu {
   top: 0;
   left: 100%;
   margin-top: -6px; }
 
 /* rotate caret on hover */
-.dropdown-menu > li > a:hover:after {
+.navbar-nav .dropdown-menu > li > a:hover:after {
   text-decoration: underline;
   transform: rotate(-90deg); }
 
-.dropdown-menu {
+.navbar-nav .dropdown-menu {
   position: relative;
   margin-top: -10px; }
 
 #navbarDropdownMenuLink {
   cursor: default; }
 
-.nav-item, .dropdown-item {
+.navbar-nav .nav-item, .dropdown-item {
   position: relative;
   margin-right: 20px; }
 
@@ -6869,7 +6869,19 @@ html {
 
 .book-dropdown {
   overflow: auto;
-  max-height: 200px; }
+  max-height: 200px;
+  left: -50px !important;
+  width: 80vw; }
+
+.hangingindent {
+  position: relative !important;
+  left: 22px  !important; }
+
+.book-dropdown .dropdown-item {
+  list-style-type: circle; }
+
+.book-dropdown .dropdown-item:hover {
+  background-color: #E9ECEF; }
 
 .details {
   text-align: justify;
@@ -6947,27 +6959,27 @@ hr {
 .navbar-nav li:hover > ul.dropdown-menu {
   display: block; }
 
-.dropdown-submenu {
+.navbar-nav .dropdown-submenu {
   position: relative; }
 
-.dropdown-submenu > .dropdown-menu {
+.navbar-nav .dropdown-submenu > .dropdown-menu {
   top: 0;
   left: 100%;
   margin-top: -6px; }
 
 /* rotate caret on hover */
-.dropdown-menu > li > a:hover:after {
+.navbar-nav .dropdown-menu > li > a:hover:after {
   text-decoration: underline;
   transform: rotate(-90deg); }
 
-.dropdown-menu {
+.navbar-nav .dropdown-menu {
   position: relative;
   margin-top: -10px; }
 
 #navbarDropdownMenuLink {
   cursor: default; }
 
-.nav-item, .dropdown-item {
+.navbar-nav .nav-item, .dropdown-item {
   position: relative;
   margin-right: 20px; }
 
@@ -7041,27 +7053,27 @@ li a {
 .navbar-nav li:hover > ul.dropdown-menu {
   display: block; }
 
-.dropdown-submenu {
+.navbar-nav .dropdown-submenu {
   position: relative; }
 
-.dropdown-submenu > .dropdown-menu {
+.navbar-nav .dropdown-submenu > .dropdown-menu {
   top: 0;
   left: 100%;
   margin-top: -6px; }
 
 /* rotate caret on hover */
-.dropdown-menu > li > a:hover:after {
+.navbar-nav .dropdown-menu > li > a:hover:after {
   text-decoration: underline;
   transform: rotate(-90deg); }
 
-.dropdown-menu {
+.navbar-nav .dropdown-menu {
   position: relative;
   margin-top: -10px; }
 
 #navbarDropdownMenuLink {
   cursor: default; }
 
-.nav-item, .dropdown-item {
+.navbar-nav .nav-item, .dropdown-item {
   position: relative;
   margin-right: 20px; }
 
@@ -7138,27 +7150,27 @@ body {
 .navbar-nav li:hover > ul.dropdown-menu {
   display: block; }
 
-.dropdown-submenu {
+.navbar-nav .dropdown-submenu {
   position: relative; }
 
-.dropdown-submenu > .dropdown-menu {
+.navbar-nav .dropdown-submenu > .dropdown-menu {
   top: 0;
   left: 100%;
   margin-top: -6px; }
 
 /* rotate caret on hover */
-.dropdown-menu > li > a:hover:after {
+.navbar-nav .dropdown-menu > li > a:hover:after {
   text-decoration: underline;
   transform: rotate(-90deg); }
 
-.dropdown-menu {
+.navbar-nav .dropdown-menu {
   position: relative;
   margin-top: -10px; }
 
 #navbarDropdownMenuLink {
   cursor: default; }
 
-.nav-item, .dropdown-item {
+.navbar-nav .nav-item, .dropdown-item {
   position: relative;
   margin-right: 20px; }
 
