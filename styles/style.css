@@ -6871,6 +6871,7 @@ html {
   overflow-y: auto;
   overflow-x: hidden;
   max-height: 200px;
+  left: 15px !important;
   width: 90vw; }
 
 .book-dropdown img {
