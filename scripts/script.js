@@ -36,6 +36,19 @@ $( document ).ready(function() {
         event.stopPropagation();
       });
 
+      $(".collapsed").click(function(){
+        
+        $(".collapse1").hide();
+        $(".collapse2").hide();
+        $(".collapse3").hide();
+        $(".collapse4").hide();
+        $(".collapse5").hide();
+        $(".collapse6").hide();
+        $(".collapse7").hide();
+        $(".collapse8").hide();
+        $('.navbar-collapse').collapse('hide');
+      });
+
   $(".collapse-button-1").click(function(){
       $(".collapse1").slideToggle();
       $(".collapse2").hide();

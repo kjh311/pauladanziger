@@ -6607,12 +6607,20 @@ pre {
 /* CSS Document */
 .collapsed {
   display: none; }
+  .collapsed p {
+    width: 100%; }
+  .collapsed img {
+    width: 20px;
+    height: 20px;
+    display: inline; }
 
-.collapsed p {
-  padding: 10px;
-  margin: 0; }
+.collapsed p, .sub-menu-heading {
+  padding: 10px 0px 10px 30px;
+  margin: 0;
+  overflow-x: hidden;
+  overflow-wrap: normal; }
 
-.collapsed p:hover {
+.collapsed p:hover, .sub-menu-heading:hover {
   background-color: #E9ECEF; }
 
 .expanded {
@@ -6626,28 +6634,23 @@ pre {
   background-color: #009FB7; }
 
 .mega-menu {
-  width: 95vw;
   overflow-y: scroll;
   overflow-x: hidden;
   height: 300px; }
   @media (min-width: 992px) {
     .mega-menu {
-      width: 95vw;
-      height: 600px;
+      width: 300px;
+      height: auto;
       max-height: 600px;
-      position: relative;
-      left: -200px;
-      padding: 10px; } }
-  .mega-menu .row {
-    margin-left: 15px; }
-    @media (min-width: 992px) {
-      .mega-menu .row {
-        margin-left: 0px;
-        display: flex;
-        flex-flow: column wrap;
-        max-height: 100%;
-        overflow: auto;
-        align-content: flex-start; } }
+      left: -40px; } }
+  @media (min-width: 992px) {
+    .mega-menu .row {
+      margin-left: 0px;
+      display: flex;
+      flex-flow: column wrap;
+      max-height: 100%;
+      overflow: auto;
+      align-content: flex-start; } }
   .mega-menu .bold {
     font-family: "Kanit", sans-serif;
     text-transform: uppercase;
@@ -6733,12 +6736,20 @@ footer li a {
 /* CSS Document */
 .collapsed {
   display: none; }
+  .collapsed p {
+    width: 100%; }
+  .collapsed img {
+    width: 20px;
+    height: 20px;
+    display: inline; }
 
-.collapsed p {
-  padding: 10px;
-  margin: 0; }
+.collapsed p, .sub-menu-heading {
+  padding: 10px 0px 10px 30px;
+  margin: 0;
+  overflow-x: hidden;
+  overflow-wrap: normal; }
 
-.collapsed p:hover {
+.collapsed p:hover, .sub-menu-heading:hover {
   background-color: #E9ECEF; }
 
 .expanded {
@@ -6752,28 +6763,23 @@ footer li a {
   background-color: #009FB7; }
 
 .mega-menu {
-  width: 95vw;
   overflow-y: scroll;
   overflow-x: hidden;
   height: 300px; }
   @media (min-width: 992px) {
     .mega-menu {
-      width: 95vw;
-      height: 600px;
+      width: 300px;
+      height: auto;
       max-height: 600px;
-      position: relative;
-      left: -200px;
-      padding: 10px; } }
-  .mega-menu .row {
-    margin-left: 15px; }
-    @media (min-width: 992px) {
-      .mega-menu .row {
-        margin-left: 0px;
-        display: flex;
-        flex-flow: column wrap;
-        max-height: 100%;
-        overflow: auto;
-        align-content: flex-start; } }
+      left: -40px; } }
+  @media (min-width: 992px) {
+    .mega-menu .row {
+      margin-left: 0px;
+      display: flex;
+      flex-flow: column wrap;
+      max-height: 100%;
+      overflow: auto;
+      align-content: flex-start; } }
   .mega-menu .bold {
     font-family: "Kanit", sans-serif;
     text-transform: uppercase;
@@ -6984,12 +6990,20 @@ hr {
 /* CSS Document */
 .collapsed {
   display: none; }
+  .collapsed p {
+    width: 100%; }
+  .collapsed img {
+    width: 20px;
+    height: 20px;
+    display: inline; }
 
-.collapsed p {
-  padding: 10px;
-  margin: 0; }
+.collapsed p, .sub-menu-heading {
+  padding: 10px 0px 10px 30px;
+  margin: 0;
+  overflow-x: hidden;
+  overflow-wrap: normal; }
 
-.collapsed p:hover {
+.collapsed p:hover, .sub-menu-heading:hover {
   background-color: #E9ECEF; }
 
 .expanded {
@@ -7003,28 +7017,23 @@ hr {
   background-color: #009FB7; }
 
 .mega-menu {
-  width: 95vw;
   overflow-y: scroll;
   overflow-x: hidden;
   height: 300px; }
   @media (min-width: 992px) {
     .mega-menu {
-      width: 95vw;
-      height: 600px;
+      width: 300px;
+      height: auto;
       max-height: 600px;
-      position: relative;
-      left: -200px;
-      padding: 10px; } }
-  .mega-menu .row {
-    margin-left: 15px; }
-    @media (min-width: 992px) {
-      .mega-menu .row {
-        margin-left: 0px;
-        display: flex;
-        flex-flow: column wrap;
-        max-height: 100%;
-        overflow: auto;
-        align-content: flex-start; } }
+      left: -40px; } }
+  @media (min-width: 992px) {
+    .mega-menu .row {
+      margin-left: 0px;
+      display: flex;
+      flex-flow: column wrap;
+      max-height: 100%;
+      overflow: auto;
+      align-content: flex-start; } }
   .mega-menu .bold {
     font-family: "Kanit", sans-serif;
     text-transform: uppercase;
@@ -7078,12 +7087,20 @@ footer li a {
 /* CSS Document */
 .collapsed {
   display: none; }
+  .collapsed p {
+    width: 100%; }
+  .collapsed img {
+    width: 20px;
+    height: 20px;
+    display: inline; }
 
-.collapsed p {
-  padding: 10px;
-  margin: 0; }
+.collapsed p, .sub-menu-heading {
+  padding: 10px 0px 10px 30px;
+  margin: 0;
+  overflow-x: hidden;
+  overflow-wrap: normal; }
 
-.collapsed p:hover {
+.collapsed p:hover, .sub-menu-heading:hover {
   background-color: #E9ECEF; }
 
 .expanded {
@@ -7097,28 +7114,23 @@ footer li a {
   background-color: #009FB7; }
 
 .mega-menu {
-  width: 95vw;
   overflow-y: scroll;
   overflow-x: hidden;
   height: 300px; }
   @media (min-width: 992px) {
     .mega-menu {
-      width: 95vw;
-      height: 600px;
+      width: 300px;
+      height: auto;
       max-height: 600px;
-      position: relative;
-      left: -200px;
-      padding: 10px; } }
-  .mega-menu .row {
-    margin-left: 15px; }
-    @media (min-width: 992px) {
-      .mega-menu .row {
-        margin-left: 0px;
-        display: flex;
-        flex-flow: column wrap;
-        max-height: 100%;
-        overflow: auto;
-        align-content: flex-start; } }
+      left: -40px; } }
+  @media (min-width: 992px) {
+    .mega-menu .row {
+      margin-left: 0px;
+      display: flex;
+      flex-flow: column wrap;
+      max-height: 100%;
+      overflow: auto;
+      align-content: flex-start; } }
   .mega-menu .bold {
     font-family: "Kanit", sans-serif;
     text-transform: uppercase;
@@ -7175,12 +7187,20 @@ body {
 /* CSS Document */
 .collapsed {
   display: none; }
+  .collapsed p {
+    width: 100%; }
+  .collapsed img {
+    width: 20px;
+    height: 20px;
+    display: inline; }
 
-.collapsed p {
-  padding: 10px;
-  margin: 0; }
+.collapsed p, .sub-menu-heading {
+  padding: 10px 0px 10px 30px;
+  margin: 0;
+  overflow-x: hidden;
+  overflow-wrap: normal; }
 
-.collapsed p:hover {
+.collapsed p:hover, .sub-menu-heading:hover {
   background-color: #E9ECEF; }
 
 .expanded {
@@ -7194,28 +7214,23 @@ body {
   background-color: #009FB7; }
 
 .mega-menu {
-  width: 95vw;
   overflow-y: scroll;
   overflow-x: hidden;
   height: 300px; }
   @media (min-width: 992px) {
     .mega-menu {
-      width: 95vw;
-      height: 600px;
+      width: 300px;
+      height: auto;
       max-height: 600px;
-      position: relative;
-      left: -200px;
-      padding: 10px; } }
-  .mega-menu .row {
-    margin-left: 15px; }
-    @media (min-width: 992px) {
-      .mega-menu .row {
-        margin-left: 0px;
-        display: flex;
-        flex-flow: column wrap;
-        max-height: 100%;
-        overflow: auto;
-        align-content: flex-start; } }
+      left: -40px; } }
+  @media (min-width: 992px) {
+    .mega-menu .row {
+      margin-left: 0px;
+      display: flex;
+      flex-flow: column wrap;
+      max-height: 100%;
+      overflow: auto;
+      align-content: flex-start; } }
   .mega-menu .bold {
     font-family: "Kanit", sans-serif;
     text-transform: uppercase;
