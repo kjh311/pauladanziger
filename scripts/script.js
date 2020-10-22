@@ -9,10 +9,10 @@ $( document ).ready(function() {
       });
 
       // $(".navbar-toggler").click(function(){
-      //   $(".navbar-toggler").removeClass('collapsed');
+      //   $(".navbar-toggler").removeClass('dropdown-collapsed');
       // });
 
-      $(".collapsed").click(function(){
+      $(".dropdown-collapsed").click(function(){
         $(".collapse1").hide();
         $(".collapse2").hide();
         $(".collapse3").hide();
