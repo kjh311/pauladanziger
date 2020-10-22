@@ -6644,7 +6644,7 @@ pre {
       max-height: 600px;
       left: -40px; } }
   @media (min-width: 992px) {
-    .mega-menu .row {
+    .mega-menu .mega-menu.row {
       margin-left: 0px;
       display: flex;
       flex-flow: column wrap;
@@ -6773,7 +6773,7 @@ footer li a {
       max-height: 600px;
       left: -40px; } }
   @media (min-width: 992px) {
-    .mega-menu .row {
+    .mega-menu .mega-menu.row {
       margin-left: 0px;
       display: flex;
       flex-flow: column wrap;
@@ -6831,6 +6831,17 @@ footer li a {
 
 html {
   scroll-behavior: smooth; }
+
+.nav-item, .navbar-brand {
+  padding: 5px 30px 5px 30px; }
+
+.nav-link {
+  padding: 10px 30px 10px 30px !important;
+  transition: all 0.2s; }
+
+.nav-link:hover {
+  background-color: #116877;
+  transition: all 0.2s; }
 
 .row.no-gutters {
   margin-right: 0;
@@ -7027,7 +7038,7 @@ hr {
       max-height: 600px;
       left: -40px; } }
   @media (min-width: 992px) {
-    .mega-menu .row {
+    .mega-menu .mega-menu.row {
       margin-left: 0px;
       display: flex;
       flex-flow: column wrap;
@@ -7124,7 +7135,7 @@ footer li a {
       max-height: 600px;
       left: -40px; } }
   @media (min-width: 992px) {
-    .mega-menu .row {
+    .mega-menu .mega-menu.row {
       margin-left: 0px;
       display: flex;
       flex-flow: column wrap;
@@ -7224,7 +7235,7 @@ body {
       max-height: 600px;
       left: -40px; } }
   @media (min-width: 992px) {
-    .mega-menu .row {
+    .mega-menu .mega-menu.row {
       margin-left: 0px;
       display: flex;
       flex-flow: column wrap;
@@ -7244,7 +7255,8 @@ body {
   color: darkcyan; }
 
 body {
-  font-size: 16px; }
+  font-size: 16px;
+  overflow-x: hidden; }
 
 .form-wrapper {
   border: 2px solid black;
@@ -7263,23 +7275,5 @@ body {
         width: 280px; } }
   .form-wrapper .message-input {
     height: 100px; }
-
-::-webkit-scrollbar {
-  -webkit-appearance: none; }
-
-::-webkit-scrollbar:vertical {
-  width: 12px; }
-
-::-webkit-scrollbar:horizontal {
-  height: 12px; }
-
-::-webkit-scrollbar-thumb {
-  background-color: rgba(0, 0, 0, 0.5);
-  border-radius: 10px;
-  border: 2px solid #ffffff; }
-
-::-webkit-scrollbar-track {
-  border-radius: 10px;
-  background-color: #ffffff; }
 
 /*# sourceMappingURL=style.css.map */

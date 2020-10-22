@@ -8,6 +8,10 @@ $( document ).ready(function() {
         event.stopPropagation();
       });
 
+      // $("body").click(function(){
+      //   $('.navbar-collapse').hide();
+      // });
+
       // $(".navbar-toggler").click(function(){
       //   $(".navbar-toggler").removeClass('dropdown-collapsed');
       // });
