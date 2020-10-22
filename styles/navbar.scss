@@ -389,7 +389,9 @@
 	text-transform: uppercase;
 	cursor: pointer;
 }
-
+.show{
+	display: block !important;
+}
 }
 .mega-menu a{
 	text-decoration: none; 

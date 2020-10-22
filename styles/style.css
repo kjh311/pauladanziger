@@ -6665,6 +6665,8 @@ pre {
     font-family: "Kanit", sans-serif;
     text-transform: uppercase;
     cursor: pointer; }
+  .mega-menu .show {
+    display: block !important; }
 
 .mega-menu a {
   text-decoration: none;
@@ -6815,6 +6817,8 @@ footer li a {
     font-family: "Kanit", sans-serif;
     text-transform: uppercase;
     cursor: pointer; }
+  .mega-menu .show {
+    display: block !important; }
 
 .mega-menu a {
   text-decoration: none;
@@ -7101,6 +7105,8 @@ hr {
     font-family: "Kanit", sans-serif;
     text-transform: uppercase;
     cursor: pointer; }
+  .mega-menu .show {
+    display: block !important; }
 
 .mega-menu a {
   text-decoration: none;
@@ -7219,6 +7225,8 @@ footer li a {
     font-family: "Kanit", sans-serif;
     text-transform: uppercase;
     cursor: pointer; }
+  .mega-menu .show {
+    display: block !important; }
 
 .mega-menu a {
   text-decoration: none;
@@ -7340,6 +7348,8 @@ body {
     font-family: "Kanit", sans-serif;
     text-transform: uppercase;
     cursor: pointer; }
+  .mega-menu .show {
+    display: block !important; }
 
 .mega-menu a {
   text-decoration: none;

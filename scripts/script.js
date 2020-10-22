@@ -15,8 +15,16 @@ $( document ).ready(function() {
       // $(".navbar-toggler").click(function(){
       //   $(".navbar-toggler").removeClass('dropdown-collapsed');
       // });
+      // $('.navbar-toggler').click(function(){
+      //   $('.navbar-collapse').slideToggle();
+      // });
+
+
+
+
 
       $(".dropdown-collapsed").click(function(){
+
         $(".collapse1").hide();
         $(".collapse2").hide();
         $(".collapse3").hide();
@@ -25,7 +33,7 @@ $( document ).ready(function() {
         $(".collapse6").hide();
         $(".collapse7").hide();
         $(".collapse8").hide();
-        $('.navbar-collapse').slideToggle();
+        $('.navbar-collapse').removeClass('show');
       });
 
   $(".collapse-button-1").click(function(){
