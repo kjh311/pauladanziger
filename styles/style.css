@@ -6878,17 +6878,6 @@ footer li a {
 html {
   scroll-behavior: smooth; }
 
-.nav-item, .navbar-brand {
-  padding: 5px 30px 5px 30px; }
-
-.nav-link {
-  padding: 10px 30px 10px 30px !important;
-  transition: all 0.2s; }
-
-.nav-link:hover {
-  background-color: #116877;
-  transition: all 0.2s; }
-
 .row.no-gutters {
   margin-right: 0;
   margin-left: 15px; }
@@ -6922,6 +6911,9 @@ html {
       transform: scale(1.05, 1.05);
       -webkit-box-shadow: 15px 15px 8px rgba(0, 0, 0, 0.4);
       box-shadow: 15px 15px 8px rgba(0, 0, 0, 0.4); } }
+
+.container-fluid {
+  z-index: 100; }
 
 .book-container {
   padding: 50px 0 50px 0; }
