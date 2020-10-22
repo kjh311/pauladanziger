@@ -6633,13 +6633,23 @@ pre {
   z-index: 1000;
   background-color: #009FB7; }
 
+.navbar-toggler {
+  cursor: pointer;
+  border: 2px solid rgba(0, 0, 0, 0);
+  transition: all 0.2s; }
+
+.navbar-toggler:hover {
+  border: 2px solid #116877;
+  transition: all 0.2s; }
+
 .mega-menu {
   overflow-y: scroll;
   overflow-x: hidden;
-  height: 300px; }
+  height: 300px;
+  width: 60vw; }
   @media (min-width: 992px) {
     .mega-menu {
-      width: 300px;
+      width: 40vw;
       height: auto;
       max-height: 600px;
       left: -40px; } }
@@ -6662,6 +6672,17 @@ pre {
 
 .mega-menu .sub-menu-heading {
   color: darkcyan; }
+
+.nav-item, .navbar-brand {
+  padding: 5px 30px 5px 30px; }
+
+.nav-link {
+  padding: 10px 30px 10px 30px !important;
+  transition: all 0.2s; }
+
+.nav-link:hover {
+  background-color: #116877;
+  transition: all 0.2s; }
 
 footer {
   border-top: 2px solid #E9ECEF;
@@ -6762,13 +6783,23 @@ footer li a {
   z-index: 1000;
   background-color: #009FB7; }
 
+.navbar-toggler {
+  cursor: pointer;
+  border: 2px solid rgba(0, 0, 0, 0);
+  transition: all 0.2s; }
+
+.navbar-toggler:hover {
+  border: 2px solid #116877;
+  transition: all 0.2s; }
+
 .mega-menu {
   overflow-y: scroll;
   overflow-x: hidden;
-  height: 300px; }
+  height: 300px;
+  width: 60vw; }
   @media (min-width: 992px) {
     .mega-menu {
-      width: 300px;
+      width: 40vw;
       height: auto;
       max-height: 600px;
       left: -40px; } }
@@ -6791,6 +6822,17 @@ footer li a {
 
 .mega-menu .sub-menu-heading {
   color: darkcyan; }
+
+.nav-item, .navbar-brand {
+  padding: 5px 30px 5px 30px; }
+
+.nav-link {
+  padding: 10px 30px 10px 30px !important;
+  transition: all 0.2s; }
+
+.nav-link:hover {
+  background-color: #116877;
+  transition: all 0.2s; }
 
 footer {
   border-top: 2px solid #E9ECEF;
@@ -7027,13 +7069,23 @@ hr {
   z-index: 1000;
   background-color: #009FB7; }
 
+.navbar-toggler {
+  cursor: pointer;
+  border: 2px solid rgba(0, 0, 0, 0);
+  transition: all 0.2s; }
+
+.navbar-toggler:hover {
+  border: 2px solid #116877;
+  transition: all 0.2s; }
+
 .mega-menu {
   overflow-y: scroll;
   overflow-x: hidden;
-  height: 300px; }
+  height: 300px;
+  width: 60vw; }
   @media (min-width: 992px) {
     .mega-menu {
-      width: 300px;
+      width: 40vw;
       height: auto;
       max-height: 600px;
       left: -40px; } }
@@ -7056,6 +7108,17 @@ hr {
 
 .mega-menu .sub-menu-heading {
   color: darkcyan; }
+
+.nav-item, .navbar-brand {
+  padding: 5px 30px 5px 30px; }
+
+.nav-link {
+  padding: 10px 30px 10px 30px !important;
+  transition: all 0.2s; }
+
+.nav-link:hover {
+  background-color: #116877;
+  transition: all 0.2s; }
 
 footer {
   border-top: 2px solid #E9ECEF;
@@ -7124,13 +7187,23 @@ footer li a {
   z-index: 1000;
   background-color: #009FB7; }
 
+.navbar-toggler {
+  cursor: pointer;
+  border: 2px solid rgba(0, 0, 0, 0);
+  transition: all 0.2s; }
+
+.navbar-toggler:hover {
+  border: 2px solid #116877;
+  transition: all 0.2s; }
+
 .mega-menu {
   overflow-y: scroll;
   overflow-x: hidden;
-  height: 300px; }
+  height: 300px;
+  width: 60vw; }
   @media (min-width: 992px) {
     .mega-menu {
-      width: 300px;
+      width: 40vw;
       height: auto;
       max-height: 600px;
       left: -40px; } }
@@ -7153,6 +7226,17 @@ footer li a {
 
 .mega-menu .sub-menu-heading {
   color: darkcyan; }
+
+.nav-item, .navbar-brand {
+  padding: 5px 30px 5px 30px; }
+
+.nav-link {
+  padding: 10px 30px 10px 30px !important;
+  transition: all 0.2s; }
+
+.nav-link:hover {
+  background-color: #116877;
+  transition: all 0.2s; }
 
 footer {
   border-top: 2px solid #E9ECEF;
@@ -7224,13 +7308,23 @@ body {
   z-index: 1000;
   background-color: #009FB7; }
 
+.navbar-toggler {
+  cursor: pointer;
+  border: 2px solid rgba(0, 0, 0, 0);
+  transition: all 0.2s; }
+
+.navbar-toggler:hover {
+  border: 2px solid #116877;
+  transition: all 0.2s; }
+
 .mega-menu {
   overflow-y: scroll;
   overflow-x: hidden;
-  height: 300px; }
+  height: 300px;
+  width: 60vw; }
   @media (min-width: 992px) {
     .mega-menu {
-      width: 300px;
+      width: 40vw;
       height: auto;
       max-height: 600px;
       left: -40px; } }
@@ -7253,6 +7347,17 @@ body {
 
 .mega-menu .sub-menu-heading {
   color: darkcyan; }
+
+.nav-item, .navbar-brand {
+  padding: 5px 30px 5px 30px; }
+
+.nav-link {
+  padding: 10px 30px 10px 30px !important;
+  transition: all 0.2s; }
+
+.nav-link:hover {
+  background-color: #116877;
+  transition: all 0.2s; }
 
 body {
   font-size: 16px;
