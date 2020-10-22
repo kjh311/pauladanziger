@@ -6631,7 +6631,8 @@ pre {
   top: 0;
   width: 100vw;
   z-index: 1000;
-  background-color: #009FB7; }
+  background-color: #009FB7;
+  border-bottom: 1px solid #116877; }
 
 .navbar-toggler {
   cursor: pointer;
@@ -6783,7 +6784,8 @@ footer li a {
   top: 0;
   width: 100vw;
   z-index: 1000;
-  background-color: #009FB7; }
+  background-color: #009FB7;
+  border-bottom: 1px solid #116877; }
 
 .navbar-toggler {
   cursor: pointer;
@@ -7063,7 +7065,8 @@ hr {
   top: 0;
   width: 100vw;
   z-index: 1000;
-  background-color: #009FB7; }
+  background-color: #009FB7;
+  border-bottom: 1px solid #116877; }
 
 .navbar-toggler {
   cursor: pointer;
@@ -7183,7 +7186,8 @@ footer li a {
   top: 0;
   width: 100vw;
   z-index: 1000;
-  background-color: #009FB7; }
+  background-color: #009FB7;
+  border-bottom: 1px solid #116877; }
 
 .navbar-toggler {
   cursor: pointer;
@@ -7306,7 +7310,8 @@ body {
   top: 0;
   width: 100vw;
   z-index: 1000;
-  background-color: #009FB7; }
+  background-color: #009FB7;
+  border-bottom: 1px solid #116877; }
 
 .navbar-toggler {
   cursor: pointer;
