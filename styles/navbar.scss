@@ -307,7 +307,7 @@
  // }
 /* CSS Document */
 
-.collapsed{
+.dropdown-collapsed{
 	display: none;
 	// -webkit-transition: all 0.2s;-o-transition: all 0.2s;transition: all 0.2s;
 		p{
@@ -320,14 +320,14 @@
 			display: inline;
 		}
 }
-.collapsed p, .sub-menu-heading{
+.dropdown-collapsed p, .sub-menu-heading{
 	padding: 10px 0px 10px 30px;
 	// width: 300px;
 	margin: 0;
 	overflow-x: hidden;
 	overflow-wrap: normal;
 }
-.collapsed p:hover, .sub-menu-heading:hover{
+.dropdown-collapsed p:hover, .sub-menu-heading:hover{
 	background-color: $medium-grey;
 	// width: 95vw;
 }
