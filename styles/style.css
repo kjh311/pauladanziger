@@ -6603,8 +6603,6 @@ pre {
 .lb-overlay:target {
   display: block; }
 
-/* Mobile navigation */
-/* CSS Document */
 .dropdown-collapsed {
   display: none; }
   .dropdown-collapsed p {
@@ -6632,7 +6630,11 @@ pre {
   width: 100vw;
   z-index: 1000;
   background-color: #009FB7;
-  border-bottom: 1px solid #116877; }
+  border-bottom: 1px solid #116877;
+  padding: 10px 20px 10px 20px; }
+  @media (min-width: 992px) {
+    .navbar {
+      padding: 0px 20px 0px 20px; } }
 
 .navbar-toggler {
   cursor: pointer;
@@ -6647,7 +6649,10 @@ pre {
   overflow-y: scroll;
   overflow-x: hidden;
   height: 300px;
-  width: 60vw; }
+  width: 60vw;
+  border: 2px solid #009FB7;
+  -webkit-box-shadow: 15px 15px 8px rgba(0, 0, 0, 0.4);
+  box-shadow: 15px 15px 8px rgba(0, 0, 0, 0.4); }
   @media (min-width: 992px) {
     .mega-menu {
       width: 40vw;
@@ -6676,11 +6681,11 @@ pre {
 .mega-menu .sub-menu-heading {
   color: darkcyan; }
 
-.nav-item, .navbar-brand {
-  padding: 5px 30px 5px 30px; }
+.navbar-brand {
+  padding: 10px 0px 0px 0px; }
 
 .nav-link {
-  padding: 10px 30px 10px 30px !important;
+  padding: 18px 50px 18px 50px !important;
   transition: all 0.2s; }
 
 .nav-link:hover {
@@ -6756,8 +6761,6 @@ footer li a {
   text-align: center;
   margin: 0px 20% 0px 20%; }
 
-/* Mobile navigation */
-/* CSS Document */
 .dropdown-collapsed {
   display: none; }
   .dropdown-collapsed p {
@@ -6785,7 +6788,11 @@ footer li a {
   width: 100vw;
   z-index: 1000;
   background-color: #009FB7;
-  border-bottom: 1px solid #116877; }
+  border-bottom: 1px solid #116877;
+  padding: 10px 20px 10px 20px; }
+  @media (min-width: 992px) {
+    .navbar {
+      padding: 0px 20px 0px 20px; } }
 
 .navbar-toggler {
   cursor: pointer;
@@ -6800,7 +6807,10 @@ footer li a {
   overflow-y: scroll;
   overflow-x: hidden;
   height: 300px;
-  width: 60vw; }
+  width: 60vw;
+  border: 2px solid #009FB7;
+  -webkit-box-shadow: 15px 15px 8px rgba(0, 0, 0, 0.4);
+  box-shadow: 15px 15px 8px rgba(0, 0, 0, 0.4); }
   @media (min-width: 992px) {
     .mega-menu {
       width: 40vw;
@@ -6829,11 +6839,11 @@ footer li a {
 .mega-menu .sub-menu-heading {
   color: darkcyan; }
 
-.nav-item, .navbar-brand {
-  padding: 5px 30px 5px 30px; }
+.navbar-brand {
+  padding: 10px 0px 0px 0px; }
 
 .nav-link {
-  padding: 10px 30px 10px 30px !important;
+  padding: 18px 50px 18px 50px !important;
   transition: all 0.2s; }
 
 .nav-link:hover {
@@ -6936,7 +6946,8 @@ html {
   overflow-x: hidden;
   max-height: 200px;
   left: 10% !important;
-  width: 90vw; }
+  width: 90vw;
+  color: #009FB7; }
   @media (min-width: 768px) {
     .book-dropdown {
       width: 50vw;
@@ -6976,6 +6987,14 @@ html {
   position: relative !important;
   left: 35px  !important; }
 
+.book-dropdown .dropdown-item {
+  color: #009FB7; }
+
+.book-dropdown {
+  -webkit-box-shadow: 15px 15px 8px rgba(0, 0, 0, 0.4);
+  box-shadow: 15px 15px 8px rgba(0, 0, 0, 0.4);
+  border: 2px solid #009FB7; }
+
 .book-dropdown .dropdown-item:hover {
   background-color: #E9ECEF; }
 
@@ -6993,7 +7012,7 @@ html {
 .content {
   display: none; }
 
-.purchase-button, .read-more-button {
+.purchase-button, .read-more-button, #dropdownMenuButton {
   margin-top: 10px;
   cursor: pointer;
   padding-top: 10px;
@@ -7003,14 +7022,14 @@ html {
   transform: scale(1, 1);
   transition: 0.3s; }
   @media (min-width: 768px) {
-    .purchase-button, .read-more-button {
+    .purchase-button, .read-more-button, #dropdownMenuButton {
       margin: 0px 20% 0px 20%; } }
   @media (min-width: 992px) {
-    .purchase-button, .read-more-button {
+    .purchase-button, .read-more-button, #dropdownMenuButton {
       margin: 0px 40% 0px 40%; } }
 
 @media (min-width: 576px) {
-  .purchase-button:hover, .read-more-button:hover {
+  .purchase-button:hover, .read-more-button:hover, #dropdownMenuButton:hover {
     -webkit-box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.4);
     box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.4);
     transform: scale(1.1, 1.1);
@@ -7020,9 +7039,6 @@ hr {
   padding: 0 15% 0 15%; }
 
 .book {
-  border-radius: 10px; }
-
-.book:hover {
   border-radius: 10px; }
 
 .purchase-button {
@@ -7037,8 +7053,6 @@ hr {
 .right {
   background-color: #E9ECEF; }
 
-/* Mobile navigation */
-/* CSS Document */
 .dropdown-collapsed {
   display: none; }
   .dropdown-collapsed p {
@@ -7066,7 +7080,11 @@ hr {
   width: 100vw;
   z-index: 1000;
   background-color: #009FB7;
-  border-bottom: 1px solid #116877; }
+  border-bottom: 1px solid #116877;
+  padding: 10px 20px 10px 20px; }
+  @media (min-width: 992px) {
+    .navbar {
+      padding: 0px 20px 0px 20px; } }
 
 .navbar-toggler {
   cursor: pointer;
@@ -7081,7 +7099,10 @@ hr {
   overflow-y: scroll;
   overflow-x: hidden;
   height: 300px;
-  width: 60vw; }
+  width: 60vw;
+  border: 2px solid #009FB7;
+  -webkit-box-shadow: 15px 15px 8px rgba(0, 0, 0, 0.4);
+  box-shadow: 15px 15px 8px rgba(0, 0, 0, 0.4); }
   @media (min-width: 992px) {
     .mega-menu {
       width: 40vw;
@@ -7110,11 +7131,11 @@ hr {
 .mega-menu .sub-menu-heading {
   color: darkcyan; }
 
-.nav-item, .navbar-brand {
-  padding: 5px 30px 5px 30px; }
+.navbar-brand {
+  padding: 10px 0px 0px 0px; }
 
 .nav-link {
-  padding: 10px 30px 10px 30px !important;
+  padding: 18px 50px 18px 50px !important;
   transition: all 0.2s; }
 
 .nav-link:hover {
@@ -7158,8 +7179,6 @@ footer li a {
 .links {
   color: #FE4A49; }
 
-/* Mobile navigation */
-/* CSS Document */
 .dropdown-collapsed {
   display: none; }
   .dropdown-collapsed p {
@@ -7187,7 +7206,11 @@ footer li a {
   width: 100vw;
   z-index: 1000;
   background-color: #009FB7;
-  border-bottom: 1px solid #116877; }
+  border-bottom: 1px solid #116877;
+  padding: 10px 20px 10px 20px; }
+  @media (min-width: 992px) {
+    .navbar {
+      padding: 0px 20px 0px 20px; } }
 
 .navbar-toggler {
   cursor: pointer;
@@ -7202,7 +7225,10 @@ footer li a {
   overflow-y: scroll;
   overflow-x: hidden;
   height: 300px;
-  width: 60vw; }
+  width: 60vw;
+  border: 2px solid #009FB7;
+  -webkit-box-shadow: 15px 15px 8px rgba(0, 0, 0, 0.4);
+  box-shadow: 15px 15px 8px rgba(0, 0, 0, 0.4); }
   @media (min-width: 992px) {
     .mega-menu {
       width: 40vw;
@@ -7231,11 +7257,11 @@ footer li a {
 .mega-menu .sub-menu-heading {
   color: darkcyan; }
 
-.nav-item, .navbar-brand {
-  padding: 5px 30px 5px 30px; }
+.navbar-brand {
+  padding: 10px 0px 0px 0px; }
 
 .nav-link {
-  padding: 10px 30px 10px 30px !important;
+  padding: 18px 50px 18px 50px !important;
   transition: all 0.2s; }
 
 .nav-link:hover {
@@ -7282,8 +7308,14 @@ footer li a {
 body {
   font-family: "Chilanka", cursive; }
 
-/* Mobile navigation */
-/* CSS Document */
+.contact-form {
+  background-color: #009FB7;
+  -webkit-box-shadow: 15px 15px 8px rgba(0, 0, 0, 0.4);
+  box-shadow: 15px 15px 8px rgba(0, 0, 0, 0.4);
+  color: white; }
+  .contact-form label {
+    text-transform: uppercase; }
+
 .dropdown-collapsed {
   display: none; }
   .dropdown-collapsed p {
@@ -7311,7 +7343,11 @@ body {
   width: 100vw;
   z-index: 1000;
   background-color: #009FB7;
-  border-bottom: 1px solid #116877; }
+  border-bottom: 1px solid #116877;
+  padding: 10px 20px 10px 20px; }
+  @media (min-width: 992px) {
+    .navbar {
+      padding: 0px 20px 0px 20px; } }
 
 .navbar-toggler {
   cursor: pointer;
@@ -7326,7 +7362,10 @@ body {
   overflow-y: scroll;
   overflow-x: hidden;
   height: 300px;
-  width: 60vw; }
+  width: 60vw;
+  border: 2px solid #009FB7;
+  -webkit-box-shadow: 15px 15px 8px rgba(0, 0, 0, 0.4);
+  box-shadow: 15px 15px 8px rgba(0, 0, 0, 0.4); }
   @media (min-width: 992px) {
     .mega-menu {
       width: 40vw;
@@ -7355,11 +7394,11 @@ body {
 .mega-menu .sub-menu-heading {
   color: darkcyan; }
 
-.nav-item, .navbar-brand {
-  padding: 5px 30px 5px 30px; }
+.navbar-brand {
+  padding: 10px 0px 0px 0px; }
 
 .nav-link {
-  padding: 10px 30px 10px 30px !important;
+  padding: 18px 50px 18px 50px !important;
   transition: all 0.2s; }
 
 .nav-link:hover {
@@ -7387,5 +7426,11 @@ body {
         width: 280px; } }
   .form-wrapper .message-input {
     height: 100px; }
+
+::-webkit-scrollbar-track {
+  z-index: -1; }
+
+a {
+  text-decoration: none !important; }
 
 /*# sourceMappingURL=style.css.map */

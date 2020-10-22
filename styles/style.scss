@@ -70,9 +70,11 @@ div{
 //     width: 12px;
 // }
 
-// ::-webkit-scrollbar-track {
-//     display: none !important;
-// }
+::-webkit-scrollbar-track {
+    z-index: -1;
+}
 
-
+a{
+	text-decoration: none !important;
+}
 

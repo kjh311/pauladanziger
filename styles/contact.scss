@@ -5,3 +5,13 @@
 body{
 	font-family: $chilanka;
 }
+.contact-form{
+	background-color: $blue;
+	-webkit-box-shadow: 15px 15px 8px rgba(0, 0, 0, 0.4);
+  		 box-shadow: 15px 15px 8px rgba(0, 0, 0, 0.4);
+  		 color: white;
+  		 label{
+  		 	text-transform: uppercase;
+  		 }
+}
+
