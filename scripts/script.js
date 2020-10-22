@@ -20,11 +20,22 @@ $( document ).ready(function() {
       // });
 
 
-
+// alert('works');
 
 
       $(".dropdown-collapsed").click(function(){
+        $(".collapse1").hide();
+        $(".collapse2").hide();
+        $(".collapse3").hide();
+        $(".collapse4").hide();
+        $(".collapse5").hide();
+        $(".collapse6").hide();
+        $(".collapse7").hide();
+        $(".collapse8").hide();
+        $('.navbar-collapse').removeClass('show');
+      });
 
+      $(".all-books").click(function(){
         $(".collapse1").hide();
         $(".collapse2").hide();
         $(".collapse3").hide();
@@ -112,6 +123,17 @@ $( document ).ready(function() {
     $(".collapse-button-8").click(function(){
       $(".collapse8").slideToggle();
       $(".collapse1").hide();
+      $(".collapse3").hide();
+      $(".collapse4").hide();
+      $(".collapse5").hide();
+      $(".collapse6").hide();
+      $(".collapse7").hide();
+      $(".collapse2").hide();
+  });
+        $(".all-books").click(function(){
+      $(".collapse9").slideToggle();
+      $(".collapse1").hide();
+      $(".collapse2").hide();
       $(".collapse3").hide();
       $(".collapse4").hide();
       $(".collapse5").hide();
