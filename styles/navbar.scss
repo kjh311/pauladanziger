@@ -10,7 +10,6 @@
 			// padding: 0 10px 0 10px;
 		}
 		p{
-			width: 100%;
 			// margin-left: 10px;
 			// padding: 0 10px 0 10px;
 		}
@@ -21,13 +20,10 @@
 		}
 
 }
-.collapse-wrap{
-	width: 100%;
-}
 .dropdown-collapsed p, .sub-menu-heading{
 	padding: 10px 30px 10px 30px;
 	// width: 300px;
-	// margin: 0;
+	margin: 0;
 	overflow-x: hidden;
 	overflow-wrap: normal;
 	border: 2px solid rgba(0,0,0,0);
@@ -38,7 +34,7 @@
 	background-color: $medium-grey;
 	border: 2px solid $blue;
 	transition: 0.3s;
-// text-align
+
 	// width: 95vw;
 }
 .dropdown-menu{
@@ -79,16 +75,10 @@
 	height: 300px;
 	max-height: 40vh;
 	width: 90vw;
-	// text-align: center;
 	border: 2px solid $blue;
 	-webkit-box-shadow: 15px 15px 8px rgba(0, 0, 0, 0.4);
   		 box-shadow: 15px 15px 8px rgba(0, 0, 0, 0.4);
 @include media-breakpoint-up(sm) {
-width: 60vw;
-
-
-	}
-	@include media-breakpoint-up(sm) {
 width: 60vw;
 
 
@@ -140,24 +130,15 @@ width: 60vw;
 .navbar-brand{
 	padding: 10px 0px 0px 0px;
 }
-.nav-item{
-	width: 100%;
-	padding: 0px 30px 0 30px;
-}
 .nav-link{
-	// padding: 18px  18px  !important;
-	// padding: 18px 40vw 18px 40vw;
+	padding: 18px 30vw 18px 30vw !important;
 	transition: all 0.2s;
-	width: 100%;
-	// width: 100% !important;
 	@include media-breakpoint-up(sm) {
-  		// padding: 18px 40vw 18px 40vw !important;
-  		// padding: 18px 0 18px 0;
-  		width: auto;
+  		padding: 18px 40vw 18px 40vw !important;
 	}
 
 	@include media-breakpoint-up(lg) {
-  			// padding: 18px 50px 18px 50px !important;
+  			padding: 18px 50px 18px 50px !important;
 	}
 }
 .nav-link:hover{
