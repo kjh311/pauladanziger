@@ -10327,14 +10327,18 @@ pre {
 /*# sourceMappingURL=hover.css.map */
 .dropdown-collapsed {
   display: none; }
+  .dropdown-collapsed p {
+    width: 100%; }
   .dropdown-collapsed img {
     width: 20px;
     height: 20px;
     display: inline; }
 
+.collapse-wrap {
+  width: 100%; }
+
 .dropdown-collapsed p, .sub-menu-heading {
   padding: 10px 30px 10px 30px;
-  margin: 0;
   overflow-x: hidden;
   overflow-wrap: normal;
   border: 2px solid rgba(0, 0, 0, 0);
@@ -10383,6 +10387,9 @@ pre {
   @media (min-width: 576px) {
     .mega-menu {
       width: 60vw; } }
+  @media (min-width: 576px) {
+    .mega-menu {
+      width: 60vw; } }
   @media (min-width: 992px) {
     .mega-menu {
       width: 40vw;
@@ -10414,15 +10421,16 @@ pre {
 .navbar-brand {
   padding: 10px 0px 0px 0px; }
 
+.nav-item {
+  width: 100%;
+  padding: 0px 30px 0 30px; }
+
 .nav-link {
-  padding: 18px 30vw 18px 30vw !important;
-  transition: all 0.2s; }
+  transition: all 0.2s;
+  width: 100%; }
   @media (min-width: 576px) {
     .nav-link {
-      padding: 18px 34vw 18px 40vw !important; } }
-  @media (min-width: 992px) {
-    .nav-link {
-      padding: 18px 50px 18px 50px !important; } }
+      width: auto; } }
 
 .nav-link:hover {
   background-color: #116877;
@@ -17963,14 +17971,18 @@ footer li a {
 /*# sourceMappingURL=hover.css.map */
 .dropdown-collapsed {
   display: none; }
+  .dropdown-collapsed p {
+    width: 100%; }
   .dropdown-collapsed img {
     width: 20px;
     height: 20px;
     display: inline; }
 
+.collapse-wrap {
+  width: 100%; }
+
 .dropdown-collapsed p, .sub-menu-heading {
   padding: 10px 30px 10px 30px;
-  margin: 0;
   overflow-x: hidden;
   overflow-wrap: normal;
   border: 2px solid rgba(0, 0, 0, 0);
@@ -18019,6 +18031,9 @@ footer li a {
   @media (min-width: 576px) {
     .mega-menu {
       width: 60vw; } }
+  @media (min-width: 576px) {
+    .mega-menu {
+      width: 60vw; } }
   @media (min-width: 992px) {
     .mega-menu {
       width: 40vw;
@@ -18050,15 +18065,16 @@ footer li a {
 .navbar-brand {
   padding: 10px 0px 0px 0px; }
 
+.nav-item {
+  width: 100%;
+  padding: 0px 30px 0 30px; }
+
 .nav-link {
-  padding: 18px 30vw 18px 30vw !important;
-  transition: all 0.2s; }
+  transition: all 0.2s;
+  width: 100%; }
   @media (min-width: 576px) {
     .nav-link {
-      padding: 18px 34vw 18px 40vw !important; } }
-  @media (min-width: 992px) {
-    .nav-link {
-      padding: 18px 50px 18px 50px !important; } }
+      width: auto; } }
 
 .nav-link:hover {
   background-color: #116877;
@@ -25736,14 +25752,18 @@ hr {
 /*# sourceMappingURL=hover.css.map */
 .dropdown-collapsed {
   display: none; }
+  .dropdown-collapsed p {
+    width: 100%; }
   .dropdown-collapsed img {
     width: 20px;
     height: 20px;
     display: inline; }
 
+.collapse-wrap {
+  width: 100%; }
+
 .dropdown-collapsed p, .sub-menu-heading {
   padding: 10px 30px 10px 30px;
-  margin: 0;
   overflow-x: hidden;
   overflow-wrap: normal;
   border: 2px solid rgba(0, 0, 0, 0);
@@ -25792,6 +25812,9 @@ hr {
   @media (min-width: 576px) {
     .mega-menu {
       width: 60vw; } }
+  @media (min-width: 576px) {
+    .mega-menu {
+      width: 60vw; } }
   @media (min-width: 992px) {
     .mega-menu {
       width: 40vw;
@@ -25823,15 +25846,16 @@ hr {
 .navbar-brand {
   padding: 10px 0px 0px 0px; }
 
+.nav-item {
+  width: 100%;
+  padding: 0px 30px 0 30px; }
+
 .nav-link {
-  padding: 18px 30vw 18px 30vw !important;
-  transition: all 0.2s; }
+  transition: all 0.2s;
+  width: 100%; }
   @media (min-width: 576px) {
     .nav-link {
-      padding: 18px 34vw 18px 40vw !important; } }
-  @media (min-width: 992px) {
-    .nav-link {
-      padding: 18px 50px 18px 50px !important; } }
+      width: auto; } }
 
 .nav-link:hover {
   background-color: #116877;
@@ -33340,14 +33364,18 @@ footer li a {
 /*# sourceMappingURL=hover.css.map */
 .dropdown-collapsed {
   display: none; }
+  .dropdown-collapsed p {
+    width: 100%; }
   .dropdown-collapsed img {
     width: 20px;
     height: 20px;
     display: inline; }
 
+.collapse-wrap {
+  width: 100%; }
+
 .dropdown-collapsed p, .sub-menu-heading {
   padding: 10px 30px 10px 30px;
-  margin: 0;
   overflow-x: hidden;
   overflow-wrap: normal;
   border: 2px solid rgba(0, 0, 0, 0);
@@ -33396,6 +33424,9 @@ footer li a {
   @media (min-width: 576px) {
     .mega-menu {
       width: 60vw; } }
+  @media (min-width: 576px) {
+    .mega-menu {
+      width: 60vw; } }
   @media (min-width: 992px) {
     .mega-menu {
       width: 40vw;
@@ -33427,15 +33458,16 @@ footer li a {
 .navbar-brand {
   padding: 10px 0px 0px 0px; }
 
+.nav-item {
+  width: 100%;
+  padding: 0px 30px 0 30px; }
+
 .nav-link {
-  padding: 18px 30vw 18px 30vw !important;
-  transition: all 0.2s; }
+  transition: all 0.2s;
+  width: 100%; }
   @media (min-width: 576px) {
     .nav-link {
-      padding: 18px 34vw 18px 40vw !important; } }
-  @media (min-width: 992px) {
-    .nav-link {
-      padding: 18px 50px 18px 50px !important; } }
+      width: auto; } }
 
 .nav-link:hover {
   background-color: #116877;
@@ -40955,14 +40987,18 @@ body {
 /*# sourceMappingURL=hover.css.map */
 .dropdown-collapsed {
   display: none; }
+  .dropdown-collapsed p {
+    width: 100%; }
   .dropdown-collapsed img {
     width: 20px;
     height: 20px;
     display: inline; }
 
+.collapse-wrap {
+  width: 100%; }
+
 .dropdown-collapsed p, .sub-menu-heading {
   padding: 10px 30px 10px 30px;
-  margin: 0;
   overflow-x: hidden;
   overflow-wrap: normal;
   border: 2px solid rgba(0, 0, 0, 0);
@@ -41011,6 +41047,9 @@ body {
   @media (min-width: 576px) {
     .mega-menu {
       width: 60vw; } }
+  @media (min-width: 576px) {
+    .mega-menu {
+      width: 60vw; } }
   @media (min-width: 992px) {
     .mega-menu {
       width: 40vw;
@@ -41042,15 +41081,16 @@ body {
 .navbar-brand {
   padding: 10px 0px 0px 0px; }
 
+.nav-item {
+  width: 100%;
+  padding: 0px 30px 0 30px; }
+
 .nav-link {
-  padding: 18px 30vw 18px 30vw !important;
-  transition: all 0.2s; }
+  transition: all 0.2s;
+  width: 100%; }
   @media (min-width: 576px) {
     .nav-link {
-      padding: 18px 34vw 18px 40vw !important; } }
-  @media (min-width: 992px) {
-    .nav-link {
-      padding: 18px 50px 18px 50px !important; } }
+      width: auto; } }
 
 .nav-link:hover {
   background-color: #116877;
