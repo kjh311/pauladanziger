@@ -11,6 +11,13 @@ $(document).on('click', 'a[href^="#"]', function (event) {
 });
 
 
+// $('.book-toggle').mouseover(function(){
+//     $('.book-caret').addClass('hvr-pulse-grow');
+// });
+
+// $('.book-toggle').mouseout(function(){
+//     $('.book-caret').removeClass('hvr-pulse-grow');
+// });
 
 
 // ACCORDIONS
