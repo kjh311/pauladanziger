@@ -37,7 +37,7 @@ margin-left: 15px;
   		 -webkit-box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.4);
   		 box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.4);
   		 transition: 0.3s;
-  		 border: 2px solid black;
+  		 border: 4px solid black;
   		 transform: scale(1,1);
   		 width: 50vw;
   @include media-breakpoint-up(sm) {
@@ -53,7 +53,7 @@ margin-left: 15px;
 	border: 2px solid black;
 	transition: 0.3s;
 	@include media-breakpoint-up(sm) {
-  		border: 2px solid $red;
+  		border: 4px solid $blue;
   		transform: scale(1.05,1.05);
   		-webkit-box-shadow: 15px 15px 8px rgba(0, 0, 0, 0.4);
   		 box-shadow: 15px 15px 8px rgba(0, 0, 0, 0.4);
@@ -83,6 +83,8 @@ margin-left: 15px;
 	left: 10% !important;
 	width: 90vw;
 	color: $blue;
+	border: 2px solid $blue;
+	border-radius: 5px;
 	@include media-breakpoint-up(md) {
 		width: 50vw;
 		transform: translate3d(-35%, 38px, 0px) !important;
@@ -98,8 +100,8 @@ margin-left: 15px;
 	display: inline;
 }
 .book-dropdown::-webkit-scrollbar {
-    -webkit-appearance: none;
-    background-color: #fff;
+    // -webkit-appearance: none;
+    // background-color: #fff;
 }
 
 .book-dropdown::-webkit-scrollbar:vertical {
@@ -129,6 +131,8 @@ margin-left: 15px;
 }
 .book-dropdown .dropdown-item{
 	color: $blue;
+	// border: 2px solid rgba(0,0,0,0);
+	transition: 0.3s;
 	// z-index: 1;
 	
 	// display: block;
@@ -142,13 +146,16 @@ margin-left: 15px;
 .book-dropdown{
 	-webkit-box-shadow: 15px 15px 8px rgba(0, 0, 0, 0.4);
   		 box-shadow: 15px 15px 8px rgba(0, 0, 0, 0.4);
-	border: 2px solid $blue;
+	// border: 2px solid rgba(0,0,0,0);
+	transition: 0.3s;
 }
 
 
 
  .book-dropdown .dropdown-item:hover{
 	background-color: $medium-grey;
+	// border: 2px solid $blue;
+	transition: 0.3s;
 }
 
 .details{
@@ -179,6 +186,7 @@ margin-left: 15px;
 	margin-top: 10px;
 	cursor: pointer;
 	padding-top: 10px;
+	border: 1px solid rgba(0,0,0,0.5);
 	// text-decoration: none !important;
 	margin: 0px 20% 0px 20%;
 	-webkit-box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.4);
@@ -196,6 +204,7 @@ margin-left: 15px;
 
 .purchase-button:hover, .read-more-button:hover, #dropdownMenuButton:hover{
 
+border: 1px solid rgba(0,0,0,0.5);
 	@include media-breakpoint-up(sm) {
   		-webkit-box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.4);
   		 box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.4);
