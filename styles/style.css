@@ -37364,7 +37364,7 @@ body {
   transform: scale(1.1, 1.1);
   transition: 0.3s; }
 
-.name-input, textarea {
+.name-input {
   text-transform: capitalize; }
 
 input, textarea {
