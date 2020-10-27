@@ -2,6 +2,7 @@
 @import "navbar";
 @import "footer";
 @import "hover";
+@import "carousel";
 
 html{
 	scroll-behavior: smooth;
@@ -23,7 +24,14 @@ body{
 	// padding-left: 0 !important;
 	// padding-right: 0 !important;
 }
-
+.book-carousel{
+	// width: 50vw;
+	max-height: 50vh;
+}
+.title-jumbo p, .book p{
+	padding-left: 10px;
+	padding-right: 10px;
+}
 
 .row.no-gutters {
   margin-right: 0;

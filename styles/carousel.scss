@@ -1,0 +1,43 @@
+.carousel{
+	background-color: rgba(0,0,0,0.5);
+	// margin-left: 10vw;
+	// margin-right: 10vw;
+	img{
+		display: block;
+  margin-left: auto;
+  margin-right: auto;
+  // border: 2px solid black;
+   // box-shadow: 10px 10px 8px rgba(0,0,0,0.8);
+  // width: 50%;
+  padding: 20px;
+	}
+	.carousel-control-next, .carousel-control-prev{
+		cursor: pointer;
+		width: 15%;
+		@include media-breakpoint-up(sm) {
+  			width: 30%;
+		}
+	}
+	.carousel-control-next-icon, .carousel-control-prev-icon{
+		width: 20px;
+		height: 20px;
+		@include media-breakpoint-up(sm) {
+  			width: 40px;
+		height: 40px;
+		}
+	} 
+	.carousel-control-next{
+		// right: 10vw;
+	}
+	.carousel-control-prev{
+		// left: 10vw;
+	}
+	.carousel-caption {
+	    position: relative;
+	    left: 0;
+	    top: 0;
+	}
+	a{
+		text-decoration: none !important;
+	}
+}
