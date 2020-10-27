@@ -19,7 +19,7 @@ overflow-x: hidden;
 div{
   // @extend %color-border;
 }
-.row{
+.row, .container-fluid{
 	padding-left: 0 !important;
 	padding-right: 0 !important;
 }

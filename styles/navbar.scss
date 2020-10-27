@@ -23,12 +23,20 @@
 .dropdown-collapsed p, .sub-menu-heading{
 	padding: 10px 30px 10px 30px;
 	// width: 300px;
+	width: 90vw;
 	margin: 0;
 	overflow-x: hidden;
 	overflow-wrap: normal;
 	border: 2px solid rgba(0,0,0,0);
 	font-style: italic;
 	transition: 0.3s;
+	content-box: border-box !important;
+	@include media-breakpoint-up(sm) {
+width: 60vw;
+	}
+	@include media-breakpoint-up(lg) {
+  			width: 40vw; 
+	}
 }
 .dropdown-collapsed p:hover, .sub-menu-heading:hover{
 	background-color: $medium-grey;
