@@ -72,7 +72,7 @@ body{
 	border: 2px solid black;
 	transition: 0.3s;
 	@include media-breakpoint-up(sm) {
-  		border: 2px solid $red;
+  		border: 2px solid $blue;
   		transform: scale(1.05,1.05);
   		-webkit-box-shadow: 15px 15px 8px rgba(0, 0, 0, 0.4);
   		 box-shadow: 15px 15px 8px rgba(0, 0, 0, 0.4);
@@ -255,3 +255,9 @@ hr{
 	background-color: $medium-grey;
 }
 
+
+
+
+.title-text{
+	font-family: $penny !important;
+}

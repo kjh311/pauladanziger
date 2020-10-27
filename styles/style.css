@@ -14224,6 +14224,9 @@ footer li a:hover {
   height: 25px; }
 
 /*# sourceMappingURL=hover.css.map */
+.title-text {
+  font-family: "Henny Penny", cursive !important; }
+
 .about-paula-div {
   padding: 10px 10% 10px 10%; }
 
@@ -21948,7 +21951,7 @@ html {
   transition: 0.3s; }
   @media (min-width: 576px) {
     .book-img:hover {
-      border: 2px solid #FE4A49;
+      border: 2px solid #009FB7;
       transform: scale(1.05, 1.05);
       -webkit-box-shadow: 15px 15px 8px rgba(0, 0, 0, 0.4);
       box-shadow: 15px 15px 8px rgba(0, 0, 0, 0.4); } }
@@ -22081,6 +22084,9 @@ hr {
 
 .right {
   background-color: #E9ECEF; }
+
+.title-text {
+  font-family: "Henny Penny", cursive !important; }
 
 /*!
  * Hover.css (http://ianlunn.github.io/Hover/)
@@ -29703,6 +29709,9 @@ footer li a:hover {
   height: 25px; }
 
 /*# sourceMappingURL=hover.css.map */
+.title-text {
+  font-family: "Henny Penny", cursive !important; }
+
 /*!
  * Hover.css (http://ianlunn.github.io/Hover/)
  * Version: 2.3.2
@@ -37327,6 +37336,9 @@ footer li a:hover {
 body {
   font-family: "Chilanka", cursive; }
 
+.title-text {
+  font-family: "Henny Penny", cursive !important; }
+
 .contact-form {
   background-color: #009FB7;
   -webkit-box-shadow: 15px 15px 8px rgba(0, 0, 0, 0.4);
@@ -41215,5 +41227,8 @@ body {
         width: 280px; } }
   .form-wrapper .message-input {
     height: 100px; }
+
+.title-text {
+  font-family: "Henny Penny", cursive !important; }
 
 /*# sourceMappingURL=style.css.map */
