@@ -56,7 +56,7 @@ div{
 	font-family: $penny !important;
 }
 .user-image{
-	max-width: 100vw;
+	max-width: 90vw;
 	padding: 0;
 	@include media-breakpoint-up(sm) {
   		max-width: 60vw;
