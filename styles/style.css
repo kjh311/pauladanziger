@@ -21916,6 +21916,10 @@ html {
   width: 100%;
   margin-left: 0 !important; }
 
+.breadcrumb {
+  padding-right: 20%;
+  padding-left: 20%; }
+
 .book-carousel {
   max-height: 50vh; }
 
@@ -37360,7 +37364,7 @@ body {
   transform: scale(1.1, 1.1);
   transition: 0.3s; }
 
-.name-input {
+.name-input, textarea {
   text-transform: capitalize; }
 
 input, textarea {
