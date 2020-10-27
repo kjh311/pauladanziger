@@ -144,6 +144,10 @@ width: 60vw;
 .nav-link:hover{
 	background-color: $dark-green;
 	transition: all 0.2s;
+	color: #fff !important;
+}
+.nav-item:hover{
+	color: #fff !important;
 }
 .dropdown-toggle:after { content: none }
 .book-caret{
