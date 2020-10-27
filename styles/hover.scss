@@ -8,6 +8,9 @@
  * Hover.css Copyright Ian Lunn 2017. Generated with Sass.
  */
 /* 2D TRANSITIONS */
+@import "variables";
+
+
 /* Grow */
 .hvr-grow {
   display: inline-block;
@@ -1602,7 +1605,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: #2098D1;
+  background: rgba(0,0,0,0);
   border-radius: 100%;
   -webkit-transform: scale(0);
   transform: scale(0);
@@ -2157,7 +2160,7 @@
   left: 0;
   right: 100%;
   bottom: 0;
-  background: #2098D1;
+  background: $blue;
   height: 4px;
   -webkit-transition-property: right;
   transition-property: right;

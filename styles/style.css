@@ -7990,7 +7990,7 @@ pre {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #2098D1;
+  background: rgba(0, 0, 0, 0);
   border-radius: 100%;
   -webkit-transform: scale(0);
   transform: scale(0);
@@ -8521,7 +8521,7 @@ pre {
   left: 0;
   right: 100%;
   bottom: 0;
-  background: #2098D1;
+  background: #009FB7;
   height: 4px;
   -webkit-transition-property: right;
   transition-property: right;
@@ -10472,11 +10472,13 @@ footer {
 
 .kevin-link {
   color: white;
-  transition: 0.3s; }
+  transition: 0.3s !important;
+  text-decoration: none; }
 
 .kevin-link:hover {
-  color: #FE4A49;
-  transition: 0.3s; }
+  color: white;
+  transition: 0.3s !important;
+  text-decoration: none; }
 
 footer ul {
   list-style-type: none;
@@ -10490,7 +10492,12 @@ footer li a {
   margin-bottom: 10px;
   text-align: center;
   padding: 16px;
-  text-decoration: none; }
+  text-decoration: none !important;
+  transition: color 0.3s; }
+
+footer li a:hover {
+  color: white;
+  transition: color 0.3s; }
 
 .links {
   color: #FE4A49; }
@@ -11882,7 +11889,7 @@ footer li a {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #2098D1;
+  background: rgba(0, 0, 0, 0);
   border-radius: 100%;
   -webkit-transform: scale(0);
   transform: scale(0);
@@ -12413,7 +12420,7 @@ footer li a {
   left: 0;
   right: 100%;
   bottom: 0;
-  background: #2098D1;
+  background: #009FB7;
   height: 4px;
   -webkit-transition-property: right;
   transition-property: right;
@@ -15636,7 +15643,7 @@ footer li a {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #2098D1;
+  background: rgba(0, 0, 0, 0);
   border-radius: 100%;
   -webkit-transform: scale(0);
   transform: scale(0);
@@ -16167,7 +16174,7 @@ footer li a {
   left: 0;
   right: 100%;
   bottom: 0;
-  background: #2098D1;
+  background: #009FB7;
   height: 4px;
   -webkit-transition-property: right;
   transition-property: right;
@@ -18118,11 +18125,13 @@ footer {
 
 .kevin-link {
   color: white;
-  transition: 0.3s; }
+  transition: 0.3s !important;
+  text-decoration: none; }
 
 .kevin-link:hover {
-  color: #FE4A49;
-  transition: 0.3s; }
+  color: white;
+  transition: 0.3s !important;
+  text-decoration: none; }
 
 footer ul {
   list-style-type: none;
@@ -18136,7 +18145,12 @@ footer li a {
   margin-bottom: 10px;
   text-align: center;
   padding: 16px;
-  text-decoration: none; }
+  text-decoration: none !important;
+  transition: color 0.3s; }
+
+footer li a:hover {
+  color: white;
+  transition: color 0.3s; }
 
 .links {
   color: #FE4A49; }
@@ -19528,7 +19542,7 @@ footer li a {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #2098D1;
+  background: rgba(0, 0, 0, 0);
   border-radius: 100%;
   -webkit-transform: scale(0);
   transform: scale(0);
@@ -20059,7 +20073,7 @@ footer li a {
   left: 0;
   right: 100%;
   bottom: 0;
-  background: #2098D1;
+  background: #009FB7;
   height: 4px;
   -webkit-transition-property: right;
   transition-property: right;
@@ -23455,7 +23469,7 @@ hr {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #2098D1;
+  background: rgba(0, 0, 0, 0);
   border-radius: 100%;
   -webkit-transform: scale(0);
   transform: scale(0);
@@ -23986,7 +24000,7 @@ hr {
   left: 0;
   right: 100%;
   bottom: 0;
-  background: #2098D1;
+  background: #009FB7;
   height: 4px;
   -webkit-transition-property: right;
   transition-property: right;
@@ -25937,11 +25951,13 @@ footer {
 
 .kevin-link {
   color: white;
-  transition: 0.3s; }
+  transition: 0.3s !important;
+  text-decoration: none; }
 
 .kevin-link:hover {
-  color: #FE4A49;
-  transition: 0.3s; }
+  color: white;
+  transition: 0.3s !important;
+  text-decoration: none; }
 
 footer ul {
   list-style-type: none;
@@ -25955,7 +25971,12 @@ footer li a {
   margin-bottom: 10px;
   text-align: center;
   padding: 16px;
-  text-decoration: none; }
+  text-decoration: none !important;
+  transition: color 0.3s; }
+
+footer li a:hover {
+  color: white;
+  transition: color 0.3s; }
 
 .links {
   color: #FE4A49; }
@@ -27347,7 +27368,7 @@ footer li a {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #2098D1;
+  background: rgba(0, 0, 0, 0);
   border-radius: 100%;
   -webkit-transform: scale(0);
   transform: scale(0);
@@ -27878,7 +27899,7 @@ footer li a {
   left: 0;
   right: 100%;
   bottom: 0;
-  background: #2098D1;
+  background: #009FB7;
   height: 4px;
   -webkit-transition-property: right;
   transition-property: right;
@@ -31069,7 +31090,7 @@ footer li a {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #2098D1;
+  background: rgba(0, 0, 0, 0);
   border-radius: 100%;
   -webkit-transform: scale(0);
   transform: scale(0);
@@ -31600,7 +31621,7 @@ footer li a {
   left: 0;
   right: 100%;
   bottom: 0;
-  background: #2098D1;
+  background: #009FB7;
   height: 4px;
   -webkit-transition-property: right;
   transition-property: right;
@@ -33551,11 +33572,13 @@ footer {
 
 .kevin-link {
   color: white;
-  transition: 0.3s; }
+  transition: 0.3s !important;
+  text-decoration: none; }
 
 .kevin-link:hover {
-  color: #FE4A49;
-  transition: 0.3s; }
+  color: white;
+  transition: 0.3s !important;
+  text-decoration: none; }
 
 footer ul {
   list-style-type: none;
@@ -33569,7 +33592,12 @@ footer li a {
   margin-bottom: 10px;
   text-align: center;
   padding: 16px;
-  text-decoration: none; }
+  text-decoration: none !important;
+  transition: color 0.3s; }
+
+footer li a:hover {
+  color: white;
+  transition: color 0.3s; }
 
 .links {
   color: #FE4A49; }
@@ -34961,7 +34989,7 @@ footer li a {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #2098D1;
+  background: rgba(0, 0, 0, 0);
   border-radius: 100%;
   -webkit-transform: scale(0);
   transform: scale(0);
@@ -35492,7 +35520,7 @@ footer li a {
   left: 0;
   right: 100%;
   bottom: 0;
-  background: #2098D1;
+  background: #009FB7;
   height: 4px;
   -webkit-transition-property: right;
   transition-property: right;
@@ -38694,7 +38722,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #2098D1;
+  background: rgba(0, 0, 0, 0);
   border-radius: 100%;
   -webkit-transform: scale(0);
   transform: scale(0);
@@ -39225,7 +39253,7 @@ body {
   left: 0;
   right: 100%;
   bottom: 0;
-  background: #2098D1;
+  background: #009FB7;
   height: 4px;
   -webkit-transition-property: right;
   transition-property: right;

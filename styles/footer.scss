@@ -17,14 +17,17 @@ footer{
 }
 .kevin-link{
 	color: white;
-	transition: 0.3s;
+	transition: 0.3s !important;
+	text-decoration: none ;
 }
 #amberbrownwantsextracredit{
 
 }
 .kevin-link:hover{
-	color: $red;
-	transition: 0.3s;
+	// color: $red;
+	color: white;
+	transition: 0.3s !important;
+	text-decoration: none ;
 }
 footer ul{
 	list-style-type: none;
@@ -39,7 +42,12 @@ footer li a{
   margin-bottom: 10px;
   text-align: center;
   padding: 16px;
-  text-decoration: none;
+  text-decoration: none !important;
+  transition: color 0.3s;
+}
+footer li a:hover{
+	color: white;
+	transition: color 0.3s;
 }
 .links{
 	color: $red;
