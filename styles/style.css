@@ -37347,6 +37347,37 @@ body {
   .contact-form label {
     text-transform: uppercase; }
 
+.send-btn {
+  cursor: pointer;
+  -webkit-box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4);
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4);
+  transform: scale(1, 1);
+  transition: 0.3s; }
+
+.send-btn:hover {
+  -webkit-box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.4);
+  box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.4);
+  transform: scale(1.1, 1.1);
+  transition: 0.3s; }
+
+.name-input {
+  text-transform: capitalize; }
+
+input, textarea {
+  -webkit-box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.4);
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.4); }
+
+input:valid, textarea:valid {
+  border: 2px solid #9CF76E !important;
+  border-radius: 5px; }
+
+input:invalid, textarea:invalid {
+  border: 2px solid #F66E6E !important;
+  border-radius: 5px; }
+
+input:focus, textarea:focus {
+  outline: none !important; }
+
 /*!
  * Hover.css (http://ianlunn.github.io/Hover/)
  * Version: 2.3.2
@@ -41230,5 +41261,9 @@ body {
 
 .title-text {
   font-family: "Henny Penny", cursive !important; }
+
+.user-image {
+  max-width: 60vw;
+  padding: 10px; }
 
 /*# sourceMappingURL=style.css.map */

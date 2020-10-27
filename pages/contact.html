@@ -164,8 +164,9 @@
     </br>
 
 
-<div class="d-flex justify-content-center jumbotron">
+<div class="d-flex justify-content-center jumbotron flex-column">
     <h1 class="title-text">CONTACT</h1>
+    <p class=text-center>Send us a message and someone will get back to your shortly :)</p>
 </div>
 
 
@@ -183,21 +184,21 @@
     <label class="text-center" >
         Your Name:
     </br>
-        <input class="name-input" type="text" name="name" required></label>
+        <input class="name-input" type="text" name="name" required autofocus></label>
   <label class="text-center">
     Your email:
     </br>
-    <input class="email-input" type="text" name="_replyto" required>
+    <input class="email-input" type="email" name="_replyto" required>
   </label>
   <label class="text-center">
     Your message:
     </br>
-    <textarea class="message-input" name="message" required minlength="10" maxlength="100"></textarea>
+    <textarea class="message-input" name="message" required minlength="10" maxlength="1000"  placeholder="Enter between 10 and 1000 characters"></textarea>
   </label>
 
   <!-- your other form fields go here -->
 
-  <button type="submit">Send</button>
+  <button class="send-btn btn btn-light " type="submit">Send</button>
 </form>
 </div>
 
