@@ -24,60 +24,41 @@ div{
 	padding-right: 0 !important;
 }
 .home-page-jumbo{
-	// padding-bottom: 0 !important;
+	margin-bottom: 0 !important;
+		@include media-breakpoint-up(sm) {
+	  		margin-bottom: 50px;
+		}
 }
-.intro-text > p{
+.lead{
 	font-size: 1.3em;
-	
-	padding-bottom: 0;
+	padding: 15px 30px 0 30px;
 	margin-bottom: 0;
 	text-align: justify;
 	@include media-breakpoint-up(sm) {
   		font-size: 1.5em;
+  		padding: 15px 40px 0 40px;
 	}
 }
-.lead{
-	padding-top: 15px;
-}
+.user-image{
+	width: 100%;
+	height: 100%;
+	padding: 0px 0 20px 0;
+	@include media-breakpoint-up(sm) {
+  		width: 30%;
+  		margin: 30px;
+	height: 30%;
+	}
 
+// }
+}
+.intro-text{
+	padding-bottom: 50px !important;
+}
 // .user-image{
 // 	float: left;
 // 	display: inline;
 // }
 
 // CONTACT FORM
-.form-wrapper{
-	border: 2px solid black;
-	padding: 30px 0px 30px 0px;
-	// margin: 20px 0px 20px 0px;
-	width: 90%;
-	border-radius: 10px;
-	background-color: #9FDFF5;
-	@include media-breakpoint-up(md) {
-  		width: 40%;
-}
-.name-input, .email-input, .message-input{
-		margin: 10px;
-		width: 200px;
-	@include media-breakpoint-up(md) {
-  		width: 280px;
-}
-}
-.message-input{
-	height: 100px;
-}
-}
 
-.title-text{
-	font-family: $penny !important;
-}
-.user-image{
-	max-width: 90vw;
-	padding: 0;
-	margin: auto;
-	@include media-breakpoint-up(sm) {
-  		max-width: 60vw;
-  		padding: 5%;
-}
-}
 
