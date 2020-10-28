@@ -33,9 +33,11 @@ body{
 	// width: 50vw;
 	max-height: 50vh;
 }
-.title-jumbo p, .book p{
-	padding-left: 10px;
-	padding-right: 10px;
+.title-jumbo > p, .book p{
+	padding: 20px;
+	@include media-breakpoint-up(sm) {
+  		padding: 20px 50px 20px 50px;
+	}
 }
 
 .row.no-gutters {
@@ -91,11 +93,14 @@ body{
 }
 .book-container p{
 	font-family: $chilanka;
-	font-size: 1.2em;
-	padding: 5px 5% 5px 5%;
+	font-size: 1.3em;
+	padding: 5px 10% 5px 10%;
 	text-indent: 50px;
 	margin:0 0 10px 0;
 	text-align: justify;
+	@include media-breakpoint-up(sm) {
+  		font-size: 1.5em;
+	}
 }
 .book-title{
 	padding: 0 10% 0 10%;
@@ -266,9 +271,9 @@ hr{
 .details > a:hover{
 	text-decoration: underline !important;
 }
-.title-jumbo p{
-	padding: 20px;
-}
+// .title-jumbo p{
+// 	padding: 20px;
+// }
 
 .title-text{
 	font-family: $penny !important;

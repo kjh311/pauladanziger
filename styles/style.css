@@ -10382,6 +10382,10 @@ pre {
     height: 20px;
     display: inline; }
 
+.drop-icon {
+  width: 20px;
+  height: 20px; }
+
 .dropdown-collapsed p, .sub-menu-heading {
   padding: 10px 30px 10px 30px;
   width: 90vw;
@@ -18098,6 +18102,10 @@ footer ul {
     height: 20px;
     display: inline; }
 
+.drop-icon {
+  width: 20px;
+  height: 20px; }
+
 .dropdown-collapsed p, .sub-menu-heading {
   padding: 10px 30px 10px 30px;
   width: 90vw;
@@ -22093,9 +22101,11 @@ html {
 .book-carousel {
   max-height: 50vh; }
 
-.title-jumbo p, .book p {
-  padding-left: 10px;
-  padding-right: 10px; }
+.title-jumbo > p, .book p {
+  padding: 20px; }
+  @media (min-width: 576px) {
+    .title-jumbo > p, .book p {
+      padding: 20px 50px 20px 50px; } }
 
 .row.no-gutters {
   margin-right: 0; }
@@ -22137,11 +22147,14 @@ html {
 
 .book-container p {
   font-family: "Chilanka", cursive;
-  font-size: 1.2em;
-  padding: 5px 5% 5px 5%;
+  font-size: 1.3em;
+  padding: 5px 10% 5px 10%;
   text-indent: 50px;
   margin: 0 0 10px 0;
   text-align: justify; }
+  @media (min-width: 576px) {
+    .book-container p {
+      font-size: 1.5em; } }
 
 .book-title {
   padding: 0 10% 0 10%; }
@@ -22266,9 +22279,6 @@ hr {
 
 .details > a:hover {
   text-decoration: underline !important; }
-
-.title-jumbo p {
-  padding: 20px; }
 
 .title-text {
   font-family: "Henny Penny", cursive !important;
@@ -26057,6 +26067,10 @@ hr {
     width: 20px;
     height: 20px;
     display: inline; }
+
+.drop-icon {
+  width: 20px;
+  height: 20px; }
 
 .dropdown-collapsed p, .sub-menu-heading {
   padding: 10px 30px 10px 30px;
@@ -33739,6 +33753,10 @@ footer ul {
     width: 20px;
     height: 20px;
     display: inline; }
+
+.drop-icon {
+  width: 20px;
+  height: 20px; }
 
 .dropdown-collapsed p, .sub-menu-heading {
   padding: 10px 30px 10px 30px;
@@ -41464,6 +41482,10 @@ input:focus, textarea:focus {
     height: 20px;
     display: inline; }
 
+.drop-icon {
+  width: 20px;
+  height: 20px; }
+
 .dropdown-collapsed p, .sub-menu-heading {
   padding: 10px 30px 10px 30px;
   width: 90vw;
@@ -41598,6 +41620,18 @@ body {
   padding-left: 0 !important;
   padding-right: 0 !important; }
 
+.intro-text > p {
+  font-size: 1.3em;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  text-align: justify; }
+  @media (min-width: 576px) {
+    .intro-text > p {
+      font-size: 1.5em; } }
+
+.lead {
+  padding-top: 15px; }
+
 .form-wrapper {
   border: 2px solid black;
   padding: 30px 0px 30px 0px;
@@ -41621,7 +41655,8 @@ body {
 
 .user-image {
   max-width: 90vw;
-  padding: 0; }
+  padding: 0;
+  margin: auto; }
   @media (min-width: 576px) {
     .user-image {
       max-width: 60vw;

@@ -24,8 +24,10 @@ $( document ).ready(function() {
 
         $('.close-nav').click(function(){
           $('.navbar-toggler').addClass('collapsed');
+          // $('.navbar-collapse').slideUp(hide);
+
         });
-        
+
         $('.navbar-brand').click(function(){
           $('.navbar-toggler').addClass('collapsed');
         });
