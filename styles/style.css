@@ -6603,12 +6603,6 @@ pre {
 .lb-overlay:target {
   display: block; }
 
-.title-jumbo > p {
-  padding: 20%; }
-
-.title-jumbo > p {
-  padding: 20%; }
-
 /*!
  * Hover.css (http://ianlunn.github.io/Hover/)
  * Version: 2.3.2
@@ -6619,9 +6613,6 @@ pre {
  * Hover.css Copyright Ian Lunn 2017. Generated with Sass.
  */
 /* 2D TRANSITIONS */
-.title-jumbo > p {
-  padding: 20%; }
-
 /* Grow */
 .hvr-grow {
   display: inline-block;
@@ -10517,9 +10508,6 @@ pre {
   .effect-1:hover:before {
     transform: scaleX(1); }
 
-.title-jumbo > p {
-  padding: 20%; }
-
 footer {
   border-top: 2px solid #E9ECEF;
   bottom: 0; }
@@ -10582,9 +10570,6 @@ footer ul {
  * Hover.css Copyright Ian Lunn 2017. Generated with Sass.
  */
 /* 2D TRANSITIONS */
-.title-jumbo > p {
-  padding: 20%; }
-
 /* Grow */
 .hvr-grow {
   display: inline-block;
@@ -14306,9 +14291,10 @@ footer ul {
 .about-paula-div > p {
   text-indent: 50px;
   line-height: 30px;
-  font-size: 1em;
+  font-size: 1.2em;
   font-family: "Chilanka", cursive;
-  text-align: justify; }
+  text-align: justify;
+  margin: 10px; }
   @media (min-width: 576px) {
     .about-paula-div > p {
       line-height: 40px;
@@ -14316,7 +14302,8 @@ footer ul {
 
 .about-paula-div > img {
   width: 100%;
-  height: 100%; }
+  height: 100%;
+  padding: 20px 0 20px 0; }
   @media (min-width: 576px) {
     .about-paula-div > img {
       width: 20%;
@@ -14332,12 +14319,6 @@ footer ul {
   text-align: center;
   margin: 0px 20% 0px 20%; }
 
-.title-jumbo > p {
-  padding: 20%; }
-
-.title-jumbo > p {
-  padding: 20%; }
-
 /*!
  * Hover.css (http://ianlunn.github.io/Hover/)
  * Version: 2.3.2
@@ -14348,9 +14329,6 @@ footer ul {
  * Hover.css Copyright Ian Lunn 2017. Generated with Sass.
  */
 /* 2D TRANSITIONS */
-.title-jumbo > p {
-  padding: 20%; }
-
 /* Grow */
 .hvr-grow {
   display: inline-block;
@@ -18246,9 +18224,6 @@ footer ul {
   .effect-1:hover:before {
     transform: scaleX(1); }
 
-.title-jumbo > p {
-  padding: 20%; }
-
 footer {
   border-top: 2px solid #E9ECEF;
   bottom: 0; }
@@ -18311,9 +18286,6 @@ footer ul {
  * Hover.css Copyright Ian Lunn 2017. Generated with Sass.
  */
 /* 2D TRANSITIONS */
-.title-jumbo > p {
-  padding: 20%; }
-
 /* Grow */
 .hvr-grow {
   display: inline-block;
@@ -22149,11 +22121,10 @@ html {
       height: auto; } }
 
 .book-img:hover {
-  border: 2px solid black;
+  border: 2px solid #009FB7;
   transition: 0.3s; }
   @media (min-width: 576px) {
     .book-img:hover {
-      border: 2px solid #009FB7;
       transform: scale(1.05, 1.05);
       -webkit-box-shadow: 15px 15px 8px rgba(0, 0, 0, 0.4);
       box-shadow: 15px 15px 8px rgba(0, 0, 0, 0.4); } }
@@ -22281,20 +22252,20 @@ hr {
   cursor: pointer;
   font-size: 1.3em; }
 
-.book-container a {
-  text-decoration: none !important; }
-
 .right {
   background-color: #E9ECEF; }
 
+.title-jumbo p {
+  padding: 20px; }
+
 .title-text {
-  font-family: "Henny Penny", cursive !important; }
-
-.title-jumbo > p {
-  padding: 20%; }
-
-.title-jumbo > p {
-  padding: 20%; }
+  font-family: "Henny Penny", cursive !important;
+  margin-top: 40px;
+  padding: 0 20px 0 20px;
+  line-height: 55px; }
+  @media (min-width: 576px) {
+    .title-text {
+      margin-top: 0; } }
 
 /*!
  * Hover.css (http://ianlunn.github.io/Hover/)
@@ -22306,9 +22277,6 @@ hr {
  * Hover.css Copyright Ian Lunn 2017. Generated with Sass.
  */
 /* 2D TRANSITIONS */
-.title-jumbo > p {
-  padding: 20%; }
-
 /* Grow */
 .hvr-grow {
   display: inline-block;
@@ -26204,9 +26172,6 @@ hr {
   .effect-1:hover:before {
     transform: scaleX(1); }
 
-.title-jumbo > p {
-  padding: 20%; }
-
 footer {
   border-top: 2px solid #E9ECEF;
   bottom: 0; }
@@ -26269,9 +26234,6 @@ footer ul {
  * Hover.css Copyright Ian Lunn 2017. Generated with Sass.
  */
 /* 2D TRANSITIONS */
-.title-jumbo > p {
-  padding: 20%; }
-
 /* Grow */
 .hvr-grow {
   display: inline-block;
@@ -29987,12 +29949,6 @@ footer ul {
 .title-text {
   font-family: "Henny Penny", cursive !important; }
 
-.title-jumbo > p {
-  padding: 20%; }
-
-.title-jumbo > p {
-  padding: 20%; }
-
 /*!
  * Hover.css (http://ianlunn.github.io/Hover/)
  * Version: 2.3.2
@@ -30003,9 +29959,6 @@ footer ul {
  * Hover.css Copyright Ian Lunn 2017. Generated with Sass.
  */
 /* 2D TRANSITIONS */
-.title-jumbo > p {
-  padding: 20%; }
-
 /* Grow */
 .hvr-grow {
   display: inline-block;
@@ -33901,9 +33854,6 @@ footer ul {
   .effect-1:hover:before {
     transform: scaleX(1); }
 
-.title-jumbo > p {
-  padding: 20%; }
-
 footer {
   border-top: 2px solid #E9ECEF;
   bottom: 0; }
@@ -33966,9 +33916,6 @@ footer ul {
  * Hover.css Copyright Ian Lunn 2017. Generated with Sass.
  */
 /* 2D TRANSITIONS */
-.title-jumbo > p {
-  padding: 20%; }
-
 /* Grow */
 .hvr-grow {
   display: inline-block;
@@ -37726,9 +37673,6 @@ input:invalid, textarea:invalid {
 input:focus, textarea:focus {
   outline: none !important; }
 
-.title-jumbo > p {
-  padding: 20%; }
-
 /*!
  * Hover.css (http://ianlunn.github.io/Hover/)
  * Version: 2.3.2
@@ -37739,9 +37683,6 @@ input:focus, textarea:focus {
  * Hover.css Copyright Ian Lunn 2017. Generated with Sass.
  */
 /* 2D TRANSITIONS */
-.title-jumbo > p {
-  padding: 20%; }
-
 /* Grow */
 .hvr-grow {
   display: inline-block;
@@ -41636,9 +41577,6 @@ input:focus, textarea:focus {
     transform: scaleX(0); }
   .effect-1:hover:before {
     transform: scaleX(1); }
-
-.title-jumbo > p {
-  padding: 20%; }
 
 body {
   font-size: 16px;

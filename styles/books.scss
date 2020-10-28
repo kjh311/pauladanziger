@@ -74,10 +74,10 @@ body{
 }
 .book-img:hover{
 	
-	border: 2px solid black;
+	border: 2px solid $blue;
 	transition: 0.3s;
 	@include media-breakpoint-up(sm) {
-  		border: 2px solid $blue;
+  		// border: 2px solid $blue;
   		transform: scale(1.05,1.05);
   		-webkit-box-shadow: 15px 15px 8px rgba(0, 0, 0, 0.4);
   		 box-shadow: 15px 15px 8px rgba(0, 0, 0, 0.4);
@@ -203,7 +203,7 @@ body{
 	margin-top: 10px;
 	cursor: pointer;
 	padding-top: 10px;
-	// text-decoration: none !important;
+	text-decoration: none !important;
 	margin: 0px 20% 0px 20%;
 	-webkit-box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.4);
   		 box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.4);
@@ -237,7 +237,6 @@ hr{
 	// border: 2px solid rgba(0,0,0,0);
 	border-radius: 10px;
 
-	
 
 }
 // .book:hover{
@@ -254,15 +253,23 @@ hr{
 	font-size: 1.3em;
 }
 .book-container a{
-	text-decoration: none !important;
+	// text-decoration: none !important;
 }
 .right{
 	background-color: $medium-grey;
 }
 
 
-
+.title-jumbo p{
+	padding: 20px;
+}
 
 .title-text{
 	font-family: $penny !important;
+	margin-top: 40px;
+	padding: 0 20px 0 20px;
+	line-height:  55px;
+	@include media-breakpoint-up(sm) {
+  		margin-top: 0;
+	}
 }
