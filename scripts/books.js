@@ -20,6 +20,8 @@ $(document).on('click', 'a[href^="#"]', function (event) {
 // });
 
 
+
+
 // ACCORDIONS
 // 01
     $(".read-more-button01").click(function() {

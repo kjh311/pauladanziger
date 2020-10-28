@@ -22,6 +22,18 @@ $( document ).ready(function() {
 
 // alert('works');
 
+        $('.close-nav').click(function(){
+          $('.navbar-toggler').addClass('collapsed');
+        });
+        
+        $('.navbar-brand').click(function(){
+          $('.navbar-toggler').addClass('collapsed');
+        });
+
+      $('.navbar-toggler').click(function(){
+          $('.navbar-toggler').removeClass('collapsed');
+        });
+
 
       $(".dropdown-collapsed").click(function(){
         $(".collapse1").slideUp();
@@ -32,6 +44,7 @@ $( document ).ready(function() {
         $(".collapse6").slideUp();
         $(".collapse7").slideUp();
         $(".collapse8").slideUp();
+        $('.navbar-toggler').addClass('collapsed');
         $('.navbar-collapse').removeClass('show');
       });
 
@@ -44,6 +57,7 @@ $( document ).ready(function() {
         $(".collapse6").slideUp();
         $(".collapse7").slideUp();
         $(".collapse8").slideUp();
+        $('.navbar-toggler').addClass('collapsed');
         $('.navbar-collapse').removeClass('show');
       });
 
@@ -130,7 +144,7 @@ $( document ).ready(function() {
       $(".collapse7").slideUp();
       $(".collapse2").slideUp();
   });
-        $(".all-books").click(function(){
+      $(".all-books").click(function(){
       $(".collapse9").slideToggle();
       $(".collapse1").slideUp();
       $(".collapse2").slideUp();
