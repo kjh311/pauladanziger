@@ -219,12 +219,13 @@ body{
 }
 
 .purchase-button:hover, .read-more-button:hover, #dropdownMenuButton:hover{
-
+text-decoration: none !important;
 	@include media-breakpoint-up(sm) {
   		-webkit-box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.4);
   		 box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.4);
   		 transform: scale(1.1,1.1);
   		 transition: 0.3s;
+
 	}
 }
 
@@ -252,14 +253,19 @@ hr{
 	cursor: pointer;
 	font-size: 1.3em;
 }
-.book-container a{
-	// text-decoration: none !important;
+.book > a{
+	text-decoration: none !important;
 }
 .right{
 	background-color: $medium-grey;
 }
 
-
+.details > a{
+	text-decoration: none !important;
+}
+.details > a:hover{
+	text-decoration: underline !important;
+}
 .title-jumbo p{
 	padding: 20px;
 }
