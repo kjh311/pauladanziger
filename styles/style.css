@@ -6603,6 +6603,12 @@ pre {
 .lb-overlay:target {
   display: block; }
 
+.title-jumbo > p {
+  padding: 20%; }
+
+.title-jumbo > p {
+  padding: 20%; }
+
 /*!
  * Hover.css (http://ianlunn.github.io/Hover/)
  * Version: 2.3.2
@@ -6613,6 +6619,9 @@ pre {
  * Hover.css Copyright Ian Lunn 2017. Generated with Sass.
  */
 /* 2D TRANSITIONS */
+.title-jumbo > p {
+  padding: 20%; }
+
 /* Grow */
 .hvr-grow {
   display: inline-block;
@@ -10508,17 +10517,21 @@ pre {
   .effect-1:hover:before {
     transform: scaleX(1); }
 
+.title-jumbo > p {
+  padding: 20%; }
+
 footer {
   border-top: 2px solid #E9ECEF;
-  margin-top: 40px; }
+  bottom: 0; }
 
 .footer-copyright {
   background-color: #009FB7;
-  height: 80px; }
+  padding-top: 10%;
+  bottom: 0; }
 
 .footer-copyright > p {
   font-size: 1.3em;
-  margin-top: 13px; }
+  padding-bottom: 5%; }
 
 .kevin-link {
   color: white;
@@ -10533,7 +10546,8 @@ footer {
 footer ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding-top: 20px;
+  padding-bottom: 10px;
   overflow: hidden; }
 
 .footer-link, .active-footer-link {
@@ -10567,6 +10581,9 @@ footer ul {
  * Hover.css Copyright Ian Lunn 2017. Generated with Sass.
  */
 /* 2D TRANSITIONS */
+.title-jumbo > p {
+  padding: 20%; }
+
 /* Grow */
 .hvr-grow {
   display: inline-block;
@@ -14314,6 +14331,12 @@ footer ul {
   text-align: center;
   margin: 0px 20% 0px 20%; }
 
+.title-jumbo > p {
+  padding: 20%; }
+
+.title-jumbo > p {
+  padding: 20%; }
+
 /*!
  * Hover.css (http://ianlunn.github.io/Hover/)
  * Version: 2.3.2
@@ -14324,6 +14347,9 @@ footer ul {
  * Hover.css Copyright Ian Lunn 2017. Generated with Sass.
  */
 /* 2D TRANSITIONS */
+.title-jumbo > p {
+  padding: 20%; }
+
 /* Grow */
 .hvr-grow {
   display: inline-block;
@@ -18219,17 +18245,21 @@ footer ul {
   .effect-1:hover:before {
     transform: scaleX(1); }
 
+.title-jumbo > p {
+  padding: 20%; }
+
 footer {
   border-top: 2px solid #E9ECEF;
-  margin-top: 40px; }
+  bottom: 0; }
 
 .footer-copyright {
   background-color: #009FB7;
-  height: 80px; }
+  padding-top: 10%;
+  bottom: 0; }
 
 .footer-copyright > p {
   font-size: 1.3em;
-  margin-top: 13px; }
+  padding-bottom: 5%; }
 
 .kevin-link {
   color: white;
@@ -18244,7 +18274,8 @@ footer {
 footer ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding-top: 20px;
+  padding-bottom: 10px;
   overflow: hidden; }
 
 .footer-link, .active-footer-link {
@@ -18278,6 +18309,9 @@ footer ul {
  * Hover.css Copyright Ian Lunn 2017. Generated with Sass.
  */
 /* 2D TRANSITIONS */
+.title-jumbo > p {
+  padding: 20%; }
+
 /* Grow */
 .hvr-grow {
   display: inline-block;
@@ -22016,6 +22050,8 @@ footer ul {
     top: 0; }
   .carousel a {
     text-decoration: none !important; }
+  .carousel .carousel-indicators li {
+    cursor: pointer; }
 
 .navbar-toggler:focus,
 .navbar-toggler:active {
@@ -22252,6 +22288,12 @@ hr {
 .title-text {
   font-family: "Henny Penny", cursive !important; }
 
+.title-jumbo > p {
+  padding: 20%; }
+
+.title-jumbo > p {
+  padding: 20%; }
+
 /*!
  * Hover.css (http://ianlunn.github.io/Hover/)
  * Version: 2.3.2
@@ -22262,6 +22304,9 @@ hr {
  * Hover.css Copyright Ian Lunn 2017. Generated with Sass.
  */
 /* 2D TRANSITIONS */
+.title-jumbo > p {
+  padding: 20%; }
+
 /* Grow */
 .hvr-grow {
   display: inline-block;
@@ -26157,17 +26202,21 @@ hr {
   .effect-1:hover:before {
     transform: scaleX(1); }
 
+.title-jumbo > p {
+  padding: 20%; }
+
 footer {
   border-top: 2px solid #E9ECEF;
-  margin-top: 40px; }
+  bottom: 0; }
 
 .footer-copyright {
   background-color: #009FB7;
-  height: 80px; }
+  padding-top: 10%;
+  bottom: 0; }
 
 .footer-copyright > p {
   font-size: 1.3em;
-  margin-top: 13px; }
+  padding-bottom: 5%; }
 
 .kevin-link {
   color: white;
@@ -26182,7 +26231,8 @@ footer {
 footer ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding-top: 20px;
+  padding-bottom: 10px;
   overflow: hidden; }
 
 .footer-link, .active-footer-link {
@@ -26216,6 +26266,9 @@ footer ul {
  * Hover.css Copyright Ian Lunn 2017. Generated with Sass.
  */
 /* 2D TRANSITIONS */
+.title-jumbo > p {
+  padding: 20%; }
+
 /* Grow */
 .hvr-grow {
   display: inline-block;
@@ -29931,6 +29984,12 @@ footer ul {
 .title-text {
   font-family: "Henny Penny", cursive !important; }
 
+.title-jumbo > p {
+  padding: 20%; }
+
+.title-jumbo > p {
+  padding: 20%; }
+
 /*!
  * Hover.css (http://ianlunn.github.io/Hover/)
  * Version: 2.3.2
@@ -29941,6 +30000,9 @@ footer ul {
  * Hover.css Copyright Ian Lunn 2017. Generated with Sass.
  */
 /* 2D TRANSITIONS */
+.title-jumbo > p {
+  padding: 20%; }
+
 /* Grow */
 .hvr-grow {
   display: inline-block;
@@ -33836,17 +33898,21 @@ footer ul {
   .effect-1:hover:before {
     transform: scaleX(1); }
 
+.title-jumbo > p {
+  padding: 20%; }
+
 footer {
   border-top: 2px solid #E9ECEF;
-  margin-top: 40px; }
+  bottom: 0; }
 
 .footer-copyright {
   background-color: #009FB7;
-  height: 80px; }
+  padding-top: 10%;
+  bottom: 0; }
 
 .footer-copyright > p {
   font-size: 1.3em;
-  margin-top: 13px; }
+  padding-bottom: 5%; }
 
 .kevin-link {
   color: white;
@@ -33861,7 +33927,8 @@ footer {
 footer ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding-top: 20px;
+  padding-bottom: 10px;
   overflow: hidden; }
 
 .footer-link, .active-footer-link {
@@ -33895,6 +33962,9 @@ footer ul {
  * Hover.css Copyright Ian Lunn 2017. Generated with Sass.
  */
 /* 2D TRANSITIONS */
+.title-jumbo > p {
+  padding: 20%; }
+
 /* Grow */
 .hvr-grow {
   display: inline-block;
@@ -37652,6 +37722,9 @@ input:invalid, textarea:invalid {
 input:focus, textarea:focus {
   outline: none !important; }
 
+.title-jumbo > p {
+  padding: 20%; }
+
 /*!
  * Hover.css (http://ianlunn.github.io/Hover/)
  * Version: 2.3.2
@@ -37662,6 +37735,9 @@ input:focus, textarea:focus {
  * Hover.css Copyright Ian Lunn 2017. Generated with Sass.
  */
 /* 2D TRANSITIONS */
+.title-jumbo > p {
+  padding: 20%; }
+
 /* Grow */
 .hvr-grow {
   display: inline-block;
@@ -41556,6 +41632,9 @@ input:focus, textarea:focus {
     transform: scaleX(0); }
   .effect-1:hover:before {
     transform: scaleX(1); }
+
+.title-jumbo > p {
+  padding: 20%; }
 
 body {
   font-size: 16px;
