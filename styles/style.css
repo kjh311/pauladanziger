@@ -10526,12 +10526,11 @@ footer {
 
 .footer-copyright {
   background-color: #009FB7;
-  padding-top: 10%;
   bottom: 0; }
 
 .footer-copyright > p {
   font-size: 1.3em;
-  padding-bottom: 5%; }
+  margin-top: 13px; }
 
 .kevin-link {
   color: white;
@@ -10546,8 +10545,7 @@ footer {
 footer ul {
   list-style-type: none;
   margin: 0;
-  padding-top: 20px;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
   overflow: hidden; }
 
 .footer-link, .active-footer-link {
@@ -10565,8 +10563,11 @@ footer ul {
   color: white; }
 
 .footer-link:hover {
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.6) !important;
   transition: color 0.3s; }
+
+.active-footer-link:hover {
+  color: white; }
 
 .links {
   color: #FE4A49; }
@@ -18254,12 +18255,11 @@ footer {
 
 .footer-copyright {
   background-color: #009FB7;
-  padding-top: 10%;
   bottom: 0; }
 
 .footer-copyright > p {
   font-size: 1.3em;
-  padding-bottom: 5%; }
+  margin-top: 13px; }
 
 .kevin-link {
   color: white;
@@ -18274,8 +18274,7 @@ footer {
 footer ul {
   list-style-type: none;
   margin: 0;
-  padding-top: 20px;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
   overflow: hidden; }
 
 .footer-link, .active-footer-link {
@@ -18293,8 +18292,11 @@ footer ul {
   color: white; }
 
 .footer-link:hover {
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.6) !important;
   transition: color 0.3s; }
+
+.active-footer-link:hover {
+  color: white; }
 
 .links {
   color: #FE4A49; }
@@ -26211,12 +26213,11 @@ footer {
 
 .footer-copyright {
   background-color: #009FB7;
-  padding-top: 10%;
   bottom: 0; }
 
 .footer-copyright > p {
   font-size: 1.3em;
-  padding-bottom: 5%; }
+  margin-top: 13px; }
 
 .kevin-link {
   color: white;
@@ -26231,8 +26232,7 @@ footer {
 footer ul {
   list-style-type: none;
   margin: 0;
-  padding-top: 20px;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
   overflow: hidden; }
 
 .footer-link, .active-footer-link {
@@ -26250,8 +26250,11 @@ footer ul {
   color: white; }
 
 .footer-link:hover {
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.6) !important;
   transition: color 0.3s; }
+
+.active-footer-link:hover {
+  color: white; }
 
 .links {
   color: #FE4A49; }
@@ -33907,12 +33910,11 @@ footer {
 
 .footer-copyright {
   background-color: #009FB7;
-  padding-top: 10%;
   bottom: 0; }
 
 .footer-copyright > p {
   font-size: 1.3em;
-  padding-bottom: 5%; }
+  margin-top: 13px; }
 
 .kevin-link {
   color: white;
@@ -33927,8 +33929,7 @@ footer {
 footer ul {
   list-style-type: none;
   margin: 0;
-  padding-top: 20px;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
   overflow: hidden; }
 
 .footer-link, .active-footer-link {
@@ -33946,8 +33947,11 @@ footer ul {
   color: white; }
 
 .footer-link:hover {
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.6) !important;
   transition: color 0.3s; }
+
+.active-footer-link:hover {
+  color: white; }
 
 .links {
   color: #FE4A49; }
