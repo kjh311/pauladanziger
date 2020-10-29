@@ -74,7 +74,9 @@ img{
   .image-title{
         text-align: center;
         padding: 5px;
-
+        q{
+          font-size: 1.2em;
+        }
       }
   .image-lightbox{
     position:fixed;

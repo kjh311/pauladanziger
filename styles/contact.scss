@@ -15,30 +15,39 @@ body{
 	-webkit-box-shadow: 15px 15px 8px rgba(0, 0, 0, 0.4);
   		 box-shadow: 15px 15px 8px rgba(0, 0, 0, 0.4);
   		 color: white;
+  		
   		 label{
   		 	text-transform: uppercase;
   		 }
 }
-
+label{
+	width: 80%;
+}
+input, textarea{
+	// width: 80%;
+}
 .form-wrapper{
 	border: 2px solid black;
-	padding: 30px 0px 30px 0px;
+	padding: 30px;
 	// margin: 20px 0px 20px 0px;
-	width: 90%;
+	 width: 95vw;
+  		 @include media-breakpoint-up(sm) {
+  			width: 80vw;
+		}
+		@include media-breakpoint-up(md) {
+  			width: 50vw;
+		}
 	border-radius: 10px;
 	background-color: #9FDFF5;
-	@include media-breakpoint-up(md) {
-  		width: 40%;
-}
 .name-input, .email-input, .message-input{
 		margin: 10px;
-		width: 200px;
+		width: 100%;
 		@include media-breakpoint-up(md) {
-	  		width: 280px;
+	  		// width: 280px;
 	}
 }
 	.message-input{
-		height: 100px;
+		height: 200px;
 	}
 }
 
