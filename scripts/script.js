@@ -3,6 +3,8 @@
 
 
 $( document ).ready(function() {
+
+  // alert('works');
     
       $(".collapse-button").click(function(){
         event.stopPropagation();
@@ -18,6 +20,7 @@ $( document ).ready(function() {
       // $('.navbar-toggler').click(function(){
       //   $('.navbar-collapse').slideToggle();
       // });
+      
 
 
 // alert('works');

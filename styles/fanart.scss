@@ -1,9 +1,40 @@
 @import "variables";
 @import "navbar";
 @import "footer";
+@import "lightbox";
 @import "hover";
 
 
 .title-text{
 	font-family: $penny !important;
 }
+.fanart-title{
+	background-color: $light-grey;
+	padding: 60px 30px 40px 30px;
+}
+.card{
+	margin: 3% !important;
+	width: 96% !important;
+	box-shadow: 5px 5px 5px rbga(0,0,0,0.7) !important;
+	// border-radius: 10px !important;
+	background-color: #fff;
+	@include media-breakpoint-up(sm) {
+  		margin: 5% !important;
+		width: 90% !important;
+		
+	}
+}
+.img-fluid{
+	// display: block;
+  // margin-left: auto;
+  // margin-right: auto;
+  // width: 50%;
+}
+.contributions-sub-text{
+	padding: 20px 10% 20px 10%;
+}
+.mail-to > p, .mail-to > a{
+	font-size: 1.3em;
+	padding: 10px 50px 10px 50px;
+}
+

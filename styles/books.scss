@@ -188,6 +188,17 @@ body{
   		// margin-right: 0px !important;
 	}
 }
+.card{
+	margin: 3% !important;
+	width: 96% !important;
+	// border-radius: 10px !important;
+	// background-color: #fff;
+	@include media-breakpoint-up(sm) {
+  		margin: 5% !important;
+		width: 90% !important;
+		box-shadow: 5px 5px 5px rbga(0,0,0,0.7) !important;
+	}
+}
 // .book-select, #exampleFormControlSelect1{
 // 	text-align: center;
 // 	max-width: 250px;
