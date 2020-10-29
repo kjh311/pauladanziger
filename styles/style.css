@@ -6380,6 +6380,7 @@ img {
   max-width: 960px;
   width: 100%;
   margin: 0 auto;
+  margin-top: 40px;
   padding: 0 1em;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
@@ -26218,6 +26219,7 @@ img {
   max-width: 960px;
   width: 100%;
   margin: 0 auto;
+  margin-top: 40px;
   padding: 0 1em;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
