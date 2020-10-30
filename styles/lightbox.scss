@@ -7,10 +7,10 @@ body{
   line-height:24px;
   color:#333;
 }
-*{
+.lightbox-row *{
   box-sizing:border-box;
 }
-img{
+.lightbox-row img{
   max-width:100%;
 }
 .gallery-wrapper{
