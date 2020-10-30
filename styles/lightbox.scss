@@ -123,7 +123,7 @@ body{
     -o-transition: opacity 0ms ease-in-out;
     transition: opacity 0ms ease-in-out;
     z-index: 100;
-    .image-lightbox:target{
+    &:target{
       opacity:1;
       visibility:visible;
       .image-lightbox-wrapper{
