@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 @import "variables";
 
 body{
@@ -8,7 +15,8 @@ body{
   color:#333;
 }
 .lightbox-row *{
-  box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+          box-sizing:border-box;
 }
 .lightbox-row img{
   max-width:100%;
@@ -19,6 +27,7 @@ body{
   margin:0 auto;
   margin-top: 40px;
   padding:0 1em;
+  display:-ms-grid;
   display:grid;
   //grid-template-columns:repeat(3, 1fr);
   grid-template-columns:repeat(auto-fill, minmax(230px, 1fr));
@@ -29,12 +38,17 @@ body{
         padding: 20px;
       }
   .image-wrapper{
-    box-shadow:5px 5px 5px rgba(0,0,0,0.3);
+    -webkit-box-shadow:5px 5px 5px rgba(0,0,0,0.3);
+            box-shadow:5px 5px 5px rgba(0,0,0,0.3);
     border-radius: 10px;
-    transform: scale(1,1);
+    -webkit-transform: scale(1,1);
+        -ms-transform: scale(1,1);
+            transform: scale(1,1);
+    -webkit-transition: all 200ms ease-in-out;
+    -o-transition: all 200ms ease-in-out;
     transition: all 200ms ease-in-out;
     width: 90%;
-    // max-height: 80vh;
+    
     margin: 20px !important;
     padding: 20px;
     @include media-breakpoint-up(md) {
@@ -43,8 +57,11 @@ body{
 
     &:hover{
       @include media-breakpoint-up(sm) {
-            box-shadow:8px 8px 8px rgba(0,0,0,0.5);
-        transform: scale(1.05,1.05);
+            -webkit-box-shadow:8px 8px 8px rgba(0,0,0,0.5);
+                    box-shadow:8px 8px 8px rgba(0,0,0,0.5);
+        -webkit-transform: scale(1.05,1.05);
+            -ms-transform: scale(1.05,1.05);
+                transform: scale(1.05,1.05);
           }
       }
     a{
@@ -54,13 +71,18 @@ body{
       text-decoration:none;
       color:#333;
       
+      -webkit-transition: all 200ms ease-in-out;
+      
+      -o-transition: all 200ms ease-in-out;
+      
       transition: all 200ms ease-in-out;
       border-radius: 10px !important;
 
       
       img{
         width: 100%;
-        object-fit: cover;
+        -o-object-fit: cover;
+           object-fit: cover;
           @include media-breakpoint-up(md) {
             max-width: 300px;
             max-height: 300px;
@@ -85,12 +107,20 @@ body{
     width:100vw;
     height:100vh;
     background:rgba(0,0,0,0.8);
+    display:-webkit-box;
+    display:-ms-flexbox;
     display:flex;
-    align-items:center;
-    justify-content: center;
+    -webkit-box-align:center;
+        -ms-flex-align:center;
+            align-items:center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     opacity:0;
     border-radius: 10px;
     visibility:hidden;
+    -webkit-transition: opacity 0ms ease-in-out;
+    -o-transition: opacity 0ms ease-in-out;
     transition: opacity 0ms ease-in-out;
     z-index: 100;
     &:target{
@@ -99,19 +129,28 @@ body{
       .image-lightbox-wrapper{
         opacity:1;
         border-radius: 10px;
-        transform:scale(1,1) translateY(0);
+        -webkit-transform:scale(1,1) translateY(0);
+            -ms-transform:scale(1,1) translateY(0);
+                transform:scale(1,1) translateY(0);
       }
     }
     .image-lightbox-wrapper{
-      transform:scale(0.95,0.95) translateY(-30px);
+      -webkit-transform:scale(0.95,0.95) translateY(-30px);
+          -ms-transform:scale(0.95,0.95) translateY(-30px);
+              transform:scale(0.95,0.95) translateY(-30px);
+      -webkit-transition: opacity 500ms ease-in-out, -webkit-transform 500ms ease-in-out;
+      transition: opacity 500ms ease-in-out, -webkit-transform 500ms ease-in-out;
+      -o-transition: opacity 500ms ease-in-out, transform 500ms ease-in-out;
       transition: opacity 500ms ease-in-out, transform 500ms ease-in-out;
+      transition: opacity 500ms ease-in-out, transform 500ms ease-in-out, -webkit-transform 500ms ease-in-out;
       opacity:0;
       margin:1em auto;
       max-width:75%;
       padding:.5em;
       display:inline-block;
       background:#fff;
-      box-shadow:0 0 5px rgba(0,0,0,0.8);
+      -webkit-box-shadow:0 0 5px rgba(0,0,0,0.8);
+              box-shadow:0 0 5px rgba(0,0,0,0.8);
       position:relative;
       .close{
         width: 1.5em;
@@ -121,16 +160,21 @@ body{
         font-weight: bold;
         text-decoration: none;
         border-radius: 50%;
-        box-shadow: 0 0 0 2px white inset, 0 0 5px rgba(0, 0, 0, 0.5);
+        -webkit-box-shadow: 0 0 0 2px white inset, 0 0 5px rgba(0, 0, 0, 0.5);
+                box-shadow: 0 0 0 2px white inset, 0 0 5px rgba(0, 0, 0, 0.5);
         position: absolute;
         right: -1em;
         top: -1em;
+        -webkit-transition: all 200ms ease-in-out;
+        -o-transition: all 200ms ease-in-out;
         transition: all 200ms ease-in-out;
         &:hover{
           width: 2em;
           height: 2em;
           right: -1.3em;
           top: -1.3em;
+          -webkit-transition: all 200ms ease-in-out;
+          -o-transition: all 200ms ease-in-out;
           transition: all 200ms ease-in-out;
         }
         &:before{
@@ -144,7 +188,9 @@ body{
           top: 50%;
           left: 50%;
           margin: -1px 0 0 -5px;
-          transform: rotate(-45deg);
+          -webkit-transform: rotate(-45deg);
+              -ms-transform: rotate(-45deg);
+                  transform: rotate(-45deg);
         }
         &:after{
           content: '';
@@ -157,7 +203,9 @@ body{
           top: 50%;
           left: 50%;
           margin: -1px 0 0 -5px;
-          transform: rotate(45deg);
+          -webkit-transform: rotate(45deg);
+              -ms-transform: rotate(45deg);
+                  transform: rotate(45deg);
         }
       }
       .arrow-left{
@@ -179,7 +227,9 @@ body{
           top: 50%;
           right: 100%;
           cursor:pointer;
-          transform: rotate(-45deg) translateY(-50%);
+          -webkit-transform: rotate(-45deg) translateY(-50%);
+              -ms-transform: rotate(-45deg) translateY(-50%);
+                  transform: rotate(-45deg) translateY(-50%);
         }
       }
       .arrow-right{
@@ -201,7 +251,9 @@ body{
           top: 50%;
           left: 100%;
           cursor:pointer;
-          transform: rotate(45deg) translateY(-50%);
+          -webkit-transform: rotate(45deg) translateY(-50%);
+              -ms-transform: rotate(45deg) translateY(-50%);
+                  transform: rotate(45deg) translateY(-50%);
         }
       }
       img{
