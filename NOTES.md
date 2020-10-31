@@ -7,6 +7,9 @@ Likes the look of:
 https://www.brucecoville.com/
 https://www.davidsedarisbooks.com/
 
+<!-- bootstrap modal carouse -->
+https://css-tricks.com/creating-a-modal-image-gallery-with-bootstrap-components/
+
 TO DO:
 Lower img file size
 accesibility

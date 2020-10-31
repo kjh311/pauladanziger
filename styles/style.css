@@ -29990,19 +29990,29 @@ footer ul {
   background-color: #F4F4F8;
   padding: 60px 30px 40px 30px; }
 
-.card {
+.pic-card {
   margin: 2% !important;
-  width: 96% !important;
+  max-width: 94% !important;
+  content-box: border-box !important;
   box-shadow: 5px 5px 5px rbga(0, 0, 0, 0.7) !important;
   border-radius: 10px !important;
   padding: 20px;
   cursor: pointer !important;
   background-color: #fff;
-  border-radius: 10px; }
+  border-radius: 10px;
+  max-height: 50vh; }
   @media (min-width: 576px) {
-    .card {
+    .pic-card {
       margin: 5% !important;
-      width: 90% !important; } }
+      width: 40% !important; } }
+  @media (min-width: 768px) {
+    .pic-card {
+      margin: 2% !important;
+      width: 29.3% !important; } }
+  .pic-card img {
+    object-fit: cover !important;
+    height: 70%;
+    width: 100%; }
 
 .grow {
   -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
@@ -30023,21 +30033,25 @@ footer ul {
 
 .modal-body {
   height: 70vh; }
-  .modal-body img {
-    max-height: 100%; }
 
-.carousel {
-  max-height: 60%;
+.carousel, .carousel-item, .carousel-inner {
+  max-width: 100%;
   padding: 0 !important;
-  max-width: 100%; }
+  object-fit: cover !important;
+  height: 70vh; }
+  .carousel img, .carousel-item img, .carousel-inner img {
+    object-fit: cover !important;
+    max-height: 50vh;
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
 
 .carousel-inner {
   padding: 0 !important; }
 
 .carousel-item {
   margin: 0 !important; }
-  .carousel-item img {
-    margin: 0 !important; }
 
 .contributions {
   padding: 0 10%; }

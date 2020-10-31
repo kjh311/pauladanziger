@@ -12,21 +12,33 @@
 	background-color: $light-grey;
 	padding: 60px 30px 40px 30px;
 }
-.card{
+.carousel-inner{
+	
+}
+.pic-card{
 	margin: 2% !important;
-	width: 96% !important;
+	max-width: 94% !important;
+	content-box: border-box !important;
 	box-shadow: 5px 5px 5px rbga(0,0,0,0.7) !important;
 	border-radius: 10px !important;
 	padding: 20px;
 	cursor: pointer !important;
 	background-color: #fff;
 	border-radius: 10px;
-
-
+	max-height: 50vh;
 	@include media-breakpoint-up(sm) {
   		margin: 5% !important;
-		width: 90% !important;
-		
+		width: 40% !important;
+	}
+	@include media-breakpoint-up(md) {
+  		margin: 2% !important;
+		width: 29.3% !important;
+
+	}
+	img{
+		object-fit: cover !important;
+		height: 70%;
+		width: 100%;
 	}
 }
 .grow{
@@ -51,13 +63,27 @@
 .modal-body{
 	height: 70vh;
 	img{
-		max-height: 100%;
+		// max-height: 100%;
 	}
 }
-.carousel{
-	max-height: 60%;
-	padding: 0 !important;
+.carousel, .carousel-item, .carousel-inner{
+	// max-height: 100%;
 	max-width: 100%;
+	padding: 0 !important;
+	object-fit: cover !important;
+	// width: 
+	// height: 70vh;
+	// max-width: 100%;
+	img{
+		object-fit: cover !important;
+		max-height: 50vh;
+	max-width: 100%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+		// max-height: 70%;
+		// width: 100%;
+	}
 }
 .carousel-inner{
 	padding: 0 !important;
@@ -65,7 +91,7 @@
 .carousel-item{
 	margin: 0 !important;
 	img{
-		margin: 0 !important;
+		// margin: 0 !important;
 	}
 }
 .img-fluid{
