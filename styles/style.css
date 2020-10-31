@@ -26261,12 +26261,6 @@ footer ul {
 .links {
   color: #FE4A49; }
 
-.modal-content, .carousel-item, .carousel, .modal {
-  max-width: 100%;
-  max-height: 90vh; }
-  .modal-content img, .carousel-item img, .carousel img, .modal img {
-    max-width: 100%; }
-
 /*!
  * Hover.css (http://ianlunn.github.io/Hover/)
  * Version: 2.3.2
@@ -30000,11 +29994,50 @@ footer ul {
   margin: 2% !important;
   width: 96% !important;
   box-shadow: 5px 5px 5px rbga(0, 0, 0, 0.7) !important;
-  background-color: #fff; }
+  border-radius: 10px !important;
+  padding: 20px;
+  cursor: pointer !important;
+  background-color: #fff;
+  border-radius: 10px; }
   @media (min-width: 576px) {
     .card {
       margin: 5% !important;
       width: 90% !important; } }
+
+.grow {
+  -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+  -webkit-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  transform: scale(1, 1);
+  -webkit-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out; }
+  @media (min-width: 576px) {
+    .grow:hover {
+      -webkit-box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+      box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+      -webkit-transform: scale(1.05, 1.05);
+      -ms-transform: scale(1.05, 1.05);
+      transform: scale(1.05, 1.05); } }
+
+.modal-body {
+  height: 70vh; }
+  .modal-body img {
+    max-height: 100%; }
+
+.carousel {
+  max-height: 60%;
+  padding: 0 !important;
+  max-width: 100%; }
+
+.carousel-inner {
+  padding: 0 !important; }
+
+.carousel-item {
+  margin: 0 !important; }
+  .carousel-item img {
+    margin: 0 !important; }
 
 .contributions {
   padding: 0 10%; }
