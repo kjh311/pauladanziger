@@ -17,8 +17,14 @@
 }
 .modal{
 	// max-height: 95vh;
+	@include media-breakpoint-up(sm) {
+  		bottom: 10px;
+	}
 	.modal-dialog, .modal-content{
 		// max-height: 100%;
+		@include media-breakpoint-up(sm) {
+  		bottom: 10px;
+	}
 	}
 	.close-icon{
 		height: 30px;
@@ -67,6 +73,10 @@
 		height: 70%;
 		width: 100%;
 	}
+}
+.artist-link{
+	cursor: pointer;
+	margin-top: 5px;
 }
 .grow{
 		  -webkit-box-shadow:5px 5px 5px rgba(0,0,0,0.3);
@@ -117,7 +127,7 @@
 	}
 	.fan-img{
 		object-fit: cover !important;
-		max-height: 350px;
+		max-height: 400px;
 	max-width: 100%;
 	display: block;
     margin-left: auto;

@@ -14302,9 +14302,13 @@ footer ul {
   padding: 20px 0 20px 0; }
   @media (min-width: 576px) {
     .about-paula-div > img {
-      width: 20%;
+      width: 50%;
       margin: 30px;
-      height: 20%; } }
+      height: 50%; } }
+  @media (min-width: 768px) {
+    .about-paula-div > img {
+      width: 30%;
+      height: 30%; } }
 
 .jumbotron > h1 {
   font-family: "Chilanka", cursive;
@@ -22166,6 +22170,9 @@ html {
 .summary, .content {
   text-indent: 50px; }
 
+.summary, .content, .review {
+  line-height: 35px; }
+
 .book-title {
   padding: 0 10% 0 10%; }
 
@@ -29998,6 +30005,12 @@ footer ul {
   background-color: #F4F4F8;
   padding: 60px 30px 40px 30px; }
 
+@media (min-width: 576px) {
+  .modal {
+    bottom: 10px; } }
+@media (min-width: 576px) {
+  .modal .modal-dialog, .modal .modal-content {
+    bottom: 10px; } }
 .modal .close-icon {
   height: 30px; }
 .modal .modal-footer button, .modal .modal-header button {
@@ -30026,6 +30039,10 @@ footer ul {
     object-fit: cover !important;
     height: 70%;
     width: 100%; }
+
+.artist-link {
+  cursor: pointer;
+  margin-top: 5px; }
 
 .grow {
   -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
@@ -30058,7 +30075,7 @@ footer ul {
       left: 40px; } }
   .carousel .fan-img, .carousel-item .fan-img, .carousel-inner .fan-img {
     object-fit: cover !important;
-    max-height: 350px;
+    max-height: 400px;
     max-width: 100%;
     display: block;
     margin-left: auto;
@@ -41796,11 +41813,13 @@ body {
 
 .lead {
   font-size: 1.3em;
-  padding: 15px 30px 0 30px;
+  padding: 30px;
   margin-bottom: 0;
   text-align: justify;
-  line-height: 30px;
-  display: inline; }
+  line-height: 30px; }
+
+hr {
+  border: 1px solid #fff; }
 
 .user-image, .teddy {
   width: 100%;
@@ -41813,7 +41832,8 @@ body {
   @media (min-width: 576px) {
     .user-image, .teddy {
       width: 40%;
-      height: auto; } }
+      height: auto;
+      margin: 30px; } }
 
 .intro-text {
   padding-bottom: 50px !important; }

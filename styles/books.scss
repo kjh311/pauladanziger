@@ -109,6 +109,9 @@ a:active {  text-decoration: none; }
 .summary, .content{
 	text-indent: 50px;
 }
+.summary, .content, .review{
+	line-height: 35px;
+}
 .book-title{
 	padding: 0 10% 0 10%;
 }
