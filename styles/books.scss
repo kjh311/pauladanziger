@@ -176,6 +176,8 @@ body{
 
 
 
+
+
  .book-dropdown .dropdown-item:hover{
 	background-color: $medium-grey;
 }
@@ -190,13 +192,14 @@ body{
 }
 .card{
 	margin: 3% !important;
-	width: 96% !important;
+	width: 94% !important;
 	// border-radius: 10px !important;
 	// background-color: #fff;
+	border: 1px solid rgba(0,0,0,0);
 	@include media-breakpoint-up(sm) {
   		margin: 5% !important;
 		width: 90% !important;
-		box-shadow: 5px 5px 5px rbga(0,0,0,0.7) !important;
+		// box-shadow: 5px 5px 5px rbga(0,0,0,0.7) !important;
 	}
 }
 // .book-select, #exampleFormControlSelect1{

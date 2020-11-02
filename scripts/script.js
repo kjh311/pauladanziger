@@ -20,6 +20,18 @@ $( document ).ready(function() {
       // $('.navbar-toggler').click(function(){
       //   $('.navbar-collapse').slideToggle();
       // });
+
+
+// Close navbar when clicking outside navbar
+$(document).click(
+        function (event) {
+            var target = $(event.target);
+            var _mobileMenuOpen = $(".navbar-collapse").hasClass("show");
+            if (_mobileMenuOpen === true && !target.hasClass("navbar-toggler")) {
+                $("button.navbar-toggler").click();
+            }
+        }
+    );
       
 
 

@@ -20,10 +20,32 @@
 	.modal-dialog, .modal-content{
 		// max-height: 100%;
 	}
+	.close-icon{
+		height: 30px;
+		// width: 30px;
+	}
+	.modal-footer button, .modal-header button{
+		cursor: pointer;
+		  //  -webkit-transform: scale(1,1);
+    //     -ms-transform: scale(1,1);
+    //         transform: scale(1,1);
+    // -webkit-transition: all 200ms ease-in-out;
+    // -o-transition: all 200ms ease-in-out;
+    // transition: all 200ms ease-in-out;
+    // &:hover{
+    //   @include media-breakpoint-up(sm) {
+    //         // -webkit-box-shadow:8px 8px 8px rgba(0,0,0,0.5);
+    //         //         box-shadow:8px 8px 8px rgba(0,0,0,0.5);
+    //     -webkit-transform: scale(1.1,1.1);
+    //         -ms-transform: scale(1.1,1.1);
+    //             transform: scale(1.1,1.1);
+    //       }
+    //   }
+	}
 }
 .pic-card{
 	margin: 2% !important;
-	max-width: 94% !important;
+	max-width: 96% !important;
 	content-box: border-box !important;
 	box-shadow: 5px 5px 5px rbga(0,0,0,0.7) !important;
 	border-radius: 10px !important;
@@ -68,7 +90,7 @@
 }
 .modal-body{
 	// height: 70vh;
-	img{
+	.fan-img{
 		// max-height: 100%;
 	}
 }
@@ -94,7 +116,7 @@
            left: 40px;
           }
 	}
-	img{
+	.fan-img{
 		object-fit: cover !important;
 		max-height: 350px;
 	max-width: 100%;
@@ -121,9 +143,40 @@
 }
 .carousel-item{
 	margin: 0 !important;
-	img{
+	.fan-img{
 		// margin: 0 !important;
 	}
+}
+.email-link{
+	padding: 10px; 
+	max-width: 100%;
+	background-color: #fff;
+	border-radius: 5px;
+	            -webkit-box-shadow:4px 4px 4px rgba(0,0,0,0.5);
+                    box-shadow:4px 4px 4px rgba(0,0,0,0.5);
+
+			   -webkit-transform: scale(1,1);
+        -ms-transform: scale(1,1);
+            transform: scale(1,1);
+    -webkit-transition: all 200ms ease-in-out;
+    -o-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+    @include media-breakpoint-up(md) {
+            max-width: 100%;
+          }
+    &:hover{
+      @include media-breakpoint-up(sm) {
+            -webkit-box-shadow:8px 8px 8px rgba(0,0,0,0.5);
+                    box-shadow:8px 8px 8px rgba(0,0,0,0.5);
+        -webkit-transform: scale(1.1,1.1);
+            -ms-transform: scale(1.1,1.1);
+                transform: scale(1.1,1.1);
+          }
+      }
+	}
+// }
+.mail-text{
+	margin-top: 15px;
 }
 .img-fluid{
 	// display: block;
@@ -132,7 +185,10 @@
   // width: 50%;
 }
 .contributions{
-	padding: 0 10%;
+	padding: 0 !important;
+	 @include media-breakpoint-up(sm) {
+            padding: 0 10% !important;
+          }
 }
 .contributions-sub-text{
 	padding: 20px 10% 20px 10%;

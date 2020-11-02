@@ -22011,7 +22011,7 @@ footer ul {
       border-radius: 10px; } }
   .carousel img {
     display: block;
-    margin: 10px auto;
+    margin: 20px auto 10px auto;
     border: 2px solid black;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); }
   .carousel .carousel-control-next, .carousel .carousel-control-prev {
@@ -22223,12 +22223,12 @@ html {
 
 .card {
   margin: 3% !important;
-  width: 96% !important; }
+  width: 94% !important;
+  border: 1px solid rgba(0, 0, 0, 0); }
   @media (min-width: 576px) {
     .card {
       margin: 5% !important;
-      width: 90% !important;
-      box-shadow: 5px 5px 5px rbga(0, 0, 0, 0.7) !important; } }
+      width: 90% !important; } }
 
 .review {
   font-size: 1em;
@@ -29990,9 +29990,14 @@ footer ul {
   background-color: #F4F4F8;
   padding: 60px 30px 40px 30px; }
 
+.modal .close-icon {
+  height: 30px; }
+.modal .modal-footer button, .modal .modal-header button {
+  cursor: pointer; }
+
 .pic-card {
   margin: 2% !important;
-  max-width: 94% !important;
+  max-width: 96% !important;
   content-box: border-box !important;
   box-shadow: 5px 5px 5px rbga(0, 0, 0, 0.7) !important;
   border-radius: 10px !important;
@@ -30043,7 +30048,7 @@ footer ul {
   @media (min-width: 576px) {
     .carousel .carousel-control-next-icon, .carousel-item .carousel-control-next-icon, .carousel-inner .carousel-control-next-icon {
       left: 40px; } }
-  .carousel img, .carousel-item img, .carousel-inner img {
+  .carousel .fan-img, .carousel-item .fan-img, .carousel-inner .fan-img {
     object-fit: cover !important;
     max-height: 350px;
     max-width: 100%;
@@ -30061,8 +30066,38 @@ footer ul {
 .carousel-item {
   margin: 0 !important; }
 
+.email-link {
+  padding: 10px;
+  max-width: 100%;
+  background-color: #fff;
+  border-radius: 5px;
+  -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  transform: scale(1, 1);
+  -webkit-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out; }
+  @media (min-width: 768px) {
+    .email-link {
+      max-width: 100%; } }
+  @media (min-width: 576px) {
+    .email-link:hover {
+      -webkit-box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+      box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+      -webkit-transform: scale(1.1, 1.1);
+      -ms-transform: scale(1.1, 1.1);
+      transform: scale(1.1, 1.1); } }
+
+.mail-text {
+  margin-top: 15px; }
+
 .contributions {
-  padding: 0 10%; }
+  padding: 0 !important; }
+  @media (min-width: 576px) {
+    .contributions {
+      padding: 0 10% !important; } }
 
 .contributions-sub-text {
   padding: 20px 10% 20px 10%; }
