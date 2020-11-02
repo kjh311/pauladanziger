@@ -22011,7 +22011,7 @@ footer ul {
       border-radius: 10px; } }
   .carousel img {
     display: block;
-    margin: 20px auto;
+    margin: 10px auto;
     border: 2px solid black;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); }
   .carousel .carousel-control-next, .carousel .carousel-control-prev {
@@ -30031,21 +30031,29 @@ footer ul {
       -ms-transform: scale(1.05, 1.05);
       transform: scale(1.05, 1.05); } }
 
-.modal-body {
-  height: 70vh; }
-
 .carousel, .carousel-item, .carousel-inner {
   max-width: 100%;
-  padding: 0 !important;
-  object-fit: cover !important;
-  height: 70vh; }
+  padding: 0 0 20px 0 !important;
+  object-fit: cover !important; }
+  .carousel .carousel-control-prev-icon, .carousel .carousel-control-next-icon, .carousel-item .carousel-control-prev-icon, .carousel-item .carousel-control-next-icon, .carousel-inner .carousel-control-prev-icon, .carousel-inner .carousel-control-next-icon {
+    position: relative; }
+  @media (min-width: 576px) {
+    .carousel .carousel-control-prev-icon, .carousel-item .carousel-control-prev-icon, .carousel-inner .carousel-control-prev-icon {
+      right: 40px; } }
+  @media (min-width: 576px) {
+    .carousel .carousel-control-next-icon, .carousel-item .carousel-control-next-icon, .carousel-inner .carousel-control-next-icon {
+      left: 40px; } }
   .carousel img, .carousel-item img, .carousel-inner img {
     object-fit: cover !important;
-    max-height: 50vh;
+    max-height: 350px;
     max-width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto; }
+  .carousel h3, .carousel p, .carousel-item h3, .carousel-item p, .carousel-inner h3, .carousel-inner p {
+    padding: 0px !important;
+    margin: 0 !important;
+    color: white; }
 
 .carousel-inner {
   padding: 0 !important; }

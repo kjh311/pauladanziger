@@ -15,6 +15,12 @@
 .carousel-inner{
 	
 }
+.modal{
+	// max-height: 95vh;
+	.modal-dialog, .modal-content{
+		// max-height: 100%;
+	}
+}
 .pic-card{
 	margin: 2% !important;
 	max-width: 94% !important;
@@ -61,29 +67,54 @@
       }
 }
 .modal-body{
-	height: 70vh;
+	// height: 70vh;
 	img{
 		// max-height: 100%;
 	}
 }
+
 .carousel, .carousel-item, .carousel-inner{
 	// max-height: 100%;
 	max-width: 100%;
-	padding: 0 !important;
+	padding: 0 0 20px 0 !important;
 	object-fit: cover !important;
 	// width: 
 	// height: 70vh;
 	// max-width: 100%;
+	.carousel-control-prev-icon, .carousel-control-next-icon{
+		position: relative;
+	}
+	.carousel-control-prev-icon{
+		@include media-breakpoint-up(sm) {
+           right: 40px;
+          }
+	}
+	.carousel-control-next-icon{
+		@include media-breakpoint-up(sm) {
+           left: 40px;
+          }
+	}
 	img{
 		object-fit: cover !important;
-		max-height: 50vh;
+		max-height: 350px;
 	max-width: 100%;
 	display: block;
     margin-left: auto;
     margin-right: auto
 		// max-height: 70%;
 		// width: 100%;
+
 	}
+	h3, p{
+		padding: 0px !important;
+		margin: 0 !important;
+		color: white;
+			//  position: absolute;
+			//   top: 50%;
+			//   left: 50%;
+			//   // transform: translate(-50%, -50%);
+			// top: 320px;
+		}
 }
 .carousel-inner{
 	padding: 0 !important;
