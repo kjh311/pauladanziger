@@ -25,7 +25,7 @@ footer{
 .kevin-link{
 	color: white;
 	transition: all 0.3s !important;
-	text-decoration: underline ;
+	text-decoration: none;
 }
 
 
@@ -45,12 +45,12 @@ footer{
 }
 .kevin-link:hover{
 	// color: $red;
-	color: $dark-navbar;
+	color: white;
 	 // -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
   // -webkit-mask-size: 200%;
   // animation: shine 2s infinite;
 	transition: all 0.3s !important;
-	// text-decoration: none;
+	text-decoration: none;
 }
 footer ul{
 	list-style-type: none;

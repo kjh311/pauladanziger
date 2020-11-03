@@ -1,48 +1,79 @@
+// FONTS
 $swashed: 'Sansita Swashed', cursive;
 $chilanka: 'Chilanka', cursive;
 $bebas:  'Bebas Neue', cursive;
 $kanit:  'Kanit', sans-serif;
 $penny: 'Henny Penny', cursive;;
 
-$bg: #0BAAD4;
-$text: rgba(255,255,255,.7);
-$hover: darken($bg, 10%);
 
-// COLOR PALLETE 1
+
+// COLORS
 $red: #FE4A49;
 $yellow: #FED766;
-
-// $dark-blue:  #1d7b8e;
-// $light-blue:  #34A2B8;
 $dark-grey: #c2c3c4;
 $medium-grey: #E9ECEF;
 $light-grey: #F4F4F8;
-// $dark-green: #116877;
-// $light-green: #9CF76E;
-$green-sheen: #87BAAB;
 $light-red: #F66E6E;
-// $light-purple: #7E5F7E;
+$clear: rgba(0,0,0,0);
+$bg: #0BAAD4;
+$text: rgba(255,255,255,.7);
+$hover: darken($bg, 10%);
+$light-green: #80FFDB;
 
-// color pallete 2
+// color pallete 1
 $purchase: #298838;
 $purchase-dark: #127521;
 $read-more: #0b9fc4;
 $read-more-dark: #18718e;
 $carousel: #636363;
 $navbar: #009FB7;
-$purple: #7400B8;
-$light-purple: #7400B8;
-// $blue-purple: #5E60CE;
 $dark-navbar: #187487;
-// $blue: #4EA8DE;
 $light-navbar: #56c7dd;
-$card: #168393;
-$dark-green: #64DFDF;
-$green: #72EFDD;
-$light-green: #80FFDB;
-$clear: rgba(0,0,0,0);
+$card: #8c8c8c;
 $title-text: #333333;
 $jumbotron: #F4F4F8;
+$link: #1956B7;
+
+
+// COLOR PALLETE 2
+// $purchase: #DB00B6;
+// $purchase-dark: #BC00DD;
+// $read-more: #BC00DD;
+// $read-more-dark: #A100F2;
+// $carousel: #636363;
+// $dark-navbar: #2D00F7;
+// $navbar: #6A00F4;
+// $light-navbar: #8900F2;
+// $card: #8c8c8c;
+// $title-text: #333333;
+// $jumbotron: #F4F4F8;
+
+// COLOR PALLETE 3
+// $purchase: #7209B7;
+// $purchase-dark: #BC00DD;
+// $read-more: #F72585;
+// $read-more-dark: #A100F2;
+// $carousel: #636363;
+// $dark-navbar: #3A0CA3;
+// $navbar: #4361EE;
+// $light-navbar: #4CC9F0;
+// $card: #8c8c8c;
+// $title-text: #333333;
+// $jumbotron: #F4F4F8;
+
+// color pallete 4
+// $purchase: #F15BB5;
+// $purchase-dark: #c44290;
+// $read-more: #00F5D4;
+// $read-more-dark: #00af95;
+// $carousel: #636363;
+// $navbar: #00BBF9;
+// $dark-navbar: #026482;
+// $light-navbar: #53d4fc;
+// $card: #8c8c8c;
+// $title-text: #333333;
+// $jumbotron: #F4F4F8;
+
 
 
 

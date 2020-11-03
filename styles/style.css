@@ -6369,7 +6369,7 @@ a.text-dark:focus, a.text-dark:hover {
 * Autoprefixer: v9.7.6
 * Browsers: last 4 version
 */
-.learn-more-btn {
+.purchase-button, .read-more-button, #dropdownMenuButton, .send-btn, .learn-more-btn {
   -webkit-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
   transform: scale(1, 1);
@@ -6379,7 +6379,7 @@ a.text-dark:focus, a.text-dark:hover {
   -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5); }
   @media (min-width: 576px) {
-    .learn-more-btn:hover {
+    .purchase-button:hover, .read-more-button:hover, #dropdownMenuButton:hover, .send-btn:hover, .learn-more-btn:hover {
       -webkit-box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       -webkit-transform: scale(1.1, 1.1);
@@ -6614,7 +6614,7 @@ body {
       margin: 0 auto;
       max-height: 70vh; }
 
-.learn-more-btn {
+.purchase-button, .read-more-button, #dropdownMenuButton, .send-btn, .learn-more-btn {
   -webkit-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
   transform: scale(1, 1);
@@ -6624,7 +6624,7 @@ body {
   -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5); }
   @media (min-width: 576px) {
-    .learn-more-btn:hover {
+    .purchase-button:hover, .read-more-button:hover, #dropdownMenuButton:hover, .send-btn:hover, .learn-more-btn:hover {
       -webkit-box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       -webkit-transform: scale(1.1, 1.1);
@@ -6634,7 +6634,7 @@ body {
 .title-jumbo {
   background-color: #F4F4F8; }
 
-.learn-more-btn {
+.purchase-button, .read-more-button, #dropdownMenuButton, .send-btn, .learn-more-btn {
   -webkit-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
   transform: scale(1, 1);
@@ -6644,7 +6644,7 @@ body {
   -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5); }
   @media (min-width: 576px) {
-    .learn-more-btn:hover {
+    .purchase-button:hover, .read-more-button:hover, #dropdownMenuButton:hover, .send-btn:hover, .learn-more-btn:hover {
       -webkit-box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       -webkit-transform: scale(1.1, 1.1);
@@ -6664,7 +6664,7 @@ body {
  * Hover.css Copyright Ian Lunn 2017. Generated with Sass.
  */
 /* 2D TRANSITIONS */
-.learn-more-btn {
+.purchase-button, .read-more-button, #dropdownMenuButton, .send-btn, .learn-more-btn {
   -webkit-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
   transform: scale(1, 1);
@@ -6674,7 +6674,7 @@ body {
   -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5); }
   @media (min-width: 576px) {
-    .learn-more-btn:hover {
+    .purchase-button:hover, .read-more-button:hover, #dropdownMenuButton:hover, .send-btn:hover, .learn-more-btn:hover {
       -webkit-box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       -webkit-transform: scale(1.1, 1.1);
@@ -10583,7 +10583,7 @@ body {
   .effect-1:hover:before {
     transform: scaleX(1); }
 
-.learn-more-btn {
+.purchase-button, .read-more-button, #dropdownMenuButton, .send-btn, .learn-more-btn {
   -webkit-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
   transform: scale(1, 1);
@@ -10593,7 +10593,7 @@ body {
   -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5); }
   @media (min-width: 576px) {
-    .learn-more-btn:hover {
+    .purchase-button:hover, .read-more-button:hover, #dropdownMenuButton:hover, .send-btn:hover, .learn-more-btn:hover {
       -webkit-box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       -webkit-transform: scale(1.1, 1.1);
@@ -10618,7 +10618,7 @@ footer {
 .kevin-link {
   color: white;
   transition: all 0.3s !important;
-  text-decoration: underline; }
+  text-decoration: none; }
 
 @-webkit-keyframes shine {
   from {
@@ -10626,8 +10626,9 @@ footer {
   to {
     -webkit-mask-position: -50%; } }
 .kevin-link:hover {
-  color: #187487;
-  transition: all 0.3s !important; }
+  color: white;
+  transition: all 0.3s !important;
+  text-decoration: none; }
 
 footer ul {
   list-style-type: none;
@@ -10670,7 +10671,7 @@ footer ul {
  * Hover.css Copyright Ian Lunn 2017. Generated with Sass.
  */
 /* 2D TRANSITIONS */
-.learn-more-btn {
+.purchase-button, .read-more-button, #dropdownMenuButton, .send-btn, .learn-more-btn {
   -webkit-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
   transform: scale(1, 1);
@@ -10680,7 +10681,7 @@ footer ul {
   -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5); }
   @media (min-width: 576px) {
-    .learn-more-btn:hover {
+    .purchase-button:hover, .read-more-button:hover, #dropdownMenuButton:hover, .send-btn:hover, .learn-more-btn:hover {
       -webkit-box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       -webkit-transform: scale(1.1, 1.1);
@@ -14443,7 +14444,7 @@ footer ul {
   text-align: center;
   margin: 0px 20% 0px 20%; }
 
-.learn-more-btn {
+.purchase-button, .read-more-button, #dropdownMenuButton, .send-btn, .learn-more-btn {
   -webkit-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
   transform: scale(1, 1);
@@ -14453,7 +14454,7 @@ footer ul {
   -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5); }
   @media (min-width: 576px) {
-    .learn-more-btn:hover {
+    .purchase-button:hover, .read-more-button:hover, #dropdownMenuButton:hover, .send-btn:hover, .learn-more-btn:hover {
       -webkit-box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       -webkit-transform: scale(1.1, 1.1);
@@ -14463,7 +14464,7 @@ footer ul {
 .title-jumbo {
   background-color: #F4F4F8; }
 
-.learn-more-btn {
+.purchase-button, .read-more-button, #dropdownMenuButton, .send-btn, .learn-more-btn {
   -webkit-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
   transform: scale(1, 1);
@@ -14473,7 +14474,7 @@ footer ul {
   -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5); }
   @media (min-width: 576px) {
-    .learn-more-btn:hover {
+    .purchase-button:hover, .read-more-button:hover, #dropdownMenuButton:hover, .send-btn:hover, .learn-more-btn:hover {
       -webkit-box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       -webkit-transform: scale(1.1, 1.1);
@@ -14493,7 +14494,7 @@ footer ul {
  * Hover.css Copyright Ian Lunn 2017. Generated with Sass.
  */
 /* 2D TRANSITIONS */
-.learn-more-btn {
+.purchase-button, .read-more-button, #dropdownMenuButton, .send-btn, .learn-more-btn {
   -webkit-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
   transform: scale(1, 1);
@@ -14503,7 +14504,7 @@ footer ul {
   -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5); }
   @media (min-width: 576px) {
-    .learn-more-btn:hover {
+    .purchase-button:hover, .read-more-button:hover, #dropdownMenuButton:hover, .send-btn:hover, .learn-more-btn:hover {
       -webkit-box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       -webkit-transform: scale(1.1, 1.1);
@@ -18412,7 +18413,7 @@ footer ul {
   .effect-1:hover:before {
     transform: scaleX(1); }
 
-.learn-more-btn {
+.purchase-button, .read-more-button, #dropdownMenuButton, .send-btn, .learn-more-btn {
   -webkit-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
   transform: scale(1, 1);
@@ -18422,7 +18423,7 @@ footer ul {
   -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5); }
   @media (min-width: 576px) {
-    .learn-more-btn:hover {
+    .purchase-button:hover, .read-more-button:hover, #dropdownMenuButton:hover, .send-btn:hover, .learn-more-btn:hover {
       -webkit-box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       -webkit-transform: scale(1.1, 1.1);
@@ -18447,7 +18448,7 @@ footer {
 .kevin-link {
   color: white;
   transition: all 0.3s !important;
-  text-decoration: underline; }
+  text-decoration: none; }
 
 @-webkit-keyframes shine {
   from {
@@ -18455,8 +18456,9 @@ footer {
   to {
     -webkit-mask-position: -50%; } }
 .kevin-link:hover {
-  color: #187487;
-  transition: all 0.3s !important; }
+  color: white;
+  transition: all 0.3s !important;
+  text-decoration: none; }
 
 footer ul {
   list-style-type: none;
@@ -18499,7 +18501,7 @@ footer ul {
  * Hover.css Copyright Ian Lunn 2017. Generated with Sass.
  */
 /* 2D TRANSITIONS */
-.learn-more-btn {
+.purchase-button, .read-more-button, #dropdownMenuButton, .send-btn, .learn-more-btn {
   -webkit-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
   transform: scale(1, 1);
@@ -18509,7 +18511,7 @@ footer ul {
   -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5); }
   @media (min-width: 576px) {
-    .learn-more-btn:hover {
+    .purchase-button:hover, .read-more-button:hover, #dropdownMenuButton:hover, .send-btn:hover, .learn-more-btn:hover {
       -webkit-box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       -webkit-transform: scale(1.1, 1.1);
@@ -22384,7 +22386,8 @@ html {
 .book-container {
   padding: 50px 0 50px 0; }
   .book-container a:link {
-    text-decoration: none; }
+    text-decoration: none;
+    color: #1956B7; }
   .book-container a:visited {
     text-decoration: none; }
   .book-container a:hover {
@@ -22499,11 +22502,7 @@ html {
   padding-top: 10px;
   color: white;
   text-decoration: none !important;
-  margin: 0px 20% 0px 20%;
-  -webkit-box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.4);
-  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.4);
-  transform: scale(1, 1);
-  transition: 0.3s; }
+  margin: 0px 20% 0px 20%; }
   @media (min-width: 768px) {
     .purchase-button, .read-more-button, #dropdownMenuButton {
       margin: 0px 20% 0px 20%; } }
@@ -22518,12 +22517,6 @@ html {
 
 .purchase-button:hover, .read-more-button:hover, #dropdownMenuButton:hover {
   text-decoration: none !important; }
-  @media (min-width: 576px) {
-    .purchase-button:hover, .read-more-button:hover, #dropdownMenuButton:hover {
-      -webkit-box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.4);
-      box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.4);
-      transform: scale(1.1, 1.1);
-      transition: 0.3s; } }
 
 hr {
   padding: 0 15% 0 15%; }
@@ -22562,7 +22555,7 @@ hr {
     .title-text {
       margin-top: 0; } }
 
-.learn-more-btn {
+.purchase-button, .read-more-button, #dropdownMenuButton, .send-btn, .learn-more-btn {
   -webkit-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
   transform: scale(1, 1);
@@ -22572,7 +22565,7 @@ hr {
   -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5); }
   @media (min-width: 576px) {
-    .learn-more-btn:hover {
+    .purchase-button:hover, .read-more-button:hover, #dropdownMenuButton:hover, .send-btn:hover, .learn-more-btn:hover {
       -webkit-box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       -webkit-transform: scale(1.1, 1.1);
@@ -22582,7 +22575,7 @@ hr {
 .title-jumbo {
   background-color: #F4F4F8; }
 
-.learn-more-btn {
+.purchase-button, .read-more-button, #dropdownMenuButton, .send-btn, .learn-more-btn {
   -webkit-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
   transform: scale(1, 1);
@@ -22592,7 +22585,7 @@ hr {
   -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5); }
   @media (min-width: 576px) {
-    .learn-more-btn:hover {
+    .purchase-button:hover, .read-more-button:hover, #dropdownMenuButton:hover, .send-btn:hover, .learn-more-btn:hover {
       -webkit-box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       -webkit-transform: scale(1.1, 1.1);
@@ -22612,7 +22605,7 @@ hr {
  * Hover.css Copyright Ian Lunn 2017. Generated with Sass.
  */
 /* 2D TRANSITIONS */
-.learn-more-btn {
+.purchase-button, .read-more-button, #dropdownMenuButton, .send-btn, .learn-more-btn {
   -webkit-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
   transform: scale(1, 1);
@@ -22622,7 +22615,7 @@ hr {
   -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5); }
   @media (min-width: 576px) {
-    .learn-more-btn:hover {
+    .purchase-button:hover, .read-more-button:hover, #dropdownMenuButton:hover, .send-btn:hover, .learn-more-btn:hover {
       -webkit-box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       -webkit-transform: scale(1.1, 1.1);
@@ -26531,7 +26524,7 @@ hr {
   .effect-1:hover:before {
     transform: scaleX(1); }
 
-.learn-more-btn {
+.purchase-button, .read-more-button, #dropdownMenuButton, .send-btn, .learn-more-btn {
   -webkit-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
   transform: scale(1, 1);
@@ -26541,7 +26534,7 @@ hr {
   -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5); }
   @media (min-width: 576px) {
-    .learn-more-btn:hover {
+    .purchase-button:hover, .read-more-button:hover, #dropdownMenuButton:hover, .send-btn:hover, .learn-more-btn:hover {
       -webkit-box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       -webkit-transform: scale(1.1, 1.1);
@@ -26566,7 +26559,7 @@ footer {
 .kevin-link {
   color: white;
   transition: all 0.3s !important;
-  text-decoration: underline; }
+  text-decoration: none; }
 
 @-webkit-keyframes shine {
   from {
@@ -26574,8 +26567,9 @@ footer {
   to {
     -webkit-mask-position: -50%; } }
 .kevin-link:hover {
-  color: #187487;
-  transition: all 0.3s !important; }
+  color: white;
+  transition: all 0.3s !important;
+  text-decoration: none; }
 
 footer ul {
   list-style-type: none;
@@ -26618,7 +26612,7 @@ footer ul {
  * Hover.css Copyright Ian Lunn 2017. Generated with Sass.
  */
 /* 2D TRANSITIONS */
-.learn-more-btn {
+.purchase-button, .read-more-button, #dropdownMenuButton, .send-btn, .learn-more-btn {
   -webkit-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
   transform: scale(1, 1);
@@ -26628,7 +26622,7 @@ footer ul {
   -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5); }
   @media (min-width: 576px) {
-    .learn-more-btn:hover {
+    .purchase-button:hover, .read-more-button:hover, #dropdownMenuButton:hover, .send-btn:hover, .learn-more-btn:hover {
       -webkit-box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       -webkit-transform: scale(1.1, 1.1);
@@ -30492,7 +30486,7 @@ footer ul {
   font-size: 1.3em;
   padding: 10px 50px 10px 50px; }
 
-.learn-more-btn {
+.purchase-button, .read-more-button, #dropdownMenuButton, .send-btn, .learn-more-btn {
   -webkit-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
   transform: scale(1, 1);
@@ -30502,7 +30496,7 @@ footer ul {
   -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5); }
   @media (min-width: 576px) {
-    .learn-more-btn:hover {
+    .purchase-button:hover, .read-more-button:hover, #dropdownMenuButton:hover, .send-btn:hover, .learn-more-btn:hover {
       -webkit-box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       -webkit-transform: scale(1.1, 1.1);
@@ -30512,7 +30506,7 @@ footer ul {
 .title-jumbo {
   background-color: #F4F4F8; }
 
-.learn-more-btn {
+.purchase-button, .read-more-button, #dropdownMenuButton, .send-btn, .learn-more-btn {
   -webkit-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
   transform: scale(1, 1);
@@ -30522,7 +30516,7 @@ footer ul {
   -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5); }
   @media (min-width: 576px) {
-    .learn-more-btn:hover {
+    .purchase-button:hover, .read-more-button:hover, #dropdownMenuButton:hover, .send-btn:hover, .learn-more-btn:hover {
       -webkit-box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       -webkit-transform: scale(1.1, 1.1);
@@ -30542,7 +30536,7 @@ footer ul {
  * Hover.css Copyright Ian Lunn 2017. Generated with Sass.
  */
 /* 2D TRANSITIONS */
-.learn-more-btn {
+.purchase-button, .read-more-button, #dropdownMenuButton, .send-btn, .learn-more-btn {
   -webkit-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
   transform: scale(1, 1);
@@ -30552,7 +30546,7 @@ footer ul {
   -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5); }
   @media (min-width: 576px) {
-    .learn-more-btn:hover {
+    .purchase-button:hover, .read-more-button:hover, #dropdownMenuButton:hover, .send-btn:hover, .learn-more-btn:hover {
       -webkit-box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       -webkit-transform: scale(1.1, 1.1);
@@ -34461,7 +34455,7 @@ footer ul {
   .effect-1:hover:before {
     transform: scaleX(1); }
 
-.learn-more-btn {
+.purchase-button, .read-more-button, #dropdownMenuButton, .send-btn, .learn-more-btn {
   -webkit-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
   transform: scale(1, 1);
@@ -34471,7 +34465,7 @@ footer ul {
   -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5); }
   @media (min-width: 576px) {
-    .learn-more-btn:hover {
+    .purchase-button:hover, .read-more-button:hover, #dropdownMenuButton:hover, .send-btn:hover, .learn-more-btn:hover {
       -webkit-box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       -webkit-transform: scale(1.1, 1.1);
@@ -34496,7 +34490,7 @@ footer {
 .kevin-link {
   color: white;
   transition: all 0.3s !important;
-  text-decoration: underline; }
+  text-decoration: none; }
 
 @-webkit-keyframes shine {
   from {
@@ -34504,8 +34498,9 @@ footer {
   to {
     -webkit-mask-position: -50%; } }
 .kevin-link:hover {
-  color: #187487;
-  transition: all 0.3s !important; }
+  color: white;
+  transition: all 0.3s !important;
+  text-decoration: none; }
 
 footer ul {
   list-style-type: none;
@@ -34548,7 +34543,7 @@ footer ul {
  * Hover.css Copyright Ian Lunn 2017. Generated with Sass.
  */
 /* 2D TRANSITIONS */
-.learn-more-btn {
+.purchase-button, .read-more-button, #dropdownMenuButton, .send-btn, .learn-more-btn {
   -webkit-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
   transform: scale(1, 1);
@@ -34558,7 +34553,7 @@ footer ul {
   -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5); }
   @media (min-width: 576px) {
-    .learn-more-btn:hover {
+    .purchase-button:hover, .read-more-button:hover, #dropdownMenuButton:hover, .send-btn:hover, .learn-more-btn:hover {
       -webkit-box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       -webkit-transform: scale(1.1, 1.1);
@@ -38287,7 +38282,7 @@ body {
   font-family: "Henny Penny", cursive !important; }
 
 .contact-form {
-  background-color: #168393;
+  background-color: #8c8c8c;
   -webkit-box-shadow: 15px 15px 8px rgba(0, 0, 0, 0.4);
   box-shadow: 15px 15px 8px rgba(0, 0, 0, 0.4);
   color: white; }
@@ -38323,17 +38318,8 @@ input, textarea {
 .send-btn {
   cursor: pointer;
   background-color: #0b9fc4;
-  -webkit-box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4);
-  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4);
-  transform: scale(1, 1);
-  transition: 0.3s; }
-
-.send-btn:hover {
-  background-color: #18718e;
-  -webkit-box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.4);
-  box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.4);
-  transform: scale(1.1, 1.1);
-  transition: 0.3s; }
+  padding-top: 12px;
+  color: white; }
 
 .name-input {
   text-transform: capitalize; }
@@ -38353,7 +38339,7 @@ input:invalid, textarea:invalid {
 input:focus, textarea:focus {
   outline: none !important; }
 
-.learn-more-btn {
+.purchase-button, .read-more-button, #dropdownMenuButton, .send-btn, .learn-more-btn {
   -webkit-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
   transform: scale(1, 1);
@@ -38363,7 +38349,7 @@ input:focus, textarea:focus {
   -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5); }
   @media (min-width: 576px) {
-    .learn-more-btn:hover {
+    .purchase-button:hover, .read-more-button:hover, #dropdownMenuButton:hover, .send-btn:hover, .learn-more-btn:hover {
       -webkit-box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       -webkit-transform: scale(1.1, 1.1);
@@ -38383,7 +38369,7 @@ input:focus, textarea:focus {
  * Hover.css Copyright Ian Lunn 2017. Generated with Sass.
  */
 /* 2D TRANSITIONS */
-.learn-more-btn {
+.purchase-button, .read-more-button, #dropdownMenuButton, .send-btn, .learn-more-btn {
   -webkit-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
   transform: scale(1, 1);
@@ -38393,7 +38379,7 @@ input:focus, textarea:focus {
   -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5); }
   @media (min-width: 576px) {
-    .learn-more-btn:hover {
+    .purchase-button:hover, .read-more-button:hover, #dropdownMenuButton:hover, .send-btn:hover, .learn-more-btn:hover {
       -webkit-box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       -webkit-transform: scale(1.1, 1.1);
@@ -42302,7 +42288,7 @@ input:focus, textarea:focus {
   .effect-1:hover:before {
     transform: scaleX(1); }
 
-.learn-more-btn {
+.purchase-button, .read-more-button, #dropdownMenuButton, .send-btn, .learn-more-btn {
   -webkit-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
   transform: scale(1, 1);
@@ -42312,7 +42298,7 @@ input:focus, textarea:focus {
   -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5); }
   @media (min-width: 576px) {
-    .learn-more-btn:hover {
+    .purchase-button:hover, .read-more-button:hover, #dropdownMenuButton:hover, .send-btn:hover, .learn-more-btn:hover {
       -webkit-box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       -webkit-transform: scale(1.1, 1.1);
@@ -42323,10 +42309,15 @@ input:focus, textarea:focus {
   background-color: #F4F4F8; }
 
 .learn-more-btn {
-  margin-top: 5px;
-  background-color: #0b9fc4; }
+  background-color: #0b9fc4;
+  padding-top: 12px;
+  margin-top: 20px; }
   .learn-more-btn:hover {
     background-color: #18718e; }
+
+.learn-more-text {
+  margin-top: 20px;
+  font-size: 1.2em; }
 
 body {
   font-size: 16px;
@@ -42344,12 +42335,20 @@ body {
 
 .lead {
   font-size: 1.3em;
-  padding: 30px;
+  padding: 0 10px;
   margin-bottom: 0;
   text-align: justify;
-  line-height: 30px; }
+  line-height: 30px;
+  top: 30px;
+  position: relative; }
+  @media (min-width: 576px) {
+    .lead {
+      top: 0px;
+      padding: 30px; } }
 
 hr {
+  position: relative;
+  top: 20px;
   border: 1px solid #fff; }
 
 .user-image, .teddy {
@@ -42368,6 +42367,6 @@ hr {
 
 .intro-text {
   padding-bottom: 50px !important;
-  background-color: #168393; }
+  background-color: #8c8c8c; }
 
 /*# sourceMappingURL=style.css.map */

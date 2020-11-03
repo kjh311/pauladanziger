@@ -11,13 +11,18 @@
 
 .learn-more-btn{
 	@extend %hover-grow;
-	margin-top: 5px;
+	// margin-top: 5px;
 	background-color: $read-more;
+	padding-top: 12px;
+	margin-top: 20px;
 	&:hover{
 		background-color: $read-more-dark;
 	}
 }
-
+.learn-more-text{
+	margin-top: 20px;
+	font-size: 1.2em;
+}
 body{ 
 font-size: 16px;
 // overflow-x: hidden !important;
@@ -38,14 +43,17 @@ div{
 }
 .lead{
 	font-size: 1.3em;
-	padding: 30px;
-
+	padding: 0 10px;
+	// margin-top: 30px;
 	margin-bottom: 0;
 	text-align: justify;
 	line-height: 30px;
+	top: 30px;
+	position: relative;
 	// display: inline;
 	@include media-breakpoint-up(sm) {
-		// margin: 40px;
+		top: 0px;
+		padding: 30px;
   		// font-size: 1.5em;
   		// padding: 15px 40px 0 40px;
 	}
@@ -54,7 +62,11 @@ figure{
 
 }
 hr{
+	// display: block !important;
+	position: relative;
+	top: 20px;
 	border: 1px solid #fff;
+	// margin: 20px 0;
 }
 .user-image, .teddy{
 	width: 100%;

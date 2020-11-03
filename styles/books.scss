@@ -97,7 +97,10 @@ body{
 }
 .book-container{
 	padding: 50px 0 50px 0;
-	a:link {  text-decoration: none; }
+	a:link {  
+		text-decoration: none;
+		color: $link;
+		 }
 a:visited {  text-decoration: none; }
 a:hover {  text-decoration: none; }
 a:active {  text-decoration: none; }
@@ -246,10 +249,7 @@ a:active {  text-decoration: none; }
 	color: white;
 	text-decoration: none !important;
 	margin: 0px 20% 0px 20%;
-	-webkit-box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.4);
-  		 box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.4);
-  		 transform: scale(1,1);
-  		 transition: 0.3s;
+	@extend %hover-grow;
 
 	@include media-breakpoint-up(md) {
   		margin: 0px 20% 0px 20%;
@@ -266,13 +266,13 @@ a:active {  text-decoration: none; }
 }
 .purchase-button:hover, .read-more-button:hover, #dropdownMenuButton:hover{
 text-decoration: none !important;
-	@include media-breakpoint-up(sm) {
-  		-webkit-box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.4);
-  		 box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.4);
-  		 transform: scale(1.1,1.1);
-  		 transition: 0.3s;
+	// @include media-breakpoint-up(sm) {
+ //  		-webkit-box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.4);
+ //  		 box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.4);
+ //  		 transform: scale(1.1,1.1);
+ //  		 transition: 0.3s;
 
-	}
+	// }
 }
 
 
