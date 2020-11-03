@@ -9,7 +9,14 @@
 @import "variables";
 
 
-
+.learn-more-btn{
+	@extend %hover-grow;
+	margin-top: 5px;
+	background-color: $read-more;
+	&:hover{
+		background-color: $read-more-dark;
+	}
+}
 
 body{ 
 font-size: 16px;
@@ -71,6 +78,7 @@ hr{
 }
 .intro-text{
 	padding-bottom: 50px !important;
+	background-color: $card;
 }
 // .user-image{
 // 	float: left;

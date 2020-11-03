@@ -47,7 +47,7 @@ width: 60vw;
 }
 .dropdown-collapsed p:hover, .sub-menu-heading:hover{
 	background-color: $medium-grey;
-	border: 2px solid $blue;
+	border: 2px solid $navbar;
 	transition: 0.3s;
 
 	// width: 95vw;
@@ -64,8 +64,8 @@ width: 60vw;
 	top: 0;
 	width: 100vw;
 	z-index: 1000;
-	background-color: $blue;
-	border-bottom: 1px solid $dark-green;
+	background-color: $navbar;
+	border-bottom: 1px solid $dark-navbar;
 	// max-height: 60px;
 	padding: 10px 20px 10px 20px;
 	-webkit-box-shadow: 2px 2px 3px rgba(0, 0, 0, .3);
@@ -79,7 +79,7 @@ width: 60vw;
 	transition: all 0.2s;
 }
 .navbar-toggler:hover{
-	border: 2px solid $dark-green;
+	border: 2px solid $light-navbar;
 	transition: all 0.2s;
 }
 .mega-menu{
@@ -90,7 +90,7 @@ width: 60vw;
 	height: 300px;
 	max-height: 40vh;
 	width: 90vw;
-	border: 2px solid $blue;
+	border: 2px solid $navbar;
 	-webkit-box-shadow: 15px 15px 8px rgba(0, 0, 0, 0.4);
   		 box-shadow: 15px 15px 8px rgba(0, 0, 0, 0.4);
 @include media-breakpoint-up(sm) {
@@ -136,10 +136,10 @@ width: 60vw;
 }
 .mega-menu a{
 	text-decoration: none; 
-	color: cadetblue;
+	color: $dark-navbar;
 }
 .mega-menu .sub-menu-heading{ 
-	color: darkcyan;
+	color: $dark-navbar;
 }
 
 .navbar-brand{
@@ -157,7 +157,7 @@ width: 60vw;
 	}
 }
 .nav-link:hover{
-	background-color: $dark-green;
+	background-color: $dark-navbar;
 	transition: all 0.2s;
 	color: #fff !important;
 }

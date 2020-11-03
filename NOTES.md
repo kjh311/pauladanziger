@@ -20,3 +20,5 @@ amazon affiliate links
 pages for series
 lightbox
 apple tv on amber brown page
+icons on every page
+meta data

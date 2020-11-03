@@ -6369,6 +6369,26 @@ a.text-dark:focus, a.text-dark:hover {
 * Autoprefixer: v9.7.6
 * Browsers: last 4 version
 */
+.learn-more-btn {
+  -webkit-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  transform: scale(1, 1);
+  -webkit-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+  -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5); }
+  @media (min-width: 576px) {
+    .learn-more-btn:hover {
+      -webkit-box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+      box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+      -webkit-transform: scale(1.1, 1.1);
+      -ms-transform: scale(1.1, 1.1);
+      transform: scale(1.1, 1.1); } }
+
+.title-jumbo {
+  background-color: #F4F4F8; }
+
 body {
   margin: 1em 0 0 0;
   font-family: "Bebas Neue", cursive;
@@ -6594,6 +6614,46 @@ body {
       margin: 0 auto;
       max-height: 70vh; }
 
+.learn-more-btn {
+  -webkit-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  transform: scale(1, 1);
+  -webkit-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+  -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5); }
+  @media (min-width: 576px) {
+    .learn-more-btn:hover {
+      -webkit-box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+      box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+      -webkit-transform: scale(1.1, 1.1);
+      -ms-transform: scale(1.1, 1.1);
+      transform: scale(1.1, 1.1); } }
+
+.title-jumbo {
+  background-color: #F4F4F8; }
+
+.learn-more-btn {
+  -webkit-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  transform: scale(1, 1);
+  -webkit-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+  -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5); }
+  @media (min-width: 576px) {
+    .learn-more-btn:hover {
+      -webkit-box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+      box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+      -webkit-transform: scale(1.1, 1.1);
+      -ms-transform: scale(1.1, 1.1);
+      transform: scale(1.1, 1.1); } }
+
+.title-jumbo {
+  background-color: #F4F4F8; }
+
 /*!
  * Hover.css (http://ianlunn.github.io/Hover/)
  * Version: 2.3.2
@@ -6604,6 +6664,26 @@ body {
  * Hover.css Copyright Ian Lunn 2017. Generated with Sass.
  */
 /* 2D TRANSITIONS */
+.learn-more-btn {
+  -webkit-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  transform: scale(1, 1);
+  -webkit-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+  -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5); }
+  @media (min-width: 576px) {
+    .learn-more-btn:hover {
+      -webkit-box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+      box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+      -webkit-transform: scale(1.1, 1.1);
+      -ms-transform: scale(1.1, 1.1);
+      transform: scale(1.1, 1.1); } }
+
+.title-jumbo {
+  background-color: #F4F4F8; }
+
 /* Grow */
 .hvr-grow {
   display: inline-block;
@@ -8512,7 +8592,7 @@ body {
   left: 0;
   right: 100%;
   bottom: 0;
-  background: #009FB7;
+  background: #007bff;
   height: 4px;
   -webkit-transition-property: right;
   transition-property: right;
@@ -10408,7 +10488,7 @@ body {
   width: 100vw;
   z-index: 1000;
   background-color: #009FB7;
-  border-bottom: 1px solid #116877;
+  border-bottom: 1px solid #187487;
   padding: 10px 20px 10px 20px;
   -webkit-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3); }
   @media (min-width: 992px) {
@@ -10421,7 +10501,7 @@ body {
   transition: all 0.2s; }
 
 .navbar-toggler:hover {
-  border: 2px solid #116877;
+  border: 2px solid #56c7dd;
   transition: all 0.2s; }
 
 .mega-menu {
@@ -10459,10 +10539,10 @@ body {
 
 .mega-menu a {
   text-decoration: none;
-  color: cadetblue; }
+  color: #187487; }
 
 .mega-menu .sub-menu-heading {
-  color: darkcyan; }
+  color: #187487; }
 
 .navbar-brand {
   padding: 10px 0px 0px 0px; }
@@ -10478,7 +10558,7 @@ body {
       padding: 18px 50px 18px 50px !important; } }
 
 .nav-link:hover {
-  background-color: #116877;
+  background-color: #187487;
   transition: all 0.2s;
   color: #fff !important; }
 
@@ -10503,6 +10583,26 @@ body {
   .effect-1:hover:before {
     transform: scaleX(1); }
 
+.learn-more-btn {
+  -webkit-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  transform: scale(1, 1);
+  -webkit-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+  -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5); }
+  @media (min-width: 576px) {
+    .learn-more-btn:hover {
+      -webkit-box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+      box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+      -webkit-transform: scale(1.1, 1.1);
+      -ms-transform: scale(1.1, 1.1);
+      transform: scale(1.1, 1.1); } }
+
+.title-jumbo {
+  background-color: #F4F4F8; }
+
 footer {
   border-top: 2px solid #E9ECEF;
   bottom: 0; }
@@ -10517,13 +10617,17 @@ footer {
 
 .kevin-link {
   color: white;
-  transition: 0.3s !important;
-  text-decoration: none; }
+  transition: all 0.3s !important;
+  text-decoration: underline; }
 
+@-webkit-keyframes shine {
+  from {
+    -webkit-mask-position: 150%; }
+  to {
+    -webkit-mask-position: -50%; } }
 .kevin-link:hover {
-  color: white;
-  transition: 0.3s !important;
-  text-decoration: none; }
+  color: #187487;
+  transition: all 0.3s !important; }
 
 footer ul {
   list-style-type: none;
@@ -10547,7 +10651,7 @@ footer ul {
   color: white; }
 
 .footer-link:hover {
-  color: rgba(255, 255, 255, 0.6) !important;
+  color: #fff;
   transition: color 0.3s; }
 
 .active-footer-link:hover {
@@ -10566,6 +10670,26 @@ footer ul {
  * Hover.css Copyright Ian Lunn 2017. Generated with Sass.
  */
 /* 2D TRANSITIONS */
+.learn-more-btn {
+  -webkit-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  transform: scale(1, 1);
+  -webkit-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+  -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5); }
+  @media (min-width: 576px) {
+    .learn-more-btn:hover {
+      -webkit-box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+      box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+      -webkit-transform: scale(1.1, 1.1);
+      -ms-transform: scale(1.1, 1.1);
+      transform: scale(1.1, 1.1); } }
+
+.title-jumbo {
+  background-color: #F4F4F8; }
+
 /* Grow */
 .hvr-grow {
   display: inline-block;
@@ -12474,7 +12598,7 @@ footer ul {
   left: 0;
   right: 100%;
   bottom: 0;
-  background: #009FB7;
+  background: #007bff;
   height: 4px;
   -webkit-transition-property: right;
   transition-property: right;
@@ -14319,6 +14443,46 @@ footer ul {
   text-align: center;
   margin: 0px 20% 0px 20%; }
 
+.learn-more-btn {
+  -webkit-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  transform: scale(1, 1);
+  -webkit-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+  -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5); }
+  @media (min-width: 576px) {
+    .learn-more-btn:hover {
+      -webkit-box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+      box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+      -webkit-transform: scale(1.1, 1.1);
+      -ms-transform: scale(1.1, 1.1);
+      transform: scale(1.1, 1.1); } }
+
+.title-jumbo {
+  background-color: #F4F4F8; }
+
+.learn-more-btn {
+  -webkit-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  transform: scale(1, 1);
+  -webkit-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+  -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5); }
+  @media (min-width: 576px) {
+    .learn-more-btn:hover {
+      -webkit-box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+      box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+      -webkit-transform: scale(1.1, 1.1);
+      -ms-transform: scale(1.1, 1.1);
+      transform: scale(1.1, 1.1); } }
+
+.title-jumbo {
+  background-color: #F4F4F8; }
+
 /*!
  * Hover.css (http://ianlunn.github.io/Hover/)
  * Version: 2.3.2
@@ -14329,6 +14493,26 @@ footer ul {
  * Hover.css Copyright Ian Lunn 2017. Generated with Sass.
  */
 /* 2D TRANSITIONS */
+.learn-more-btn {
+  -webkit-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  transform: scale(1, 1);
+  -webkit-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+  -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5); }
+  @media (min-width: 576px) {
+    .learn-more-btn:hover {
+      -webkit-box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+      box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+      -webkit-transform: scale(1.1, 1.1);
+      -ms-transform: scale(1.1, 1.1);
+      transform: scale(1.1, 1.1); } }
+
+.title-jumbo {
+  background-color: #F4F4F8; }
+
 /* Grow */
 .hvr-grow {
   display: inline-block;
@@ -16237,7 +16421,7 @@ footer ul {
   left: 0;
   right: 100%;
   bottom: 0;
-  background: #009FB7;
+  background: #007bff;
   height: 4px;
   -webkit-transition-property: right;
   transition-property: right;
@@ -18133,7 +18317,7 @@ footer ul {
   width: 100vw;
   z-index: 1000;
   background-color: #009FB7;
-  border-bottom: 1px solid #116877;
+  border-bottom: 1px solid #187487;
   padding: 10px 20px 10px 20px;
   -webkit-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3); }
   @media (min-width: 992px) {
@@ -18146,7 +18330,7 @@ footer ul {
   transition: all 0.2s; }
 
 .navbar-toggler:hover {
-  border: 2px solid #116877;
+  border: 2px solid #56c7dd;
   transition: all 0.2s; }
 
 .mega-menu {
@@ -18184,10 +18368,10 @@ footer ul {
 
 .mega-menu a {
   text-decoration: none;
-  color: cadetblue; }
+  color: #187487; }
 
 .mega-menu .sub-menu-heading {
-  color: darkcyan; }
+  color: #187487; }
 
 .navbar-brand {
   padding: 10px 0px 0px 0px; }
@@ -18203,7 +18387,7 @@ footer ul {
       padding: 18px 50px 18px 50px !important; } }
 
 .nav-link:hover {
-  background-color: #116877;
+  background-color: #187487;
   transition: all 0.2s;
   color: #fff !important; }
 
@@ -18228,6 +18412,26 @@ footer ul {
   .effect-1:hover:before {
     transform: scaleX(1); }
 
+.learn-more-btn {
+  -webkit-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  transform: scale(1, 1);
+  -webkit-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+  -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5); }
+  @media (min-width: 576px) {
+    .learn-more-btn:hover {
+      -webkit-box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+      box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+      -webkit-transform: scale(1.1, 1.1);
+      -ms-transform: scale(1.1, 1.1);
+      transform: scale(1.1, 1.1); } }
+
+.title-jumbo {
+  background-color: #F4F4F8; }
+
 footer {
   border-top: 2px solid #E9ECEF;
   bottom: 0; }
@@ -18242,13 +18446,17 @@ footer {
 
 .kevin-link {
   color: white;
-  transition: 0.3s !important;
-  text-decoration: none; }
+  transition: all 0.3s !important;
+  text-decoration: underline; }
 
+@-webkit-keyframes shine {
+  from {
+    -webkit-mask-position: 150%; }
+  to {
+    -webkit-mask-position: -50%; } }
 .kevin-link:hover {
-  color: white;
-  transition: 0.3s !important;
-  text-decoration: none; }
+  color: #187487;
+  transition: all 0.3s !important; }
 
 footer ul {
   list-style-type: none;
@@ -18272,7 +18480,7 @@ footer ul {
   color: white; }
 
 .footer-link:hover {
-  color: rgba(255, 255, 255, 0.6) !important;
+  color: #fff;
   transition: color 0.3s; }
 
 .active-footer-link:hover {
@@ -18291,6 +18499,26 @@ footer ul {
  * Hover.css Copyright Ian Lunn 2017. Generated with Sass.
  */
 /* 2D TRANSITIONS */
+.learn-more-btn {
+  -webkit-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  transform: scale(1, 1);
+  -webkit-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+  -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5); }
+  @media (min-width: 576px) {
+    .learn-more-btn:hover {
+      -webkit-box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+      box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+      -webkit-transform: scale(1.1, 1.1);
+      -ms-transform: scale(1.1, 1.1);
+      transform: scale(1.1, 1.1); } }
+
+.title-jumbo {
+  background-color: #F4F4F8; }
+
 /* Grow */
 .hvr-grow {
   display: inline-block;
@@ -20199,7 +20427,7 @@ footer ul {
   left: 0;
   right: 100%;
   bottom: 0;
-  background: #009FB7;
+  background: #007bff;
   height: 4px;
   -webkit-transition-property: right;
   transition-property: right;
@@ -22008,7 +22236,7 @@ footer ul {
   width: 100vw;
   border-radius: 0px;
   padding-top: 40px;
-  background-color: rgba(0, 0, 0, 0.5); }
+  background-color: #636363; }
   @media (min-width: 576px) {
     .carousel {
       width: 90vw;
@@ -22100,8 +22328,14 @@ html {
   margin-left: 0 !important; }
 
 .breadcrumb {
+  background-color: #F4F4F8 !important;
   padding-right: 20%;
   padding-left: 20%; }
+
+.find-book-btn {
+  background-color: #0b9fc4; }
+  .find-book-btn:hover {
+    background-color: #18718e; }
 
 .book-carousel {
   max-height: 50vh; }
@@ -22263,6 +22497,7 @@ html {
   margin-top: 10px;
   cursor: pointer;
   padding-top: 10px;
+  color: white;
   text-decoration: none !important;
   margin: 0px 20% 0px 20%;
   -webkit-box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.4);
@@ -22275,6 +22510,11 @@ html {
   @media (min-width: 992px) {
     .purchase-button, .read-more-button, #dropdownMenuButton {
       margin: 0px 40% 0px 40%; } }
+
+.read-more-button {
+  background-color: #0b9fc4; }
+  .read-more-button:hover {
+    background-color: #18718e; }
 
 .purchase-button:hover, .read-more-button:hover, #dropdownMenuButton:hover {
   text-decoration: none !important; }
@@ -22295,13 +22535,16 @@ hr {
   margin-top: 10%;
   text-decoration: none !important;
   cursor: pointer;
-  font-size: 1.3em; }
+  font-size: 1.3em;
+  background-color: #298838; }
+  .purchase-button:hover {
+    background-color: #127521; }
 
 .book > a {
   text-decoration: none !important; }
 
 .right {
-  background-color: #E9ECEF; }
+  background-color: #F4F4F8; }
 
 .details > a {
   text-decoration: none !important; }
@@ -22311,12 +22554,53 @@ hr {
 
 .title-text {
   font-family: "Henny Penny", cursive !important;
+  color: #333333;
   margin-top: 40px;
   padding: 0 20px 0 20px;
   line-height: 55px; }
   @media (min-width: 576px) {
     .title-text {
       margin-top: 0; } }
+
+.learn-more-btn {
+  -webkit-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  transform: scale(1, 1);
+  -webkit-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+  -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5); }
+  @media (min-width: 576px) {
+    .learn-more-btn:hover {
+      -webkit-box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+      box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+      -webkit-transform: scale(1.1, 1.1);
+      -ms-transform: scale(1.1, 1.1);
+      transform: scale(1.1, 1.1); } }
+
+.title-jumbo {
+  background-color: #F4F4F8; }
+
+.learn-more-btn {
+  -webkit-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  transform: scale(1, 1);
+  -webkit-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+  -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5); }
+  @media (min-width: 576px) {
+    .learn-more-btn:hover {
+      -webkit-box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+      box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+      -webkit-transform: scale(1.1, 1.1);
+      -ms-transform: scale(1.1, 1.1);
+      transform: scale(1.1, 1.1); } }
+
+.title-jumbo {
+  background-color: #F4F4F8; }
 
 /*!
  * Hover.css (http://ianlunn.github.io/Hover/)
@@ -22328,6 +22612,26 @@ hr {
  * Hover.css Copyright Ian Lunn 2017. Generated with Sass.
  */
 /* 2D TRANSITIONS */
+.learn-more-btn {
+  -webkit-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  transform: scale(1, 1);
+  -webkit-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+  -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5); }
+  @media (min-width: 576px) {
+    .learn-more-btn:hover {
+      -webkit-box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+      box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+      -webkit-transform: scale(1.1, 1.1);
+      -ms-transform: scale(1.1, 1.1);
+      transform: scale(1.1, 1.1); } }
+
+.title-jumbo {
+  background-color: #F4F4F8; }
+
 /* Grow */
 .hvr-grow {
   display: inline-block;
@@ -24236,7 +24540,7 @@ hr {
   left: 0;
   right: 100%;
   bottom: 0;
-  background: #009FB7;
+  background: #007bff;
   height: 4px;
   -webkit-transition-property: right;
   transition-property: right;
@@ -26132,7 +26436,7 @@ hr {
   width: 100vw;
   z-index: 1000;
   background-color: #009FB7;
-  border-bottom: 1px solid #116877;
+  border-bottom: 1px solid #187487;
   padding: 10px 20px 10px 20px;
   -webkit-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3); }
   @media (min-width: 992px) {
@@ -26145,7 +26449,7 @@ hr {
   transition: all 0.2s; }
 
 .navbar-toggler:hover {
-  border: 2px solid #116877;
+  border: 2px solid #56c7dd;
   transition: all 0.2s; }
 
 .mega-menu {
@@ -26183,10 +26487,10 @@ hr {
 
 .mega-menu a {
   text-decoration: none;
-  color: cadetblue; }
+  color: #187487; }
 
 .mega-menu .sub-menu-heading {
-  color: darkcyan; }
+  color: #187487; }
 
 .navbar-brand {
   padding: 10px 0px 0px 0px; }
@@ -26202,7 +26506,7 @@ hr {
       padding: 18px 50px 18px 50px !important; } }
 
 .nav-link:hover {
-  background-color: #116877;
+  background-color: #187487;
   transition: all 0.2s;
   color: #fff !important; }
 
@@ -26227,6 +26531,26 @@ hr {
   .effect-1:hover:before {
     transform: scaleX(1); }
 
+.learn-more-btn {
+  -webkit-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  transform: scale(1, 1);
+  -webkit-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+  -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5); }
+  @media (min-width: 576px) {
+    .learn-more-btn:hover {
+      -webkit-box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+      box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+      -webkit-transform: scale(1.1, 1.1);
+      -ms-transform: scale(1.1, 1.1);
+      transform: scale(1.1, 1.1); } }
+
+.title-jumbo {
+  background-color: #F4F4F8; }
+
 footer {
   border-top: 2px solid #E9ECEF;
   bottom: 0; }
@@ -26241,13 +26565,17 @@ footer {
 
 .kevin-link {
   color: white;
-  transition: 0.3s !important;
-  text-decoration: none; }
+  transition: all 0.3s !important;
+  text-decoration: underline; }
 
+@-webkit-keyframes shine {
+  from {
+    -webkit-mask-position: 150%; }
+  to {
+    -webkit-mask-position: -50%; } }
 .kevin-link:hover {
-  color: white;
-  transition: 0.3s !important;
-  text-decoration: none; }
+  color: #187487;
+  transition: all 0.3s !important; }
 
 footer ul {
   list-style-type: none;
@@ -26271,7 +26599,7 @@ footer ul {
   color: white; }
 
 .footer-link:hover {
-  color: rgba(255, 255, 255, 0.6) !important;
+  color: #fff;
   transition: color 0.3s; }
 
 .active-footer-link:hover {
@@ -26290,6 +26618,26 @@ footer ul {
  * Hover.css Copyright Ian Lunn 2017. Generated with Sass.
  */
 /* 2D TRANSITIONS */
+.learn-more-btn {
+  -webkit-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  transform: scale(1, 1);
+  -webkit-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+  -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5); }
+  @media (min-width: 576px) {
+    .learn-more-btn:hover {
+      -webkit-box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+      box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+      -webkit-transform: scale(1.1, 1.1);
+      -ms-transform: scale(1.1, 1.1);
+      transform: scale(1.1, 1.1); } }
+
+.title-jumbo {
+  background-color: #F4F4F8; }
+
 /* Grow */
 .hvr-grow {
   display: inline-block;
@@ -28198,7 +28546,7 @@ footer ul {
   left: 0;
   right: 100%;
   bottom: 0;
-  background: #009FB7;
+  background: #007bff;
   height: 4px;
   -webkit-transition-property: right;
   transition-property: right;
@@ -30006,7 +30354,6 @@ footer ul {
   font-family: "Henny Penny", cursive !important; }
 
 .fanart-title {
-  background-color: #F4F4F8;
   padding: 60px 30px 40px 30px; }
 
 @media (min-width: 576px) {
@@ -30016,9 +30363,15 @@ footer ul {
   .modal .modal-dialog, .modal .modal-content {
     bottom: 10px; } }
 .modal .close-icon {
-  height: 30px; }
+  height: 30px;
+  border: 1px solid rgba(0, 0, 0, 0); }
+.modal .close {
+  border: 1px solid rgba(0, 0, 0, 0); }
 .modal .modal-footer button, .modal .modal-header button {
   cursor: pointer; }
+
+.lightbox-row {
+  background-color: #009FB7; }
 
 .pic-card {
   margin: 2% !important;
@@ -30132,9 +30485,52 @@ footer ul {
 .contributions-sub-text {
   padding: 20px 10% 20px 10%; }
 
+.mail-to {
+  background-color: #009FB7; }
+
 .mail-to > p, .mail-to > a {
   font-size: 1.3em;
   padding: 10px 50px 10px 50px; }
+
+.learn-more-btn {
+  -webkit-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  transform: scale(1, 1);
+  -webkit-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+  -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5); }
+  @media (min-width: 576px) {
+    .learn-more-btn:hover {
+      -webkit-box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+      box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+      -webkit-transform: scale(1.1, 1.1);
+      -ms-transform: scale(1.1, 1.1);
+      transform: scale(1.1, 1.1); } }
+
+.title-jumbo {
+  background-color: #F4F4F8; }
+
+.learn-more-btn {
+  -webkit-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  transform: scale(1, 1);
+  -webkit-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+  -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5); }
+  @media (min-width: 576px) {
+    .learn-more-btn:hover {
+      -webkit-box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+      box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+      -webkit-transform: scale(1.1, 1.1);
+      -ms-transform: scale(1.1, 1.1);
+      transform: scale(1.1, 1.1); } }
+
+.title-jumbo {
+  background-color: #F4F4F8; }
 
 /*!
  * Hover.css (http://ianlunn.github.io/Hover/)
@@ -30146,6 +30542,26 @@ footer ul {
  * Hover.css Copyright Ian Lunn 2017. Generated with Sass.
  */
 /* 2D TRANSITIONS */
+.learn-more-btn {
+  -webkit-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  transform: scale(1, 1);
+  -webkit-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+  -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5); }
+  @media (min-width: 576px) {
+    .learn-more-btn:hover {
+      -webkit-box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+      box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+      -webkit-transform: scale(1.1, 1.1);
+      -ms-transform: scale(1.1, 1.1);
+      transform: scale(1.1, 1.1); } }
+
+.title-jumbo {
+  background-color: #F4F4F8; }
+
 /* Grow */
 .hvr-grow {
   display: inline-block;
@@ -32054,7 +32470,7 @@ footer ul {
   left: 0;
   right: 100%;
   bottom: 0;
-  background: #009FB7;
+  background: #007bff;
   height: 4px;
   -webkit-transition-property: right;
   transition-property: right;
@@ -33950,7 +34366,7 @@ footer ul {
   width: 100vw;
   z-index: 1000;
   background-color: #009FB7;
-  border-bottom: 1px solid #116877;
+  border-bottom: 1px solid #187487;
   padding: 10px 20px 10px 20px;
   -webkit-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3); }
   @media (min-width: 992px) {
@@ -33963,7 +34379,7 @@ footer ul {
   transition: all 0.2s; }
 
 .navbar-toggler:hover {
-  border: 2px solid #116877;
+  border: 2px solid #56c7dd;
   transition: all 0.2s; }
 
 .mega-menu {
@@ -34001,10 +34417,10 @@ footer ul {
 
 .mega-menu a {
   text-decoration: none;
-  color: cadetblue; }
+  color: #187487; }
 
 .mega-menu .sub-menu-heading {
-  color: darkcyan; }
+  color: #187487; }
 
 .navbar-brand {
   padding: 10px 0px 0px 0px; }
@@ -34020,7 +34436,7 @@ footer ul {
       padding: 18px 50px 18px 50px !important; } }
 
 .nav-link:hover {
-  background-color: #116877;
+  background-color: #187487;
   transition: all 0.2s;
   color: #fff !important; }
 
@@ -34045,6 +34461,26 @@ footer ul {
   .effect-1:hover:before {
     transform: scaleX(1); }
 
+.learn-more-btn {
+  -webkit-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  transform: scale(1, 1);
+  -webkit-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+  -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5); }
+  @media (min-width: 576px) {
+    .learn-more-btn:hover {
+      -webkit-box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+      box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+      -webkit-transform: scale(1.1, 1.1);
+      -ms-transform: scale(1.1, 1.1);
+      transform: scale(1.1, 1.1); } }
+
+.title-jumbo {
+  background-color: #F4F4F8; }
+
 footer {
   border-top: 2px solid #E9ECEF;
   bottom: 0; }
@@ -34059,13 +34495,17 @@ footer {
 
 .kevin-link {
   color: white;
-  transition: 0.3s !important;
-  text-decoration: none; }
+  transition: all 0.3s !important;
+  text-decoration: underline; }
 
+@-webkit-keyframes shine {
+  from {
+    -webkit-mask-position: 150%; }
+  to {
+    -webkit-mask-position: -50%; } }
 .kevin-link:hover {
-  color: white;
-  transition: 0.3s !important;
-  text-decoration: none; }
+  color: #187487;
+  transition: all 0.3s !important; }
 
 footer ul {
   list-style-type: none;
@@ -34089,7 +34529,7 @@ footer ul {
   color: white; }
 
 .footer-link:hover {
-  color: rgba(255, 255, 255, 0.6) !important;
+  color: #fff;
   transition: color 0.3s; }
 
 .active-footer-link:hover {
@@ -34108,6 +34548,26 @@ footer ul {
  * Hover.css Copyright Ian Lunn 2017. Generated with Sass.
  */
 /* 2D TRANSITIONS */
+.learn-more-btn {
+  -webkit-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  transform: scale(1, 1);
+  -webkit-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+  -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5); }
+  @media (min-width: 576px) {
+    .learn-more-btn:hover {
+      -webkit-box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+      box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+      -webkit-transform: scale(1.1, 1.1);
+      -ms-transform: scale(1.1, 1.1);
+      transform: scale(1.1, 1.1); } }
+
+.title-jumbo {
+  background-color: #F4F4F8; }
+
 /* Grow */
 .hvr-grow {
   display: inline-block;
@@ -36016,7 +36476,7 @@ footer ul {
   left: 0;
   right: 100%;
   bottom: 0;
-  background: #009FB7;
+  background: #007bff;
   height: 4px;
   -webkit-transition-property: right;
   transition-property: right;
@@ -37827,7 +38287,7 @@ body {
   font-family: "Henny Penny", cursive !important; }
 
 .contact-form {
-  background-color: #009FB7;
+  background-color: #168393;
   -webkit-box-shadow: 15px 15px 8px rgba(0, 0, 0, 0.4);
   box-shadow: 15px 15px 8px rgba(0, 0, 0, 0.4);
   color: white; }
@@ -37844,8 +38304,7 @@ input, textarea {
   border: 2px solid black;
   padding: 30px;
   width: 95vw;
-  border-radius: 10px;
-  background-color: #9FDFF5; }
+  border-radius: 10px; }
   @media (min-width: 576px) {
     .form-wrapper {
       width: 80vw; } }
@@ -37863,12 +38322,14 @@ input, textarea {
 
 .send-btn {
   cursor: pointer;
+  background-color: #0b9fc4;
   -webkit-box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4);
   box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4);
   transform: scale(1, 1);
   transition: 0.3s; }
 
 .send-btn:hover {
+  background-color: #18718e;
   -webkit-box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.4);
   box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.4);
   transform: scale(1.1, 1.1);
@@ -37882,7 +38343,7 @@ input, textarea {
   box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.4); }
 
 input:valid, textarea:valid {
-  border: 2px solid #9CF76E !important;
+  border: 2px solid #80FFDB !important;
   border-radius: 5px; }
 
 input:invalid, textarea:invalid {
@@ -37891,6 +38352,26 @@ input:invalid, textarea:invalid {
 
 input:focus, textarea:focus {
   outline: none !important; }
+
+.learn-more-btn {
+  -webkit-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  transform: scale(1, 1);
+  -webkit-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+  -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5); }
+  @media (min-width: 576px) {
+    .learn-more-btn:hover {
+      -webkit-box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+      box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+      -webkit-transform: scale(1.1, 1.1);
+      -ms-transform: scale(1.1, 1.1);
+      transform: scale(1.1, 1.1); } }
+
+.title-jumbo {
+  background-color: #F4F4F8; }
 
 /*!
  * Hover.css (http://ianlunn.github.io/Hover/)
@@ -37902,6 +38383,26 @@ input:focus, textarea:focus {
  * Hover.css Copyright Ian Lunn 2017. Generated with Sass.
  */
 /* 2D TRANSITIONS */
+.learn-more-btn {
+  -webkit-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  transform: scale(1, 1);
+  -webkit-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+  -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5); }
+  @media (min-width: 576px) {
+    .learn-more-btn:hover {
+      -webkit-box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+      box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+      -webkit-transform: scale(1.1, 1.1);
+      -ms-transform: scale(1.1, 1.1);
+      transform: scale(1.1, 1.1); } }
+
+.title-jumbo {
+  background-color: #F4F4F8; }
+
 /* Grow */
 .hvr-grow {
   display: inline-block;
@@ -39810,7 +40311,7 @@ input:focus, textarea:focus {
   left: 0;
   right: 100%;
   bottom: 0;
-  background: #009FB7;
+  background: #007bff;
   height: 4px;
   -webkit-transition-property: right;
   transition-property: right;
@@ -41706,7 +42207,7 @@ input:focus, textarea:focus {
   width: 100vw;
   z-index: 1000;
   background-color: #009FB7;
-  border-bottom: 1px solid #116877;
+  border-bottom: 1px solid #187487;
   padding: 10px 20px 10px 20px;
   -webkit-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3); }
   @media (min-width: 992px) {
@@ -41719,7 +42220,7 @@ input:focus, textarea:focus {
   transition: all 0.2s; }
 
 .navbar-toggler:hover {
-  border: 2px solid #116877;
+  border: 2px solid #56c7dd;
   transition: all 0.2s; }
 
 .mega-menu {
@@ -41757,10 +42258,10 @@ input:focus, textarea:focus {
 
 .mega-menu a {
   text-decoration: none;
-  color: cadetblue; }
+  color: #187487; }
 
 .mega-menu .sub-menu-heading {
-  color: darkcyan; }
+  color: #187487; }
 
 .navbar-brand {
   padding: 10px 0px 0px 0px; }
@@ -41776,7 +42277,7 @@ input:focus, textarea:focus {
       padding: 18px 50px 18px 50px !important; } }
 
 .nav-link:hover {
-  background-color: #116877;
+  background-color: #187487;
   transition: all 0.2s;
   color: #fff !important; }
 
@@ -41800,6 +42301,32 @@ input:focus, textarea:focus {
     transform: scaleX(0); }
   .effect-1:hover:before {
     transform: scaleX(1); }
+
+.learn-more-btn {
+  -webkit-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  transform: scale(1, 1);
+  -webkit-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+  -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5); }
+  @media (min-width: 576px) {
+    .learn-more-btn:hover {
+      -webkit-box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+      box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+      -webkit-transform: scale(1.1, 1.1);
+      -ms-transform: scale(1.1, 1.1);
+      transform: scale(1.1, 1.1); } }
+
+.title-jumbo {
+  background-color: #F4F4F8; }
+
+.learn-more-btn {
+  margin-top: 5px;
+  background-color: #0b9fc4; }
+  .learn-more-btn:hover {
+    background-color: #18718e; }
 
 body {
   font-size: 16px;
@@ -41840,6 +42367,7 @@ hr {
       margin: 30px; } }
 
 .intro-text {
-  padding-bottom: 50px !important; }
+  padding-bottom: 50px !important;
+  background-color: #168393; }
 
 /*# sourceMappingURL=style.css.map */

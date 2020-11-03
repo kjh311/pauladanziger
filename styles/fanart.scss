@@ -9,7 +9,7 @@
 	font-family: $penny !important;
 }
 .fanart-title{
-	background-color: $light-grey;
+	// background-color: $light-grey;
 	padding: 60px 30px 40px 30px;
 }
 .carousel-inner{
@@ -28,7 +28,11 @@
 	}
 	.close-icon{
 		height: 30px;
+		border: 1px solid $clear;
 		// width: 30px;
+	}
+	.close{
+		border: 1px solid $clear;
 	}
 	.modal-footer button, .modal-header button{
 		cursor: pointer;
@@ -48,6 +52,9 @@
     //       }
     //   }
 	}
+}
+.lightbox-row{
+	background-color: $navbar;
 }
 .pic-card{
 	margin: 2% !important;
@@ -202,6 +209,9 @@
 }
 .contributions-sub-text{
 	padding: 20px 10% 20px 10%;
+}
+.mail-to{
+	background-color: $navbar;
 }
 .mail-to > p, .mail-to > a{
 	font-size: 1.3em;
