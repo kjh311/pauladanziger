@@ -15,6 +15,9 @@
 .carousel-inner{
 	
 }
+.card{
+	background-color: $card;
+}
 .modal{
 	// max-height: 95vh;
 	@include media-breakpoint-up(sm) {
@@ -54,7 +57,7 @@
 	}
 }
 .lightbox-row{
-	background-color: $navbar;
+	// background-color: $navbar;
 }
 .pic-card{
 	margin: 2% !important;
@@ -162,36 +165,11 @@
 	.fan-img{
 		// margin: 0 !important;
 	}
-}
-.email-link{
-	padding: 10px; 
-	margin-top: 5px;
-	max-width: 100%;
-	background-color: #fff;
-	border-radius: 5px;
-	            -webkit-box-shadow:4px 4px 4px rgba(0,0,0,0.5);
-                    box-shadow:4px 4px 4px rgba(0,0,0,0.5);
-
-			   -webkit-transform: scale(1,1);
-        -ms-transform: scale(1,1);
-            transform: scale(1,1);
-    -webkit-transition: all 200ms ease-in-out;
-    -o-transition: all 200ms ease-in-out;
-    transition: all 200ms ease-in-out;
-    @include media-breakpoint-up(md) {
-            max-width: 100%;
-          }
-    &:hover{
-      @include media-breakpoint-up(sm) {
-            -webkit-box-shadow:8px 8px 8px rgba(0,0,0,0.5);
-                    box-shadow:8px 8px 8px rgba(0,0,0,0.5);
-        -webkit-transform: scale(1.1,1.1);
-            -ms-transform: scale(1.1,1.1);
-                transform: scale(1.1,1.1);
-          }
-      }
+	button{
+		padding-top: 10px;
 	}
-// }
+}
+
 .mail-text{
 	margin-top: 15px;
 }
@@ -211,10 +189,27 @@
 	padding: 20px 10% 20px 10%;
 }
 .mail-to{
-	background-color: $navbar;
+	// background-color: $navbar;
+	a:link, a:visited, a:hover, a:active {  
+		text-decoration: none;
+		color: $link;
+	}
+	p{
+		font-size: 1.3em;
+		padding: 10px 50px 10px 50px;
+	}
+	.email-link{
+		padding: 15px 10px 10px 10px;; 
+		margin-top: 5px;
+		max-width: 100%;
+		font-size: 1.3em;
+		background-color: #fff;
+		border-radius: 5px;
+		@extend %hover-grow;
+    	@include media-breakpoint-up(md) {
+            max-width: 100%;
+    	}
 }
-.mail-to > p, .mail-to > a{
-	font-size: 1.3em;
-	padding: 10px 50px 10px 50px;
 }
+
 

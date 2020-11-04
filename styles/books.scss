@@ -25,6 +25,9 @@ body{
 	background-color: $jumbotron !important;
 	padding-right: 20%;
 	padding-left: 20%;
+	a:link, a:visited, a:hover, a:active{
+		color: $link;
+	}
 }
 .find-book-btn{
 	background-color: $read-more;
@@ -97,13 +100,10 @@ body{
 }
 .book-container{
 	padding: 50px 0 50px 0;
-	a:link {  
+	a:link, a:visited, a:hover, a:active {  
 		text-decoration: none;
 		color: $link;
 		 }
-a:visited {  text-decoration: none; }
-a:hover {  text-decoration: none; }
-a:active {  text-decoration: none; }
  p{
 	font-family: $chilanka;
 	font-size: 1.3em;
@@ -306,6 +306,7 @@ hr{
 }
 .book > a{
 	text-decoration: none !important;
+
 }
 .right{
 	background-color: $jumbotron;
@@ -322,6 +323,7 @@ hr{
 // }
 
 .title-text{
+	text-shadow: 4px 4px 4px $dark-grey;
 	font-family: $penny !important;
 	color: $title-text;
 	margin-top: 40px;

@@ -23,13 +23,16 @@
   		line-height: 40px;
 		font-size: 1.5em;
 	}
+	a:link, a:visited, a:hover, a:active{
+		color: $link;
+	}
 }
 .about-paula-div > img{
 	
 	// display: inline;
 	width: 100%;
 	height: 100%;
-	padding: 20px 0 20px 0;
+	padding: 20px 10px;
 	@include media-breakpoint-up(sm) {
   		width: 50%;
   		margin: 30px;

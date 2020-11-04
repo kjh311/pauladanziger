@@ -6369,7 +6369,7 @@ a.text-dark:focus, a.text-dark:hover {
 * Autoprefixer: v9.7.6
 * Browsers: last 4 version
 */
-.purchase-button, .read-more-button, #dropdownMenuButton, .send-btn, .learn-more-btn {
+.purchase-button, .read-more-button, #dropdownMenuButton, .mail-to .email-link, .send-btn, .learn-more-btn {
   -webkit-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
   transform: scale(1, 1);
@@ -6379,7 +6379,7 @@ a.text-dark:focus, a.text-dark:hover {
   -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5); }
   @media (min-width: 576px) {
-    .purchase-button:hover, .read-more-button:hover, #dropdownMenuButton:hover, .send-btn:hover, .learn-more-btn:hover {
+    .purchase-button:hover, .read-more-button:hover, #dropdownMenuButton:hover, .mail-to .email-link:hover, .send-btn:hover, .learn-more-btn:hover {
       -webkit-box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       -webkit-transform: scale(1.1, 1.1);
@@ -6614,7 +6614,7 @@ body {
       margin: 0 auto;
       max-height: 70vh; }
 
-.purchase-button, .read-more-button, #dropdownMenuButton, .send-btn, .learn-more-btn {
+.purchase-button, .read-more-button, #dropdownMenuButton, .mail-to .email-link, .send-btn, .learn-more-btn {
   -webkit-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
   transform: scale(1, 1);
@@ -6624,7 +6624,7 @@ body {
   -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5); }
   @media (min-width: 576px) {
-    .purchase-button:hover, .read-more-button:hover, #dropdownMenuButton:hover, .send-btn:hover, .learn-more-btn:hover {
+    .purchase-button:hover, .read-more-button:hover, #dropdownMenuButton:hover, .mail-to .email-link:hover, .send-btn:hover, .learn-more-btn:hover {
       -webkit-box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       -webkit-transform: scale(1.1, 1.1);
@@ -6634,7 +6634,7 @@ body {
 .title-jumbo {
   background-color: #F4F4F8; }
 
-.purchase-button, .read-more-button, #dropdownMenuButton, .send-btn, .learn-more-btn {
+.purchase-button, .read-more-button, #dropdownMenuButton, .mail-to .email-link, .send-btn, .learn-more-btn {
   -webkit-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
   transform: scale(1, 1);
@@ -6644,7 +6644,7 @@ body {
   -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5); }
   @media (min-width: 576px) {
-    .purchase-button:hover, .read-more-button:hover, #dropdownMenuButton:hover, .send-btn:hover, .learn-more-btn:hover {
+    .purchase-button:hover, .read-more-button:hover, #dropdownMenuButton:hover, .mail-to .email-link:hover, .send-btn:hover, .learn-more-btn:hover {
       -webkit-box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       -webkit-transform: scale(1.1, 1.1);
@@ -6664,7 +6664,7 @@ body {
  * Hover.css Copyright Ian Lunn 2017. Generated with Sass.
  */
 /* 2D TRANSITIONS */
-.purchase-button, .read-more-button, #dropdownMenuButton, .send-btn, .learn-more-btn {
+.purchase-button, .read-more-button, #dropdownMenuButton, .mail-to .email-link, .send-btn, .learn-more-btn {
   -webkit-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
   transform: scale(1, 1);
@@ -6674,7 +6674,7 @@ body {
   -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5); }
   @media (min-width: 576px) {
-    .purchase-button:hover, .read-more-button:hover, #dropdownMenuButton:hover, .send-btn:hover, .learn-more-btn:hover {
+    .purchase-button:hover, .read-more-button:hover, #dropdownMenuButton:hover, .mail-to .email-link:hover, .send-btn:hover, .learn-more-btn:hover {
       -webkit-box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       -webkit-transform: scale(1.1, 1.1);
@@ -10475,7 +10475,7 @@ body {
       width: 40vw; } }
 
 .dropdown-collapsed p:hover, .sub-menu-heading:hover {
-  background-color: #E9ECEF;
+  background-color: #F4F4F8;
   border: 2px solid #009FB7;
   transition: 0.3s; }
 
@@ -10583,7 +10583,7 @@ body {
   .effect-1:hover:before {
     transform: scaleX(1); }
 
-.purchase-button, .read-more-button, #dropdownMenuButton, .send-btn, .learn-more-btn {
+.purchase-button, .read-more-button, #dropdownMenuButton, .mail-to .email-link, .send-btn, .learn-more-btn {
   -webkit-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
   transform: scale(1, 1);
@@ -10593,7 +10593,7 @@ body {
   -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5); }
   @media (min-width: 576px) {
-    .purchase-button:hover, .read-more-button:hover, #dropdownMenuButton:hover, .send-btn:hover, .learn-more-btn:hover {
+    .purchase-button:hover, .read-more-button:hover, #dropdownMenuButton:hover, .mail-to .email-link:hover, .send-btn:hover, .learn-more-btn:hover {
       -webkit-box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       -webkit-transform: scale(1.1, 1.1);
@@ -10671,7 +10671,7 @@ footer ul {
  * Hover.css Copyright Ian Lunn 2017. Generated with Sass.
  */
 /* 2D TRANSITIONS */
-.purchase-button, .read-more-button, #dropdownMenuButton, .send-btn, .learn-more-btn {
+.purchase-button, .read-more-button, #dropdownMenuButton, .mail-to .email-link, .send-btn, .learn-more-btn {
   -webkit-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
   transform: scale(1, 1);
@@ -10681,7 +10681,7 @@ footer ul {
   -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5); }
   @media (min-width: 576px) {
-    .purchase-button:hover, .read-more-button:hover, #dropdownMenuButton:hover, .send-btn:hover, .learn-more-btn:hover {
+    .purchase-button:hover, .read-more-button:hover, #dropdownMenuButton:hover, .mail-to .email-link:hover, .send-btn:hover, .learn-more-btn:hover {
       -webkit-box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       -webkit-transform: scale(1.1, 1.1);
@@ -14420,11 +14420,13 @@ footer ul {
     .about-paula-div > p {
       line-height: 40px;
       font-size: 1.5em; } }
+  .about-paula-div > p a:link, .about-paula-div > p a:visited, .about-paula-div > p a:hover, .about-paula-div > p a:active {
+    color: #1a9cbc; }
 
 .about-paula-div > img {
   width: 100%;
   height: 100%;
-  padding: 20px 0 20px 0; }
+  padding: 20px 10px; }
   @media (min-width: 576px) {
     .about-paula-div > img {
       width: 50%;
@@ -14444,7 +14446,7 @@ footer ul {
   text-align: center;
   margin: 0px 20% 0px 20%; }
 
-.purchase-button, .read-more-button, #dropdownMenuButton, .send-btn, .learn-more-btn {
+.purchase-button, .read-more-button, #dropdownMenuButton, .mail-to .email-link, .send-btn, .learn-more-btn {
   -webkit-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
   transform: scale(1, 1);
@@ -14454,7 +14456,7 @@ footer ul {
   -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5); }
   @media (min-width: 576px) {
-    .purchase-button:hover, .read-more-button:hover, #dropdownMenuButton:hover, .send-btn:hover, .learn-more-btn:hover {
+    .purchase-button:hover, .read-more-button:hover, #dropdownMenuButton:hover, .mail-to .email-link:hover, .send-btn:hover, .learn-more-btn:hover {
       -webkit-box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       -webkit-transform: scale(1.1, 1.1);
@@ -14464,7 +14466,7 @@ footer ul {
 .title-jumbo {
   background-color: #F4F4F8; }
 
-.purchase-button, .read-more-button, #dropdownMenuButton, .send-btn, .learn-more-btn {
+.purchase-button, .read-more-button, #dropdownMenuButton, .mail-to .email-link, .send-btn, .learn-more-btn {
   -webkit-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
   transform: scale(1, 1);
@@ -14474,7 +14476,7 @@ footer ul {
   -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5); }
   @media (min-width: 576px) {
-    .purchase-button:hover, .read-more-button:hover, #dropdownMenuButton:hover, .send-btn:hover, .learn-more-btn:hover {
+    .purchase-button:hover, .read-more-button:hover, #dropdownMenuButton:hover, .mail-to .email-link:hover, .send-btn:hover, .learn-more-btn:hover {
       -webkit-box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       -webkit-transform: scale(1.1, 1.1);
@@ -14494,7 +14496,7 @@ footer ul {
  * Hover.css Copyright Ian Lunn 2017. Generated with Sass.
  */
 /* 2D TRANSITIONS */
-.purchase-button, .read-more-button, #dropdownMenuButton, .send-btn, .learn-more-btn {
+.purchase-button, .read-more-button, #dropdownMenuButton, .mail-to .email-link, .send-btn, .learn-more-btn {
   -webkit-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
   transform: scale(1, 1);
@@ -14504,7 +14506,7 @@ footer ul {
   -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5); }
   @media (min-width: 576px) {
-    .purchase-button:hover, .read-more-button:hover, #dropdownMenuButton:hover, .send-btn:hover, .learn-more-btn:hover {
+    .purchase-button:hover, .read-more-button:hover, #dropdownMenuButton:hover, .mail-to .email-link:hover, .send-btn:hover, .learn-more-btn:hover {
       -webkit-box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       -webkit-transform: scale(1.1, 1.1);
@@ -18305,7 +18307,7 @@ footer ul {
       width: 40vw; } }
 
 .dropdown-collapsed p:hover, .sub-menu-heading:hover {
-  background-color: #E9ECEF;
+  background-color: #F4F4F8;
   border: 2px solid #009FB7;
   transition: 0.3s; }
 
@@ -18413,7 +18415,7 @@ footer ul {
   .effect-1:hover:before {
     transform: scaleX(1); }
 
-.purchase-button, .read-more-button, #dropdownMenuButton, .send-btn, .learn-more-btn {
+.purchase-button, .read-more-button, #dropdownMenuButton, .mail-to .email-link, .send-btn, .learn-more-btn {
   -webkit-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
   transform: scale(1, 1);
@@ -18423,7 +18425,7 @@ footer ul {
   -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5); }
   @media (min-width: 576px) {
-    .purchase-button:hover, .read-more-button:hover, #dropdownMenuButton:hover, .send-btn:hover, .learn-more-btn:hover {
+    .purchase-button:hover, .read-more-button:hover, #dropdownMenuButton:hover, .mail-to .email-link:hover, .send-btn:hover, .learn-more-btn:hover {
       -webkit-box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       -webkit-transform: scale(1.1, 1.1);
@@ -18501,7 +18503,7 @@ footer ul {
  * Hover.css Copyright Ian Lunn 2017. Generated with Sass.
  */
 /* 2D TRANSITIONS */
-.purchase-button, .read-more-button, #dropdownMenuButton, .send-btn, .learn-more-btn {
+.purchase-button, .read-more-button, #dropdownMenuButton, .mail-to .email-link, .send-btn, .learn-more-btn {
   -webkit-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
   transform: scale(1, 1);
@@ -18511,7 +18513,7 @@ footer ul {
   -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5); }
   @media (min-width: 576px) {
-    .purchase-button:hover, .read-more-button:hover, #dropdownMenuButton:hover, .send-btn:hover, .learn-more-btn:hover {
+    .purchase-button:hover, .read-more-button:hover, #dropdownMenuButton:hover, .mail-to .email-link:hover, .send-btn:hover, .learn-more-btn:hover {
       -webkit-box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       -webkit-transform: scale(1.1, 1.1);
@@ -22238,7 +22240,7 @@ footer ul {
   width: 100vw;
   border-radius: 0px;
   padding-top: 40px;
-  background-color: #636363; }
+  background-color: #24628c; }
   @media (min-width: 576px) {
     .carousel {
       width: 90vw;
@@ -22333,6 +22335,8 @@ html {
   background-color: #F4F4F8 !important;
   padding-right: 20%;
   padding-left: 20%; }
+  .breadcrumb a:link, .breadcrumb a:visited, .breadcrumb a:hover, .breadcrumb a:active {
+    color: #1a9cbc; }
 
 .find-book-btn {
   background-color: #0b9fc4; }
@@ -22385,15 +22389,9 @@ html {
 
 .book-container {
   padding: 50px 0 50px 0; }
-  .book-container a:link {
+  .book-container a:link, .book-container a:visited, .book-container a:hover, .book-container a:active {
     text-decoration: none;
-    color: #1956B7; }
-  .book-container a:visited {
-    text-decoration: none; }
-  .book-container a:hover {
-    text-decoration: none; }
-  .book-container a:active {
-    text-decoration: none; }
+    color: #1a9cbc; }
   .book-container p {
     font-family: "Chilanka", cursive;
     font-size: 1.3em;
@@ -22546,8 +22544,9 @@ hr {
   text-decoration: underline !important; }
 
 .title-text {
+  text-shadow: 4px 4px 4px #c2c3c4;
   font-family: "Henny Penny", cursive !important;
-  color: #333333;
+  color: #009FB7;
   margin-top: 40px;
   padding: 0 20px 0 20px;
   line-height: 55px; }
@@ -22555,7 +22554,7 @@ hr {
     .title-text {
       margin-top: 0; } }
 
-.purchase-button, .read-more-button, #dropdownMenuButton, .send-btn, .learn-more-btn {
+.purchase-button, .read-more-button, #dropdownMenuButton, .mail-to .email-link, .send-btn, .learn-more-btn {
   -webkit-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
   transform: scale(1, 1);
@@ -22565,7 +22564,7 @@ hr {
   -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5); }
   @media (min-width: 576px) {
-    .purchase-button:hover, .read-more-button:hover, #dropdownMenuButton:hover, .send-btn:hover, .learn-more-btn:hover {
+    .purchase-button:hover, .read-more-button:hover, #dropdownMenuButton:hover, .mail-to .email-link:hover, .send-btn:hover, .learn-more-btn:hover {
       -webkit-box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       -webkit-transform: scale(1.1, 1.1);
@@ -22575,7 +22574,7 @@ hr {
 .title-jumbo {
   background-color: #F4F4F8; }
 
-.purchase-button, .read-more-button, #dropdownMenuButton, .send-btn, .learn-more-btn {
+.purchase-button, .read-more-button, #dropdownMenuButton, .mail-to .email-link, .send-btn, .learn-more-btn {
   -webkit-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
   transform: scale(1, 1);
@@ -22585,7 +22584,7 @@ hr {
   -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5); }
   @media (min-width: 576px) {
-    .purchase-button:hover, .read-more-button:hover, #dropdownMenuButton:hover, .send-btn:hover, .learn-more-btn:hover {
+    .purchase-button:hover, .read-more-button:hover, #dropdownMenuButton:hover, .mail-to .email-link:hover, .send-btn:hover, .learn-more-btn:hover {
       -webkit-box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       -webkit-transform: scale(1.1, 1.1);
@@ -22605,7 +22604,7 @@ hr {
  * Hover.css Copyright Ian Lunn 2017. Generated with Sass.
  */
 /* 2D TRANSITIONS */
-.purchase-button, .read-more-button, #dropdownMenuButton, .send-btn, .learn-more-btn {
+.purchase-button, .read-more-button, #dropdownMenuButton, .mail-to .email-link, .send-btn, .learn-more-btn {
   -webkit-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
   transform: scale(1, 1);
@@ -22615,7 +22614,7 @@ hr {
   -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5); }
   @media (min-width: 576px) {
-    .purchase-button:hover, .read-more-button:hover, #dropdownMenuButton:hover, .send-btn:hover, .learn-more-btn:hover {
+    .purchase-button:hover, .read-more-button:hover, #dropdownMenuButton:hover, .mail-to .email-link:hover, .send-btn:hover, .learn-more-btn:hover {
       -webkit-box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       -webkit-transform: scale(1.1, 1.1);
@@ -26416,7 +26415,7 @@ hr {
       width: 40vw; } }
 
 .dropdown-collapsed p:hover, .sub-menu-heading:hover {
-  background-color: #E9ECEF;
+  background-color: #F4F4F8;
   border: 2px solid #009FB7;
   transition: 0.3s; }
 
@@ -26524,7 +26523,7 @@ hr {
   .effect-1:hover:before {
     transform: scaleX(1); }
 
-.purchase-button, .read-more-button, #dropdownMenuButton, .send-btn, .learn-more-btn {
+.purchase-button, .read-more-button, #dropdownMenuButton, .mail-to .email-link, .send-btn, .learn-more-btn {
   -webkit-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
   transform: scale(1, 1);
@@ -26534,7 +26533,7 @@ hr {
   -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5); }
   @media (min-width: 576px) {
-    .purchase-button:hover, .read-more-button:hover, #dropdownMenuButton:hover, .send-btn:hover, .learn-more-btn:hover {
+    .purchase-button:hover, .read-more-button:hover, #dropdownMenuButton:hover, .mail-to .email-link:hover, .send-btn:hover, .learn-more-btn:hover {
       -webkit-box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       -webkit-transform: scale(1.1, 1.1);
@@ -26612,7 +26611,7 @@ footer ul {
  * Hover.css Copyright Ian Lunn 2017. Generated with Sass.
  */
 /* 2D TRANSITIONS */
-.purchase-button, .read-more-button, #dropdownMenuButton, .send-btn, .learn-more-btn {
+.purchase-button, .read-more-button, #dropdownMenuButton, .mail-to .email-link, .send-btn, .learn-more-btn {
   -webkit-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
   transform: scale(1, 1);
@@ -26622,7 +26621,7 @@ footer ul {
   -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5); }
   @media (min-width: 576px) {
-    .purchase-button:hover, .read-more-button:hover, #dropdownMenuButton:hover, .send-btn:hover, .learn-more-btn:hover {
+    .purchase-button:hover, .read-more-button:hover, #dropdownMenuButton:hover, .mail-to .email-link:hover, .send-btn:hover, .learn-more-btn:hover {
       -webkit-box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       -webkit-transform: scale(1.1, 1.1);
@@ -30350,6 +30349,9 @@ footer ul {
 .fanart-title {
   padding: 60px 30px 40px 30px; }
 
+.card {
+  background-color: #a8dadc; }
+
 @media (min-width: 576px) {
   .modal {
     bottom: 10px; } }
@@ -30363,9 +30365,6 @@ footer ul {
   border: 1px solid rgba(0, 0, 0, 0); }
 .modal .modal-footer button, .modal .modal-header button {
   cursor: pointer; }
-
-.lightbox-row {
-  background-color: #009FB7; }
 
 .pic-card {
   margin: 2% !important;
@@ -30441,31 +30440,8 @@ footer ul {
 
 .carousel-item {
   margin: 0 !important; }
-
-.email-link {
-  padding: 10px;
-  margin-top: 5px;
-  max-width: 100%;
-  background-color: #fff;
-  border-radius: 5px;
-  -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
-  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
-  -webkit-transform: scale(1, 1);
-  -ms-transform: scale(1, 1);
-  transform: scale(1, 1);
-  -webkit-transition: all 200ms ease-in-out;
-  -o-transition: all 200ms ease-in-out;
-  transition: all 200ms ease-in-out; }
-  @media (min-width: 768px) {
-    .email-link {
-      max-width: 100%; } }
-  @media (min-width: 576px) {
-    .email-link:hover {
-      -webkit-box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
-      box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
-      -webkit-transform: scale(1.1, 1.1);
-      -ms-transform: scale(1.1, 1.1);
-      transform: scale(1.1, 1.1); } }
+  .carousel-item button {
+    padding-top: 10px; }
 
 .mail-text {
   margin-top: 15px; }
@@ -30479,14 +30455,24 @@ footer ul {
 .contributions-sub-text {
   padding: 20px 10% 20px 10%; }
 
-.mail-to {
-  background-color: #009FB7; }
-
-.mail-to > p, .mail-to > a {
+.mail-to a:link, .mail-to a:visited, .mail-to a:hover, .mail-to a:active {
+  text-decoration: none;
+  color: #1a9cbc; }
+.mail-to p {
   font-size: 1.3em;
   padding: 10px 50px 10px 50px; }
+.mail-to .email-link {
+  padding: 15px 10px 10px 10px;
+  margin-top: 5px;
+  max-width: 100%;
+  font-size: 1.3em;
+  background-color: #fff;
+  border-radius: 5px; }
+  @media (min-width: 768px) {
+    .mail-to .email-link {
+      max-width: 100%; } }
 
-.purchase-button, .read-more-button, #dropdownMenuButton, .send-btn, .learn-more-btn {
+.purchase-button, .read-more-button, #dropdownMenuButton, .mail-to .email-link, .send-btn, .learn-more-btn {
   -webkit-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
   transform: scale(1, 1);
@@ -30496,7 +30482,7 @@ footer ul {
   -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5); }
   @media (min-width: 576px) {
-    .purchase-button:hover, .read-more-button:hover, #dropdownMenuButton:hover, .send-btn:hover, .learn-more-btn:hover {
+    .purchase-button:hover, .read-more-button:hover, #dropdownMenuButton:hover, .mail-to .email-link:hover, .send-btn:hover, .learn-more-btn:hover {
       -webkit-box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       -webkit-transform: scale(1.1, 1.1);
@@ -30506,7 +30492,7 @@ footer ul {
 .title-jumbo {
   background-color: #F4F4F8; }
 
-.purchase-button, .read-more-button, #dropdownMenuButton, .send-btn, .learn-more-btn {
+.purchase-button, .read-more-button, #dropdownMenuButton, .mail-to .email-link, .send-btn, .learn-more-btn {
   -webkit-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
   transform: scale(1, 1);
@@ -30516,7 +30502,7 @@ footer ul {
   -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5); }
   @media (min-width: 576px) {
-    .purchase-button:hover, .read-more-button:hover, #dropdownMenuButton:hover, .send-btn:hover, .learn-more-btn:hover {
+    .purchase-button:hover, .read-more-button:hover, #dropdownMenuButton:hover, .mail-to .email-link:hover, .send-btn:hover, .learn-more-btn:hover {
       -webkit-box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       -webkit-transform: scale(1.1, 1.1);
@@ -30536,7 +30522,7 @@ footer ul {
  * Hover.css Copyright Ian Lunn 2017. Generated with Sass.
  */
 /* 2D TRANSITIONS */
-.purchase-button, .read-more-button, #dropdownMenuButton, .send-btn, .learn-more-btn {
+.purchase-button, .read-more-button, #dropdownMenuButton, .mail-to .email-link, .send-btn, .learn-more-btn {
   -webkit-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
   transform: scale(1, 1);
@@ -30546,7 +30532,7 @@ footer ul {
   -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5); }
   @media (min-width: 576px) {
-    .purchase-button:hover, .read-more-button:hover, #dropdownMenuButton:hover, .send-btn:hover, .learn-more-btn:hover {
+    .purchase-button:hover, .read-more-button:hover, #dropdownMenuButton:hover, .mail-to .email-link:hover, .send-btn:hover, .learn-more-btn:hover {
       -webkit-box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       -webkit-transform: scale(1.1, 1.1);
@@ -34347,7 +34333,7 @@ footer ul {
       width: 40vw; } }
 
 .dropdown-collapsed p:hover, .sub-menu-heading:hover {
-  background-color: #E9ECEF;
+  background-color: #F4F4F8;
   border: 2px solid #009FB7;
   transition: 0.3s; }
 
@@ -34455,7 +34441,7 @@ footer ul {
   .effect-1:hover:before {
     transform: scaleX(1); }
 
-.purchase-button, .read-more-button, #dropdownMenuButton, .send-btn, .learn-more-btn {
+.purchase-button, .read-more-button, #dropdownMenuButton, .mail-to .email-link, .send-btn, .learn-more-btn {
   -webkit-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
   transform: scale(1, 1);
@@ -34465,7 +34451,7 @@ footer ul {
   -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5); }
   @media (min-width: 576px) {
-    .purchase-button:hover, .read-more-button:hover, #dropdownMenuButton:hover, .send-btn:hover, .learn-more-btn:hover {
+    .purchase-button:hover, .read-more-button:hover, #dropdownMenuButton:hover, .mail-to .email-link:hover, .send-btn:hover, .learn-more-btn:hover {
       -webkit-box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       -webkit-transform: scale(1.1, 1.1);
@@ -34543,7 +34529,7 @@ footer ul {
  * Hover.css Copyright Ian Lunn 2017. Generated with Sass.
  */
 /* 2D TRANSITIONS */
-.purchase-button, .read-more-button, #dropdownMenuButton, .send-btn, .learn-more-btn {
+.purchase-button, .read-more-button, #dropdownMenuButton, .mail-to .email-link, .send-btn, .learn-more-btn {
   -webkit-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
   transform: scale(1, 1);
@@ -34553,7 +34539,7 @@ footer ul {
   -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5); }
   @media (min-width: 576px) {
-    .purchase-button:hover, .read-more-button:hover, #dropdownMenuButton:hover, .send-btn:hover, .learn-more-btn:hover {
+    .purchase-button:hover, .read-more-button:hover, #dropdownMenuButton:hover, .mail-to .email-link:hover, .send-btn:hover, .learn-more-btn:hover {
       -webkit-box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       -webkit-transform: scale(1.1, 1.1);
@@ -38282,7 +38268,7 @@ body {
   font-family: "Henny Penny", cursive !important; }
 
 .contact-form {
-  background-color: #8c8c8c;
+  background-color: #a8dadc;
   -webkit-box-shadow: 15px 15px 8px rgba(0, 0, 0, 0.4);
   box-shadow: 15px 15px 8px rgba(0, 0, 0, 0.4);
   color: white; }
@@ -38339,7 +38325,7 @@ input:invalid, textarea:invalid {
 input:focus, textarea:focus {
   outline: none !important; }
 
-.purchase-button, .read-more-button, #dropdownMenuButton, .send-btn, .learn-more-btn {
+.purchase-button, .read-more-button, #dropdownMenuButton, .mail-to .email-link, .send-btn, .learn-more-btn {
   -webkit-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
   transform: scale(1, 1);
@@ -38349,7 +38335,7 @@ input:focus, textarea:focus {
   -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5); }
   @media (min-width: 576px) {
-    .purchase-button:hover, .read-more-button:hover, #dropdownMenuButton:hover, .send-btn:hover, .learn-more-btn:hover {
+    .purchase-button:hover, .read-more-button:hover, #dropdownMenuButton:hover, .mail-to .email-link:hover, .send-btn:hover, .learn-more-btn:hover {
       -webkit-box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       -webkit-transform: scale(1.1, 1.1);
@@ -38369,7 +38355,7 @@ input:focus, textarea:focus {
  * Hover.css Copyright Ian Lunn 2017. Generated with Sass.
  */
 /* 2D TRANSITIONS */
-.purchase-button, .read-more-button, #dropdownMenuButton, .send-btn, .learn-more-btn {
+.purchase-button, .read-more-button, #dropdownMenuButton, .mail-to .email-link, .send-btn, .learn-more-btn {
   -webkit-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
   transform: scale(1, 1);
@@ -38379,7 +38365,7 @@ input:focus, textarea:focus {
   -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5); }
   @media (min-width: 576px) {
-    .purchase-button:hover, .read-more-button:hover, #dropdownMenuButton:hover, .send-btn:hover, .learn-more-btn:hover {
+    .purchase-button:hover, .read-more-button:hover, #dropdownMenuButton:hover, .mail-to .email-link:hover, .send-btn:hover, .learn-more-btn:hover {
       -webkit-box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       -webkit-transform: scale(1.1, 1.1);
@@ -42180,7 +42166,7 @@ input:focus, textarea:focus {
       width: 40vw; } }
 
 .dropdown-collapsed p:hover, .sub-menu-heading:hover {
-  background-color: #E9ECEF;
+  background-color: #F4F4F8;
   border: 2px solid #009FB7;
   transition: 0.3s; }
 
@@ -42288,7 +42274,7 @@ input:focus, textarea:focus {
   .effect-1:hover:before {
     transform: scaleX(1); }
 
-.purchase-button, .read-more-button, #dropdownMenuButton, .send-btn, .learn-more-btn {
+.purchase-button, .read-more-button, #dropdownMenuButton, .mail-to .email-link, .send-btn, .learn-more-btn {
   -webkit-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
   transform: scale(1, 1);
@@ -42298,7 +42284,7 @@ input:focus, textarea:focus {
   -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5); }
   @media (min-width: 576px) {
-    .purchase-button:hover, .read-more-button:hover, #dropdownMenuButton:hover, .send-btn:hover, .learn-more-btn:hover {
+    .purchase-button:hover, .read-more-button:hover, #dropdownMenuButton:hover, .mail-to .email-link:hover, .send-btn:hover, .learn-more-btn:hover {
       -webkit-box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
       -webkit-transform: scale(1.1, 1.1);
@@ -42367,6 +42353,6 @@ hr {
 
 .intro-text {
   padding-bottom: 50px !important;
-  background-color: #8c8c8c; }
+  background-color: #a8dadc; }
 
 /*# sourceMappingURL=style.css.map */
