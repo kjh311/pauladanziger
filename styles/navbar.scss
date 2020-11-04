@@ -77,11 +77,16 @@ width: 60vw;
 	cursor: pointer;
 	border: 2px solid rgba(0,0,0,0);
 	transition: all 0.2s;
+	// padding-bottom: 15px;
+	&:hover{
+		border: 2px solid $light-navbar;
+		transition: all 0.2s;
+	}
+	// span:nth-child(1){
+	// 	margin-top: 5px;
+	// }
 }
-.navbar-toggler:hover{
-	border: 2px solid $light-navbar;
-	transition: all 0.2s;
-}
+
 .mega-menu{
 		// width: 90vw;
 	// max-height: 300px;

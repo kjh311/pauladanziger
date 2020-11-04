@@ -10499,10 +10499,9 @@ body {
   cursor: pointer;
   border: 2px solid rgba(0, 0, 0, 0);
   transition: all 0.2s; }
-
-.navbar-toggler:hover {
-  border: 2px solid #56c7dd;
-  transition: all 0.2s; }
+  .navbar-toggler:hover {
+    border: 2px solid #56c7dd;
+    transition: all 0.2s; }
 
 .mega-menu {
   overflow-y: scroll;
@@ -18331,10 +18330,9 @@ footer ul {
   cursor: pointer;
   border: 2px solid rgba(0, 0, 0, 0);
   transition: all 0.2s; }
-
-.navbar-toggler:hover {
-  border: 2px solid #56c7dd;
-  transition: all 0.2s; }
+  .navbar-toggler:hover {
+    border: 2px solid #56c7dd;
+    transition: all 0.2s; }
 
 .mega-menu {
   overflow-y: scroll;
@@ -26439,10 +26437,9 @@ hr {
   cursor: pointer;
   border: 2px solid rgba(0, 0, 0, 0);
   transition: all 0.2s; }
-
-.navbar-toggler:hover {
-  border: 2px solid #56c7dd;
-  transition: all 0.2s; }
+  .navbar-toggler:hover {
+    border: 2px solid #56c7dd;
+    transition: all 0.2s; }
 
 .mega-menu {
   overflow-y: scroll;
@@ -34357,10 +34354,9 @@ footer ul {
   cursor: pointer;
   border: 2px solid rgba(0, 0, 0, 0);
   transition: all 0.2s; }
-
-.navbar-toggler:hover {
-  border: 2px solid #56c7dd;
-  transition: all 0.2s; }
+  .navbar-toggler:hover {
+    border: 2px solid #56c7dd;
+    transition: all 0.2s; }
 
 .mega-menu {
   overflow-y: scroll;
@@ -42190,10 +42186,9 @@ input:focus, textarea:focus {
   cursor: pointer;
   border: 2px solid rgba(0, 0, 0, 0);
   transition: all 0.2s; }
-
-.navbar-toggler:hover {
-  border: 2px solid #56c7dd;
-  transition: all 0.2s; }
+  .navbar-toggler:hover {
+    border: 2px solid #56c7dd;
+    transition: all 0.2s; }
 
 .mega-menu {
   overflow-y: scroll;
