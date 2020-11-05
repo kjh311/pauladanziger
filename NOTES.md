@@ -25,3 +25,5 @@ meta data on every page
 scrollbar always visible on mobile
 book mobile dropdown centered
 color scheme
+Captcha for contact page?
+progressive image loading
