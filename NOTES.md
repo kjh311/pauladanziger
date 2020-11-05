@@ -19,9 +19,9 @@ google analitics
 amazon affiliate links
 <!-- pages for series -->
 <!-- lightbox -->
-apple tv on amber brown page
-icons on every page
-meta data on every page
+<!-- apple tv on amber brown page -->
+<!-- icons on every page -->
+<!-- meta data on every page -->
 scrollbar always visible on mobile
 book mobile dropdown centered
 color scheme

@@ -79,6 +79,18 @@ $(document).click(
       });
 
   $(".collapse-button-1").click(function(){
+    // $(".collapse-wrap").removeClass('drop-active');
+    // if ( !$( this ).hasClass( "drop-active" ) ) {
+ 
+    //     $(".collapse-wrap1")
+    //         .addClass('drop-active');
+    // }
+    // if ( $( this ).hasClass( "drop-active" ) ) {
+ 
+    //     $(".collapse-wrap1")
+    //         .removeClass( "drop-active" );
+    // }
+    
       $(".collapse1").slideToggle();
       $(".collapse2").slideUp();
       $(".collapse3").slideUp();
