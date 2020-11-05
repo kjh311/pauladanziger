@@ -30705,6 +30705,8 @@ footer ul {
   background-color: #fff;
   border-radius: 10px;
   max-height: 50vh; }
+  .pic-card h3 {
+    padding-top: 20px; }
   @media (min-width: 576px) {
     .pic-card {
       margin: 5% !important;

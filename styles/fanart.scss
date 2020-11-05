@@ -70,6 +70,9 @@
 	background-color: #fff;
 	border-radius: 10px;
 	max-height: 50vh;
+	h3{
+		margin-top: 20px;
+	}
 	@include media-breakpoint-up(sm) {
   		margin: 5% !important;
 		width: 40% !important;
