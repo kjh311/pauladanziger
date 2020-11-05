@@ -33,7 +33,7 @@
 	// margin-top: 10px;
 }
 .dropdown-collapsed p, .sub-menu-heading{
-	padding: 10px 30px 10px 30px;
+	padding: 10px 10px 10px 10px;
 	width: 100%;
 	// width: 100%;
 	margin: 0;
@@ -185,10 +185,11 @@
 	padding: 10px 0px 0px 0px;
 }
 .nav-link{
-	padding: 18px 20vw 18px 20vw !important;
+	box-sizing: content-box; 
+	padding: 18px 30vw 18px 30vw !important;
 	transition: all 0.2s;
 	@include media-breakpoint-up(sm) {
-  		padding: 18px 30vw 18px 30vw !important;
+  		padding: 18px 35vw 18px 35vw !important;
 	}
 
 	@include media-breakpoint-up(lg) {
