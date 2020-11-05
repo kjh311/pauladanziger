@@ -9,6 +9,7 @@ $penny: 'Henny Penny', cursive;;
 
 // COLORS
 $red: #FE4A49;
+$dark-red: #b21717;
 $yellow: #FED766;
 $dark-grey: #c2c3c4;
 $medium-grey: #E9ECEF;
@@ -108,7 +109,27 @@ $link: #1a9cbc;
       }
 }
 
+%hover-grow-no-shadow {
+       -webkit-transform: scale(1,1);
+        -ms-transform: scale(1,1);
+            transform: scale(1,1);
+    -webkit-transition: all 200ms ease-in-out;
+    -o-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+    &:hover{
+      @include media-breakpoint-up(sm) {
+        -webkit-transform: scale(1.1,1.1);
+            -ms-transform: scale(1.1,1.1);
+                transform: scale(1.1,1.1);
+          }
+      }
+}
+
 
 .title-jumbo{
 	background-color: $jumbotron;
+  
+}
+.jumbotron{
+  padding-bottom: 1rem !important;
 }

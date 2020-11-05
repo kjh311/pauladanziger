@@ -8,22 +8,74 @@
 		// display: inline !important;
 		
 	}
-	.row{
+	.links-heading{
+		text-decoration: underline;
+		padding: 30px 0 10px 0;
+	}
+	.reading-text{
+				// font-size: 1.3em;
+				padding: 0px 20%;
+	}
+	h3{
+		margin-top: 40px;
+	}
+	// .resource-button{
+	// 	background-color: $red;
+	// 	@extend %hover-grow;
+	// 	cursor: pointer;
+	// 	&:hover{
+	// 		background-color: $dark-red;
+	// 	}
+	// }
+	
+	ul{
+		list-style-type: none;
+		padding: 0;
+		li{
+			text-align: center !important;
+			font-size: 1.5em;
+			text-decoration: underline !important;
+			color: $link;
+			// &:hover{
+			// 	text-decoration: underline !important;
+			// }
+			.twitter-icon{
+				width: 40px;
+				height: 40px;
+				// @extend %hover-grow-no-shadow;
+			}
+			.img{
+				width: 200px;
+				// max-width: 90%;
+				// @extend %hover-grow-no-shadow;
+			}
+			h3{
+				color: $link;
+				@extend %hover-grow-no-shadow;
+				padding: 0 10px;
+			}
+			
+		}
+	}
+	.resource-wrapper{
 		// padding: 100px;
-		padding: 40px 0;
+		padding: 40px 0 80px 0;
 		} 
 	.iframe-wrapper{
-		display: inline !important;
+		// display: inline !important;
 		padding: 10px;
 		
 		@include media-breakpoint-up(sm) {
   			padding: 20px 20px;
 		}
 		@include media-breakpoint-up(lg) {
-  			padding: 20px 200px;
+  			padding: 20px 150px;
 		}
 	}
 }
+.hr{
+		// max-width: 100vw;
+	}
 .iframe-subtext{
 	padding:  20px;
 }

@@ -43,10 +43,12 @@
 	height: 30%;
 	}
 }
-
-.jumbotron > h1{
-	font-family: $chilanka;
-	text-align: center;
+.jumbotron{
+	h1{
+		font-family: $chilanka;
+		text-align: center;
+	}
+	
 }
 .paula-about-quote{
 	font-style: italic;

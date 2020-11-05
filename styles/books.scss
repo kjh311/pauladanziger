@@ -100,9 +100,10 @@ body{
 }
 .book-container{
 	padding: 50px 0 50px 0;
-	a:link, a:visited, a:hover, a:active {  
+	a:link, a:visited, a:active {  
 		text-decoration: none;
 		color: $link;
+		// @extend %hover-grow-no-shadow;
 		 }
  p{
 	font-family: $chilanka;

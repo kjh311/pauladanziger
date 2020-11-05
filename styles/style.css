@@ -6386,8 +6386,24 @@ a.text-dark:focus, a.text-dark:hover {
       -ms-transform: scale(1.1, 1.1);
       transform: scale(1.1, 1.1); } }
 
+.resources-div ul li h3 {
+  -webkit-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  transform: scale(1, 1);
+  -webkit-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out; }
+  @media (min-width: 576px) {
+    .resources-div ul li h3:hover {
+      -webkit-transform: scale(1.1, 1.1);
+      -ms-transform: scale(1.1, 1.1);
+      transform: scale(1.1, 1.1); } }
+
 .title-jumbo {
   background-color: #F4F4F8; }
+
+.jumbotron {
+  padding-bottom: 1rem !important; }
 
 body {
   margin: 1em 0 0 0;
@@ -6631,8 +6647,24 @@ body {
       -ms-transform: scale(1.1, 1.1);
       transform: scale(1.1, 1.1); } }
 
+.resources-div ul li h3 {
+  -webkit-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  transform: scale(1, 1);
+  -webkit-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out; }
+  @media (min-width: 576px) {
+    .resources-div ul li h3:hover {
+      -webkit-transform: scale(1.1, 1.1);
+      -ms-transform: scale(1.1, 1.1);
+      transform: scale(1.1, 1.1); } }
+
 .title-jumbo {
   background-color: #F4F4F8; }
+
+.jumbotron {
+  padding-bottom: 1rem !important; }
 
 .purchase-button, .read-more-button, #dropdownMenuButton, .grow, .mail-to .email-link, .send-btn, .learn-more-btn {
   -webkit-transform: scale(1, 1);
@@ -6651,8 +6683,24 @@ body {
       -ms-transform: scale(1.1, 1.1);
       transform: scale(1.1, 1.1); } }
 
+.resources-div ul li h3 {
+  -webkit-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  transform: scale(1, 1);
+  -webkit-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out; }
+  @media (min-width: 576px) {
+    .resources-div ul li h3:hover {
+      -webkit-transform: scale(1.1, 1.1);
+      -ms-transform: scale(1.1, 1.1);
+      transform: scale(1.1, 1.1); } }
+
 .title-jumbo {
   background-color: #F4F4F8; }
+
+.jumbotron {
+  padding-bottom: 1rem !important; }
 
 /*!
  * Hover.css (http://ianlunn.github.io/Hover/)
@@ -6681,8 +6729,24 @@ body {
       -ms-transform: scale(1.1, 1.1);
       transform: scale(1.1, 1.1); } }
 
+.resources-div ul li h3 {
+  -webkit-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  transform: scale(1, 1);
+  -webkit-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out; }
+  @media (min-width: 576px) {
+    .resources-div ul li h3:hover {
+      -webkit-transform: scale(1.1, 1.1);
+      -ms-transform: scale(1.1, 1.1);
+      transform: scale(1.1, 1.1); } }
+
 .title-jumbo {
   background-color: #F4F4F8; }
+
+.jumbotron {
+  padding-bottom: 1rem !important; }
 
 /* Grow */
 .hvr-grow {
@@ -10598,8 +10662,24 @@ body {
       -ms-transform: scale(1.1, 1.1);
       transform: scale(1.1, 1.1); } }
 
+.resources-div ul li h3 {
+  -webkit-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  transform: scale(1, 1);
+  -webkit-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out; }
+  @media (min-width: 576px) {
+    .resources-div ul li h3:hover {
+      -webkit-transform: scale(1.1, 1.1);
+      -ms-transform: scale(1.1, 1.1);
+      transform: scale(1.1, 1.1); } }
+
 .title-jumbo {
   background-color: #F4F4F8; }
+
+.jumbotron {
+  padding-bottom: 1rem !important; }
 
 footer {
   border-top: 2px solid #E9ECEF;
@@ -10689,8 +10769,24 @@ footer ul {
       -ms-transform: scale(1.1, 1.1);
       transform: scale(1.1, 1.1); } }
 
+.resources-div ul li h3 {
+  -webkit-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  transform: scale(1, 1);
+  -webkit-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out; }
+  @media (min-width: 576px) {
+    .resources-div ul li h3:hover {
+      -webkit-transform: scale(1.1, 1.1);
+      -ms-transform: scale(1.1, 1.1);
+      transform: scale(1.1, 1.1); } }
+
 .title-jumbo {
   background-color: #F4F4F8; }
+
+.jumbotron {
+  padding-bottom: 1rem !important; }
 
 /* Grow */
 .hvr-grow {
@@ -14438,7 +14534,7 @@ footer ul {
       width: 30%;
       height: 30%; } }
 
-.jumbotron > h1 {
+.jumbotron h1 {
   font-family: "Chilanka", cursive;
   text-align: center; }
 
@@ -14464,8 +14560,24 @@ footer ul {
       -ms-transform: scale(1.1, 1.1);
       transform: scale(1.1, 1.1); } }
 
+.resources-div ul li h3 {
+  -webkit-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  transform: scale(1, 1);
+  -webkit-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out; }
+  @media (min-width: 576px) {
+    .resources-div ul li h3:hover {
+      -webkit-transform: scale(1.1, 1.1);
+      -ms-transform: scale(1.1, 1.1);
+      transform: scale(1.1, 1.1); } }
+
 .title-jumbo {
   background-color: #F4F4F8; }
+
+.jumbotron {
+  padding-bottom: 1rem !important; }
 
 .purchase-button, .read-more-button, #dropdownMenuButton, .grow, .mail-to .email-link, .send-btn, .learn-more-btn {
   -webkit-transform: scale(1, 1);
@@ -14484,8 +14596,24 @@ footer ul {
       -ms-transform: scale(1.1, 1.1);
       transform: scale(1.1, 1.1); } }
 
+.resources-div ul li h3 {
+  -webkit-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  transform: scale(1, 1);
+  -webkit-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out; }
+  @media (min-width: 576px) {
+    .resources-div ul li h3:hover {
+      -webkit-transform: scale(1.1, 1.1);
+      -ms-transform: scale(1.1, 1.1);
+      transform: scale(1.1, 1.1); } }
+
 .title-jumbo {
   background-color: #F4F4F8; }
+
+.jumbotron {
+  padding-bottom: 1rem !important; }
 
 /*!
  * Hover.css (http://ianlunn.github.io/Hover/)
@@ -14514,8 +14642,24 @@ footer ul {
       -ms-transform: scale(1.1, 1.1);
       transform: scale(1.1, 1.1); } }
 
+.resources-div ul li h3 {
+  -webkit-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  transform: scale(1, 1);
+  -webkit-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out; }
+  @media (min-width: 576px) {
+    .resources-div ul li h3:hover {
+      -webkit-transform: scale(1.1, 1.1);
+      -ms-transform: scale(1.1, 1.1);
+      transform: scale(1.1, 1.1); } }
+
 .title-jumbo {
   background-color: #F4F4F8; }
+
+.jumbotron {
+  padding-bottom: 1rem !important; }
 
 /* Grow */
 .hvr-grow {
@@ -18431,8 +18575,24 @@ footer ul {
       -ms-transform: scale(1.1, 1.1);
       transform: scale(1.1, 1.1); } }
 
+.resources-div ul li h3 {
+  -webkit-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  transform: scale(1, 1);
+  -webkit-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out; }
+  @media (min-width: 576px) {
+    .resources-div ul li h3:hover {
+      -webkit-transform: scale(1.1, 1.1);
+      -ms-transform: scale(1.1, 1.1);
+      transform: scale(1.1, 1.1); } }
+
 .title-jumbo {
   background-color: #F4F4F8; }
+
+.jumbotron {
+  padding-bottom: 1rem !important; }
 
 footer {
   border-top: 2px solid #E9ECEF;
@@ -18522,8 +18682,24 @@ footer ul {
       -ms-transform: scale(1.1, 1.1);
       transform: scale(1.1, 1.1); } }
 
+.resources-div ul li h3 {
+  -webkit-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  transform: scale(1, 1);
+  -webkit-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out; }
+  @media (min-width: 576px) {
+    .resources-div ul li h3:hover {
+      -webkit-transform: scale(1.1, 1.1);
+      -ms-transform: scale(1.1, 1.1);
+      transform: scale(1.1, 1.1); } }
+
 .title-jumbo {
   background-color: #F4F4F8; }
+
+.jumbotron {
+  padding-bottom: 1rem !important; }
 
 /* Grow */
 .hvr-grow {
@@ -22391,7 +22567,7 @@ html {
 
 .book-container {
   padding: 50px 0 50px 0; }
-  .book-container a:link, .book-container a:visited, .book-container a:hover, .book-container a:active {
+  .book-container a:link, .book-container a:visited, .book-container a:active {
     text-decoration: none;
     color: #1a9cbc; }
   .book-container p {
@@ -22573,8 +22749,24 @@ hr {
       -ms-transform: scale(1.1, 1.1);
       transform: scale(1.1, 1.1); } }
 
+.resources-div ul li h3 {
+  -webkit-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  transform: scale(1, 1);
+  -webkit-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out; }
+  @media (min-width: 576px) {
+    .resources-div ul li h3:hover {
+      -webkit-transform: scale(1.1, 1.1);
+      -ms-transform: scale(1.1, 1.1);
+      transform: scale(1.1, 1.1); } }
+
 .title-jumbo {
   background-color: #F4F4F8; }
+
+.jumbotron {
+  padding-bottom: 1rem !important; }
 
 .purchase-button, .read-more-button, #dropdownMenuButton, .grow, .mail-to .email-link, .send-btn, .learn-more-btn {
   -webkit-transform: scale(1, 1);
@@ -22593,8 +22785,24 @@ hr {
       -ms-transform: scale(1.1, 1.1);
       transform: scale(1.1, 1.1); } }
 
+.resources-div ul li h3 {
+  -webkit-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  transform: scale(1, 1);
+  -webkit-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out; }
+  @media (min-width: 576px) {
+    .resources-div ul li h3:hover {
+      -webkit-transform: scale(1.1, 1.1);
+      -ms-transform: scale(1.1, 1.1);
+      transform: scale(1.1, 1.1); } }
+
 .title-jumbo {
   background-color: #F4F4F8; }
+
+.jumbotron {
+  padding-bottom: 1rem !important; }
 
 /*!
  * Hover.css (http://ianlunn.github.io/Hover/)
@@ -22623,8 +22831,24 @@ hr {
       -ms-transform: scale(1.1, 1.1);
       transform: scale(1.1, 1.1); } }
 
+.resources-div ul li h3 {
+  -webkit-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  transform: scale(1, 1);
+  -webkit-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out; }
+  @media (min-width: 576px) {
+    .resources-div ul li h3:hover {
+      -webkit-transform: scale(1.1, 1.1);
+      -ms-transform: scale(1.1, 1.1);
+      transform: scale(1.1, 1.1); } }
+
 .title-jumbo {
   background-color: #F4F4F8; }
+
+.jumbotron {
+  padding-bottom: 1rem !important; }
 
 /* Grow */
 .hvr-grow {
@@ -26540,8 +26764,24 @@ hr {
       -ms-transform: scale(1.1, 1.1);
       transform: scale(1.1, 1.1); } }
 
+.resources-div ul li h3 {
+  -webkit-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  transform: scale(1, 1);
+  -webkit-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out; }
+  @media (min-width: 576px) {
+    .resources-div ul li h3:hover {
+      -webkit-transform: scale(1.1, 1.1);
+      -ms-transform: scale(1.1, 1.1);
+      transform: scale(1.1, 1.1); } }
+
 .title-jumbo {
   background-color: #F4F4F8; }
+
+.jumbotron {
+  padding-bottom: 1rem !important; }
 
 footer {
   border-top: 2px solid #E9ECEF;
@@ -26631,8 +26871,24 @@ footer ul {
       -ms-transform: scale(1.1, 1.1);
       transform: scale(1.1, 1.1); } }
 
+.resources-div ul li h3 {
+  -webkit-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  transform: scale(1, 1);
+  -webkit-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out; }
+  @media (min-width: 576px) {
+    .resources-div ul li h3:hover {
+      -webkit-transform: scale(1.1, 1.1);
+      -ms-transform: scale(1.1, 1.1);
+      transform: scale(1.1, 1.1); } }
+
 .title-jumbo {
   background-color: #F4F4F8; }
+
+.jumbotron {
+  padding-bottom: 1rem !important; }
 
 /* Grow */
 .hvr-grow {
@@ -30475,8 +30731,24 @@ footer ul {
       -ms-transform: scale(1.1, 1.1);
       transform: scale(1.1, 1.1); } }
 
+.resources-div ul li h3 {
+  -webkit-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  transform: scale(1, 1);
+  -webkit-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out; }
+  @media (min-width: 576px) {
+    .resources-div ul li h3:hover {
+      -webkit-transform: scale(1.1, 1.1);
+      -ms-transform: scale(1.1, 1.1);
+      transform: scale(1.1, 1.1); } }
+
 .title-jumbo {
   background-color: #F4F4F8; }
+
+.jumbotron {
+  padding-bottom: 1rem !important; }
 
 .purchase-button, .read-more-button, #dropdownMenuButton, .grow, .mail-to .email-link, .send-btn, .learn-more-btn {
   -webkit-transform: scale(1, 1);
@@ -30495,8 +30767,24 @@ footer ul {
       -ms-transform: scale(1.1, 1.1);
       transform: scale(1.1, 1.1); } }
 
+.resources-div ul li h3 {
+  -webkit-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  transform: scale(1, 1);
+  -webkit-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out; }
+  @media (min-width: 576px) {
+    .resources-div ul li h3:hover {
+      -webkit-transform: scale(1.1, 1.1);
+      -ms-transform: scale(1.1, 1.1);
+      transform: scale(1.1, 1.1); } }
+
 .title-jumbo {
   background-color: #F4F4F8; }
+
+.jumbotron {
+  padding-bottom: 1rem !important; }
 
 /*!
  * Hover.css (http://ianlunn.github.io/Hover/)
@@ -30525,8 +30813,24 @@ footer ul {
       -ms-transform: scale(1.1, 1.1);
       transform: scale(1.1, 1.1); } }
 
+.resources-div ul li h3 {
+  -webkit-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  transform: scale(1, 1);
+  -webkit-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out; }
+  @media (min-width: 576px) {
+    .resources-div ul li h3:hover {
+      -webkit-transform: scale(1.1, 1.1);
+      -ms-transform: scale(1.1, 1.1);
+      transform: scale(1.1, 1.1); } }
+
 .title-jumbo {
   background-color: #F4F4F8; }
+
+.jumbotron {
+  padding-bottom: 1rem !important; }
 
 /* Grow */
 .hvr-grow {
@@ -34442,8 +34746,24 @@ footer ul {
       -ms-transform: scale(1.1, 1.1);
       transform: scale(1.1, 1.1); } }
 
+.resources-div ul li h3 {
+  -webkit-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  transform: scale(1, 1);
+  -webkit-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out; }
+  @media (min-width: 576px) {
+    .resources-div ul li h3:hover {
+      -webkit-transform: scale(1.1, 1.1);
+      -ms-transform: scale(1.1, 1.1);
+      transform: scale(1.1, 1.1); } }
+
 .title-jumbo {
   background-color: #F4F4F8; }
+
+.jumbotron {
+  padding-bottom: 1rem !important; }
 
 footer {
   border-top: 2px solid #E9ECEF;
@@ -34533,8 +34853,24 @@ footer ul {
       -ms-transform: scale(1.1, 1.1);
       transform: scale(1.1, 1.1); } }
 
+.resources-div ul li h3 {
+  -webkit-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  transform: scale(1, 1);
+  -webkit-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out; }
+  @media (min-width: 576px) {
+    .resources-div ul li h3:hover {
+      -webkit-transform: scale(1.1, 1.1);
+      -ms-transform: scale(1.1, 1.1);
+      transform: scale(1.1, 1.1); } }
+
 .title-jumbo {
   background-color: #F4F4F8; }
+
+.jumbotron {
+  padding-bottom: 1rem !important; }
 
 /* Grow */
 .hvr-grow {
@@ -38329,8 +38665,24 @@ input:focus, textarea:focus {
       -ms-transform: scale(1.1, 1.1);
       transform: scale(1.1, 1.1); } }
 
+.resources-div ul li h3 {
+  -webkit-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  transform: scale(1, 1);
+  -webkit-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out; }
+  @media (min-width: 576px) {
+    .resources-div ul li h3:hover {
+      -webkit-transform: scale(1.1, 1.1);
+      -ms-transform: scale(1.1, 1.1);
+      transform: scale(1.1, 1.1); } }
+
 .title-jumbo {
   background-color: #F4F4F8; }
+
+.jumbotron {
+  padding-bottom: 1rem !important; }
 
 /*!
  * Hover.css (http://ianlunn.github.io/Hover/)
@@ -38359,8 +38711,24 @@ input:focus, textarea:focus {
       -ms-transform: scale(1.1, 1.1);
       transform: scale(1.1, 1.1); } }
 
+.resources-div ul li h3 {
+  -webkit-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  transform: scale(1, 1);
+  -webkit-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out; }
+  @media (min-width: 576px) {
+    .resources-div ul li h3:hover {
+      -webkit-transform: scale(1.1, 1.1);
+      -ms-transform: scale(1.1, 1.1);
+      transform: scale(1.1, 1.1); } }
+
 .title-jumbo {
   background-color: #F4F4F8; }
+
+.jumbotron {
+  padding-bottom: 1rem !important; }
 
 /* Grow */
 .hvr-grow {
@@ -42276,8 +42644,24 @@ input:focus, textarea:focus {
       -ms-transform: scale(1.1, 1.1);
       transform: scale(1.1, 1.1); } }
 
+.resources-div ul li h3 {
+  -webkit-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  transform: scale(1, 1);
+  -webkit-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out; }
+  @media (min-width: 576px) {
+    .resources-div ul li h3:hover {
+      -webkit-transform: scale(1.1, 1.1);
+      -ms-transform: scale(1.1, 1.1);
+      transform: scale(1.1, 1.1); } }
+
 .title-jumbo {
   background-color: #F4F4F8; }
+
+.jumbotron {
+  padding-bottom: 1rem !important; }
 
 .purchase-button, .read-more-button, #dropdownMenuButton, .grow, .mail-to .email-link, .send-btn, .learn-more-btn {
   -webkit-transform: scale(1, 1);
@@ -42296,8 +42680,24 @@ input:focus, textarea:focus {
       -ms-transform: scale(1.1, 1.1);
       transform: scale(1.1, 1.1); } }
 
+.resources-div ul li h3 {
+  -webkit-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  transform: scale(1, 1);
+  -webkit-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out; }
+  @media (min-width: 576px) {
+    .resources-div ul li h3:hover {
+      -webkit-transform: scale(1.1, 1.1);
+      -ms-transform: scale(1.1, 1.1);
+      transform: scale(1.1, 1.1); } }
+
 .title-jumbo {
   background-color: #F4F4F8; }
+
+.jumbotron {
+  padding-bottom: 1rem !important; }
 
 /*!
  * Hover.css (http://ianlunn.github.io/Hover/)
@@ -42326,8 +42726,24 @@ input:focus, textarea:focus {
       -ms-transform: scale(1.1, 1.1);
       transform: scale(1.1, 1.1); } }
 
+.resources-div ul li h3 {
+  -webkit-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  transform: scale(1, 1);
+  -webkit-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out; }
+  @media (min-width: 576px) {
+    .resources-div ul li h3:hover {
+      -webkit-transform: scale(1.1, 1.1);
+      -ms-transform: scale(1.1, 1.1);
+      transform: scale(1.1, 1.1); } }
+
 .title-jumbo {
   background-color: #F4F4F8; }
+
+.jumbotron {
+  padding-bottom: 1rem !important; }
 
 /* Grow */
 .hvr-grow {
@@ -46243,8 +46659,24 @@ input:focus, textarea:focus {
       -ms-transform: scale(1.1, 1.1);
       transform: scale(1.1, 1.1); } }
 
+.resources-div ul li h3 {
+  -webkit-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  transform: scale(1, 1);
+  -webkit-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out; }
+  @media (min-width: 576px) {
+    .resources-div ul li h3:hover {
+      -webkit-transform: scale(1.1, 1.1);
+      -ms-transform: scale(1.1, 1.1);
+      transform: scale(1.1, 1.1); } }
+
 .title-jumbo {
   background-color: #F4F4F8; }
+
+.jumbotron {
+  padding-bottom: 1rem !important; }
 
 footer {
   border-top: 2px solid #E9ECEF;
@@ -46334,8 +46766,24 @@ footer ul {
       -ms-transform: scale(1.1, 1.1);
       transform: scale(1.1, 1.1); } }
 
+.resources-div ul li h3 {
+  -webkit-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  transform: scale(1, 1);
+  -webkit-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out; }
+  @media (min-width: 576px) {
+    .resources-div ul li h3:hover {
+      -webkit-transform: scale(1.1, 1.1);
+      -ms-transform: scale(1.1, 1.1);
+      transform: scale(1.1, 1.1); } }
+
 .title-jumbo {
   background-color: #F4F4F8; }
+
+.jumbotron {
+  padding-bottom: 1rem !important; }
 
 /* Grow */
 .hvr-grow {
@@ -50049,17 +50497,39 @@ footer ul {
   height: 25px; }
 
 /*# sourceMappingURL=hover.css.map */
-.resources-div .row {
-  padding: 40px 0; }
+.resources-div .links-heading {
+  text-decoration: underline;
+  padding: 30px 0 10px 0; }
+.resources-div .reading-text {
+  padding: 0px 20%; }
+.resources-div h3 {
+  margin-top: 40px; }
+.resources-div ul {
+  list-style-type: none;
+  padding: 0; }
+  .resources-div ul li {
+    text-align: center !important;
+    font-size: 1.5em;
+    text-decoration: underline !important;
+    color: #1a9cbc; }
+    .resources-div ul li .twitter-icon {
+      width: 40px;
+      height: 40px; }
+    .resources-div ul li .img {
+      width: 200px; }
+    .resources-div ul li h3 {
+      color: #1a9cbc;
+      padding: 0 10px; }
+.resources-div .resource-wrapper {
+  padding: 40px 0 80px 0; }
 .resources-div .iframe-wrapper {
-  display: inline !important;
   padding: 10px; }
   @media (min-width: 576px) {
     .resources-div .iframe-wrapper {
       padding: 20px 20px; } }
   @media (min-width: 992px) {
     .resources-div .iframe-wrapper {
-      padding: 20px 200px; } }
+      padding: 20px 150px; } }
 
 .iframe-subtext {
   padding: 20px; }
@@ -50086,8 +50556,24 @@ footer ul {
       -ms-transform: scale(1.1, 1.1);
       transform: scale(1.1, 1.1); } }
 
+.resources-div ul li h3 {
+  -webkit-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  transform: scale(1, 1);
+  -webkit-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out; }
+  @media (min-width: 576px) {
+    .resources-div ul li h3:hover {
+      -webkit-transform: scale(1.1, 1.1);
+      -ms-transform: scale(1.1, 1.1);
+      transform: scale(1.1, 1.1); } }
+
 .title-jumbo {
   background-color: #F4F4F8; }
+
+.jumbotron {
+  padding-bottom: 1rem !important; }
 
 .learn-more-btn {
   background-color: #0b9fc4;
