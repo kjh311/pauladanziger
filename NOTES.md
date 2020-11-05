@@ -30,3 +30,4 @@ progressive image loading
 typos
 each page has a 'top' anchor tag
 new paula pin on index
+download fonts?

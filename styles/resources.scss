@@ -29,7 +29,9 @@
 }
 .embed-responsive-item{
 	// background-color: $dark-grey;
-		background-image: url("../assets/loading.jpg");
+		background-image: url("../assets/loading3.gif");
+		background-repeat: no-repeat;
+  background-size: 100% 100%;
 	// border: 2px solid black;
 	// -webkit-transition: all 0.2s;-o-transition: all 0.2s;transition: all 0.2s;
 	// &:hover{
