@@ -6386,7 +6386,7 @@ a.text-dark:focus, a.text-dark:hover {
       -ms-transform: scale(1.1, 1.1);
       transform: scale(1.1, 1.1); } }
 
-.resources-div ul li h3 {
+.carousel .carousel-control-prev-icon, .carousel-item .carousel-control-prev-icon, .carousel-inner .carousel-control-prev-icon, .carousel .carousel-control-next-icon, .carousel-item .carousel-control-next-icon, .carousel-inner .carousel-control-next-icon, .resources-div ul li h3 {
   -webkit-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
   transform: scale(1, 1);
@@ -6394,7 +6394,7 @@ a.text-dark:focus, a.text-dark:hover {
   -o-transition: all 200ms ease-in-out;
   transition: all 200ms ease-in-out; }
   @media (min-width: 576px) {
-    .resources-div ul li h3:hover {
+    .carousel .carousel-control-prev-icon:hover, .carousel-item .carousel-control-prev-icon:hover, .carousel-inner .carousel-control-prev-icon:hover, .carousel .carousel-control-next-icon:hover, .carousel-item .carousel-control-next-icon:hover, .carousel-inner .carousel-control-next-icon:hover, .resources-div ul li h3:hover {
       -webkit-transform: scale(1.1, 1.1);
       -ms-transform: scale(1.1, 1.1);
       transform: scale(1.1, 1.1); } }
@@ -6403,7 +6403,11 @@ a.text-dark:focus, a.text-dark:hover {
   background-color: #F4F4F8; }
 
 .jumbotron {
-  padding-bottom: 1rem !important; }
+  padding-bottom: 1rem !important;
+  padding-top: 0.2rem !important; }
+  @media (min-width: 576px) {
+    .jumbotron {
+      padding-top: 2rem !important; } }
 
 body {
   margin: 1em 0 0 0;
@@ -6647,7 +6651,7 @@ body {
       -ms-transform: scale(1.1, 1.1);
       transform: scale(1.1, 1.1); } }
 
-.resources-div ul li h3 {
+.carousel .carousel-control-prev-icon, .carousel-item .carousel-control-prev-icon, .carousel-inner .carousel-control-prev-icon, .carousel .carousel-control-next-icon, .carousel-item .carousel-control-next-icon, .carousel-inner .carousel-control-next-icon, .resources-div ul li h3 {
   -webkit-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
   transform: scale(1, 1);
@@ -6655,7 +6659,7 @@ body {
   -o-transition: all 200ms ease-in-out;
   transition: all 200ms ease-in-out; }
   @media (min-width: 576px) {
-    .resources-div ul li h3:hover {
+    .carousel .carousel-control-prev-icon:hover, .carousel-item .carousel-control-prev-icon:hover, .carousel-inner .carousel-control-prev-icon:hover, .carousel .carousel-control-next-icon:hover, .carousel-item .carousel-control-next-icon:hover, .carousel-inner .carousel-control-next-icon:hover, .resources-div ul li h3:hover {
       -webkit-transform: scale(1.1, 1.1);
       -ms-transform: scale(1.1, 1.1);
       transform: scale(1.1, 1.1); } }
@@ -6664,7 +6668,11 @@ body {
   background-color: #F4F4F8; }
 
 .jumbotron {
-  padding-bottom: 1rem !important; }
+  padding-bottom: 1rem !important;
+  padding-top: 0.2rem !important; }
+  @media (min-width: 576px) {
+    .jumbotron {
+      padding-top: 2rem !important; } }
 
 .purchase-button, .read-more-button, #dropdownMenuButton, .grow, .mail-to .email-link, .send-btn, .learn-more-btn {
   -webkit-transform: scale(1, 1);
@@ -6683,7 +6691,7 @@ body {
       -ms-transform: scale(1.1, 1.1);
       transform: scale(1.1, 1.1); } }
 
-.resources-div ul li h3 {
+.carousel .carousel-control-prev-icon, .carousel-item .carousel-control-prev-icon, .carousel-inner .carousel-control-prev-icon, .carousel .carousel-control-next-icon, .carousel-item .carousel-control-next-icon, .carousel-inner .carousel-control-next-icon, .resources-div ul li h3 {
   -webkit-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
   transform: scale(1, 1);
@@ -6691,7 +6699,7 @@ body {
   -o-transition: all 200ms ease-in-out;
   transition: all 200ms ease-in-out; }
   @media (min-width: 576px) {
-    .resources-div ul li h3:hover {
+    .carousel .carousel-control-prev-icon:hover, .carousel-item .carousel-control-prev-icon:hover, .carousel-inner .carousel-control-prev-icon:hover, .carousel .carousel-control-next-icon:hover, .carousel-item .carousel-control-next-icon:hover, .carousel-inner .carousel-control-next-icon:hover, .resources-div ul li h3:hover {
       -webkit-transform: scale(1.1, 1.1);
       -ms-transform: scale(1.1, 1.1);
       transform: scale(1.1, 1.1); } }
@@ -6700,7 +6708,11 @@ body {
   background-color: #F4F4F8; }
 
 .jumbotron {
-  padding-bottom: 1rem !important; }
+  padding-bottom: 1rem !important;
+  padding-top: 0.2rem !important; }
+  @media (min-width: 576px) {
+    .jumbotron {
+      padding-top: 2rem !important; } }
 
 /*!
  * Hover.css (http://ianlunn.github.io/Hover/)
@@ -6729,7 +6741,7 @@ body {
       -ms-transform: scale(1.1, 1.1);
       transform: scale(1.1, 1.1); } }
 
-.resources-div ul li h3 {
+.carousel .carousel-control-prev-icon, .carousel-item .carousel-control-prev-icon, .carousel-inner .carousel-control-prev-icon, .carousel .carousel-control-next-icon, .carousel-item .carousel-control-next-icon, .carousel-inner .carousel-control-next-icon, .resources-div ul li h3 {
   -webkit-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
   transform: scale(1, 1);
@@ -6737,7 +6749,7 @@ body {
   -o-transition: all 200ms ease-in-out;
   transition: all 200ms ease-in-out; }
   @media (min-width: 576px) {
-    .resources-div ul li h3:hover {
+    .carousel .carousel-control-prev-icon:hover, .carousel-item .carousel-control-prev-icon:hover, .carousel-inner .carousel-control-prev-icon:hover, .carousel .carousel-control-next-icon:hover, .carousel-item .carousel-control-next-icon:hover, .carousel-inner .carousel-control-next-icon:hover, .resources-div ul li h3:hover {
       -webkit-transform: scale(1.1, 1.1);
       -ms-transform: scale(1.1, 1.1);
       transform: scale(1.1, 1.1); } }
@@ -6746,7 +6758,11 @@ body {
   background-color: #F4F4F8; }
 
 .jumbotron {
-  padding-bottom: 1rem !important; }
+  padding-bottom: 1rem !important;
+  padding-top: 0.2rem !important; }
+  @media (min-width: 576px) {
+    .jumbotron {
+      padding-top: 2rem !important; } }
 
 /* Grow */
 .hvr-grow {
@@ -10662,7 +10678,7 @@ body {
       -ms-transform: scale(1.1, 1.1);
       transform: scale(1.1, 1.1); } }
 
-.resources-div ul li h3 {
+.carousel .carousel-control-prev-icon, .carousel-item .carousel-control-prev-icon, .carousel-inner .carousel-control-prev-icon, .carousel .carousel-control-next-icon, .carousel-item .carousel-control-next-icon, .carousel-inner .carousel-control-next-icon, .resources-div ul li h3 {
   -webkit-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
   transform: scale(1, 1);
@@ -10670,7 +10686,7 @@ body {
   -o-transition: all 200ms ease-in-out;
   transition: all 200ms ease-in-out; }
   @media (min-width: 576px) {
-    .resources-div ul li h3:hover {
+    .carousel .carousel-control-prev-icon:hover, .carousel-item .carousel-control-prev-icon:hover, .carousel-inner .carousel-control-prev-icon:hover, .carousel .carousel-control-next-icon:hover, .carousel-item .carousel-control-next-icon:hover, .carousel-inner .carousel-control-next-icon:hover, .resources-div ul li h3:hover {
       -webkit-transform: scale(1.1, 1.1);
       -ms-transform: scale(1.1, 1.1);
       transform: scale(1.1, 1.1); } }
@@ -10679,7 +10695,11 @@ body {
   background-color: #F4F4F8; }
 
 .jumbotron {
-  padding-bottom: 1rem !important; }
+  padding-bottom: 1rem !important;
+  padding-top: 0.2rem !important; }
+  @media (min-width: 576px) {
+    .jumbotron {
+      padding-top: 2rem !important; } }
 
 footer {
   border-top: 2px solid #E9ECEF;
@@ -10769,7 +10789,7 @@ footer ul {
       -ms-transform: scale(1.1, 1.1);
       transform: scale(1.1, 1.1); } }
 
-.resources-div ul li h3 {
+.carousel .carousel-control-prev-icon, .carousel-item .carousel-control-prev-icon, .carousel-inner .carousel-control-prev-icon, .carousel .carousel-control-next-icon, .carousel-item .carousel-control-next-icon, .carousel-inner .carousel-control-next-icon, .resources-div ul li h3 {
   -webkit-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
   transform: scale(1, 1);
@@ -10777,7 +10797,7 @@ footer ul {
   -o-transition: all 200ms ease-in-out;
   transition: all 200ms ease-in-out; }
   @media (min-width: 576px) {
-    .resources-div ul li h3:hover {
+    .carousel .carousel-control-prev-icon:hover, .carousel-item .carousel-control-prev-icon:hover, .carousel-inner .carousel-control-prev-icon:hover, .carousel .carousel-control-next-icon:hover, .carousel-item .carousel-control-next-icon:hover, .carousel-inner .carousel-control-next-icon:hover, .resources-div ul li h3:hover {
       -webkit-transform: scale(1.1, 1.1);
       -ms-transform: scale(1.1, 1.1);
       transform: scale(1.1, 1.1); } }
@@ -10786,7 +10806,11 @@ footer ul {
   background-color: #F4F4F8; }
 
 .jumbotron {
-  padding-bottom: 1rem !important; }
+  padding-bottom: 1rem !important;
+  padding-top: 0.2rem !important; }
+  @media (min-width: 576px) {
+    .jumbotron {
+      padding-top: 2rem !important; } }
 
 /* Grow */
 .hvr-grow {
@@ -14541,7 +14565,10 @@ footer ul {
 .paula-about-quote {
   font-style: italic;
   text-align: center;
-  margin: 0px 20% 0px 20%; }
+  margin: 0px 5% 0px 5%; }
+  @media (min-width: 576px) {
+    .paula-about-quote {
+      margin: 0px 20% 0px 20%; } }
 
 .purchase-button, .read-more-button, #dropdownMenuButton, .grow, .mail-to .email-link, .send-btn, .learn-more-btn {
   -webkit-transform: scale(1, 1);
@@ -14560,7 +14587,7 @@ footer ul {
       -ms-transform: scale(1.1, 1.1);
       transform: scale(1.1, 1.1); } }
 
-.resources-div ul li h3 {
+.carousel .carousel-control-prev-icon, .carousel-item .carousel-control-prev-icon, .carousel-inner .carousel-control-prev-icon, .carousel .carousel-control-next-icon, .carousel-item .carousel-control-next-icon, .carousel-inner .carousel-control-next-icon, .resources-div ul li h3 {
   -webkit-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
   transform: scale(1, 1);
@@ -14568,7 +14595,7 @@ footer ul {
   -o-transition: all 200ms ease-in-out;
   transition: all 200ms ease-in-out; }
   @media (min-width: 576px) {
-    .resources-div ul li h3:hover {
+    .carousel .carousel-control-prev-icon:hover, .carousel-item .carousel-control-prev-icon:hover, .carousel-inner .carousel-control-prev-icon:hover, .carousel .carousel-control-next-icon:hover, .carousel-item .carousel-control-next-icon:hover, .carousel-inner .carousel-control-next-icon:hover, .resources-div ul li h3:hover {
       -webkit-transform: scale(1.1, 1.1);
       -ms-transform: scale(1.1, 1.1);
       transform: scale(1.1, 1.1); } }
@@ -14577,7 +14604,11 @@ footer ul {
   background-color: #F4F4F8; }
 
 .jumbotron {
-  padding-bottom: 1rem !important; }
+  padding-bottom: 1rem !important;
+  padding-top: 0.2rem !important; }
+  @media (min-width: 576px) {
+    .jumbotron {
+      padding-top: 2rem !important; } }
 
 .purchase-button, .read-more-button, #dropdownMenuButton, .grow, .mail-to .email-link, .send-btn, .learn-more-btn {
   -webkit-transform: scale(1, 1);
@@ -14596,7 +14627,7 @@ footer ul {
       -ms-transform: scale(1.1, 1.1);
       transform: scale(1.1, 1.1); } }
 
-.resources-div ul li h3 {
+.carousel .carousel-control-prev-icon, .carousel-item .carousel-control-prev-icon, .carousel-inner .carousel-control-prev-icon, .carousel .carousel-control-next-icon, .carousel-item .carousel-control-next-icon, .carousel-inner .carousel-control-next-icon, .resources-div ul li h3 {
   -webkit-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
   transform: scale(1, 1);
@@ -14604,7 +14635,7 @@ footer ul {
   -o-transition: all 200ms ease-in-out;
   transition: all 200ms ease-in-out; }
   @media (min-width: 576px) {
-    .resources-div ul li h3:hover {
+    .carousel .carousel-control-prev-icon:hover, .carousel-item .carousel-control-prev-icon:hover, .carousel-inner .carousel-control-prev-icon:hover, .carousel .carousel-control-next-icon:hover, .carousel-item .carousel-control-next-icon:hover, .carousel-inner .carousel-control-next-icon:hover, .resources-div ul li h3:hover {
       -webkit-transform: scale(1.1, 1.1);
       -ms-transform: scale(1.1, 1.1);
       transform: scale(1.1, 1.1); } }
@@ -14613,7 +14644,11 @@ footer ul {
   background-color: #F4F4F8; }
 
 .jumbotron {
-  padding-bottom: 1rem !important; }
+  padding-bottom: 1rem !important;
+  padding-top: 0.2rem !important; }
+  @media (min-width: 576px) {
+    .jumbotron {
+      padding-top: 2rem !important; } }
 
 /*!
  * Hover.css (http://ianlunn.github.io/Hover/)
@@ -14642,7 +14677,7 @@ footer ul {
       -ms-transform: scale(1.1, 1.1);
       transform: scale(1.1, 1.1); } }
 
-.resources-div ul li h3 {
+.carousel .carousel-control-prev-icon, .carousel-item .carousel-control-prev-icon, .carousel-inner .carousel-control-prev-icon, .carousel .carousel-control-next-icon, .carousel-item .carousel-control-next-icon, .carousel-inner .carousel-control-next-icon, .resources-div ul li h3 {
   -webkit-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
   transform: scale(1, 1);
@@ -14650,7 +14685,7 @@ footer ul {
   -o-transition: all 200ms ease-in-out;
   transition: all 200ms ease-in-out; }
   @media (min-width: 576px) {
-    .resources-div ul li h3:hover {
+    .carousel .carousel-control-prev-icon:hover, .carousel-item .carousel-control-prev-icon:hover, .carousel-inner .carousel-control-prev-icon:hover, .carousel .carousel-control-next-icon:hover, .carousel-item .carousel-control-next-icon:hover, .carousel-inner .carousel-control-next-icon:hover, .resources-div ul li h3:hover {
       -webkit-transform: scale(1.1, 1.1);
       -ms-transform: scale(1.1, 1.1);
       transform: scale(1.1, 1.1); } }
@@ -14659,7 +14694,11 @@ footer ul {
   background-color: #F4F4F8; }
 
 .jumbotron {
-  padding-bottom: 1rem !important; }
+  padding-bottom: 1rem !important;
+  padding-top: 0.2rem !important; }
+  @media (min-width: 576px) {
+    .jumbotron {
+      padding-top: 2rem !important; } }
 
 /* Grow */
 .hvr-grow {
@@ -18575,7 +18614,7 @@ footer ul {
       -ms-transform: scale(1.1, 1.1);
       transform: scale(1.1, 1.1); } }
 
-.resources-div ul li h3 {
+.carousel .carousel-control-prev-icon, .carousel-item .carousel-control-prev-icon, .carousel-inner .carousel-control-prev-icon, .carousel .carousel-control-next-icon, .carousel-item .carousel-control-next-icon, .carousel-inner .carousel-control-next-icon, .resources-div ul li h3 {
   -webkit-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
   transform: scale(1, 1);
@@ -18583,7 +18622,7 @@ footer ul {
   -o-transition: all 200ms ease-in-out;
   transition: all 200ms ease-in-out; }
   @media (min-width: 576px) {
-    .resources-div ul li h3:hover {
+    .carousel .carousel-control-prev-icon:hover, .carousel-item .carousel-control-prev-icon:hover, .carousel-inner .carousel-control-prev-icon:hover, .carousel .carousel-control-next-icon:hover, .carousel-item .carousel-control-next-icon:hover, .carousel-inner .carousel-control-next-icon:hover, .resources-div ul li h3:hover {
       -webkit-transform: scale(1.1, 1.1);
       -ms-transform: scale(1.1, 1.1);
       transform: scale(1.1, 1.1); } }
@@ -18592,7 +18631,11 @@ footer ul {
   background-color: #F4F4F8; }
 
 .jumbotron {
-  padding-bottom: 1rem !important; }
+  padding-bottom: 1rem !important;
+  padding-top: 0.2rem !important; }
+  @media (min-width: 576px) {
+    .jumbotron {
+      padding-top: 2rem !important; } }
 
 footer {
   border-top: 2px solid #E9ECEF;
@@ -18682,7 +18725,7 @@ footer ul {
       -ms-transform: scale(1.1, 1.1);
       transform: scale(1.1, 1.1); } }
 
-.resources-div ul li h3 {
+.carousel .carousel-control-prev-icon, .carousel-item .carousel-control-prev-icon, .carousel-inner .carousel-control-prev-icon, .carousel .carousel-control-next-icon, .carousel-item .carousel-control-next-icon, .carousel-inner .carousel-control-next-icon, .resources-div ul li h3 {
   -webkit-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
   transform: scale(1, 1);
@@ -18690,7 +18733,7 @@ footer ul {
   -o-transition: all 200ms ease-in-out;
   transition: all 200ms ease-in-out; }
   @media (min-width: 576px) {
-    .resources-div ul li h3:hover {
+    .carousel .carousel-control-prev-icon:hover, .carousel-item .carousel-control-prev-icon:hover, .carousel-inner .carousel-control-prev-icon:hover, .carousel .carousel-control-next-icon:hover, .carousel-item .carousel-control-next-icon:hover, .carousel-inner .carousel-control-next-icon:hover, .resources-div ul li h3:hover {
       -webkit-transform: scale(1.1, 1.1);
       -ms-transform: scale(1.1, 1.1);
       transform: scale(1.1, 1.1); } }
@@ -18699,7 +18742,11 @@ footer ul {
   background-color: #F4F4F8; }
 
 .jumbotron {
-  padding-bottom: 1rem !important; }
+  padding-bottom: 1rem !important;
+  padding-top: 0.2rem !important; }
+  @media (min-width: 576px) {
+    .jumbotron {
+      padding-top: 2rem !important; } }
 
 /* Grow */
 .hvr-grow {
@@ -22525,7 +22572,7 @@ html {
   max-height: 50vh; }
 
 .title-jumbo > p, .book p {
-  padding: 20px; }
+  padding: 20px 5px; }
   @media (min-width: 576px) {
     .title-jumbo > p, .book p {
       padding: 20px 50px 20px 50px; } }
@@ -22656,6 +22703,7 @@ html {
 .card {
   margin: 3% !important;
   width: 94% !important;
+  border-radius: 10px !important;
   border: 1px solid rgba(0, 0, 0, 0); }
   @media (min-width: 576px) {
     .card {
@@ -22726,11 +22774,12 @@ hr {
   font-family: "Henny Penny", cursive !important;
   color: #009FB7;
   margin-top: 40px;
-  padding: 0 20px 0 20px;
+  padding: 0;
   line-height: 55px; }
   @media (min-width: 576px) {
     .title-text {
-      margin-top: 0; } }
+      margin-top: 0;
+      padding: 0 20px 0 20px; } }
 
 .purchase-button, .read-more-button, #dropdownMenuButton, .grow, .mail-to .email-link, .send-btn, .learn-more-btn {
   -webkit-transform: scale(1, 1);
@@ -22749,7 +22798,7 @@ hr {
       -ms-transform: scale(1.1, 1.1);
       transform: scale(1.1, 1.1); } }
 
-.resources-div ul li h3 {
+.carousel .carousel-control-prev-icon, .carousel-item .carousel-control-prev-icon, .carousel-inner .carousel-control-prev-icon, .carousel .carousel-control-next-icon, .carousel-item .carousel-control-next-icon, .carousel-inner .carousel-control-next-icon, .resources-div ul li h3 {
   -webkit-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
   transform: scale(1, 1);
@@ -22757,7 +22806,7 @@ hr {
   -o-transition: all 200ms ease-in-out;
   transition: all 200ms ease-in-out; }
   @media (min-width: 576px) {
-    .resources-div ul li h3:hover {
+    .carousel .carousel-control-prev-icon:hover, .carousel-item .carousel-control-prev-icon:hover, .carousel-inner .carousel-control-prev-icon:hover, .carousel .carousel-control-next-icon:hover, .carousel-item .carousel-control-next-icon:hover, .carousel-inner .carousel-control-next-icon:hover, .resources-div ul li h3:hover {
       -webkit-transform: scale(1.1, 1.1);
       -ms-transform: scale(1.1, 1.1);
       transform: scale(1.1, 1.1); } }
@@ -22766,7 +22815,11 @@ hr {
   background-color: #F4F4F8; }
 
 .jumbotron {
-  padding-bottom: 1rem !important; }
+  padding-bottom: 1rem !important;
+  padding-top: 0.2rem !important; }
+  @media (min-width: 576px) {
+    .jumbotron {
+      padding-top: 2rem !important; } }
 
 .purchase-button, .read-more-button, #dropdownMenuButton, .grow, .mail-to .email-link, .send-btn, .learn-more-btn {
   -webkit-transform: scale(1, 1);
@@ -22785,7 +22838,7 @@ hr {
       -ms-transform: scale(1.1, 1.1);
       transform: scale(1.1, 1.1); } }
 
-.resources-div ul li h3 {
+.carousel .carousel-control-prev-icon, .carousel-item .carousel-control-prev-icon, .carousel-inner .carousel-control-prev-icon, .carousel .carousel-control-next-icon, .carousel-item .carousel-control-next-icon, .carousel-inner .carousel-control-next-icon, .resources-div ul li h3 {
   -webkit-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
   transform: scale(1, 1);
@@ -22793,7 +22846,7 @@ hr {
   -o-transition: all 200ms ease-in-out;
   transition: all 200ms ease-in-out; }
   @media (min-width: 576px) {
-    .resources-div ul li h3:hover {
+    .carousel .carousel-control-prev-icon:hover, .carousel-item .carousel-control-prev-icon:hover, .carousel-inner .carousel-control-prev-icon:hover, .carousel .carousel-control-next-icon:hover, .carousel-item .carousel-control-next-icon:hover, .carousel-inner .carousel-control-next-icon:hover, .resources-div ul li h3:hover {
       -webkit-transform: scale(1.1, 1.1);
       -ms-transform: scale(1.1, 1.1);
       transform: scale(1.1, 1.1); } }
@@ -22802,7 +22855,11 @@ hr {
   background-color: #F4F4F8; }
 
 .jumbotron {
-  padding-bottom: 1rem !important; }
+  padding-bottom: 1rem !important;
+  padding-top: 0.2rem !important; }
+  @media (min-width: 576px) {
+    .jumbotron {
+      padding-top: 2rem !important; } }
 
 /*!
  * Hover.css (http://ianlunn.github.io/Hover/)
@@ -22831,7 +22888,7 @@ hr {
       -ms-transform: scale(1.1, 1.1);
       transform: scale(1.1, 1.1); } }
 
-.resources-div ul li h3 {
+.carousel .carousel-control-prev-icon, .carousel-item .carousel-control-prev-icon, .carousel-inner .carousel-control-prev-icon, .carousel .carousel-control-next-icon, .carousel-item .carousel-control-next-icon, .carousel-inner .carousel-control-next-icon, .resources-div ul li h3 {
   -webkit-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
   transform: scale(1, 1);
@@ -22839,7 +22896,7 @@ hr {
   -o-transition: all 200ms ease-in-out;
   transition: all 200ms ease-in-out; }
   @media (min-width: 576px) {
-    .resources-div ul li h3:hover {
+    .carousel .carousel-control-prev-icon:hover, .carousel-item .carousel-control-prev-icon:hover, .carousel-inner .carousel-control-prev-icon:hover, .carousel .carousel-control-next-icon:hover, .carousel-item .carousel-control-next-icon:hover, .carousel-inner .carousel-control-next-icon:hover, .resources-div ul li h3:hover {
       -webkit-transform: scale(1.1, 1.1);
       -ms-transform: scale(1.1, 1.1);
       transform: scale(1.1, 1.1); } }
@@ -22848,7 +22905,11 @@ hr {
   background-color: #F4F4F8; }
 
 .jumbotron {
-  padding-bottom: 1rem !important; }
+  padding-bottom: 1rem !important;
+  padding-top: 0.2rem !important; }
+  @media (min-width: 576px) {
+    .jumbotron {
+      padding-top: 2rem !important; } }
 
 /* Grow */
 .hvr-grow {
@@ -26764,7 +26825,7 @@ hr {
       -ms-transform: scale(1.1, 1.1);
       transform: scale(1.1, 1.1); } }
 
-.resources-div ul li h3 {
+.carousel .carousel-control-prev-icon, .carousel-item .carousel-control-prev-icon, .carousel-inner .carousel-control-prev-icon, .carousel .carousel-control-next-icon, .carousel-item .carousel-control-next-icon, .carousel-inner .carousel-control-next-icon, .resources-div ul li h3 {
   -webkit-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
   transform: scale(1, 1);
@@ -26772,7 +26833,7 @@ hr {
   -o-transition: all 200ms ease-in-out;
   transition: all 200ms ease-in-out; }
   @media (min-width: 576px) {
-    .resources-div ul li h3:hover {
+    .carousel .carousel-control-prev-icon:hover, .carousel-item .carousel-control-prev-icon:hover, .carousel-inner .carousel-control-prev-icon:hover, .carousel .carousel-control-next-icon:hover, .carousel-item .carousel-control-next-icon:hover, .carousel-inner .carousel-control-next-icon:hover, .resources-div ul li h3:hover {
       -webkit-transform: scale(1.1, 1.1);
       -ms-transform: scale(1.1, 1.1);
       transform: scale(1.1, 1.1); } }
@@ -26781,7 +26842,11 @@ hr {
   background-color: #F4F4F8; }
 
 .jumbotron {
-  padding-bottom: 1rem !important; }
+  padding-bottom: 1rem !important;
+  padding-top: 0.2rem !important; }
+  @media (min-width: 576px) {
+    .jumbotron {
+      padding-top: 2rem !important; } }
 
 footer {
   border-top: 2px solid #E9ECEF;
@@ -26871,7 +26936,7 @@ footer ul {
       -ms-transform: scale(1.1, 1.1);
       transform: scale(1.1, 1.1); } }
 
-.resources-div ul li h3 {
+.carousel .carousel-control-prev-icon, .carousel-item .carousel-control-prev-icon, .carousel-inner .carousel-control-prev-icon, .carousel .carousel-control-next-icon, .carousel-item .carousel-control-next-icon, .carousel-inner .carousel-control-next-icon, .resources-div ul li h3 {
   -webkit-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
   transform: scale(1, 1);
@@ -26879,7 +26944,7 @@ footer ul {
   -o-transition: all 200ms ease-in-out;
   transition: all 200ms ease-in-out; }
   @media (min-width: 576px) {
-    .resources-div ul li h3:hover {
+    .carousel .carousel-control-prev-icon:hover, .carousel-item .carousel-control-prev-icon:hover, .carousel-inner .carousel-control-prev-icon:hover, .carousel .carousel-control-next-icon:hover, .carousel-item .carousel-control-next-icon:hover, .carousel-inner .carousel-control-next-icon:hover, .resources-div ul li h3:hover {
       -webkit-transform: scale(1.1, 1.1);
       -ms-transform: scale(1.1, 1.1);
       transform: scale(1.1, 1.1); } }
@@ -26888,7 +26953,11 @@ footer ul {
   background-color: #F4F4F8; }
 
 .jumbotron {
-  padding-bottom: 1rem !important; }
+  padding-bottom: 1rem !important;
+  padding-top: 0.2rem !important; }
+  @media (min-width: 576px) {
+    .jumbotron {
+      padding-top: 2rem !important; } }
 
 /* Grow */
 .hvr-grow {
@@ -30731,7 +30800,7 @@ footer ul {
       -ms-transform: scale(1.1, 1.1);
       transform: scale(1.1, 1.1); } }
 
-.resources-div ul li h3 {
+.carousel .carousel-control-prev-icon, .carousel-item .carousel-control-prev-icon, .carousel-inner .carousel-control-prev-icon, .carousel .carousel-control-next-icon, .carousel-item .carousel-control-next-icon, .carousel-inner .carousel-control-next-icon, .resources-div ul li h3 {
   -webkit-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
   transform: scale(1, 1);
@@ -30739,7 +30808,7 @@ footer ul {
   -o-transition: all 200ms ease-in-out;
   transition: all 200ms ease-in-out; }
   @media (min-width: 576px) {
-    .resources-div ul li h3:hover {
+    .carousel .carousel-control-prev-icon:hover, .carousel-item .carousel-control-prev-icon:hover, .carousel-inner .carousel-control-prev-icon:hover, .carousel .carousel-control-next-icon:hover, .carousel-item .carousel-control-next-icon:hover, .carousel-inner .carousel-control-next-icon:hover, .resources-div ul li h3:hover {
       -webkit-transform: scale(1.1, 1.1);
       -ms-transform: scale(1.1, 1.1);
       transform: scale(1.1, 1.1); } }
@@ -30748,7 +30817,11 @@ footer ul {
   background-color: #F4F4F8; }
 
 .jumbotron {
-  padding-bottom: 1rem !important; }
+  padding-bottom: 1rem !important;
+  padding-top: 0.2rem !important; }
+  @media (min-width: 576px) {
+    .jumbotron {
+      padding-top: 2rem !important; } }
 
 .purchase-button, .read-more-button, #dropdownMenuButton, .grow, .mail-to .email-link, .send-btn, .learn-more-btn {
   -webkit-transform: scale(1, 1);
@@ -30767,7 +30840,7 @@ footer ul {
       -ms-transform: scale(1.1, 1.1);
       transform: scale(1.1, 1.1); } }
 
-.resources-div ul li h3 {
+.carousel .carousel-control-prev-icon, .carousel-item .carousel-control-prev-icon, .carousel-inner .carousel-control-prev-icon, .carousel .carousel-control-next-icon, .carousel-item .carousel-control-next-icon, .carousel-inner .carousel-control-next-icon, .resources-div ul li h3 {
   -webkit-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
   transform: scale(1, 1);
@@ -30775,7 +30848,7 @@ footer ul {
   -o-transition: all 200ms ease-in-out;
   transition: all 200ms ease-in-out; }
   @media (min-width: 576px) {
-    .resources-div ul li h3:hover {
+    .carousel .carousel-control-prev-icon:hover, .carousel-item .carousel-control-prev-icon:hover, .carousel-inner .carousel-control-prev-icon:hover, .carousel .carousel-control-next-icon:hover, .carousel-item .carousel-control-next-icon:hover, .carousel-inner .carousel-control-next-icon:hover, .resources-div ul li h3:hover {
       -webkit-transform: scale(1.1, 1.1);
       -ms-transform: scale(1.1, 1.1);
       transform: scale(1.1, 1.1); } }
@@ -30784,7 +30857,11 @@ footer ul {
   background-color: #F4F4F8; }
 
 .jumbotron {
-  padding-bottom: 1rem !important; }
+  padding-bottom: 1rem !important;
+  padding-top: 0.2rem !important; }
+  @media (min-width: 576px) {
+    .jumbotron {
+      padding-top: 2rem !important; } }
 
 /*!
  * Hover.css (http://ianlunn.github.io/Hover/)
@@ -30813,7 +30890,7 @@ footer ul {
       -ms-transform: scale(1.1, 1.1);
       transform: scale(1.1, 1.1); } }
 
-.resources-div ul li h3 {
+.carousel .carousel-control-prev-icon, .carousel-item .carousel-control-prev-icon, .carousel-inner .carousel-control-prev-icon, .carousel .carousel-control-next-icon, .carousel-item .carousel-control-next-icon, .carousel-inner .carousel-control-next-icon, .resources-div ul li h3 {
   -webkit-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
   transform: scale(1, 1);
@@ -30821,7 +30898,7 @@ footer ul {
   -o-transition: all 200ms ease-in-out;
   transition: all 200ms ease-in-out; }
   @media (min-width: 576px) {
-    .resources-div ul li h3:hover {
+    .carousel .carousel-control-prev-icon:hover, .carousel-item .carousel-control-prev-icon:hover, .carousel-inner .carousel-control-prev-icon:hover, .carousel .carousel-control-next-icon:hover, .carousel-item .carousel-control-next-icon:hover, .carousel-inner .carousel-control-next-icon:hover, .resources-div ul li h3:hover {
       -webkit-transform: scale(1.1, 1.1);
       -ms-transform: scale(1.1, 1.1);
       transform: scale(1.1, 1.1); } }
@@ -30830,7 +30907,11 @@ footer ul {
   background-color: #F4F4F8; }
 
 .jumbotron {
-  padding-bottom: 1rem !important; }
+  padding-bottom: 1rem !important;
+  padding-top: 0.2rem !important; }
+  @media (min-width: 576px) {
+    .jumbotron {
+      padding-top: 2rem !important; } }
 
 /* Grow */
 .hvr-grow {
@@ -34746,7 +34827,7 @@ footer ul {
       -ms-transform: scale(1.1, 1.1);
       transform: scale(1.1, 1.1); } }
 
-.resources-div ul li h3 {
+.carousel .carousel-control-prev-icon, .carousel-item .carousel-control-prev-icon, .carousel-inner .carousel-control-prev-icon, .carousel .carousel-control-next-icon, .carousel-item .carousel-control-next-icon, .carousel-inner .carousel-control-next-icon, .resources-div ul li h3 {
   -webkit-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
   transform: scale(1, 1);
@@ -34754,7 +34835,7 @@ footer ul {
   -o-transition: all 200ms ease-in-out;
   transition: all 200ms ease-in-out; }
   @media (min-width: 576px) {
-    .resources-div ul li h3:hover {
+    .carousel .carousel-control-prev-icon:hover, .carousel-item .carousel-control-prev-icon:hover, .carousel-inner .carousel-control-prev-icon:hover, .carousel .carousel-control-next-icon:hover, .carousel-item .carousel-control-next-icon:hover, .carousel-inner .carousel-control-next-icon:hover, .resources-div ul li h3:hover {
       -webkit-transform: scale(1.1, 1.1);
       -ms-transform: scale(1.1, 1.1);
       transform: scale(1.1, 1.1); } }
@@ -34763,7 +34844,11 @@ footer ul {
   background-color: #F4F4F8; }
 
 .jumbotron {
-  padding-bottom: 1rem !important; }
+  padding-bottom: 1rem !important;
+  padding-top: 0.2rem !important; }
+  @media (min-width: 576px) {
+    .jumbotron {
+      padding-top: 2rem !important; } }
 
 footer {
   border-top: 2px solid #E9ECEF;
@@ -34853,7 +34938,7 @@ footer ul {
       -ms-transform: scale(1.1, 1.1);
       transform: scale(1.1, 1.1); } }
 
-.resources-div ul li h3 {
+.carousel .carousel-control-prev-icon, .carousel-item .carousel-control-prev-icon, .carousel-inner .carousel-control-prev-icon, .carousel .carousel-control-next-icon, .carousel-item .carousel-control-next-icon, .carousel-inner .carousel-control-next-icon, .resources-div ul li h3 {
   -webkit-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
   transform: scale(1, 1);
@@ -34861,7 +34946,7 @@ footer ul {
   -o-transition: all 200ms ease-in-out;
   transition: all 200ms ease-in-out; }
   @media (min-width: 576px) {
-    .resources-div ul li h3:hover {
+    .carousel .carousel-control-prev-icon:hover, .carousel-item .carousel-control-prev-icon:hover, .carousel-inner .carousel-control-prev-icon:hover, .carousel .carousel-control-next-icon:hover, .carousel-item .carousel-control-next-icon:hover, .carousel-inner .carousel-control-next-icon:hover, .resources-div ul li h3:hover {
       -webkit-transform: scale(1.1, 1.1);
       -ms-transform: scale(1.1, 1.1);
       transform: scale(1.1, 1.1); } }
@@ -34870,7 +34955,11 @@ footer ul {
   background-color: #F4F4F8; }
 
 .jumbotron {
-  padding-bottom: 1rem !important; }
+  padding-bottom: 1rem !important;
+  padding-top: 0.2rem !important; }
+  @media (min-width: 576px) {
+    .jumbotron {
+      padding-top: 2rem !important; } }
 
 /* Grow */
 .hvr-grow {
@@ -38633,10 +38722,6 @@ input, textarea {
 .name-input {
   text-transform: capitalize; }
 
-input, textarea {
-  -webkit-box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.4);
-  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.4); }
-
 input:valid, textarea:valid {
   border: 2px solid #80FFDB !important;
   border-radius: 5px; }
@@ -38665,7 +38750,7 @@ input:focus, textarea:focus {
       -ms-transform: scale(1.1, 1.1);
       transform: scale(1.1, 1.1); } }
 
-.resources-div ul li h3 {
+.carousel .carousel-control-prev-icon, .carousel-item .carousel-control-prev-icon, .carousel-inner .carousel-control-prev-icon, .carousel .carousel-control-next-icon, .carousel-item .carousel-control-next-icon, .carousel-inner .carousel-control-next-icon, .resources-div ul li h3 {
   -webkit-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
   transform: scale(1, 1);
@@ -38673,7 +38758,7 @@ input:focus, textarea:focus {
   -o-transition: all 200ms ease-in-out;
   transition: all 200ms ease-in-out; }
   @media (min-width: 576px) {
-    .resources-div ul li h3:hover {
+    .carousel .carousel-control-prev-icon:hover, .carousel-item .carousel-control-prev-icon:hover, .carousel-inner .carousel-control-prev-icon:hover, .carousel .carousel-control-next-icon:hover, .carousel-item .carousel-control-next-icon:hover, .carousel-inner .carousel-control-next-icon:hover, .resources-div ul li h3:hover {
       -webkit-transform: scale(1.1, 1.1);
       -ms-transform: scale(1.1, 1.1);
       transform: scale(1.1, 1.1); } }
@@ -38682,7 +38767,11 @@ input:focus, textarea:focus {
   background-color: #F4F4F8; }
 
 .jumbotron {
-  padding-bottom: 1rem !important; }
+  padding-bottom: 1rem !important;
+  padding-top: 0.2rem !important; }
+  @media (min-width: 576px) {
+    .jumbotron {
+      padding-top: 2rem !important; } }
 
 /*!
  * Hover.css (http://ianlunn.github.io/Hover/)
@@ -38711,7 +38800,7 @@ input:focus, textarea:focus {
       -ms-transform: scale(1.1, 1.1);
       transform: scale(1.1, 1.1); } }
 
-.resources-div ul li h3 {
+.carousel .carousel-control-prev-icon, .carousel-item .carousel-control-prev-icon, .carousel-inner .carousel-control-prev-icon, .carousel .carousel-control-next-icon, .carousel-item .carousel-control-next-icon, .carousel-inner .carousel-control-next-icon, .resources-div ul li h3 {
   -webkit-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
   transform: scale(1, 1);
@@ -38719,7 +38808,7 @@ input:focus, textarea:focus {
   -o-transition: all 200ms ease-in-out;
   transition: all 200ms ease-in-out; }
   @media (min-width: 576px) {
-    .resources-div ul li h3:hover {
+    .carousel .carousel-control-prev-icon:hover, .carousel-item .carousel-control-prev-icon:hover, .carousel-inner .carousel-control-prev-icon:hover, .carousel .carousel-control-next-icon:hover, .carousel-item .carousel-control-next-icon:hover, .carousel-inner .carousel-control-next-icon:hover, .resources-div ul li h3:hover {
       -webkit-transform: scale(1.1, 1.1);
       -ms-transform: scale(1.1, 1.1);
       transform: scale(1.1, 1.1); } }
@@ -38728,7 +38817,11 @@ input:focus, textarea:focus {
   background-color: #F4F4F8; }
 
 .jumbotron {
-  padding-bottom: 1rem !important; }
+  padding-bottom: 1rem !important;
+  padding-top: 0.2rem !important; }
+  @media (min-width: 576px) {
+    .jumbotron {
+      padding-top: 2rem !important; } }
 
 /* Grow */
 .hvr-grow {
@@ -42644,7 +42737,7 @@ input:focus, textarea:focus {
       -ms-transform: scale(1.1, 1.1);
       transform: scale(1.1, 1.1); } }
 
-.resources-div ul li h3 {
+.carousel .carousel-control-prev-icon, .carousel-item .carousel-control-prev-icon, .carousel-inner .carousel-control-prev-icon, .carousel .carousel-control-next-icon, .carousel-item .carousel-control-next-icon, .carousel-inner .carousel-control-next-icon, .resources-div ul li h3 {
   -webkit-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
   transform: scale(1, 1);
@@ -42652,7 +42745,7 @@ input:focus, textarea:focus {
   -o-transition: all 200ms ease-in-out;
   transition: all 200ms ease-in-out; }
   @media (min-width: 576px) {
-    .resources-div ul li h3:hover {
+    .carousel .carousel-control-prev-icon:hover, .carousel-item .carousel-control-prev-icon:hover, .carousel-inner .carousel-control-prev-icon:hover, .carousel .carousel-control-next-icon:hover, .carousel-item .carousel-control-next-icon:hover, .carousel-inner .carousel-control-next-icon:hover, .resources-div ul li h3:hover {
       -webkit-transform: scale(1.1, 1.1);
       -ms-transform: scale(1.1, 1.1);
       transform: scale(1.1, 1.1); } }
@@ -42661,7 +42754,11 @@ input:focus, textarea:focus {
   background-color: #F4F4F8; }
 
 .jumbotron {
-  padding-bottom: 1rem !important; }
+  padding-bottom: 1rem !important;
+  padding-top: 0.2rem !important; }
+  @media (min-width: 576px) {
+    .jumbotron {
+      padding-top: 2rem !important; } }
 
 .purchase-button, .read-more-button, #dropdownMenuButton, .grow, .mail-to .email-link, .send-btn, .learn-more-btn {
   -webkit-transform: scale(1, 1);
@@ -42680,7 +42777,7 @@ input:focus, textarea:focus {
       -ms-transform: scale(1.1, 1.1);
       transform: scale(1.1, 1.1); } }
 
-.resources-div ul li h3 {
+.carousel .carousel-control-prev-icon, .carousel-item .carousel-control-prev-icon, .carousel-inner .carousel-control-prev-icon, .carousel .carousel-control-next-icon, .carousel-item .carousel-control-next-icon, .carousel-inner .carousel-control-next-icon, .resources-div ul li h3 {
   -webkit-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
   transform: scale(1, 1);
@@ -42688,7 +42785,7 @@ input:focus, textarea:focus {
   -o-transition: all 200ms ease-in-out;
   transition: all 200ms ease-in-out; }
   @media (min-width: 576px) {
-    .resources-div ul li h3:hover {
+    .carousel .carousel-control-prev-icon:hover, .carousel-item .carousel-control-prev-icon:hover, .carousel-inner .carousel-control-prev-icon:hover, .carousel .carousel-control-next-icon:hover, .carousel-item .carousel-control-next-icon:hover, .carousel-inner .carousel-control-next-icon:hover, .resources-div ul li h3:hover {
       -webkit-transform: scale(1.1, 1.1);
       -ms-transform: scale(1.1, 1.1);
       transform: scale(1.1, 1.1); } }
@@ -42697,7 +42794,11 @@ input:focus, textarea:focus {
   background-color: #F4F4F8; }
 
 .jumbotron {
-  padding-bottom: 1rem !important; }
+  padding-bottom: 1rem !important;
+  padding-top: 0.2rem !important; }
+  @media (min-width: 576px) {
+    .jumbotron {
+      padding-top: 2rem !important; } }
 
 /*!
  * Hover.css (http://ianlunn.github.io/Hover/)
@@ -42726,7 +42827,7 @@ input:focus, textarea:focus {
       -ms-transform: scale(1.1, 1.1);
       transform: scale(1.1, 1.1); } }
 
-.resources-div ul li h3 {
+.carousel .carousel-control-prev-icon, .carousel-item .carousel-control-prev-icon, .carousel-inner .carousel-control-prev-icon, .carousel .carousel-control-next-icon, .carousel-item .carousel-control-next-icon, .carousel-inner .carousel-control-next-icon, .resources-div ul li h3 {
   -webkit-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
   transform: scale(1, 1);
@@ -42734,7 +42835,7 @@ input:focus, textarea:focus {
   -o-transition: all 200ms ease-in-out;
   transition: all 200ms ease-in-out; }
   @media (min-width: 576px) {
-    .resources-div ul li h3:hover {
+    .carousel .carousel-control-prev-icon:hover, .carousel-item .carousel-control-prev-icon:hover, .carousel-inner .carousel-control-prev-icon:hover, .carousel .carousel-control-next-icon:hover, .carousel-item .carousel-control-next-icon:hover, .carousel-inner .carousel-control-next-icon:hover, .resources-div ul li h3:hover {
       -webkit-transform: scale(1.1, 1.1);
       -ms-transform: scale(1.1, 1.1);
       transform: scale(1.1, 1.1); } }
@@ -42743,7 +42844,11 @@ input:focus, textarea:focus {
   background-color: #F4F4F8; }
 
 .jumbotron {
-  padding-bottom: 1rem !important; }
+  padding-bottom: 1rem !important;
+  padding-top: 0.2rem !important; }
+  @media (min-width: 576px) {
+    .jumbotron {
+      padding-top: 2rem !important; } }
 
 /* Grow */
 .hvr-grow {
@@ -46659,7 +46764,7 @@ input:focus, textarea:focus {
       -ms-transform: scale(1.1, 1.1);
       transform: scale(1.1, 1.1); } }
 
-.resources-div ul li h3 {
+.carousel .carousel-control-prev-icon, .carousel-item .carousel-control-prev-icon, .carousel-inner .carousel-control-prev-icon, .carousel .carousel-control-next-icon, .carousel-item .carousel-control-next-icon, .carousel-inner .carousel-control-next-icon, .resources-div ul li h3 {
   -webkit-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
   transform: scale(1, 1);
@@ -46667,7 +46772,7 @@ input:focus, textarea:focus {
   -o-transition: all 200ms ease-in-out;
   transition: all 200ms ease-in-out; }
   @media (min-width: 576px) {
-    .resources-div ul li h3:hover {
+    .carousel .carousel-control-prev-icon:hover, .carousel-item .carousel-control-prev-icon:hover, .carousel-inner .carousel-control-prev-icon:hover, .carousel .carousel-control-next-icon:hover, .carousel-item .carousel-control-next-icon:hover, .carousel-inner .carousel-control-next-icon:hover, .resources-div ul li h3:hover {
       -webkit-transform: scale(1.1, 1.1);
       -ms-transform: scale(1.1, 1.1);
       transform: scale(1.1, 1.1); } }
@@ -46676,7 +46781,11 @@ input:focus, textarea:focus {
   background-color: #F4F4F8; }
 
 .jumbotron {
-  padding-bottom: 1rem !important; }
+  padding-bottom: 1rem !important;
+  padding-top: 0.2rem !important; }
+  @media (min-width: 576px) {
+    .jumbotron {
+      padding-top: 2rem !important; } }
 
 footer {
   border-top: 2px solid #E9ECEF;
@@ -46766,7 +46875,7 @@ footer ul {
       -ms-transform: scale(1.1, 1.1);
       transform: scale(1.1, 1.1); } }
 
-.resources-div ul li h3 {
+.carousel .carousel-control-prev-icon, .carousel-item .carousel-control-prev-icon, .carousel-inner .carousel-control-prev-icon, .carousel .carousel-control-next-icon, .carousel-item .carousel-control-next-icon, .carousel-inner .carousel-control-next-icon, .resources-div ul li h3 {
   -webkit-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
   transform: scale(1, 1);
@@ -46774,7 +46883,7 @@ footer ul {
   -o-transition: all 200ms ease-in-out;
   transition: all 200ms ease-in-out; }
   @media (min-width: 576px) {
-    .resources-div ul li h3:hover {
+    .carousel .carousel-control-prev-icon:hover, .carousel-item .carousel-control-prev-icon:hover, .carousel-inner .carousel-control-prev-icon:hover, .carousel .carousel-control-next-icon:hover, .carousel-item .carousel-control-next-icon:hover, .carousel-inner .carousel-control-next-icon:hover, .resources-div ul li h3:hover {
       -webkit-transform: scale(1.1, 1.1);
       -ms-transform: scale(1.1, 1.1);
       transform: scale(1.1, 1.1); } }
@@ -46783,7 +46892,11 @@ footer ul {
   background-color: #F4F4F8; }
 
 .jumbotron {
-  padding-bottom: 1rem !important; }
+  padding-bottom: 1rem !important;
+  padding-top: 0.2rem !important; }
+  @media (min-width: 576px) {
+    .jumbotron {
+      padding-top: 2rem !important; } }
 
 /* Grow */
 .hvr-grow {
@@ -50556,7 +50669,7 @@ footer ul {
       -ms-transform: scale(1.1, 1.1);
       transform: scale(1.1, 1.1); } }
 
-.resources-div ul li h3 {
+.carousel .carousel-control-prev-icon, .carousel-item .carousel-control-prev-icon, .carousel-inner .carousel-control-prev-icon, .carousel .carousel-control-next-icon, .carousel-item .carousel-control-next-icon, .carousel-inner .carousel-control-next-icon, .resources-div ul li h3 {
   -webkit-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
   transform: scale(1, 1);
@@ -50564,7 +50677,7 @@ footer ul {
   -o-transition: all 200ms ease-in-out;
   transition: all 200ms ease-in-out; }
   @media (min-width: 576px) {
-    .resources-div ul li h3:hover {
+    .carousel .carousel-control-prev-icon:hover, .carousel-item .carousel-control-prev-icon:hover, .carousel-inner .carousel-control-prev-icon:hover, .carousel .carousel-control-next-icon:hover, .carousel-item .carousel-control-next-icon:hover, .carousel-inner .carousel-control-next-icon:hover, .resources-div ul li h3:hover {
       -webkit-transform: scale(1.1, 1.1);
       -ms-transform: scale(1.1, 1.1);
       transform: scale(1.1, 1.1); } }
@@ -50573,7 +50686,11 @@ footer ul {
   background-color: #F4F4F8; }
 
 .jumbotron {
-  padding-bottom: 1rem !important; }
+  padding-bottom: 1rem !important;
+  padding-top: 0.2rem !important; }
+  @media (min-width: 576px) {
+    .jumbotron {
+      padding-top: 2rem !important; } }
 
 .learn-more-btn {
   background-color: #0b9fc4;
@@ -50602,7 +50719,7 @@ body {
 
 .lead {
   font-size: 1.3em;
-  padding: 0 10px;
+  padding: 0 15px;
   margin-bottom: 0;
   text-align: justify;
   line-height: 30px;

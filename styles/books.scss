@@ -44,7 +44,7 @@ body{
 	max-height: 50vh;
 }
 .title-jumbo > p, .book p{
-	padding: 20px;
+	padding: 20px 5px;
 	@include media-breakpoint-up(sm) {
   		padding: 20px 50px 20px 50px;
 	}
@@ -218,7 +218,7 @@ body{
 .card{
 	margin: 3% !important;
 	width: 94% !important;
-	// border-radius: 10px !important;
+	border-radius: 10px !important;
 	// background-color: #fff;
 	border: 1px solid rgba(0,0,0,0);
 	@include media-breakpoint-up(sm) {
@@ -328,9 +328,10 @@ hr{
 	font-family: $penny !important;
 	color: $title-text;
 	margin-top: 40px;
-	padding: 0 20px 0 20px;
+	padding: 0;
 	line-height:  55px;
 	@include media-breakpoint-up(sm) {
   		margin-top: 0;
+  		padding: 0 20px 0 20px;
 	}
 }

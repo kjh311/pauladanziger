@@ -48,10 +48,13 @@
 		font-family: $chilanka;
 		text-align: center;
 	}
-	
+
 }
 .paula-about-quote{
 	font-style: italic;
 	text-align: center;
-	margin: 0px 20% 0px 20%;
+	margin: 0px 5% 0px 5%;
+	@include media-breakpoint-up(sm) {
+  		margin: 0px 20% 0px 20%;
+	}
 }

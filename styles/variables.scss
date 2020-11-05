@@ -132,4 +132,8 @@ $link: #1a9cbc;
 }
 .jumbotron{
   padding-bottom: 1rem !important;
+  padding-top: 0.2rem !important;
+   @include media-breakpoint-up(sm) {
+          padding-top: 2rem !important;
+    }
 }

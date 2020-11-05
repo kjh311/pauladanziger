@@ -127,11 +127,13 @@
 		position: relative;
 	}
 	.carousel-control-prev-icon{
+		@extend %hover-grow-no-shadow;
 		@include media-breakpoint-up(sm) {
            right: 40px;
           }
 	}
 	.carousel-control-next-icon{
+		@extend %hover-grow-no-shadow;
 		@include media-breakpoint-up(sm) {
            left: 40px;
           }
