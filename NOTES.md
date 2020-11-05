@@ -27,3 +27,6 @@ book mobile dropdown centered
 color scheme
 Captcha for contact page?
 progressive image loading
+typos
+each page has a 'top' anchor tag
+new paula pin on index

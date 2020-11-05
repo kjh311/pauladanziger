@@ -10605,15 +10605,16 @@ footer {
   border-top: 2px solid #E9ECEF;
   bottom: 0; }
   footer .list-unstyled {
-    padding: 0 40px; }
+    padding: 0px 40px 10px 40px; }
 
 .footer-copyright {
   background-color: #009FB7;
-  bottom: 0; }
-
-.footer-copyright > p {
-  font-size: 1.3em;
-  margin-top: 13px; }
+  bottom: 0;
+  padding: 25px 20px 10px 20px; }
+  .footer-copyright p {
+    font-size: 1.3em;
+    margin-top: 13px;
+    line-height: 30px; }
 
 .kevin-link {
   color: white;
@@ -18437,15 +18438,16 @@ footer {
   border-top: 2px solid #E9ECEF;
   bottom: 0; }
   footer .list-unstyled {
-    padding: 0 40px; }
+    padding: 0px 40px 10px 40px; }
 
 .footer-copyright {
   background-color: #009FB7;
-  bottom: 0; }
-
-.footer-copyright > p {
-  font-size: 1.3em;
-  margin-top: 13px; }
+  bottom: 0;
+  padding: 25px 20px 10px 20px; }
+  .footer-copyright p {
+    font-size: 1.3em;
+    margin-top: 13px;
+    line-height: 30px; }
 
 .kevin-link {
   color: white;
@@ -26545,15 +26547,16 @@ footer {
   border-top: 2px solid #E9ECEF;
   bottom: 0; }
   footer .list-unstyled {
-    padding: 0 40px; }
+    padding: 0px 40px 10px 40px; }
 
 .footer-copyright {
   background-color: #009FB7;
-  bottom: 0; }
-
-.footer-copyright > p {
-  font-size: 1.3em;
-  margin-top: 13px; }
+  bottom: 0;
+  padding: 25px 20px 10px 20px; }
+  .footer-copyright p {
+    font-size: 1.3em;
+    margin-top: 13px;
+    line-height: 30px; }
 
 .kevin-link {
   color: white;
@@ -34463,15 +34466,16 @@ footer {
   border-top: 2px solid #E9ECEF;
   bottom: 0; }
   footer .list-unstyled {
-    padding: 0 40px; }
+    padding: 0px 40px 10px 40px; }
 
 .footer-copyright {
   background-color: #009FB7;
-  bottom: 0; }
-
-.footer-copyright > p {
-  font-size: 1.3em;
-  margin-top: 13px; }
+  bottom: 0;
+  padding: 25px 20px 10px 20px; }
+  .footer-copyright p {
+    font-size: 1.3em;
+    margin-top: 13px;
+    line-height: 30px; }
 
 .kevin-link {
   color: white;
@@ -46263,15 +46267,16 @@ footer {
   border-top: 2px solid #E9ECEF;
   bottom: 0; }
   footer .list-unstyled {
-    padding: 0 40px; }
+    padding: 0px 40px 10px 40px; }
 
 .footer-copyright {
   background-color: #009FB7;
-  bottom: 0; }
-
-.footer-copyright > p {
-  font-size: 1.3em;
-  margin-top: 13px; }
+  bottom: 0;
+  padding: 25px 20px 10px 20px; }
+  .footer-copyright p {
+    font-size: 1.3em;
+    margin-top: 13px;
+    line-height: 30px; }
 
 .kevin-link {
   color: white;
