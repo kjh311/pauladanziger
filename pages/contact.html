@@ -185,10 +185,10 @@
 </br>
 
 <!-- CONTACT FORM -->
-<div class="form-wrapper container  contact-form">
+<div class="form-wrapper container  contact-form-div">
     
 
-<form class="d-flex flex-column align-items-center "
+<form class="d-flex flex-column align-items-center contact-form"
   action="https://formspree.io/f/xnqojyky"
   method="POST"
 >
@@ -208,9 +208,35 @@
     <textarea class="message-input" name="message" required minlength="10" maxlength="1000"  placeholder="Enter between 10 and 1000 characters"></textarea>
   </label>
 
-  <!-- your other form fields go here -->
+  
+<!-- CAPTCHA -->
+<label class="text-center" >
+        Enter Captcha Code:
+      </br>
+      </br>
+<div id="container">
+ <!--  <div id="flag">
+    <p id="test"></p>
+  </div> -->
+  <div id="refresh">Click here to refresh</div>
+  <div id="cap">
+    <!-- <canvas id="canvas" class="d-none d-lg-block" width="400px" height="100px"></canvas> -->
+    <canvas id="canvas" class="" width="245px" height="100px"></canvas>
+    <!-- <canvas id="canvas" class="" width="400px" height="100px"></canvas> -->
+    </div>
+  <div id="form">
+    <p id="ctitle">Enter the numbers below.  Click the submit button to enter.</p>
+   <input id="input" class="captcha-input" type="text" maxlength="4" minlength="4" name="input" required>
+    <!-- <button id="submit" value="Submit" type="submit" >Submit</button> -->
+    
+  </div>
+</div>
 
-  <button class="send-btn btn  " type="submit">Send</button>
+
+
+
+
+  <button id="submit" value="Submit" class="send-btn btn" type="submit" required>Submit</button>
 </form>
 </div>
 
@@ -262,6 +288,7 @@
     <script src="../scripts/script.js" type="text/javascript" charset="utf-8" async defer></script>
     <script src="../scripts/books.js" type="text/javascript" charset="utf-8" async defer></script>
     <script src="../scripts/smooth.js" type="text/javascript" charset="utf-8" async defer></script>
+    <script src="../scripts/captcha.js" type="text/javascript" charset="utf-8" async defer></script>
 </body>
 
 </html>
