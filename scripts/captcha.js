@@ -127,6 +127,9 @@ $("#submit").click(function() {
 
 alert("Incorrect captcha code. Please try again.")
 // returnToPreviousPage();
+
+  clear();
+  resetCanvas();
     return false;
 
 

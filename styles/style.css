@@ -38826,7 +38826,6 @@ Maybe have the canvas refresh and give a new captcha upon completion?
     margin: 0 auto; }
   #container canvas {
     display: table;
-    border: 2px solid red;
     margin: 0 auto; }
   #container #ctitle {
     text-align: center;
@@ -38905,7 +38904,6 @@ input, textarea {
 
 .send-btn {
   cursor: pointer;
-  background-color: #0b9fc4;
   padding-top: 12px;
   color: white; }
 
