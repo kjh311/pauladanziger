@@ -351,7 +351,31 @@
 
             <div class="book col-md-3  col-sm-12 d-flex flex-column ">
                 <a class="d-flex  flex-column" href="https://www.amazon.com/Cat-Gymsuit-Puffin-Modern-Classics/dp/0142402508/ref=sr_1_1?crid=1BC2WBA7WX44S&dchild=1&keywords=the+cat+ate+my+gymsuit+by+paula+danziger&qid=1602532694&sprefix=the+cat+ate+my+gy%2Caps%2C693&sr=8-1" target="_blank" title="">
-                	<img class="book-img img-fluid" src="../assets/books/thecatatemygymsuit.jpg" alt="The Cat Ate My Gymsuit">
+
+
+
+                <!-- 	<div class="progressive-image">
+						<img   class="loadingImage book-img img-fluid"
+						 style="background: url('../assets/books/thecatatemygymsuit-small.jpg')"
+						 data-image="../assets/books/thecatatemygymsuit.jpg">
+						>
+						<div class="overlay"></div>
+					</div>
+				</div> -->
+<!-- <figure class="pil">
+  <img class="book-img img-fluid" src="../assets/books/thecatatemygymsuit.jpg" data-pil-thumb-url="../assets/books/thecatatemygymsuit-small.jpg"  alt="">
+</figure> -->
+
+<div class=" book-img img-fluid" data-interlace-src="../assets/books/thecatatemygymsuit.jpg"
+     data-interlace-low="../assets/books/thecatatemygymsuit-small.jpg">
+</div>
+
+
+                	<!-- <img class="book-img img-fluid" src="../assets/books/thecatatemygymsuit.jpg" alt="The Cat Ate My Gymsuit"> -->
+
+
+
+
                     <button type="button " class="btn purchase-button  align-self-center">Purchase</button>
                 </a>
                 </br>
@@ -2318,7 +2342,9 @@
 
 </footer>
 <!-- Footer -->	
-
+<script>
+	Interlace.scan();
+</script>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -2327,6 +2353,7 @@
     <script src="../scripts/script.js" type="text/javascript" charset="utf-8" async defer></script>
     <script src="../scripts/books.js" type="text/javascript" charset="utf-8" async defer></script>
     <script src="../scripts/smooth.js" type="text/javascript" charset="utf-8" async defer></script>
+    <script src="../scripts/progressive.js" type="text/javascript" charset="utf-8" async defer></script>
 </body>
 
 </html>
