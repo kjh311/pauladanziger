@@ -111,7 +111,8 @@ Maybe have the canvas refresh and give a new captcha upon completion?
 	  // display: inline-block;
 	  background: #fff;
 	  color: #485A68;
-	  @include media-breakpoint-up(sm) {
+	  text-align: center;
+	  @include media-breakpoint-up(md) {
   			width: 60%;
 	 		 margin-left: 20% !important;
 	 		 margin-right: 20% !important;
@@ -155,8 +156,16 @@ input, textarea{
 	padding: 5px;
 }
 .captcha-input{
-	width: 90% !important;
-	margin: 0 5%;
+	// width: auto !important;
+	// width: 90% !important;
+	// margin: 0 5% !important;
+	@include media-breakpoint-up(sm) {
+  			// margin: 0 !important;
+  			// width: auto !important;
+  			// margin: 5% !important;
+  			// margin-right: 5% !important;
+  			// margin-left: 5% !important;
+		}
 }
 .form-wrapper{
 	border: 2px solid black;

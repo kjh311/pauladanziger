@@ -39015,8 +39015,9 @@ Maybe have the canvas refresh and give a new captcha upon completion?
     text-align: center;
     padding: 2px auto 15px auto;
     background: #fff;
-    color: #485A68; }
-    @media (min-width: 576px) {
+    color: #485A68;
+    text-align: center; }
+    @media (min-width: 768px) {
       #container input {
         width: 60%;
         margin-left: 20% !important;
@@ -39043,8 +39044,7 @@ input, textarea {
   padding: 5px; }
 
 .captcha-input {
-  width: 90% !important;
-  margin: 0 5%; }
+  width: 90% !important; }
 
 .form-wrapper {
   border: 2px solid black;
