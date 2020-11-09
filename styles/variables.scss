@@ -136,6 +136,10 @@ $link: #1a9cbc;
    @include media-breakpoint-up(sm) {
           padding-top: 2rem !important;
     }
+    p{
+      font-size: 1.2em;
+      padding: 0 5%;
+    }
 }
 
 body{

@@ -6408,6 +6408,9 @@ a.text-dark:focus, a.text-dark:hover {
   @media (min-width: 576px) {
     .jumbotron {
       padding-top: 2rem !important; } }
+  .jumbotron p {
+    font-size: 1.2em;
+    padding: 0 5%; }
 
 body {
   font-family: "Chilanka", cursive; }
@@ -6676,6 +6679,9 @@ body {
   @media (min-width: 576px) {
     .jumbotron {
       padding-top: 2rem !important; } }
+  .jumbotron p {
+    font-size: 1.2em;
+    padding: 0 5%; }
 
 body {
   font-family: "Chilanka", cursive; }
@@ -6719,6 +6725,9 @@ body {
   @media (min-width: 576px) {
     .jumbotron {
       padding-top: 2rem !important; } }
+  .jumbotron p {
+    font-size: 1.2em;
+    padding: 0 5%; }
 
 body {
   font-family: "Chilanka", cursive; }
@@ -6772,6 +6781,9 @@ body {
   @media (min-width: 576px) {
     .jumbotron {
       padding-top: 2rem !important; } }
+  .jumbotron p {
+    font-size: 1.2em;
+    padding: 0 5%; }
 
 body {
   font-family: "Chilanka", cursive; }
@@ -10598,16 +10610,18 @@ body {
   z-index: 1000;
   background-color: #009FB7;
   border-bottom: 1px solid #187487;
-  padding: 10px 20px 10px 20px;
+  padding: 10px 0px;
   -webkit-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3); }
   @media (min-width: 992px) {
     .navbar {
-      padding: 0px 20px 0px 20px; } }
+      padding: 0px 20px; } }
 
 .navbar-toggler {
   cursor: pointer;
   border: 2px solid rgba(0, 0, 0, 0);
-  transition: all 0.2s; }
+  transition: all 0.2s;
+  margin: 0 20px 0 0;
+  padding-bottom: 5px; }
   .navbar-toggler:hover {
     border: 2px solid #56c7dd;
     transition: all 0.2s; }
@@ -10647,11 +10661,11 @@ body {
   color: #187487; }
 
 .navbar-brand {
-  padding: 10px 0px 0px 0px; }
+  padding: 10px 20px 0px 20px; }
 
 .nav-link {
   box-sizing: content-box;
-  padding: 18px 30vw 18px 30vw !important;
+  padding: 18px 28vw 18px 28vw !important;
   transition: all 0.2s; }
   @media (min-width: 576px) {
     .nav-link {
@@ -10724,6 +10738,9 @@ body {
   @media (min-width: 576px) {
     .jumbotron {
       padding-top: 2rem !important; } }
+  .jumbotron p {
+    font-size: 1.2em;
+    padding: 0 5%; }
 
 body {
   font-family: "Chilanka", cursive; }
@@ -10732,7 +10749,10 @@ footer {
   border-top: 2px solid #E9ECEF;
   bottom: 0; }
   footer .list-unstyled {
-    padding: 0px 40px 10px 40px; }
+    padding: 0px 50px 10px 50px; }
+  @media (min-width: 576px) {
+    footer .list-unstyled {
+      padding: 0px 40px 10px 40px; } }
 
 .footer-copyright {
   background-color: #009FB7;
@@ -10839,6 +10859,9 @@ footer ul {
   @media (min-width: 576px) {
     .jumbotron {
       padding-top: 2rem !important; } }
+  .jumbotron p {
+    font-size: 1.2em;
+    padding: 0 5%; }
 
 body {
   font-family: "Chilanka", cursive; }
@@ -14640,6 +14663,9 @@ body {
   @media (min-width: 576px) {
     .jumbotron {
       padding-top: 2rem !important; } }
+  .jumbotron p {
+    font-size: 1.2em;
+    padding: 0 5%; }
 
 body {
   font-family: "Chilanka", cursive; }
@@ -14683,6 +14709,9 @@ body {
   @media (min-width: 576px) {
     .jumbotron {
       padding-top: 2rem !important; } }
+  .jumbotron p {
+    font-size: 1.2em;
+    padding: 0 5%; }
 
 body {
   font-family: "Chilanka", cursive; }
@@ -14736,6 +14765,9 @@ body {
   @media (min-width: 576px) {
     .jumbotron {
       padding-top: 2rem !important; } }
+  .jumbotron p {
+    font-size: 1.2em;
+    padding: 0 5%; }
 
 body {
   font-family: "Chilanka", cursive; }
@@ -18562,16 +18594,18 @@ body {
   z-index: 1000;
   background-color: #009FB7;
   border-bottom: 1px solid #187487;
-  padding: 10px 20px 10px 20px;
+  padding: 10px 0px;
   -webkit-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3); }
   @media (min-width: 992px) {
     .navbar {
-      padding: 0px 20px 0px 20px; } }
+      padding: 0px 20px; } }
 
 .navbar-toggler {
   cursor: pointer;
   border: 2px solid rgba(0, 0, 0, 0);
-  transition: all 0.2s; }
+  transition: all 0.2s;
+  margin: 0 20px 0 0;
+  padding-bottom: 5px; }
   .navbar-toggler:hover {
     border: 2px solid #56c7dd;
     transition: all 0.2s; }
@@ -18611,11 +18645,11 @@ body {
   color: #187487; }
 
 .navbar-brand {
-  padding: 10px 0px 0px 0px; }
+  padding: 10px 20px 0px 20px; }
 
 .nav-link {
   box-sizing: content-box;
-  padding: 18px 30vw 18px 30vw !important;
+  padding: 18px 28vw 18px 28vw !important;
   transition: all 0.2s; }
   @media (min-width: 576px) {
     .nav-link {
@@ -18688,6 +18722,9 @@ body {
   @media (min-width: 576px) {
     .jumbotron {
       padding-top: 2rem !important; } }
+  .jumbotron p {
+    font-size: 1.2em;
+    padding: 0 5%; }
 
 body {
   font-family: "Chilanka", cursive; }
@@ -18696,7 +18733,10 @@ footer {
   border-top: 2px solid #E9ECEF;
   bottom: 0; }
   footer .list-unstyled {
-    padding: 0px 40px 10px 40px; }
+    padding: 0px 50px 10px 50px; }
+  @media (min-width: 576px) {
+    footer .list-unstyled {
+      padding: 0px 40px 10px 40px; } }
 
 .footer-copyright {
   background-color: #009FB7;
@@ -18803,6 +18843,9 @@ footer ul {
   @media (min-width: 576px) {
     .jumbotron {
       padding-top: 2rem !important; } }
+  .jumbotron p {
+    font-size: 1.2em;
+    padding: 0 5%; }
 
 body {
   font-family: "Chilanka", cursive; }
@@ -22678,12 +22721,14 @@ html {
 .breadcrumb {
   background-color: #F4F4F8 !important;
   padding-right: 20%;
-  padding-left: 20%; }
+  padding-left: 20%;
+  text-align: center; }
   .breadcrumb a:link, .breadcrumb a:visited, .breadcrumb a:hover, .breadcrumb a:active {
     color: #1a9cbc; }
 
 .find-book-btn {
-  background-color: #0b9fc4; }
+  background-color: #0b9fc4;
+  margin-bottom: 25px !important; }
   .find-book-btn:hover {
     background-color: #18718e; }
 
@@ -22696,15 +22741,20 @@ html {
     .title-jumbo > p, .book p {
       padding: 20px 50px 20px 50px; } }
 
+.carousel .carousel-caption p {
+  padding: 0 5% !important; }
+
 .row.no-gutters {
   margin-right: 0; }
   .row.no-gutters > [class^="col-"], .row.no-gutters > [class*=" col-"] {
     padding-right: 0;
     padding-left: 0; }
 
+.cat-summary, .cat-content {
+  padding: 5px 20px; }
+
 .book-img {
   align-self: center;
-  height: 80%;
   -webkit-box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.4);
   box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.4);
   transition: 0.3s;
@@ -22840,12 +22890,12 @@ html {
   display: none; }
 
 .purchase-button, .read-more-button, #dropdownMenuButton {
-  margin-top: 10px;
+  margin-top: 20px;
   cursor: pointer;
   padding-top: 10px;
   color: white;
   text-decoration: none !important;
-  margin: 0px 20% 0px 20%; }
+  margin: 0px 10% 0px 10%; }
   @media (min-width: 768px) {
     .purchase-button, .read-more-button, #dropdownMenuButton {
       margin: 0px 20% 0px 20%; } }
@@ -22872,7 +22922,8 @@ hr {
   text-decoration: none !important;
   cursor: pointer;
   font-size: 1.3em;
-  background-color: #298838; }
+  background-color: #298838;
+  padding: 15px 12px 6px 12px; }
   .purchase-button:hover {
     background-color: #127521; }
 
@@ -22939,6 +22990,9 @@ hr {
   @media (min-width: 576px) {
     .jumbotron {
       padding-top: 2rem !important; } }
+  .jumbotron p {
+    font-size: 1.2em;
+    padding: 0 5%; }
 
 body {
   font-family: "Chilanka", cursive; }
@@ -22982,6 +23036,9 @@ body {
   @media (min-width: 576px) {
     .jumbotron {
       padding-top: 2rem !important; } }
+  .jumbotron p {
+    font-size: 1.2em;
+    padding: 0 5%; }
 
 body {
   font-family: "Chilanka", cursive; }
@@ -23035,6 +23092,9 @@ body {
   @media (min-width: 576px) {
     .jumbotron {
       padding-top: 2rem !important; } }
+  .jumbotron p {
+    font-size: 1.2em;
+    padding: 0 5%; }
 
 body {
   font-family: "Chilanka", cursive; }
@@ -26861,16 +26921,18 @@ body {
   z-index: 1000;
   background-color: #009FB7;
   border-bottom: 1px solid #187487;
-  padding: 10px 20px 10px 20px;
+  padding: 10px 0px;
   -webkit-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3); }
   @media (min-width: 992px) {
     .navbar {
-      padding: 0px 20px 0px 20px; } }
+      padding: 0px 20px; } }
 
 .navbar-toggler {
   cursor: pointer;
   border: 2px solid rgba(0, 0, 0, 0);
-  transition: all 0.2s; }
+  transition: all 0.2s;
+  margin: 0 20px 0 0;
+  padding-bottom: 5px; }
   .navbar-toggler:hover {
     border: 2px solid #56c7dd;
     transition: all 0.2s; }
@@ -26910,11 +26972,11 @@ body {
   color: #187487; }
 
 .navbar-brand {
-  padding: 10px 0px 0px 0px; }
+  padding: 10px 20px 0px 20px; }
 
 .nav-link {
   box-sizing: content-box;
-  padding: 18px 30vw 18px 30vw !important;
+  padding: 18px 28vw 18px 28vw !important;
   transition: all 0.2s; }
   @media (min-width: 576px) {
     .nav-link {
@@ -26987,6 +27049,9 @@ body {
   @media (min-width: 576px) {
     .jumbotron {
       padding-top: 2rem !important; } }
+  .jumbotron p {
+    font-size: 1.2em;
+    padding: 0 5%; }
 
 body {
   font-family: "Chilanka", cursive; }
@@ -26995,7 +27060,10 @@ footer {
   border-top: 2px solid #E9ECEF;
   bottom: 0; }
   footer .list-unstyled {
-    padding: 0px 40px 10px 40px; }
+    padding: 0px 50px 10px 50px; }
+  @media (min-width: 576px) {
+    footer .list-unstyled {
+      padding: 0px 40px 10px 40px; } }
 
 .footer-copyright {
   background-color: #009FB7;
@@ -27102,6 +27170,9 @@ footer ul {
   @media (min-width: 576px) {
     .jumbotron {
       padding-top: 2rem !important; } }
+  .jumbotron p {
+    font-size: 1.2em;
+    padding: 0 5%; }
 
 body {
   font-family: "Chilanka", cursive; }
@@ -30915,22 +30986,28 @@ body {
 .contributions-sub-text {
   padding: 20px 10% 20px 10%; }
 
-.mail-to a:link, .mail-to a:visited, .mail-to a:hover, .mail-to a:active {
-  text-decoration: none;
-  color: #1a9cbc; }
-.mail-to p {
-  font-size: 1.3em;
-  padding: 10px 50px 10px 50px; }
-.mail-to .email-link {
-  padding: 15px 10px 10px 10px;
-  margin-top: 5px;
-  max-width: 100%;
-  font-size: 1.3em;
-  background-color: #fff;
-  border-radius: 5px; }
-  @media (min-width: 768px) {
-    .mail-to .email-link {
-      max-width: 100%; } }
+.mail-to {
+  padding-bottom: 0 !important; }
+  .mail-to a:link, .mail-to a:visited, .mail-to a:hover, .mail-to a:active {
+    text-decoration: none;
+    color: #1a9cbc; }
+  .mail-to p {
+    font-size: 1.3em;
+    padding: 10px 20px 10px 20px; }
+    @media (min-width: 768px) {
+      .mail-to p {
+        padding: 10px 40px 10px 40px; } }
+  .mail-to .email-link {
+    padding: 15px 10px 10px 10px;
+    margin-top: 5px;
+    max-width: 100%;
+    font-size: 1.1em;
+    background-color: #fff;
+    border-radius: 5px; }
+    @media (min-width: 768px) {
+      .mail-to .email-link {
+        max-width: 100%;
+        font-size: 1.3em; } }
 
 .purchase-button, .read-more-button, #dropdownMenuButton, .grow, .mail-to .email-link, .send-btn, .learn-more-btn {
   -webkit-transform: scale(1, 1);
@@ -30971,6 +31048,9 @@ body {
   @media (min-width: 576px) {
     .jumbotron {
       padding-top: 2rem !important; } }
+  .jumbotron p {
+    font-size: 1.2em;
+    padding: 0 5%; }
 
 body {
   font-family: "Chilanka", cursive; }
@@ -31014,6 +31094,9 @@ body {
   @media (min-width: 576px) {
     .jumbotron {
       padding-top: 2rem !important; } }
+  .jumbotron p {
+    font-size: 1.2em;
+    padding: 0 5%; }
 
 body {
   font-family: "Chilanka", cursive; }
@@ -31067,6 +31150,9 @@ body {
   @media (min-width: 576px) {
     .jumbotron {
       padding-top: 2rem !important; } }
+  .jumbotron p {
+    font-size: 1.2em;
+    padding: 0 5%; }
 
 body {
   font-family: "Chilanka", cursive; }
@@ -34893,16 +34979,18 @@ body {
   z-index: 1000;
   background-color: #009FB7;
   border-bottom: 1px solid #187487;
-  padding: 10px 20px 10px 20px;
+  padding: 10px 0px;
   -webkit-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3); }
   @media (min-width: 992px) {
     .navbar {
-      padding: 0px 20px 0px 20px; } }
+      padding: 0px 20px; } }
 
 .navbar-toggler {
   cursor: pointer;
   border: 2px solid rgba(0, 0, 0, 0);
-  transition: all 0.2s; }
+  transition: all 0.2s;
+  margin: 0 20px 0 0;
+  padding-bottom: 5px; }
   .navbar-toggler:hover {
     border: 2px solid #56c7dd;
     transition: all 0.2s; }
@@ -34942,11 +35030,11 @@ body {
   color: #187487; }
 
 .navbar-brand {
-  padding: 10px 0px 0px 0px; }
+  padding: 10px 20px 0px 20px; }
 
 .nav-link {
   box-sizing: content-box;
-  padding: 18px 30vw 18px 30vw !important;
+  padding: 18px 28vw 18px 28vw !important;
   transition: all 0.2s; }
   @media (min-width: 576px) {
     .nav-link {
@@ -35019,6 +35107,9 @@ body {
   @media (min-width: 576px) {
     .jumbotron {
       padding-top: 2rem !important; } }
+  .jumbotron p {
+    font-size: 1.2em;
+    padding: 0 5%; }
 
 body {
   font-family: "Chilanka", cursive; }
@@ -35027,7 +35118,10 @@ footer {
   border-top: 2px solid #E9ECEF;
   bottom: 0; }
   footer .list-unstyled {
-    padding: 0px 40px 10px 40px; }
+    padding: 0px 50px 10px 50px; }
+  @media (min-width: 576px) {
+    footer .list-unstyled {
+      padding: 0px 40px 10px 40px; } }
 
 .footer-copyright {
   background-color: #009FB7;
@@ -35134,6 +35228,9 @@ footer ul {
   @media (min-width: 576px) {
     .jumbotron {
       padding-top: 2rem !important; } }
+  .jumbotron p {
+    font-size: 1.2em;
+    padding: 0 5%; }
 
 body {
   font-family: "Chilanka", cursive; }
@@ -38943,7 +39040,11 @@ label {
       width: 80%; } }
 
 input, textarea {
-  padding: 5px 0; }
+  padding: 5px; }
+
+.captcha-input {
+  width: 90% !important;
+  margin: 0 5%; }
 
 .form-wrapper {
   border: 2px solid black;
@@ -38958,10 +39059,14 @@ input, textarea {
     .form-wrapper {
       width: 50vw; } }
   .form-wrapper .name-input, .form-wrapper .email-input, .form-wrapper .message-input {
-    margin: 10px 0;
-    width: 100%; }
+    margin: 10px 5%;
+    width: 90%; }
   .form-wrapper .message-input {
     height: 200px; }
+
+.captcha-div {
+  width: 90%;
+  margin: 0 5%; }
 
 .title-text {
   font-family: "Henny Penny", cursive !important; }
@@ -39027,6 +39132,9 @@ input:focus, textarea:focus {
   @media (min-width: 576px) {
     .jumbotron {
       padding-top: 2rem !important; } }
+  .jumbotron p {
+    font-size: 1.2em;
+    padding: 0 5%; }
 
 body {
   font-family: "Chilanka", cursive; }
@@ -39080,6 +39188,9 @@ body {
   @media (min-width: 576px) {
     .jumbotron {
       padding-top: 2rem !important; } }
+  .jumbotron p {
+    font-size: 1.2em;
+    padding: 0 5%; }
 
 body {
   font-family: "Chilanka", cursive; }
@@ -42906,16 +43017,18 @@ body {
   z-index: 1000;
   background-color: #009FB7;
   border-bottom: 1px solid #187487;
-  padding: 10px 20px 10px 20px;
+  padding: 10px 0px;
   -webkit-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3); }
   @media (min-width: 992px) {
     .navbar {
-      padding: 0px 20px 0px 20px; } }
+      padding: 0px 20px; } }
 
 .navbar-toggler {
   cursor: pointer;
   border: 2px solid rgba(0, 0, 0, 0);
-  transition: all 0.2s; }
+  transition: all 0.2s;
+  margin: 0 20px 0 0;
+  padding-bottom: 5px; }
   .navbar-toggler:hover {
     border: 2px solid #56c7dd;
     transition: all 0.2s; }
@@ -42955,11 +43068,11 @@ body {
   color: #187487; }
 
 .navbar-brand {
-  padding: 10px 0px 0px 0px; }
+  padding: 10px 20px 0px 20px; }
 
 .nav-link {
   box-sizing: content-box;
-  padding: 18px 30vw 18px 30vw !important;
+  padding: 18px 28vw 18px 28vw !important;
   transition: all 0.2s; }
   @media (min-width: 576px) {
     .nav-link {
@@ -43032,6 +43145,9 @@ body {
   @media (min-width: 576px) {
     .jumbotron {
       padding-top: 2rem !important; } }
+  .jumbotron p {
+    font-size: 1.2em;
+    padding: 0 5%; }
 
 body {
   font-family: "Chilanka", cursive; }
@@ -43075,6 +43191,9 @@ body {
   @media (min-width: 576px) {
     .jumbotron {
       padding-top: 2rem !important; } }
+  .jumbotron p {
+    font-size: 1.2em;
+    padding: 0 5%; }
 
 body {
   font-family: "Chilanka", cursive; }
@@ -43128,6 +43247,9 @@ body {
   @media (min-width: 576px) {
     .jumbotron {
       padding-top: 2rem !important; } }
+  .jumbotron p {
+    font-size: 1.2em;
+    padding: 0 5%; }
 
 body {
   font-family: "Chilanka", cursive; }
@@ -46954,16 +47076,18 @@ body {
   z-index: 1000;
   background-color: #009FB7;
   border-bottom: 1px solid #187487;
-  padding: 10px 20px 10px 20px;
+  padding: 10px 0px;
   -webkit-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3); }
   @media (min-width: 992px) {
     .navbar {
-      padding: 0px 20px 0px 20px; } }
+      padding: 0px 20px; } }
 
 .navbar-toggler {
   cursor: pointer;
   border: 2px solid rgba(0, 0, 0, 0);
-  transition: all 0.2s; }
+  transition: all 0.2s;
+  margin: 0 20px 0 0;
+  padding-bottom: 5px; }
   .navbar-toggler:hover {
     border: 2px solid #56c7dd;
     transition: all 0.2s; }
@@ -47003,11 +47127,11 @@ body {
   color: #187487; }
 
 .navbar-brand {
-  padding: 10px 0px 0px 0px; }
+  padding: 10px 20px 0px 20px; }
 
 .nav-link {
   box-sizing: content-box;
-  padding: 18px 30vw 18px 30vw !important;
+  padding: 18px 28vw 18px 28vw !important;
   transition: all 0.2s; }
   @media (min-width: 576px) {
     .nav-link {
@@ -47080,6 +47204,9 @@ body {
   @media (min-width: 576px) {
     .jumbotron {
       padding-top: 2rem !important; } }
+  .jumbotron p {
+    font-size: 1.2em;
+    padding: 0 5%; }
 
 body {
   font-family: "Chilanka", cursive; }
@@ -47088,7 +47215,10 @@ footer {
   border-top: 2px solid #E9ECEF;
   bottom: 0; }
   footer .list-unstyled {
-    padding: 0px 40px 10px 40px; }
+    padding: 0px 50px 10px 50px; }
+  @media (min-width: 576px) {
+    footer .list-unstyled {
+      padding: 0px 40px 10px 40px; } }
 
 .footer-copyright {
   background-color: #009FB7;
@@ -47195,6 +47325,9 @@ footer ul {
   @media (min-width: 576px) {
     .jumbotron {
       padding-top: 2rem !important; } }
+  .jumbotron p {
+    font-size: 1.2em;
+    padding: 0 5%; }
 
 body {
   font-family: "Chilanka", cursive; }
@@ -50915,7 +51048,10 @@ body {
   text-decoration: underline;
   padding: 30px 0 10px 0; }
 .resources-div .reading-text {
-  padding: 0px 20%; }
+  padding: 0px 5%; }
+  @media (min-width: 576px) {
+    .resources-div .reading-text {
+      padding: 0px 20%; } }
 .resources-div h3 {
   margin-top: 40px; }
 .resources-div ul {
@@ -50946,7 +51082,10 @@ body {
       padding: 20px 150px; } }
 
 .iframe-subtext {
-  padding: 20px; }
+  padding: 20px 5%; }
+  @media (min-width: 576px) {
+    .iframe-subtext {
+      padding: 20px; } }
 
 .embed-responsive-item {
   background-image: url("../assets/loading3.gif");
@@ -50992,6 +51131,9 @@ body {
   @media (min-width: 576px) {
     .jumbotron {
       padding-top: 2rem !important; } }
+  .jumbotron p {
+    font-size: 1.2em;
+    padding: 0 5%; }
 
 body {
   font-family: "Chilanka", cursive; }
@@ -51005,7 +51147,8 @@ body {
 
 .learn-more-text {
   margin-top: 20px;
-  font-size: 1.2em; }
+  font-size: 1.2em;
+  padding: 0 5%; }
 
 body {
   font-size: 16px;
@@ -51023,7 +51166,7 @@ body {
 
 .lead {
   font-size: 1.3em;
-  padding: 0 15px;
+  padding: 0 5%;
   margin-bottom: 0;
   text-align: justify;
   line-height: 30px;
@@ -51040,11 +51183,11 @@ hr {
   border: 1px solid #fff; }
 
 .user-image, .teddy {
-  width: 100%;
+  width: 94%;
   display: inline;
   height: auto;
   float: left;
-  padding: 0;
+  margin: 0 3%;
   border: 2px solid black;
   border-radius: 5px; }
   @media (min-width: 576px) {

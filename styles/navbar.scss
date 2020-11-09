@@ -93,17 +93,19 @@
 	background-color: $navbar;
 	border-bottom: 1px solid $dark-navbar;
 	// max-height: 60px;
-	padding: 10px 20px 10px 20px;
+	padding: 10px 0px;
 	-webkit-box-shadow: 2px 2px 3px rgba(0, 0, 0, .3);
 	@include media-breakpoint-up(lg) {
-		padding: 0px 20px 0px 20px;
+		padding: 0px 20px;
 	}
 }
 .navbar-toggler{
 	cursor: pointer;
 	border: 2px solid rgba(0,0,0,0);
 	transition: all 0.2s;
-	// padding-bottom: 15px;
+	margin: 0 20px 0 0;
+	// 
+	padding-bottom: 5px;
 	&:hover{
 		border: 2px solid $light-navbar;
 		transition: all 0.2s;
@@ -182,11 +184,11 @@
 }
 
 .navbar-brand{
-	padding: 10px 0px 0px 0px;
+	padding: 10px 20px 0px 20px;
 }
 .nav-link{
 	box-sizing: content-box; 
-	padding: 18px 30vw 18px 30vw !important;
+	padding: 18px 28vw 18px 28vw !important;
 	transition: all 0.2s;
 	@include media-breakpoint-up(sm) {
   		padding: 18px 35vw 18px 35vw !important;

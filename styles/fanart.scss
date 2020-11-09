@@ -39,21 +39,6 @@
 	}
 	.modal-footer button, .modal-header button{
 		cursor: pointer;
-		  //  -webkit-transform: scale(1,1);
-    //     -ms-transform: scale(1,1);
-    //         transform: scale(1,1);
-    // -webkit-transition: all 200ms ease-in-out;
-    // -o-transition: all 200ms ease-in-out;
-    // transition: all 200ms ease-in-out;
-    // &:hover{
-    //   @include media-breakpoint-up(sm) {
-    //         // -webkit-box-shadow:8px 8px 8px rgba(0,0,0,0.5);
-    //         //         box-shadow:8px 8px 8px rgba(0,0,0,0.5);
-    //     -webkit-transform: scale(1.1,1.1);
-    //         -ms-transform: scale(1.1,1.1);
-    //             transform: scale(1.1,1.1);
-    //       }
-    //   }
 	}
 }
 .lightbox-row{
@@ -92,31 +77,15 @@
 	margin-top: 5px;
 }
 .grow{
-		  // -webkit-box-shadow:5px 5px 5px rgba(0,0,0,0.3);
-    //         box-shadow:5px 5px 5px rgba(0,0,0,0.3);
-    //     -webkit-transform: scale(1,1);
-    //     -ms-transform: scale(1,1);
-    //         transform: scale(1,1);
-    // -webkit-transition: all 200ms ease-in-out;
-    // -o-transition: all 200ms ease-in-out;
-    // transition: all 200ms ease-in-out;
-    // &:hover{
-    //   @include media-breakpoint-up(sm) {
-    //         -webkit-box-shadow:8px 8px 8px rgba(0,0,0,0.5);
-    //                 box-shadow:8px 8px 8px rgba(0,0,0,0.5);
-    //     -webkit-transform: scale(1.05,1.05);
-    //         -ms-transform: scale(1.05,1.05);
-    //             transform: scale(1.05,1.05);
-    //       }
-    //   }
+
     @extend %hover-grow;
 }
-.modal-body{
-	// height: 70vh;
-	.fan-img{
-		// max-height: 100%;
-	}
-}
+// .modal-body{
+// 	// height: 70vh;
+// 	.fan-img{
+// 		// max-height: 100%;
+// 	}
+// }
 
 .carousel, .carousel-item, .carousel-inner{
 	// max-height: 100%;
@@ -195,6 +164,7 @@
 	padding: 20px 10% 20px 10%;
 }
 .mail-to{
+	padding-bottom: 0 !important;
 	// background-color: $navbar;
 	a:link, a:visited, a:hover, a:active {  
 		text-decoration: none;
@@ -202,18 +172,22 @@
 	}
 	p{
 		font-size: 1.3em;
-		padding: 10px 50px 10px 50px;
+		padding: 10px 20px 10px 20px;
+		@include media-breakpoint-up(md) {
+            padding: 10px 40px 10px 40px;
+    	}
 	}
 	.email-link{
 		padding: 15px 10px 10px 10px;; 
 		margin-top: 5px;
 		max-width: 100%;
-		font-size: 1.3em;
+		font-size: 1.1em;
 		background-color: #fff;
 		border-radius: 5px;
 		@extend %hover-grow;
     	@include media-breakpoint-up(md) {
             max-width: 100%;
+            font-size: 1.3em;
     	}
 }
 }

@@ -7,7 +7,12 @@ footer{
 	bottom: 0;
 	// background-color: $dark-blue !important;
 	.list-unstyled{
+		padding: 0px 50px 10px 50px;
+	}
+	@include media-breakpoint-up(sm) {
+		.list-unstyled{
 		padding: 0px 40px 10px 40px;
+	}
 	}
 }
 

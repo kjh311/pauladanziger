@@ -152,7 +152,11 @@ label{
 }
 input, textarea{
 	// width: 80%;
-	padding: 5px 0;
+	padding: 5px;
+}
+.captcha-input{
+	width: 90% !important;
+	margin: 0 5%;
 }
 .form-wrapper{
 	border: 2px solid black;
@@ -169,8 +173,8 @@ input, textarea{
 	border-radius: 10px;
 	// background-color: #9FDFF5;
 .name-input, .email-input, .message-input{
-		margin: 10px 0;
-		width: 100%;
+		margin: 10px 5%;
+		width: 90%;
 		@include media-breakpoint-up(md) {
 	  		// width: 280px;
 	}
@@ -179,7 +183,10 @@ input, textarea{
 		height: 200px;
 	}
 }
-
+.captcha-div{
+	width: 90%;
+	margin: 0 5%;
+}
 .title-text{
 	font-family: $penny !important;
 }
