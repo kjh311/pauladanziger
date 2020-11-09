@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 @import "variables";
 @import "navbar";
 @import "footer";
@@ -5,243 +12,198 @@
 
 
 
-// CAPTCHA
-/*
-Next to do:
 
-Finalize style. 
-  -Still more work but I feel it's much closer.
-Make numbers harder to read for robots. 
-  -Cheeeck?  I'll probably experiment with better ways to do this.
-Maybe have the canvas refresh and give a new captcha upon completion? 
-  -Done, with a manual refresh button!
-*/
-// body {
-//   background: #CCCCFF; 
-//   font-family: arial;
-//   font-size: 18px;
-//   color: #7491A8;
-//   font-weight: bold;
-//   -webkit-user-select: none;       
-//   -moz-user-select: none;
-//   -ms-user-select: none; 
-// }
 
 #container {
-  margin: 0 auto;
-  border: 2px solid $red;
-  border-radius: 5px;
-  
-
-	#flag {
-	  background: #D6D8E5;
-	  border:1px solid #7491A8;
-	  border-top-right-radius: 5px;
-	  border-top-left-radius: 5px;
-	  height: 40px;
-	  width: 100%;
-	  margin: 0 auto;
-	  text-align: center;
-	}
-
-	#test {
-	  padding: 0;
-	  margin: 10px auto;
-	}
-
-	#refresh {
-	  width: 100%;	  
-	  // height: 21px;
-	  cursor: pointer;
-	  background: #FF6F66;
-	  color: #fff;
-	  margin: 0 auto;
-	  text-align: center;
-	  padding: 10px;
-
-	}
-
-	#cap {
-	  background: #fff;
-	  width: 100%;
-	  margin: 0 auto;
-	}
+    margin: 0 auto;
+    border: 2px solid $red;
+    border-radius: 5px;
 
 
-	canvas {
-	  display: table;
-	  // border: 2px solid red;
-	  margin: 0 auto;
-	  // width: 100%;
-	  //  height: 100px;
-	}
+    #flag {
+        background: #D6D8E5;
+        border: 1px solid #7491A8;
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+        height: 40px;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
 
-	#ctitle {
-	  text-align: center;
-	  font-size: 16px;
-	  margin: 5px;
-	  display: inline-block;
-	}
+    #test {
+        padding: 0;
+        margin: 10px auto;
+    }
 
-	#form {
-	  background: $dark-grey;
-	  width: 100%;
-	  margin: 0 auto;
-	  border: 1px solid #7491A8;
-	  overflow: hidden;
-	  border-bottom-left-radius: 5px;
-	  border-bottom-right-radius: 5px;
-	  // padding-bottom: 20px;
-	  /*border-left: 1px solid #A89A84;
-	  border-right: 1px solid #A89A84;
-	  border-bottom: 1px solid #A89A84;
-	  border-bottom-right-radius: 5px;
-	  border-bottom-left-radius: 5px; */
-	}
+    #refresh {
+        width: 100%;
+        cursor: pointer;
+        background: #FF6F66;
+        color: #fff;
+        margin: 0 auto;
+        text-align: center;
+        padding: 10px;
 
-	input {
-	  display: inline-block;
-	  width: 100%;
-	  margin-left: 0;
-	  margin-right: 0;
-	  margin-bottom: 20px;
-	  text-align:center;
-	  // margin: 0 0 5px 22%;
-	  padding: 2px auto 15px auto;
-	  // display: inline-block;
-	  background: #fff;
-	  color: #485A68;
-	  text-align: center;
-	  @include media-breakpoint-up(md) {
-  			width: 60%;
-	 		 margin-left: 20% !important;
-	 		 margin-right: 20% !important;
-		}
-	}
+    }
 
-	// #submit {
-	//   background: #FF6F66;
-	//   display: inline-block;
-	//   color: #fff;
-	//   font-weight: bold;
-	//   cursor: pointer;
-	//   padding: 2.5px;
-	// }
+    #cap {
+        background: #fff;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+
+    canvas {
+        display: table;
+        margin: 0 auto;
+    }
+
+    #ctitle {
+        text-align: center;
+        font-size: 16px;
+        margin: 5px;
+        display: inline-block;
+    }
+
+    #form {
+        background: $dark-grey;
+        width: 100%;
+        margin: 0 auto;
+        border: 1px solid #7491A8;
+        overflow: hidden;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+
+    input {
+        display: inline-block;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 20px;
+        text-align: center;
+        padding: 2px auto 15px auto;
+        background: #fff;
+        color: #485A68;
+        text-align: center;
+
+        @include media-breakpoint-up(md) {
+            width: 60%;
+            margin-left: 20% !important;
+            margin-right: 20% !important;
+        }
+    }
+
+}
+
+
+
+.title-text {
+    font-family: $penny !important;
+}
+
+.contact-form-div {
+    background-color: $card;
+    -webkit-box-shadow: 15px 15px 8px rgba(0, 0, 0, 0.4);
+    box-shadow: 15px 15px 8px rgba(0, 0, 0, 0.4);
+    color: white;
+}
+
+label {
+    width: 100%;
+    font-size: 1.3em;
+    text-transform: uppercase;
+
+    @include media-breakpoint-up(sm) {
+        width: 80%;
+    }
+}
+
+input,
+textarea {
+    padding: 5px;
+}
+
+.captcha-input {
+    width: 90% !important;
+
+    @include media-breakpoint-up(sm) {
+        width: 60% !important;
+    }
+}
+
+.form-wrapper {
+    border: 2px solid black;
+    padding: 30px 5px;
+    width: 95vw;
+
+    @include media-breakpoint-up(sm) {
+        width: 80vw;
+        padding: 30px;
+    }
+
+    @include media-breakpoint-up(md) {
+        width: 50vw;
+    }
+
+    border-radius: 10px;
+
+    .name-input,
+    .email-input,
+    .message-input {
+        margin: 10px 5%;
+        width: 90%;
+
+        @include media-breakpoint-up(md) {}
+    }
+
+    .message-input {
+        height: 200px;
+    }
+}
+
+.captcha-div {
+    width: 90%;
+    margin: 0 5%;
+}
+
+.title-text {
+    font-family: $penny !important;
 }
 
 
-
-.title-text{
-	font-family: $penny !important;
-}
-.contact-form-div{
-	// background-color: $blue;
-	background-color: $card;
-	-webkit-box-shadow: 15px 15px 8px rgba(0, 0, 0, 0.4);
-  		 box-shadow: 15px 15px 8px rgba(0, 0, 0, 0.4);
-  		 color: white;
-  		
-  		 label{
-  		 	text-transform: uppercase;
-  		 }
-}
-label{
-	width: 100%;
-	@include media-breakpoint-up(sm) {
-  			width: 80%;
-	}
-}
-input, textarea{
-	// width: 80%;
-	padding: 5px;
-}
-.captcha-input{
-	// width: auto !important;
-	// width: 90% !important;
-	// margin: 0 5% !important;
-	@include media-breakpoint-up(sm) {
-  			// margin: 0 !important;
-  			// width: auto !important;
-  			// margin: 5% !important;
-  			// margin-right: 5% !important;
-  			// margin-left: 5% !important;
-		}
-}
-.form-wrapper{
-	border: 2px solid black;
-	padding: 30px 5px;
-	// margin: 20px 0px 20px 0px;
-	 width: 95vw;
-  		 @include media-breakpoint-up(sm) {
-  			width: 80vw;
-  			padding: 30px;
-		}
-		@include media-breakpoint-up(md) {
-  			width: 50vw;
-		}
-	border-radius: 10px;
-	// background-color: #9FDFF5;
-.name-input, .email-input, .message-input{
-		margin: 10px 5%;
-		width: 90%;
-		@include media-breakpoint-up(md) {
-	  		// width: 280px;
-	}
-}
-	.message-input{
-		height: 200px;
-	}
-}
-.captcha-div{
-	width: 90%;
-	margin: 0 5%;
-}
-.title-text{
-	font-family: $penny !important;
+.send-btn {
+    cursor: pointer;
+    padding-top: 12px;
+    color: white;
+    @extend %hover-grow;
 }
 
-// }
-.send-btn{
-	cursor: pointer;
-	// background-color: $read-more;
-	padding-top: 12px;
-	color: white;
-	@extend %hover-grow;
-	// -webkit-box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4);
- //  		 box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4);
- //  		 transform: scale(1,1);
- //  		 transition: 0.3s;
- // }
- // .send-btn:hover{
- // 	background-color: $read-more-dark;
- // 	-webkit-box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.4);
- //  		 box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.4);
- //  		 transform: scale(1.1,1.1);
- //  		 transition: 0.3s;
- }
-.name-input{
-	text-transform: capitalize;
+.name-input {
+    text-transform: capitalize;
 
 }
-input, textarea{
-	// -webkit-box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.4);
- //  		 box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.4);
+
+
+input:valid,
+textarea:valid {
+    border: 2px solid $light-green !important;
+    border-radius: 5px;
 }
 
-input:valid, textarea:valid{
-	border: 2px solid $light-green !important;
-	border-radius: 5px;
+input:invalid,
+textarea:invalid {
+    border: 2px solid $light-red !important;
+    border-radius: 5px;
 }
 
-input:invalid, textarea:invalid{
-	border: 2px solid $light-red !important;
-	border-radius: 5px;
+input:focus,
+textarea:focus {
+    outline: none !important;
 }
 
-input:focus, textarea:focus{
-	outline: none !important;
+#submit {
+    margin-top: 20px;
+    font-size: 1.4em;
 }
-#submit{
-	margin-top: 20px;
-}
-

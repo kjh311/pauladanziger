@@ -89,8 +89,9 @@ $link: #1a9cbc;
 
 
 
+
 %hover-grow {
-  	   -webkit-transform: scale(1,1);
+       -webkit-transform: scale(1,1);
         -ms-transform: scale(1,1);
             transform: scale(1,1);
     -webkit-transition: all 200ms ease-in-out;
@@ -127,18 +128,21 @@ $link: #1a9cbc;
 
 
 .title-jumbo{
-	background-color: $jumbotron;
+  background-color: $jumbotron;
   
 }
 .jumbotron{
-  padding-bottom: 1rem !important;
-  padding-top: 0.2rem !important;
+  padding-bottom: 2rem !important;
+  padding-top: 0.5rem !important;
    @include media-breakpoint-up(sm) {
-          padding-top: 2rem !important;
+          padding-top: 3rem !important;
     }
     p{
       font-size: 1.2em;
       padding: 0 5%;
+      @include media-breakpoint-up(sm) {
+          margin: 0px 20% 0px 20%;
+      }
     }
 }
 

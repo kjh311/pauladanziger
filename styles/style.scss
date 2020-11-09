@@ -1,6 +1,11 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 @import "../bootstrap/scss/bootstrap";
-@import "mockup";
-@import "lightbox";
 @import "about";
 @import "books";
 @import "fanart";
@@ -10,95 +15,85 @@
 @import "variables";
 
 
-.learn-more-btn{
-	@extend %hover-grow;
-	// margin-top: 5px;
-	background-color: $read-more;
-	padding-top: 12px;
-	margin-top: 20px;
-	&:hover{
-		background-color: $read-more-dark;
-	}
-}
-.learn-more-text{
-	margin-top: 20px;
-	font-size: 1.2em;
-	padding: 0 5%;
-}
-body{ 
-font-size: 16px;
-// overflow-x: hidden !important;
-overflow-x: hidden;
- }
-div{
-  // @extend %color-border;
-}
-.row, .container-fluid{
-	padding-left: 0 !important;
-	padding-right: 0 !important;
-}
-.home-page-jumbo{
-	margin-bottom: 0 !important;
-		@include media-breakpoint-up(sm) {
-	  		margin-bottom: 50px;
-		}
-}
-.lead{
-	font-size: 1.3em;
-	padding: 0 5%;
-	// margin-top: 30px;
-	margin-bottom: 0;
-	text-align: justify;
-	line-height: 30px;
-	top: 30px;
-	position: relative;
-	// display: inline;
-	@include media-breakpoint-up(sm) {
-		top: 0px;
-		padding: 30px;
-  		// font-size: 1.5em;
-  		// padding: 15px 40px 0 40px;
-	}
-}
-figure{
+.learn-more-btn {
+    @extend %hover-grow;
+    background-color: $read-more;
+    padding-top: 12px;
+    margin-top: 20px;
 
+    &:hover {
+        background-color: $read-more-dark;
+    }
 }
-hr{
-	// display: block !important;
-	position: relative;
-	top: 20px;
-	border: 1px solid #fff;
-	// margin: 20px 0;
-}
-.user-image, .teddy{
-	width: 94%;
-	display: inline;
-  height: auto;
-  float: left;
-  	
-	margin: 0 3%;
 
-	border: 2px solid black;
-	border-radius: 5px;
-	@include media-breakpoint-up(sm) {
-		width: 40%;
-  height: auto;
-  margin: 30px;
-	// height: 30%;
-	
-	}
-
-// }
+.learn-more-text {
+    margin-top: 20px;
+    font-size: 1.2em;
+    padding: 0 5%;
 }
-.intro-text{
-	padding-bottom: 50px !important;
-	background-color: $card;
-}
-// .user-image{
-// 	float: left;
-// 	display: inline;
-// }
 
-// CONTACT FORM
+body {
+    font-size: 16px;
+    overflow-x: hidden;
+}
 
 
+.row,
+.container-fluid {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.home-page-jumbo {
+    margin-bottom: 0 !important;
+
+    @include media-breakpoint-up(sm) {
+        margin-bottom: 50px;
+    }
+}
+
+.lead {
+    font-size: 1.3em;
+    padding: 0 5%;
+    margin-bottom: 0;
+    text-align: justify;
+    line-height: 30px;
+    top: 30px;
+    position: relative;
+
+    @include media-breakpoint-up(sm) {
+        top: 0px;
+        padding: 30px;
+    }
+}
+
+
+hr {
+    position: relative;
+    top: 20px;
+    border: 1px solid #fff;
+}
+
+.user-image,
+.teddy {
+    width: 94%;
+    display: inline;
+    height: auto;
+    float: left;
+
+    margin: 0 3%;
+
+    border: 2px solid black;
+    border-radius: 5px;
+
+    @include media-breakpoint-up(sm) {
+        width: 40%;
+        height: auto;
+        margin: 30px;
+    }
+}
+
+.intro-text {
+    padding-bottom: 50px !important;
+    background-color: $card;
+}

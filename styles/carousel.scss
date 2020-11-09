@@ -1,46 +1,62 @@
-.carousel{
-	margin: 0 auto;
-	width: 100vw;
-	border-radius: 	0px;
-	padding-top: 40px;
-	@include media-breakpoint-up(sm) {
-  			width: 90vw;
-  			border-radius: 10px;
-		}
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
 
-	// background-color: rgba(0,0,0,0.5);
-	background-color: $carousel;
-	img{
-		display: block;
-		  margin: 20px auto 10px auto;
-		  border: 2px solid black;
-		  // padding: 20px;
-		  box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
-	}
-	.carousel-control-next, .carousel-control-prev{
-		cursor: pointer;
-		width: 15%;
-		@include media-breakpoint-up(sm) {
-  			width: 30%;
-		}
-	}
-	.carousel-control-next-icon, .carousel-control-prev-icon{
-		width: 20px;
-		height: 20px;
-		@include media-breakpoint-up(sm) {
-  			width: 40px;
-		height: 40px;
-		}
-	} 
-	.carousel-caption {
-	    position: relative;
-	    left: 0;
-	    top: 0;
-	}
-	a{
-		text-decoration: none !important;
-	}
-	.carousel-indicators li{
-		cursor: pointer;
-	}
+.carousel {
+    margin: 0 auto;
+    width: 100vw;
+    border-radius: 0px;
+    padding-top: 40px;
+    background-color: $carousel;
+
+    @include media-breakpoint-up(sm) {
+        width: 90vw;
+        border-radius: 10px;
+    }
+
+    img {
+        display: block;
+        margin: 20px auto 10px auto;
+        border: 2px solid black;
+        -webkit-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    .carousel-control-next,
+    .carousel-control-prev {
+        cursor: pointer;
+        width: 15%;
+
+        @include media-breakpoint-up(sm) {
+            width: 30%;
+        }
+    }
+
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon {
+        width: 20px;
+        height: 20px;
+
+        @include media-breakpoint-up(sm) {
+            width: 40px;
+            height: 40px;
+        }
+    }
+
+    .carousel-caption {
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+
+    a {
+        text-decoration: none !important;
+    }
+
+    .carousel-indicators li {
+        cursor: pointer;
+    }
 }

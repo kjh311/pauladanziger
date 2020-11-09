@@ -1,195 +1,210 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 @import "variables";
 @import "navbar";
 @import "footer";
-// @import "lightbox2";
 @import "hover";
 
 
-.title-text{
-	font-family: $penny !important;
+.title-text {
+    font-family: $penny !important;
 }
-.fanart-title{
-	// background-color: $light-grey;
-	padding: 60px 30px 40px 30px;
+
+.fanart-title {
+    padding: 60px 30px 40px 30px;
 }
-.carousel-inner{
-	
+
+.card {
+    background-color: $card;
 }
-.card{
-	background-color: $card;
+
+.modal {
+    @include media-breakpoint-up(sm) {
+        bottom: 10px;
+    }
+
+    .modal-dialog,
+    .modal-content {
+        @include media-breakpoint-up(sm) {
+            bottom: 10px;
+        }
+    }
+
+    .close-icon {
+        height: 30px;
+        border: 1px solid $clear;
+    }
+
+    .close {
+        border: 1px solid $clear;
+    }
+
+    .modal-footer button,
+    .modal-header button {
+        cursor: pointer;
+    }
 }
-.modal{
-	// max-height: 95vh;
-	@include media-breakpoint-up(sm) {
-  		bottom: 10px;
-	}
-	.modal-dialog, .modal-content{
-		// max-height: 100%;
-		@include media-breakpoint-up(sm) {
-  		bottom: 10px;
-	}
-	}
-	.close-icon{
-		height: 30px;
-		border: 1px solid $clear;
-		// width: 30px;
-	}
-	.close{
-		border: 1px solid $clear;
-	}
-	.modal-footer button, .modal-header button{
-		cursor: pointer;
-	}
+
+.pic-card {
+    margin: 2% !important;
+    max-width: 96% !important;
+    content-box: border-box !important;
+    -webkit-box-shadow: 5px 5px 5px rbga(0, 0, 0, 0.7) !important;
+    box-shadow: 5px 5px 5px rbga(0, 0, 0, 0.7) !important;
+    border-radius: 10px !important;
+    padding: 20px;
+    cursor: pointer !important;
+    background-color: #fff;
+    border-radius: 10px;
+    max-height: 50vh;
+
+    h3 {
+        margin-top: 20px;
+    }
+
+    @include media-breakpoint-up(sm) {
+        margin: 5% !important;
+        width: 40% !important;
+    }
+
+    @include media-breakpoint-up(md) {
+        margin: 2% !important;
+        width: 29.3% !important;
+    }
+
+    img {
+        -o-object-fit: cover !important;
+        object-fit: cover !important;
+        height: 70%;
+        width: 100%;
+    }
 }
-.lightbox-row{
-	// background-color: $navbar;
+
+.artist-link {
+    cursor: pointer;
+    margin-top: 5px;
 }
-.pic-card{
-	margin: 2% !important;
-	max-width: 96% !important;
-	content-box: border-box !important;
-	box-shadow: 5px 5px 5px rbga(0,0,0,0.7) !important;
-	border-radius: 10px !important;
-	padding: 20px;
-	cursor: pointer !important;
-	background-color: #fff;
-	border-radius: 10px;
-	max-height: 50vh;
-	h3{
-		margin-top: 20px;
-	}
-	@include media-breakpoint-up(sm) {
-  		margin: 5% !important;
-		width: 40% !important;
-	}
-	@include media-breakpoint-up(md) {
-  		margin: 2% !important;
-		width: 29.3% !important;
-	}
-	img{
-		object-fit: cover !important;
-		height: 70%;
-		width: 100%;
-	}
-}
-.artist-link{
-	cursor: pointer;
-	margin-top: 5px;
-}
-.grow{
+
+.grow {
 
     @extend %hover-grow;
 }
-// .modal-body{
-// 	// height: 70vh;
-// 	.fan-img{
-// 		// max-height: 100%;
-// 	}
-// }
 
-.carousel, .carousel-item, .carousel-inner{
-	// max-height: 100%;
-	max-width: 100%;
-	padding: 0 0 20px 0 !important;
-	object-fit: cover !important;
-	// width: 
-	// height: 70vh;
-	// max-width: 100%;
-	.carousel-control-prev-icon, .carousel-control-next-icon{
-		position: relative;
-	}
-	.carousel-control-prev-icon{
-		@extend %hover-grow-no-shadow;
-		@include media-breakpoint-up(sm) {
-           right: 40px;
-          }
-	}
-	.carousel-control-next-icon{
-		@extend %hover-grow-no-shadow;
-		@include media-breakpoint-up(sm) {
-           left: 40px;
-          }
-	}
-	.fan-img{
-		object-fit: cover !important;
-		max-height: 400px;
-	max-width: 100%;
-	display: block;
-    margin-left: auto;
-    margin-right: auto
-		// max-height: 70%;
-		// width: 100%;
+.carousel,
+.carousel-item,
+.carousel-inner {
+    max-width: 100%;
+    padding: 0 0 20px 0 !important;
+    -o-object-fit: cover !important;
+    object-fit: cover !important;
 
-	}
-	h3, p{
-		padding: 0px !important;
-		margin: 0 !important;
-		color: white;
-			//  position: absolute;
-			//   top: 50%;
-			//   left: 50%;
-			//   // transform: translate(-50%, -50%);
-			// top: 320px;
-		}
-}
-.carousel-inner{
-	padding: 0 !important;
-}
-.carousel-item{
-	margin: 0 !important;
-	.fan-img{
-		// margin: 0 !important;
-	}
-	button{
-		padding-top: 10px;
-	}
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        position: relative;
+    }
+
+    .carousel-control-prev-icon {
+        @extend %hover-grow-no-shadow;
+
+        @include media-breakpoint-up(sm) {
+            right: 40px;
+        }
+    }
+
+    .carousel-control-next-icon {
+        @extend %hover-grow-no-shadow;
+
+        @include media-breakpoint-up(sm) {
+            left: 40px;
+        }
+    }
+
+    .fan-img {
+        -o-object-fit: cover !important;
+        object-fit: cover !important;
+        max-height: 400px;
+        max-width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto
+    }
+
+    h3,
+    p {
+        padding: 0px !important;
+        margin: 0 !important;
+        color: white;
+    }
 }
 
-.mail-text{
-	margin-top: 15px;
+.carousel-inner {
+    padding: 0 !important;
 }
-.img-fluid{
-	// display: block;
-  // margin-left: auto;
-  // margin-right: auto;
-  // width: 50%;
+
+.carousel-item {
+    margin: 0 !important;
+
+    .fan-img {}
+
+    button {
+        padding-top: 10px;
+    }
 }
-.contributions{
-	padding: 0 !important;
-	 @include media-breakpoint-up(sm) {
-            padding: 0 10% !important;
-          }
+
+.mail-text {
+    margin-top: 15px;
 }
-.contributions-sub-text{
-	padding: 20px 10% 20px 10%;
+
+.contributions {
+    padding: 0 !important;
+
+    @include media-breakpoint-up(sm) {
+        padding: 0 10% !important;
+    }
 }
-.mail-to{
-	padding-bottom: 0 !important;
-	// background-color: $navbar;
-	a:link, a:visited, a:hover, a:active {  
-		text-decoration: none;
-		color: $link;
-	}
-	p{
-		font-size: 1.3em;
-		padding: 10px 20px 10px 20px;
-		@include media-breakpoint-up(md) {
+
+.contributions-sub-text {
+    padding: 20px 10% 20px 10%;
+}
+
+.mail-to {
+    padding-bottom: 0 !important;
+
+    a:link,
+    a:visited,
+    a:hover,
+    a:active {
+        text-decoration: none;
+        color: $link;
+    }
+
+    p {
+        font-size: 1.3em;
+        padding: 10px 20px 10px 20px;
+
+        @include media-breakpoint-up(md) {
             padding: 10px 40px 10px 40px;
-    	}
-	}
-	.email-link{
-		padding: 15px 10px 10px 10px;; 
-		margin-top: 5px;
-		max-width: 100%;
-		font-size: 1.1em;
-		background-color: #fff;
-		border-radius: 5px;
-		@extend %hover-grow;
-    	@include media-breakpoint-up(md) {
+        }
+    }
+
+    .email-link {
+        padding: 15px 10px 10px 10px;
+        ;
+        margin-top: 5px;
+        max-width: 100%;
+        font-size: 1.1em;
+        background-color: #fff;
+        border-radius: 5px;
+        @extend %hover-grow;
+
+        @include media-breakpoint-up(md) {
             max-width: 100%;
             font-size: 1.3em;
-    	}
+        }
+    }
 }
-}
-
-
