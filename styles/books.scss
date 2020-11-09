@@ -168,6 +168,7 @@ html {
 .book-dropdown {
     overflow-y: auto;
     overflow-x: hidden;
+    overflow-wrap: anywhere;
     max-height: 200px;
     // left: 10% !important;
     width:  96vw !important;
