@@ -22723,7 +22723,7 @@ html {
     color: #1a9cbc; }
 
 .find-book-btn {
-  background-color: #0b9fc4;
+  background-color: #0b9fc4 !important;
   margin-bottom: 25px !important; }
   .find-book-btn:hover {
     background-color: #18718e; }
@@ -22828,17 +22828,19 @@ html {
   overflow-y: auto;
   overflow-x: hidden;
   max-height: 200px;
-  left: 10% !important;
-  width: 90vw;
+  width: 96vw !important;
+  position: absolute;
+  left: 0;
+  margin: 0 1vw 0 0;
   color: #009FB7; }
   @media (min-width: 768px) {
     .book-dropdown {
-      width: 50vw;
+      width: 500px !important;
+      margin: 0 auto;
       -webkit-transform: translate3d(-35%, 38px, 0px) !important;
       transform: translate3d(-35%, 38px, 0px) !important; } }
   @media (min-width: 992px) {
     .book-dropdown {
-      width: 35vw;
       -webkit-transform: translate3d(-30%, 38px, 0px) !important;
       transform: translate3d(-30%, 38px, 0px) !important; } }
 

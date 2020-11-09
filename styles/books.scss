@@ -33,7 +33,7 @@ html {
 }
 
 .find-book-btn {
-    background-color: $read-more;
+    background-color: $read-more !important;
     margin-bottom: 25px !important;
 
     &:hover {
@@ -169,18 +169,23 @@ html {
     overflow-y: auto;
     overflow-x: hidden;
     max-height: 200px;
-    left: 10% !important;
-    width: 90vw;
+    // left: 10% !important;
+    width:  96vw !important;
+    position: absolute;
+    left: 0;
+    margin: 0 1vw 0 1vw;
+    // width: 250px !important;
     color: $navbar;
 
     @include media-breakpoint-up(md) {
-        width: 50vw;
+        width: 500px !important;
+        margin: 0 auto;
         -webkit-transform: translate3d(-35%, 38px, 0px) !important;
         transform: translate3d(-35%, 38px, 0px) !important;
     }
 
     @include media-breakpoint-up(lg) {
-        width: 35vw;
+        // width: 500px !important;
         -webkit-transform: translate3d(-30%, 38px, 0px) !important;
         transform: translate3d(-30%, 38px, 0px) !important;
     }
