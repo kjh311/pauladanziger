@@ -10352,8 +10352,7 @@ body {
   font-style: italic;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
-  transition: 0.3s;
-  content-box: border-box !important; }
+  transition: 0.3s; }
   @media (min-width: 992px) {
     .dropdown-collapsed p,
     .sub-menu-heading {
@@ -10457,6 +10456,7 @@ body {
 
 .nav-link {
   -webkit-box-sizing: content-box;
+  font-weight: bold;
   box-sizing: content-box;
   padding: 18px 28vw 18px 28vw !important;
   -webkit-transition: all 0.2s;
@@ -10624,7 +10624,7 @@ footer ul {
 
 .footer-link {
   color: #1a9cbc;
-  font-style: bold; }
+  font-weight: bold; }
 
 .active-footer-link {
   color: white; }
@@ -18466,8 +18466,7 @@ body {
   font-style: italic;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
-  transition: 0.3s;
-  content-box: border-box !important; }
+  transition: 0.3s; }
   @media (min-width: 992px) {
     .dropdown-collapsed p,
     .sub-menu-heading {
@@ -18571,6 +18570,7 @@ body {
 
 .nav-link {
   -webkit-box-sizing: content-box;
+  font-weight: bold;
   box-sizing: content-box;
   padding: 18px 28vw 18px 28vw !important;
   -webkit-transition: all 0.2s;
@@ -18738,7 +18738,7 @@ footer ul {
 
 .footer-link {
   color: #1a9cbc;
-  font-style: bold; }
+  font-weight: bold; }
 
 .active-footer-link {
   color: white; }
@@ -26977,8 +26977,7 @@ body {
   font-style: italic;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
-  transition: 0.3s;
-  content-box: border-box !important; }
+  transition: 0.3s; }
   @media (min-width: 992px) {
     .dropdown-collapsed p,
     .sub-menu-heading {
@@ -27082,6 +27081,7 @@ body {
 
 .nav-link {
   -webkit-box-sizing: content-box;
+  font-weight: bold;
   box-sizing: content-box;
   padding: 18px 28vw 18px 28vw !important;
   -webkit-transition: all 0.2s;
@@ -27249,7 +27249,7 @@ footer ul {
 
 .footer-link {
   color: #1a9cbc;
-  font-style: bold; }
+  font-weight: bold; }
 
 .active-footer-link {
   color: white; }
@@ -31077,7 +31077,6 @@ body {
 .pic-card {
   margin: 2% !important;
   max-width: 96% !important;
-  content-box: border-box !important;
   -webkit-box-shadow: 5px 5px 5px rbga(0, 0, 0, 0.7) !important;
   box-shadow: 5px 5px 5px rbga(0, 0, 0, 0.7) !important;
   border-radius: 10px !important;
@@ -35195,8 +35194,7 @@ body {
   font-style: italic;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
-  transition: 0.3s;
-  content-box: border-box !important; }
+  transition: 0.3s; }
   @media (min-width: 992px) {
     .dropdown-collapsed p,
     .sub-menu-heading {
@@ -35300,6 +35298,7 @@ body {
 
 .nav-link {
   -webkit-box-sizing: content-box;
+  font-weight: bold;
   box-sizing: content-box;
   padding: 18px 28vw 18px 28vw !important;
   -webkit-transition: all 0.2s;
@@ -35467,7 +35466,7 @@ footer ul {
 
 .footer-link {
   color: #1a9cbc;
-  font-style: bold; }
+  font-weight: bold; }
 
 .active-footer-link {
   color: white; }
@@ -39318,7 +39317,7 @@ body {
     margin-right: 0;
     margin-bottom: 20px;
     text-align: center;
-    padding: 2px auto 15px auto;
+    padding: 2px 0 15px 0;
     background: #fff;
     color: #485A68;
     text-align: center; }
@@ -39406,7 +39405,7 @@ textarea:focus {
 
 #submit {
   margin-top: 20px;
-  font-size: 1.4em; }
+  font-size: 1.2em; }
 
 /*
 * Prefixed by https://autoprefixer.github.io
@@ -43340,8 +43339,7 @@ body {
   font-style: italic;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
-  transition: 0.3s;
-  content-box: border-box !important; }
+  transition: 0.3s; }
   @media (min-width: 992px) {
     .dropdown-collapsed p,
     .sub-menu-heading {
@@ -43445,6 +43443,7 @@ body {
 
 .nav-link {
   -webkit-box-sizing: content-box;
+  font-weight: bold;
   box-sizing: content-box;
   padding: 18px 28vw 18px 28vw !important;
   -webkit-transition: all 0.2s;
@@ -47487,8 +47486,7 @@ body {
   font-style: italic;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
-  transition: 0.3s;
-  content-box: border-box !important; }
+  transition: 0.3s; }
   @media (min-width: 992px) {
     .dropdown-collapsed p,
     .sub-menu-heading {
@@ -47592,6 +47590,7 @@ body {
 
 .nav-link {
   -webkit-box-sizing: content-box;
+  font-weight: bold;
   box-sizing: content-box;
   padding: 18px 28vw 18px 28vw !important;
   -webkit-transition: all 0.2s;
@@ -47759,7 +47758,7 @@ footer ul {
 
 .footer-link {
   color: #1a9cbc;
-  font-style: bold; }
+  font-weight: bold; }
 
 .active-footer-link {
   color: white; }

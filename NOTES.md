@@ -17,7 +17,7 @@ TO DO:
 <!-- Lower img file size -->
 accesibility
 seo
-cross browser consistency
+<!-- cross browser consistency -->
 google analitics
 amazon affiliate links
 <!-- pages for series -->
@@ -36,3 +36,6 @@ new paula img on index
 download fonts?
 Better Readme file
 most popular books in allbooks carousel
+<!-- CSS validation -->
+<!-- HTML or XHTML validation -->
+test all links

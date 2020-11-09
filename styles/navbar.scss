@@ -45,7 +45,6 @@
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s;
-    content-box: border-box !important;
 
     @include media-breakpoint-up(lg) {
         width: 40vw;
@@ -185,6 +184,7 @@
 
 .nav-link {
     -webkit-box-sizing: content-box;
+    font-weight: bold;
     box-sizing: content-box;
     padding: 18px 28vw 18px 28vw !important;
     -webkit-transition: all 0.2s;
