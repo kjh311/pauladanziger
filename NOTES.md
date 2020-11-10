@@ -36,6 +36,7 @@ new paula img on index
 download fonts?
 <!-- Better Readme file -->
 New Icon?
+Register your website with Google Search Console
 <!-- most popular books in allbooks carousel -->
 <!-- CSS validation -->
 <!-- HTML or XHTML validation -->
