@@ -13,8 +13,6 @@ Creating a website for Paula Danziger, showcasing her books and life.
 * CSS Animations
 
 
-![Full Screen](../assets/Screen-full.png)
 ![Full Screen](assets/Screen-full.png)
 
-![Mobile Screen](../assets/Screen-mobile.png)
 ![Mobile Screen](assets/Screen-mobile.png)
