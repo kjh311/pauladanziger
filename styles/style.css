@@ -31174,6 +31174,9 @@ body {
 
 .mail-to {
   padding-bottom: 0 !important; }
+  .mail-to .bi-envelope {
+    position: relative;
+    top: 5px; }
   .mail-to a:link,
   .mail-to a:visited,
   .mail-to a:hover,

@@ -34,7 +34,8 @@ color scheme
 <!-- each page has a 'top' anchor tag -->
 new paula img on index
 download fonts?
-Better Readme file
+<!-- Better Readme file -->
+New Icon?
 <!-- most popular books in allbooks carousel -->
 <!-- CSS validation -->
 <!-- HTML or XHTML validation -->
