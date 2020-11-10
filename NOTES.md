@@ -25,12 +25,12 @@ amazon affiliate links
 <!-- apple tv on amber brown page -->
 <!-- icons on every page -->
 <!-- meta data on every page -->
-scrollbar always visible on mobile
+<!-- scrollbar always visible on mobile -->
 <!-- book mobile dropdown centered -->
 color scheme
 <!-- Captcha for contact page? -->
 <!-- progressive image loading -->
-typos
+<!-- typos -->
 <!-- each page has a 'top' anchor tag -->
 new paula img on index
 download fonts?
@@ -38,4 +38,11 @@ Better Readme file
 most popular books in allbooks carousel
 <!-- CSS validation -->
 <!-- HTML or XHTML validation -->
-test all links
+<!-- test all links -->
+
+
+
+
+
+
+
