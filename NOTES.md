@@ -35,7 +35,7 @@ color scheme
 new paula img on index
 download fonts?
 Better Readme file
-most popular books in allbooks carousel
+<!-- most popular books in allbooks carousel -->
 <!-- CSS validation -->
 <!-- HTML or XHTML validation -->
 <!-- test all links -->

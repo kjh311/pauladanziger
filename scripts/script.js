@@ -4,22 +4,12 @@
 
 $( document ).ready(function() {
 
-  // alert('works');
     
       $(".collapse-button").click(function(){
         event.stopPropagation();
       });
 
-      // $("body").click(function(){
-      //   $('.navbar-collapse').slideUp();
-      // });
 
-      // $(".navbar-toggler").click(function(){
-      //   $(".navbar-toggler").removeClass('dropdown-collapsed');
-      // });
-      // $('.navbar-toggler').click(function(){
-      //   $('.navbar-collapse').slideToggle();
-      // });
 
 
 // Close navbar when clicking outside navbar
@@ -34,8 +24,6 @@ $(document).click(
     );
       
 
-
-// alert('works');
 
         $('.close-nav').click(function(){
           $('.navbar-toggler').addClass('collapsed');
@@ -78,19 +66,7 @@ $(document).click(
         $('.navbar-collapse').removeClass('show');
       });
 
-  $(".collapse-button-1").click(function(){
-    // $(".collapse-wrap").removeClass('drop-active');
-    // if ( !$( this ).hasClass( "drop-active" ) ) {
- 
-    //     $(".collapse-wrap1")
-    //         .addClass('drop-active');
-    // }
-    // if ( $( this ).hasClass( "drop-active" ) ) {
- 
-    //     $(".collapse-wrap1")
-    //         .removeClass( "drop-active" );
-    // }
-    
+  $(".collapse-button-1").click(function(){    
       $(".collapse1").slideToggle();
       $(".collapse2").slideUp();
       $(".collapse3").slideUp();
@@ -184,7 +160,4 @@ $(document).click(
       $(".collapse7").slideUp();
       $(".collapse2").slideUp();
   });
-
-
-
 });

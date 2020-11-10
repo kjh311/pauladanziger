@@ -11,26 +11,7 @@ $(document).on('click', 'a[href^="#"]', function (event) {
 });
 
 
-// $('.book-toggle').mouseover(function(){
-//     $('.book-caret').addClass('hvr-pulse-grow');
-// });
 
-// $('.book-toggle').mouseout(function(){
-//     $('.book-caret').removeClass('hvr-pulse-grow');
-// });
-
-
-// PROGRESSIVE IMAGE LOADING
-
-/*
- * Pil v0.1.0
- *
- * By Gilbert Pellegrom
- * http://gilbert.pellegrom.me
- *
- * Copyright (C) 2015 Dev7studios
- * MIT License
- */
 
 var Pil = (function(){
     "use strict";
@@ -101,29 +82,7 @@ var Pil = (function(){
 })();
 
 Pil.init();
-// function imageLoaded(evt) {
-//     evt.classList.add('fade-in');
-// }
 
-// $(function(){
-
-//   $('.progressive-image').each(function(){
-
-//     var image = new Image();
-//     var previewImage = $(this).find('.loadingImage');
-//     var newImage = $(this).find('.overlay');
-
-//     image.onload = function(){
-//       newImage.css('background-image', 'url(' + image.src + ')');
-//       newImage.css('opacity', '1');
-//       console.log('complete');
-//     };
-
-//     image.src = previewImage.data('image');
-
-//   });
-
-// });
 
 
 
