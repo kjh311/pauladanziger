@@ -9,3 +9,9 @@ Creating a website for Paula Danziger, showcasing her books and life.
 * SASS
 * Jquery
 * Smooth Scrolling on Anchor Tags
+* Responsive Design
+
+
+![Full Screen](../assets/Screen-full.png)
+
+![Mobile Screen](../assets/Screen-mobile.png)
