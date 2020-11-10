@@ -10,8 +10,11 @@ Creating a website for Paula Danziger, showcasing her books and life.
 * Jquery
 * Smooth Scrolling on Anchor Tags
 * Responsive Design
+* CSS Animations
 
 
 ![Full Screen](../assets/Screen-full.png)
+![Full Screen](assets/Screen-full.png)
 
 ![Mobile Screen](../assets/Screen-mobile.png)
+![Mobile Screen](assets/Screen-mobile.png)
