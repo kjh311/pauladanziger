@@ -17,6 +17,7 @@ TO DO:
 <!-- Lower img file size -->
 accesibility
 seo
+LOGO?
 <!-- cross browser consistency -->
 google analitics
 amazon affiliate links
