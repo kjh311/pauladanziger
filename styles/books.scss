@@ -241,7 +241,7 @@ html {
     border: 2px solid $navbar;
 }
 
-.book-dropdown .dropdown-item:hover {
+.book-dropdown .dropdown-item:hover, .sub-menu-heading:focus, .dropdown-collapsed > p:hover {
     background-color: $medium-grey;
 }
 

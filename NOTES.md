@@ -16,7 +16,7 @@ https://css-tricks.com/creating-a-modal-image-gallery-with-bootstrap-components/
 TO DO:
 <!-- Lower img file size -->
 accesibility
-seo
+<!-- seo -->
 LOGO?
 <!-- cross browser consistency -->
 google analitics
@@ -36,7 +36,7 @@ color scheme
 new paula img on index
 download fonts?
 <!-- Better Readme file -->
-New Icon?
+<!-- New Icon? -->
 Register your website with Google Search Console
 <!-- most popular books in allbooks carousel -->
 <!-- CSS validation -->

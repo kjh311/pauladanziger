@@ -149,3 +149,17 @@ $link: #1a9cbc;
 body{
   font-family: $chilanka;
 }
+
+
+
+
+.subnav {
+  position: absolute;
+}
+
+[data-visually-hidden="true"] {
+  display: none;
+}
+[data-visually-hidden="false"] {
+  display: block;
+}

@@ -1,14 +1,9 @@
-
-
-
-
 $( document ).ready(function() {
 
     
       $(".collapse-button").click(function(){
         event.stopPropagation();
       });
-
 
 
 
@@ -23,6 +18,8 @@ $(document).click(
         }
     );
       
+
+
 
 
         $('.close-nav').click(function(){
@@ -65,6 +62,9 @@ $(document).click(
         $('.navbar-toggler').addClass('collapsed');
         $('.navbar-collapse').removeClass('show');
       });
+
+
+  
 
   $(".collapse-button-1").click(function(){    
       $(".collapse1").slideToggle();

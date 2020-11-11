@@ -14,6 +14,7 @@ Creating a website for Paula Danziger, showcasing her books and life.
 * Modal lightbox Image Carousels
 
 
+
 ![Full Screen](assets/Screen-full.png)
 
 ![Mobile Screen](assets/Screen-mobile.png)
