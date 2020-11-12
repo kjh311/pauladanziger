@@ -127,6 +127,7 @@ textarea {
 
 .captcha-input {
     width: 90% !important;
+    margin-top: 25px;
 
     @include media-breakpoint-up(sm) {
         width: 60% !important;

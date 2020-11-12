@@ -6399,6 +6399,14 @@ a.text-dark:focus, a.text-dark:hover {
   /* Modern Browsers */
   font-weight: normal;
   font-style: normal; }
+@font-face {
+  font-family: "RockSalt-Regular";
+  src: url("../assets/fonts/RockSalt-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/RockSalt-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/RockSalt-Regular.otf") format("opentype"), url("../assets/fonts/RockSalt-Regular.svg") format("svg"), url("../assets/fonts/RockSalt-Regular.ttf") format("truetype"), url("../assets/fonts/RockSalt-Regular.woff") format("woff"), url("../assets/fonts/RockSalt-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
 .purchase-button,
 .read-more-button,
 #dropdownMenuButton, .grow, .mail-to .email-link, .send-btn, .learn-more-btn {
@@ -6512,6 +6520,14 @@ body {
   src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot");
   /* IE9 Compat Modes */
   src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.otf") format("opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.svg") format("svg"), url("../assets/fonts/SansitaSwashed-VariableFontwght.ttf") format("truetype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff") format("woff"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "RockSalt-Regular";
+  src: url("../assets/fonts/RockSalt-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/RockSalt-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/RockSalt-Regular.otf") format("opentype"), url("../assets/fonts/RockSalt-Regular.svg") format("svg"), url("../assets/fonts/RockSalt-Regular.ttf") format("truetype"), url("../assets/fonts/RockSalt-Regular.woff") format("woff"), url("../assets/fonts/RockSalt-Regular.woff2") format("woff2");
   /* Modern Browsers */
   font-weight: normal;
   font-style: normal; }
@@ -6632,6 +6648,14 @@ body {
   src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot");
   /* IE9 Compat Modes */
   src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.otf") format("opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.svg") format("svg"), url("../assets/fonts/SansitaSwashed-VariableFontwght.ttf") format("truetype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff") format("woff"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "RockSalt-Regular";
+  src: url("../assets/fonts/RockSalt-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/RockSalt-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/RockSalt-Regular.otf") format("opentype"), url("../assets/fonts/RockSalt-Regular.svg") format("svg"), url("../assets/fonts/RockSalt-Regular.ttf") format("truetype"), url("../assets/fonts/RockSalt-Regular.woff") format("woff"), url("../assets/fonts/RockSalt-Regular.woff2") format("woff2");
   /* Modern Browsers */
   font-weight: normal;
   font-style: normal; }
@@ -10599,8 +10623,12 @@ body {
   color: #187487; }
 
 .navbar-brand {
-  padding: 10px 20px 0px 20px;
-  font-family: "HennyPenny-Regular", cursive; }
+  padding: 10px 0px 0px 0px;
+  font-family: "RockSalt-Regular", cursive;
+  margin-left: 20px; }
+  @media (min-width: 992px) {
+    .navbar-brand {
+      margin-left: 0px; } }
 
 .brand-logo {
   height: 40px;
@@ -10619,7 +10647,7 @@ body {
       padding: 18px 35vw 18px 35vw !important; } }
   @media (min-width: 992px) {
     .nav-link {
-      padding: 18px 30px 18px 30px !important; } }
+      padding: 18px 25px 18px 25px !important; } }
 
 .nav-link:hover {
   background-color: #187487;
@@ -10695,6 +10723,14 @@ body {
   src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot");
   /* IE9 Compat Modes */
   src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.otf") format("opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.svg") format("svg"), url("../assets/fonts/SansitaSwashed-VariableFontwght.ttf") format("truetype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff") format("woff"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "RockSalt-Regular";
+  src: url("../assets/fonts/RockSalt-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/RockSalt-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/RockSalt-Regular.otf") format("opentype"), url("../assets/fonts/RockSalt-Regular.svg") format("svg"), url("../assets/fonts/RockSalt-Regular.ttf") format("truetype"), url("../assets/fonts/RockSalt-Regular.woff") format("woff"), url("../assets/fonts/RockSalt-Regular.woff2") format("woff2");
   /* Modern Browsers */
   font-weight: normal;
   font-style: normal; }
@@ -10889,6 +10925,14 @@ footer ul {
   src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot");
   /* IE9 Compat Modes */
   src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.otf") format("opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.svg") format("svg"), url("../assets/fonts/SansitaSwashed-VariableFontwght.ttf") format("truetype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff") format("woff"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "RockSalt-Regular";
+  src: url("../assets/fonts/RockSalt-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/RockSalt-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/RockSalt-Regular.otf") format("opentype"), url("../assets/fonts/RockSalt-Regular.svg") format("svg"), url("../assets/fonts/RockSalt-Regular.ttf") format("truetype"), url("../assets/fonts/RockSalt-Regular.woff") format("woff"), url("../assets/fonts/RockSalt-Regular.woff2") format("woff2");
   /* Modern Browsers */
   font-weight: normal;
   font-style: normal; }
@@ -14763,6 +14807,14 @@ body {
   /* Modern Browsers */
   font-weight: normal;
   font-style: normal; }
+@font-face {
+  font-family: "RockSalt-Regular";
+  src: url("../assets/fonts/RockSalt-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/RockSalt-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/RockSalt-Regular.otf") format("opentype"), url("../assets/fonts/RockSalt-Regular.svg") format("svg"), url("../assets/fonts/RockSalt-Regular.ttf") format("truetype"), url("../assets/fonts/RockSalt-Regular.woff") format("woff"), url("../assets/fonts/RockSalt-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
 .purchase-button,
 .read-more-button,
 #dropdownMenuButton, .grow, .mail-to .email-link, .send-btn, .learn-more-btn {
@@ -14876,6 +14928,14 @@ body {
   src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot");
   /* IE9 Compat Modes */
   src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.otf") format("opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.svg") format("svg"), url("../assets/fonts/SansitaSwashed-VariableFontwght.ttf") format("truetype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff") format("woff"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "RockSalt-Regular";
+  src: url("../assets/fonts/RockSalt-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/RockSalt-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/RockSalt-Regular.otf") format("opentype"), url("../assets/fonts/RockSalt-Regular.svg") format("svg"), url("../assets/fonts/RockSalt-Regular.ttf") format("truetype"), url("../assets/fonts/RockSalt-Regular.woff") format("woff"), url("../assets/fonts/RockSalt-Regular.woff2") format("woff2");
   /* Modern Browsers */
   font-weight: normal;
   font-style: normal; }
@@ -14996,6 +15056,14 @@ body {
   src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot");
   /* IE9 Compat Modes */
   src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.otf") format("opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.svg") format("svg"), url("../assets/fonts/SansitaSwashed-VariableFontwght.ttf") format("truetype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff") format("woff"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "RockSalt-Regular";
+  src: url("../assets/fonts/RockSalt-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/RockSalt-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/RockSalt-Regular.otf") format("opentype"), url("../assets/fonts/RockSalt-Regular.svg") format("svg"), url("../assets/fonts/RockSalt-Regular.ttf") format("truetype"), url("../assets/fonts/RockSalt-Regular.woff") format("woff"), url("../assets/fonts/RockSalt-Regular.woff2") format("woff2");
   /* Modern Browsers */
   font-weight: normal;
   font-style: normal; }
@@ -18963,8 +19031,12 @@ body {
   color: #187487; }
 
 .navbar-brand {
-  padding: 10px 20px 0px 20px;
-  font-family: "HennyPenny-Regular", cursive; }
+  padding: 10px 0px 0px 0px;
+  font-family: "RockSalt-Regular", cursive;
+  margin-left: 20px; }
+  @media (min-width: 992px) {
+    .navbar-brand {
+      margin-left: 0px; } }
 
 .brand-logo {
   height: 40px;
@@ -18983,7 +19055,7 @@ body {
       padding: 18px 35vw 18px 35vw !important; } }
   @media (min-width: 992px) {
     .nav-link {
-      padding: 18px 30px 18px 30px !important; } }
+      padding: 18px 25px 18px 25px !important; } }
 
 .nav-link:hover {
   background-color: #187487;
@@ -19059,6 +19131,14 @@ body {
   src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot");
   /* IE9 Compat Modes */
   src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.otf") format("opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.svg") format("svg"), url("../assets/fonts/SansitaSwashed-VariableFontwght.ttf") format("truetype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff") format("woff"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "RockSalt-Regular";
+  src: url("../assets/fonts/RockSalt-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/RockSalt-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/RockSalt-Regular.otf") format("opentype"), url("../assets/fonts/RockSalt-Regular.svg") format("svg"), url("../assets/fonts/RockSalt-Regular.ttf") format("truetype"), url("../assets/fonts/RockSalt-Regular.woff") format("woff"), url("../assets/fonts/RockSalt-Regular.woff2") format("woff2");
   /* Modern Browsers */
   font-weight: normal;
   font-style: normal; }
@@ -19253,6 +19333,14 @@ footer ul {
   src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot");
   /* IE9 Compat Modes */
   src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.otf") format("opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.svg") format("svg"), url("../assets/fonts/SansitaSwashed-VariableFontwght.ttf") format("truetype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff") format("woff"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "RockSalt-Regular";
+  src: url("../assets/fonts/RockSalt-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/RockSalt-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/RockSalt-Regular.otf") format("opentype"), url("../assets/fonts/RockSalt-Regular.svg") format("svg"), url("../assets/fonts/RockSalt-Regular.ttf") format("truetype"), url("../assets/fonts/RockSalt-Regular.woff") format("woff"), url("../assets/fonts/RockSalt-Regular.woff2") format("woff2");
   /* Modern Browsers */
   font-weight: normal;
   font-style: normal; }
@@ -23530,6 +23618,14 @@ hr {
   /* Modern Browsers */
   font-weight: normal;
   font-style: normal; }
+@font-face {
+  font-family: "RockSalt-Regular";
+  src: url("../assets/fonts/RockSalt-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/RockSalt-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/RockSalt-Regular.otf") format("opentype"), url("../assets/fonts/RockSalt-Regular.svg") format("svg"), url("../assets/fonts/RockSalt-Regular.ttf") format("truetype"), url("../assets/fonts/RockSalt-Regular.woff") format("woff"), url("../assets/fonts/RockSalt-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
 .purchase-button,
 .read-more-button,
 #dropdownMenuButton, .grow, .mail-to .email-link, .send-btn, .learn-more-btn {
@@ -23643,6 +23739,14 @@ body {
   src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot");
   /* IE9 Compat Modes */
   src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.otf") format("opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.svg") format("svg"), url("../assets/fonts/SansitaSwashed-VariableFontwght.ttf") format("truetype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff") format("woff"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "RockSalt-Regular";
+  src: url("../assets/fonts/RockSalt-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/RockSalt-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/RockSalt-Regular.otf") format("opentype"), url("../assets/fonts/RockSalt-Regular.svg") format("svg"), url("../assets/fonts/RockSalt-Regular.ttf") format("truetype"), url("../assets/fonts/RockSalt-Regular.woff") format("woff"), url("../assets/fonts/RockSalt-Regular.woff2") format("woff2");
   /* Modern Browsers */
   font-weight: normal;
   font-style: normal; }
@@ -23763,6 +23867,14 @@ body {
   src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot");
   /* IE9 Compat Modes */
   src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.otf") format("opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.svg") format("svg"), url("../assets/fonts/SansitaSwashed-VariableFontwght.ttf") format("truetype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff") format("woff"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "RockSalt-Regular";
+  src: url("../assets/fonts/RockSalt-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/RockSalt-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/RockSalt-Regular.otf") format("opentype"), url("../assets/fonts/RockSalt-Regular.svg") format("svg"), url("../assets/fonts/RockSalt-Regular.ttf") format("truetype"), url("../assets/fonts/RockSalt-Regular.woff") format("woff"), url("../assets/fonts/RockSalt-Regular.woff2") format("woff2");
   /* Modern Browsers */
   font-weight: normal;
   font-style: normal; }
@@ -27730,8 +27842,12 @@ body {
   color: #187487; }
 
 .navbar-brand {
-  padding: 10px 20px 0px 20px;
-  font-family: "HennyPenny-Regular", cursive; }
+  padding: 10px 0px 0px 0px;
+  font-family: "RockSalt-Regular", cursive;
+  margin-left: 20px; }
+  @media (min-width: 992px) {
+    .navbar-brand {
+      margin-left: 0px; } }
 
 .brand-logo {
   height: 40px;
@@ -27750,7 +27866,7 @@ body {
       padding: 18px 35vw 18px 35vw !important; } }
   @media (min-width: 992px) {
     .nav-link {
-      padding: 18px 30px 18px 30px !important; } }
+      padding: 18px 25px 18px 25px !important; } }
 
 .nav-link:hover {
   background-color: #187487;
@@ -27826,6 +27942,14 @@ body {
   src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot");
   /* IE9 Compat Modes */
   src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.otf") format("opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.svg") format("svg"), url("../assets/fonts/SansitaSwashed-VariableFontwght.ttf") format("truetype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff") format("woff"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "RockSalt-Regular";
+  src: url("../assets/fonts/RockSalt-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/RockSalt-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/RockSalt-Regular.otf") format("opentype"), url("../assets/fonts/RockSalt-Regular.svg") format("svg"), url("../assets/fonts/RockSalt-Regular.ttf") format("truetype"), url("../assets/fonts/RockSalt-Regular.woff") format("woff"), url("../assets/fonts/RockSalt-Regular.woff2") format("woff2");
   /* Modern Browsers */
   font-weight: normal;
   font-style: normal; }
@@ -28020,6 +28144,14 @@ footer ul {
   src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot");
   /* IE9 Compat Modes */
   src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.otf") format("opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.svg") format("svg"), url("../assets/fonts/SansitaSwashed-VariableFontwght.ttf") format("truetype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff") format("woff"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "RockSalt-Regular";
+  src: url("../assets/fonts/RockSalt-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/RockSalt-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/RockSalt-Regular.otf") format("opentype"), url("../assets/fonts/RockSalt-Regular.svg") format("svg"), url("../assets/fonts/RockSalt-Regular.ttf") format("truetype"), url("../assets/fonts/RockSalt-Regular.woff") format("woff"), url("../assets/fonts/RockSalt-Regular.woff2") format("woff2");
   /* Modern Browsers */
   font-weight: normal;
   font-style: normal; }
@@ -32000,6 +32132,14 @@ body {
   /* Modern Browsers */
   font-weight: normal;
   font-style: normal; }
+@font-face {
+  font-family: "RockSalt-Regular";
+  src: url("../assets/fonts/RockSalt-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/RockSalt-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/RockSalt-Regular.otf") format("opentype"), url("../assets/fonts/RockSalt-Regular.svg") format("svg"), url("../assets/fonts/RockSalt-Regular.ttf") format("truetype"), url("../assets/fonts/RockSalt-Regular.woff") format("woff"), url("../assets/fonts/RockSalt-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
 .purchase-button,
 .read-more-button,
 #dropdownMenuButton, .grow, .mail-to .email-link, .send-btn, .learn-more-btn {
@@ -32113,6 +32253,14 @@ body {
   src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot");
   /* IE9 Compat Modes */
   src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.otf") format("opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.svg") format("svg"), url("../assets/fonts/SansitaSwashed-VariableFontwght.ttf") format("truetype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff") format("woff"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "RockSalt-Regular";
+  src: url("../assets/fonts/RockSalt-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/RockSalt-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/RockSalt-Regular.otf") format("opentype"), url("../assets/fonts/RockSalt-Regular.svg") format("svg"), url("../assets/fonts/RockSalt-Regular.ttf") format("truetype"), url("../assets/fonts/RockSalt-Regular.woff") format("woff"), url("../assets/fonts/RockSalt-Regular.woff2") format("woff2");
   /* Modern Browsers */
   font-weight: normal;
   font-style: normal; }
@@ -32233,6 +32381,14 @@ body {
   src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot");
   /* IE9 Compat Modes */
   src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.otf") format("opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.svg") format("svg"), url("../assets/fonts/SansitaSwashed-VariableFontwght.ttf") format("truetype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff") format("woff"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "RockSalt-Regular";
+  src: url("../assets/fonts/RockSalt-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/RockSalt-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/RockSalt-Regular.otf") format("opentype"), url("../assets/fonts/RockSalt-Regular.svg") format("svg"), url("../assets/fonts/RockSalt-Regular.ttf") format("truetype"), url("../assets/fonts/RockSalt-Regular.woff") format("woff"), url("../assets/fonts/RockSalt-Regular.woff2") format("woff2");
   /* Modern Browsers */
   font-weight: normal;
   font-style: normal; }
@@ -36200,8 +36356,12 @@ body {
   color: #187487; }
 
 .navbar-brand {
-  padding: 10px 20px 0px 20px;
-  font-family: "HennyPenny-Regular", cursive; }
+  padding: 10px 0px 0px 0px;
+  font-family: "RockSalt-Regular", cursive;
+  margin-left: 20px; }
+  @media (min-width: 992px) {
+    .navbar-brand {
+      margin-left: 0px; } }
 
 .brand-logo {
   height: 40px;
@@ -36220,7 +36380,7 @@ body {
       padding: 18px 35vw 18px 35vw !important; } }
   @media (min-width: 992px) {
     .nav-link {
-      padding: 18px 30px 18px 30px !important; } }
+      padding: 18px 25px 18px 25px !important; } }
 
 .nav-link:hover {
   background-color: #187487;
@@ -36296,6 +36456,14 @@ body {
   src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot");
   /* IE9 Compat Modes */
   src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.otf") format("opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.svg") format("svg"), url("../assets/fonts/SansitaSwashed-VariableFontwght.ttf") format("truetype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff") format("woff"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "RockSalt-Regular";
+  src: url("../assets/fonts/RockSalt-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/RockSalt-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/RockSalt-Regular.otf") format("opentype"), url("../assets/fonts/RockSalt-Regular.svg") format("svg"), url("../assets/fonts/RockSalt-Regular.ttf") format("truetype"), url("../assets/fonts/RockSalt-Regular.woff") format("woff"), url("../assets/fonts/RockSalt-Regular.woff2") format("woff2");
   /* Modern Browsers */
   font-weight: normal;
   font-style: normal; }
@@ -36490,6 +36658,14 @@ footer ul {
   src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot");
   /* IE9 Compat Modes */
   src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.otf") format("opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.svg") format("svg"), url("../assets/fonts/SansitaSwashed-VariableFontwght.ttf") format("truetype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff") format("woff"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "RockSalt-Regular";
+  src: url("../assets/fonts/RockSalt-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/RockSalt-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/RockSalt-Regular.otf") format("opentype"), url("../assets/fonts/RockSalt-Regular.svg") format("svg"), url("../assets/fonts/RockSalt-Regular.ttf") format("truetype"), url("../assets/fonts/RockSalt-Regular.woff") format("woff"), url("../assets/fonts/RockSalt-Regular.woff2") format("woff2");
   /* Modern Browsers */
   font-weight: normal;
   font-style: normal; }
@@ -40358,7 +40534,8 @@ textarea {
   padding: 5px; }
 
 .captcha-input {
-  width: 90% !important; }
+  width: 90% !important;
+  margin-top: 25px; }
   @media (min-width: 576px) {
     .captcha-input {
       width: 60% !important; } }
@@ -40462,6 +40639,14 @@ textarea:focus {
   /* Modern Browsers */
   font-weight: normal;
   font-style: normal; }
+@font-face {
+  font-family: "RockSalt-Regular";
+  src: url("../assets/fonts/RockSalt-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/RockSalt-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/RockSalt-Regular.otf") format("opentype"), url("../assets/fonts/RockSalt-Regular.svg") format("svg"), url("../assets/fonts/RockSalt-Regular.ttf") format("truetype"), url("../assets/fonts/RockSalt-Regular.woff") format("woff"), url("../assets/fonts/RockSalt-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
 .purchase-button,
 .read-more-button,
 #dropdownMenuButton, .grow, .mail-to .email-link, .send-btn, .learn-more-btn {
@@ -40579,6 +40764,14 @@ body {
   src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot");
   /* IE9 Compat Modes */
   src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.otf") format("opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.svg") format("svg"), url("../assets/fonts/SansitaSwashed-VariableFontwght.ttf") format("truetype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff") format("woff"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "RockSalt-Regular";
+  src: url("../assets/fonts/RockSalt-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/RockSalt-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/RockSalt-Regular.otf") format("opentype"), url("../assets/fonts/RockSalt-Regular.svg") format("svg"), url("../assets/fonts/RockSalt-Regular.ttf") format("truetype"), url("../assets/fonts/RockSalt-Regular.woff") format("woff"), url("../assets/fonts/RockSalt-Regular.woff2") format("woff2");
   /* Modern Browsers */
   font-weight: normal;
   font-style: normal; }
@@ -44546,8 +44739,12 @@ body {
   color: #187487; }
 
 .navbar-brand {
-  padding: 10px 20px 0px 20px;
-  font-family: "HennyPenny-Regular", cursive; }
+  padding: 10px 0px 0px 0px;
+  font-family: "RockSalt-Regular", cursive;
+  margin-left: 20px; }
+  @media (min-width: 992px) {
+    .navbar-brand {
+      margin-left: 0px; } }
 
 .brand-logo {
   height: 40px;
@@ -44566,7 +44763,7 @@ body {
       padding: 18px 35vw 18px 35vw !important; } }
   @media (min-width: 992px) {
     .nav-link {
-      padding: 18px 30px 18px 30px !important; } }
+      padding: 18px 25px 18px 25px !important; } }
 
 .nav-link:hover {
   background-color: #187487;
@@ -44642,6 +44839,14 @@ body {
   src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot");
   /* IE9 Compat Modes */
   src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.otf") format("opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.svg") format("svg"), url("../assets/fonts/SansitaSwashed-VariableFontwght.ttf") format("truetype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff") format("woff"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "RockSalt-Regular";
+  src: url("../assets/fonts/RockSalt-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/RockSalt-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/RockSalt-Regular.otf") format("opentype"), url("../assets/fonts/RockSalt-Regular.svg") format("svg"), url("../assets/fonts/RockSalt-Regular.ttf") format("truetype"), url("../assets/fonts/RockSalt-Regular.woff") format("woff"), url("../assets/fonts/RockSalt-Regular.woff2") format("woff2");
   /* Modern Browsers */
   font-weight: normal;
   font-style: normal; }
@@ -44758,6 +44963,14 @@ body {
   src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot");
   /* IE9 Compat Modes */
   src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.otf") format("opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.svg") format("svg"), url("../assets/fonts/SansitaSwashed-VariableFontwght.ttf") format("truetype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff") format("woff"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "RockSalt-Regular";
+  src: url("../assets/fonts/RockSalt-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/RockSalt-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/RockSalt-Regular.otf") format("opentype"), url("../assets/fonts/RockSalt-Regular.svg") format("svg"), url("../assets/fonts/RockSalt-Regular.ttf") format("truetype"), url("../assets/fonts/RockSalt-Regular.woff") format("woff"), url("../assets/fonts/RockSalt-Regular.woff2") format("woff2");
   /* Modern Browsers */
   font-weight: normal;
   font-style: normal; }
@@ -44878,6 +45091,14 @@ body {
   src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot");
   /* IE9 Compat Modes */
   src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.otf") format("opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.svg") format("svg"), url("../assets/fonts/SansitaSwashed-VariableFontwght.ttf") format("truetype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff") format("woff"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "RockSalt-Regular";
+  src: url("../assets/fonts/RockSalt-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/RockSalt-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/RockSalt-Regular.otf") format("opentype"), url("../assets/fonts/RockSalt-Regular.svg") format("svg"), url("../assets/fonts/RockSalt-Regular.ttf") format("truetype"), url("../assets/fonts/RockSalt-Regular.woff") format("woff"), url("../assets/fonts/RockSalt-Regular.woff2") format("woff2");
   /* Modern Browsers */
   font-weight: normal;
   font-style: normal; }
@@ -48845,8 +49066,12 @@ body {
   color: #187487; }
 
 .navbar-brand {
-  padding: 10px 20px 0px 20px;
-  font-family: "HennyPenny-Regular", cursive; }
+  padding: 10px 0px 0px 0px;
+  font-family: "RockSalt-Regular", cursive;
+  margin-left: 20px; }
+  @media (min-width: 992px) {
+    .navbar-brand {
+      margin-left: 0px; } }
 
 .brand-logo {
   height: 40px;
@@ -48865,7 +49090,7 @@ body {
       padding: 18px 35vw 18px 35vw !important; } }
   @media (min-width: 992px) {
     .nav-link {
-      padding: 18px 30px 18px 30px !important; } }
+      padding: 18px 25px 18px 25px !important; } }
 
 .nav-link:hover {
   background-color: #187487;
@@ -48941,6 +49166,14 @@ body {
   src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot");
   /* IE9 Compat Modes */
   src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.otf") format("opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.svg") format("svg"), url("../assets/fonts/SansitaSwashed-VariableFontwght.ttf") format("truetype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff") format("woff"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "RockSalt-Regular";
+  src: url("../assets/fonts/RockSalt-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/RockSalt-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/RockSalt-Regular.otf") format("opentype"), url("../assets/fonts/RockSalt-Regular.svg") format("svg"), url("../assets/fonts/RockSalt-Regular.ttf") format("truetype"), url("../assets/fonts/RockSalt-Regular.woff") format("woff"), url("../assets/fonts/RockSalt-Regular.woff2") format("woff2");
   /* Modern Browsers */
   font-weight: normal;
   font-style: normal; }
@@ -49135,6 +49368,14 @@ footer ul {
   src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot");
   /* IE9 Compat Modes */
   src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.otf") format("opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.svg") format("svg"), url("../assets/fonts/SansitaSwashed-VariableFontwght.ttf") format("truetype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff") format("woff"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "RockSalt-Regular";
+  src: url("../assets/fonts/RockSalt-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/RockSalt-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/RockSalt-Regular.otf") format("opentype"), url("../assets/fonts/RockSalt-Regular.svg") format("svg"), url("../assets/fonts/RockSalt-Regular.ttf") format("truetype"), url("../assets/fonts/RockSalt-Regular.woff") format("woff"), url("../assets/fonts/RockSalt-Regular.woff2") format("woff2");
   /* Modern Browsers */
   font-weight: normal;
   font-style: normal; }
@@ -53005,6 +53246,14 @@ body {
   src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot");
   /* IE9 Compat Modes */
   src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.otf") format("opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.svg") format("svg"), url("../assets/fonts/SansitaSwashed-VariableFontwght.ttf") format("truetype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff") format("woff"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "RockSalt-Regular";
+  src: url("../assets/fonts/RockSalt-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/RockSalt-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/RockSalt-Regular.otf") format("opentype"), url("../assets/fonts/RockSalt-Regular.svg") format("svg"), url("../assets/fonts/RockSalt-Regular.ttf") format("truetype"), url("../assets/fonts/RockSalt-Regular.woff") format("woff"), url("../assets/fonts/RockSalt-Regular.woff2") format("woff2");
   /* Modern Browsers */
   font-weight: normal;
   font-style: normal; }

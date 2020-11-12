@@ -179,8 +179,13 @@
 }
 
 .navbar-brand {
-    padding: 10px 20px 0px 20px;
-    font-family: $swashed;
+    padding: 10px 0px 0px 0px;
+    font-family: $salt;
+    margin-left: 20px;
+    // font-family: 'Rock Salt', cursive;
+    @include media-breakpoint-up(lg) {
+       margin-left: 0px;
+    }
 
 }
 .brand-logo{
@@ -202,7 +207,7 @@
     }
 
     @include media-breakpoint-up(lg) {
-        padding: 18px 30px 18px 30px !important;
+        padding: 18px 25px 18px 25px !important;
     }
 }
 
