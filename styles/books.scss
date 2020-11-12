@@ -241,9 +241,14 @@ html {
     border: 2px solid $navbar;
 }
 
-.book-dropdown .dropdown-item:hover, .sub-menu-heading:focus, .dropdown-collapsed > p:hover {
-    background-color: $medium-grey;
+.book-dropdown .dropdown-item:hover{
+    background-color: $medium-grey !important;
 }
+
+.sub-menu-heading:focus, .dropdown-collapsed > p:focus {
+    background-color: $medium-grey !important;
+}
+
 
 .details {
     text-align: justify;

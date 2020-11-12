@@ -22975,8 +22975,11 @@ html {
   box-shadow: 15px 15px 8px rgba(0, 0, 0, 0.4);
   border: 2px solid #009FB7; }
 
-.book-dropdown .dropdown-item:hover, .sub-menu-heading:focus, .dropdown-collapsed > p:hover {
-  background-color: #E9ECEF; }
+.book-dropdown .dropdown-item:hover {
+  background-color: #E9ECEF !important; }
+
+.sub-menu-heading:focus, .dropdown-collapsed > p:focus {
+  background-color: #E9ECEF !important; }
 
 .details {
   text-align: justify; }
