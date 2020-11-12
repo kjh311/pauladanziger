@@ -6359,6 +6359,46 @@ a.text-dark:focus, a.text-dark:hover {
 .invisible {
   visibility: hidden !important; }
 
+@font-face {
+  font-family: "HennyPenny-Regular";
+  src: url("../assets/fonts/HennyPenny-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/HennyPenny-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/HennyPenny-Regular.otf") format("opentype"), url("../assets/fonts/HennyPenny-Regular.svg") format("svg"), url("../assets/fonts/HennyPenny-Regular.ttf") format("truetype"), url("../assets/fonts/HennyPenny-Regular.woff") format("woff"), url("../assets/fonts/HennyPenny-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "Chilanka-Regular";
+  src: url("../assets/fonts/Chilanka-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/Chilanka-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Chilanka-Regular.otf") format("opentype"), url("../assets/fonts/Chilanka-Regular.svg") format("svg"), url("../assets/fonts/Chilanka-Regular.ttf") format("truetype"), url("../assets/fonts/Chilanka-Regular.woff") format("woff"), url("../assets/fonts/Chilanka-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "BebasNeue-Regular";
+  src: url("../assets/fonts/BebasNeue-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/BebasNeue-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/BebasNeue-Regular.otf") format("opentype"), url("../assets/fonts/BebasNeue-Regular.svg") format("svg"), url("../assets/fonts/BebasNeue-Regular.ttf") format("truetype"), url("../assets/fonts/BebasNeue-Regular.woff") format("woff"), url("../assets/fonts/BebasNeue-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "Kanit-Regular";
+  src: url("../assets/fonts/Kanit-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/Kanit-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Kanit-Regular.otf") format("opentype"), url("../assets/fonts/Kanit-Regular.svg") format("svg"), url("../assets/fonts/Kanit-Regular.ttf") format("truetype"), url("../assets/fonts/Kanit-Regular.woff") format("woff"), url("../assets/fonts/Kanit-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "SansitaSwashed-Light";
+  src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.otf") format("opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.svg") format("svg"), url("../assets/fonts/SansitaSwashed-VariableFontwght.ttf") format("truetype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff") format("woff"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
 .purchase-button,
 .read-more-button,
 #dropdownMenuButton, .grow, .mail-to .email-link, .send-btn, .learn-more-btn {
@@ -6418,7 +6458,7 @@ a.text-dark:focus, a.text-dark:hover {
         margin: 0px 20% 0px 20%; } }
 
 body {
-  font-family: "Chilanka", cursive; }
+  font-family: "Chilanka-Regular", cursive; }
 
 .subnav {
   position: absolute; }
@@ -6435,6 +6475,46 @@ body {
 * Autoprefixer: v9.7.6
 * Browsers: last 4 version
 */
+@font-face {
+  font-family: "HennyPenny-Regular";
+  src: url("../assets/fonts/HennyPenny-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/HennyPenny-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/HennyPenny-Regular.otf") format("opentype"), url("../assets/fonts/HennyPenny-Regular.svg") format("svg"), url("../assets/fonts/HennyPenny-Regular.ttf") format("truetype"), url("../assets/fonts/HennyPenny-Regular.woff") format("woff"), url("../assets/fonts/HennyPenny-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "Chilanka-Regular";
+  src: url("../assets/fonts/Chilanka-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/Chilanka-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Chilanka-Regular.otf") format("opentype"), url("../assets/fonts/Chilanka-Regular.svg") format("svg"), url("../assets/fonts/Chilanka-Regular.ttf") format("truetype"), url("../assets/fonts/Chilanka-Regular.woff") format("woff"), url("../assets/fonts/Chilanka-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "BebasNeue-Regular";
+  src: url("../assets/fonts/BebasNeue-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/BebasNeue-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/BebasNeue-Regular.otf") format("opentype"), url("../assets/fonts/BebasNeue-Regular.svg") format("svg"), url("../assets/fonts/BebasNeue-Regular.ttf") format("truetype"), url("../assets/fonts/BebasNeue-Regular.woff") format("woff"), url("../assets/fonts/BebasNeue-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "Kanit-Regular";
+  src: url("../assets/fonts/Kanit-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/Kanit-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Kanit-Regular.otf") format("opentype"), url("../assets/fonts/Kanit-Regular.svg") format("svg"), url("../assets/fonts/Kanit-Regular.ttf") format("truetype"), url("../assets/fonts/Kanit-Regular.woff") format("woff"), url("../assets/fonts/Kanit-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "SansitaSwashed-Light";
+  src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.otf") format("opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.svg") format("svg"), url("../assets/fonts/SansitaSwashed-VariableFontwght.ttf") format("truetype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff") format("woff"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
 .purchase-button,
 .read-more-button,
 #dropdownMenuButton, .grow, .mail-to .email-link, .send-btn, .learn-more-btn {
@@ -6494,7 +6574,7 @@ body {
         margin: 0px 20% 0px 20%; } }
 
 body {
-  font-family: "Chilanka", cursive; }
+  font-family: "Chilanka-Regular", cursive; }
 
 .subnav {
   position: absolute; }
@@ -6515,6 +6595,46 @@ body {
  * Hover.css Copyright Ian Lunn 2017. Generated with Sass.
  */
 /* 2D TRANSITIONS */
+@font-face {
+  font-family: "HennyPenny-Regular";
+  src: url("../assets/fonts/HennyPenny-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/HennyPenny-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/HennyPenny-Regular.otf") format("opentype"), url("../assets/fonts/HennyPenny-Regular.svg") format("svg"), url("../assets/fonts/HennyPenny-Regular.ttf") format("truetype"), url("../assets/fonts/HennyPenny-Regular.woff") format("woff"), url("../assets/fonts/HennyPenny-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "Chilanka-Regular";
+  src: url("../assets/fonts/Chilanka-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/Chilanka-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Chilanka-Regular.otf") format("opentype"), url("../assets/fonts/Chilanka-Regular.svg") format("svg"), url("../assets/fonts/Chilanka-Regular.ttf") format("truetype"), url("../assets/fonts/Chilanka-Regular.woff") format("woff"), url("../assets/fonts/Chilanka-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "BebasNeue-Regular";
+  src: url("../assets/fonts/BebasNeue-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/BebasNeue-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/BebasNeue-Regular.otf") format("opentype"), url("../assets/fonts/BebasNeue-Regular.svg") format("svg"), url("../assets/fonts/BebasNeue-Regular.ttf") format("truetype"), url("../assets/fonts/BebasNeue-Regular.woff") format("woff"), url("../assets/fonts/BebasNeue-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "Kanit-Regular";
+  src: url("../assets/fonts/Kanit-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/Kanit-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Kanit-Regular.otf") format("opentype"), url("../assets/fonts/Kanit-Regular.svg") format("svg"), url("../assets/fonts/Kanit-Regular.ttf") format("truetype"), url("../assets/fonts/Kanit-Regular.woff") format("woff"), url("../assets/fonts/Kanit-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "SansitaSwashed-Light";
+  src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.otf") format("opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.svg") format("svg"), url("../assets/fonts/SansitaSwashed-VariableFontwght.ttf") format("truetype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff") format("woff"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
 .purchase-button,
 .read-more-button,
 #dropdownMenuButton, .grow, .mail-to .email-link, .send-btn, .learn-more-btn {
@@ -6574,7 +6694,7 @@ body {
         margin: 0px 20% 0px 20%; } }
 
 body {
-  font-family: "Chilanka", cursive; }
+  font-family: "Chilanka-Regular", cursive; }
 
 .subnav {
   position: absolute; }
@@ -10465,7 +10585,7 @@ body {
       -ms-flex-line-pack: start;
       align-content: flex-start; } }
   .mega-menu .bold {
-    font-family: "Kanit", sans-serif;
+    font-family: "Kanit-Regular", sans-serif;
     text-transform: uppercase;
     cursor: pointer; }
   .mega-menu .show {
@@ -10533,6 +10653,46 @@ body {
 * Autoprefixer: v9.7.6
 * Browsers: last 4 version
 */
+@font-face {
+  font-family: "HennyPenny-Regular";
+  src: url("../assets/fonts/HennyPenny-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/HennyPenny-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/HennyPenny-Regular.otf") format("opentype"), url("../assets/fonts/HennyPenny-Regular.svg") format("svg"), url("../assets/fonts/HennyPenny-Regular.ttf") format("truetype"), url("../assets/fonts/HennyPenny-Regular.woff") format("woff"), url("../assets/fonts/HennyPenny-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "Chilanka-Regular";
+  src: url("../assets/fonts/Chilanka-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/Chilanka-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Chilanka-Regular.otf") format("opentype"), url("../assets/fonts/Chilanka-Regular.svg") format("svg"), url("../assets/fonts/Chilanka-Regular.ttf") format("truetype"), url("../assets/fonts/Chilanka-Regular.woff") format("woff"), url("../assets/fonts/Chilanka-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "BebasNeue-Regular";
+  src: url("../assets/fonts/BebasNeue-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/BebasNeue-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/BebasNeue-Regular.otf") format("opentype"), url("../assets/fonts/BebasNeue-Regular.svg") format("svg"), url("../assets/fonts/BebasNeue-Regular.ttf") format("truetype"), url("../assets/fonts/BebasNeue-Regular.woff") format("woff"), url("../assets/fonts/BebasNeue-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "Kanit-Regular";
+  src: url("../assets/fonts/Kanit-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/Kanit-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Kanit-Regular.otf") format("opentype"), url("../assets/fonts/Kanit-Regular.svg") format("svg"), url("../assets/fonts/Kanit-Regular.ttf") format("truetype"), url("../assets/fonts/Kanit-Regular.woff") format("woff"), url("../assets/fonts/Kanit-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "SansitaSwashed-Light";
+  src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.otf") format("opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.svg") format("svg"), url("../assets/fonts/SansitaSwashed-VariableFontwght.ttf") format("truetype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff") format("woff"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
 .purchase-button,
 .read-more-button,
 #dropdownMenuButton, .grow, .mail-to .email-link, .send-btn, .learn-more-btn {
@@ -10592,7 +10752,7 @@ body {
         margin: 0px 20% 0px 20%; } }
 
 body {
-  font-family: "Chilanka", cursive; }
+  font-family: "Chilanka-Regular", cursive; }
 
 .subnav {
   position: absolute; }
@@ -10687,6 +10847,46 @@ footer ul {
  * Hover.css Copyright Ian Lunn 2017. Generated with Sass.
  */
 /* 2D TRANSITIONS */
+@font-face {
+  font-family: "HennyPenny-Regular";
+  src: url("../assets/fonts/HennyPenny-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/HennyPenny-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/HennyPenny-Regular.otf") format("opentype"), url("../assets/fonts/HennyPenny-Regular.svg") format("svg"), url("../assets/fonts/HennyPenny-Regular.ttf") format("truetype"), url("../assets/fonts/HennyPenny-Regular.woff") format("woff"), url("../assets/fonts/HennyPenny-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "Chilanka-Regular";
+  src: url("../assets/fonts/Chilanka-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/Chilanka-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Chilanka-Regular.otf") format("opentype"), url("../assets/fonts/Chilanka-Regular.svg") format("svg"), url("../assets/fonts/Chilanka-Regular.ttf") format("truetype"), url("../assets/fonts/Chilanka-Regular.woff") format("woff"), url("../assets/fonts/Chilanka-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "BebasNeue-Regular";
+  src: url("../assets/fonts/BebasNeue-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/BebasNeue-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/BebasNeue-Regular.otf") format("opentype"), url("../assets/fonts/BebasNeue-Regular.svg") format("svg"), url("../assets/fonts/BebasNeue-Regular.ttf") format("truetype"), url("../assets/fonts/BebasNeue-Regular.woff") format("woff"), url("../assets/fonts/BebasNeue-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "Kanit-Regular";
+  src: url("../assets/fonts/Kanit-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/Kanit-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Kanit-Regular.otf") format("opentype"), url("../assets/fonts/Kanit-Regular.svg") format("svg"), url("../assets/fonts/Kanit-Regular.ttf") format("truetype"), url("../assets/fonts/Kanit-Regular.woff") format("woff"), url("../assets/fonts/Kanit-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "SansitaSwashed-Light";
+  src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.otf") format("opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.svg") format("svg"), url("../assets/fonts/SansitaSwashed-VariableFontwght.ttf") format("truetype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff") format("woff"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
 .purchase-button,
 .read-more-button,
 #dropdownMenuButton, .grow, .mail-to .email-link, .send-btn, .learn-more-btn {
@@ -10746,7 +10946,7 @@ footer ul {
         margin: 0px 20% 0px 20%; } }
 
 body {
-  font-family: "Chilanka", cursive; }
+  font-family: "Chilanka-Regular", cursive; }
 
 .subnav {
   position: absolute; }
@@ -14470,7 +14670,7 @@ body {
 
 /*# sourceMappingURL=hover.css.map */
 .title-text {
-  font-family: "Henny Penny", cursive !important; }
+  font-family: "HennyPenny-Regular", cursive !important; }
 
 .about-paula-div {
   padding: 10px 10% 30px 10%; }
@@ -14479,7 +14679,7 @@ body {
   text-indent: 50px;
   line-height: 30px;
   font-size: 1.2em;
-  font-family: "Chilanka", cursive;
+  font-family: "Chilanka-Regular", cursive;
   text-align: justify;
   margin: 10px; }
   @media (min-width: 576px) {
@@ -14507,7 +14707,7 @@ body {
       height: 30%; } }
 
 .jumbotron h1 {
-  font-family: "Chilanka", cursive;
+  font-family: "Chilanka-Regular", cursive;
   text-align: center; }
 
 .paula-about-quote {
@@ -14518,6 +14718,46 @@ body {
     .paula-about-quote {
       margin: 0px 20% 0px 20%; } }
 
+@font-face {
+  font-family: "HennyPenny-Regular";
+  src: url("../assets/fonts/HennyPenny-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/HennyPenny-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/HennyPenny-Regular.otf") format("opentype"), url("../assets/fonts/HennyPenny-Regular.svg") format("svg"), url("../assets/fonts/HennyPenny-Regular.ttf") format("truetype"), url("../assets/fonts/HennyPenny-Regular.woff") format("woff"), url("../assets/fonts/HennyPenny-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "Chilanka-Regular";
+  src: url("../assets/fonts/Chilanka-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/Chilanka-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Chilanka-Regular.otf") format("opentype"), url("../assets/fonts/Chilanka-Regular.svg") format("svg"), url("../assets/fonts/Chilanka-Regular.ttf") format("truetype"), url("../assets/fonts/Chilanka-Regular.woff") format("woff"), url("../assets/fonts/Chilanka-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "BebasNeue-Regular";
+  src: url("../assets/fonts/BebasNeue-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/BebasNeue-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/BebasNeue-Regular.otf") format("opentype"), url("../assets/fonts/BebasNeue-Regular.svg") format("svg"), url("../assets/fonts/BebasNeue-Regular.ttf") format("truetype"), url("../assets/fonts/BebasNeue-Regular.woff") format("woff"), url("../assets/fonts/BebasNeue-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "Kanit-Regular";
+  src: url("../assets/fonts/Kanit-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/Kanit-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Kanit-Regular.otf") format("opentype"), url("../assets/fonts/Kanit-Regular.svg") format("svg"), url("../assets/fonts/Kanit-Regular.ttf") format("truetype"), url("../assets/fonts/Kanit-Regular.woff") format("woff"), url("../assets/fonts/Kanit-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "SansitaSwashed-Light";
+  src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.otf") format("opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.svg") format("svg"), url("../assets/fonts/SansitaSwashed-VariableFontwght.ttf") format("truetype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff") format("woff"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
 .purchase-button,
 .read-more-button,
 #dropdownMenuButton, .grow, .mail-to .email-link, .send-btn, .learn-more-btn {
@@ -14577,7 +14817,7 @@ body {
         margin: 0px 20% 0px 20%; } }
 
 body {
-  font-family: "Chilanka", cursive; }
+  font-family: "Chilanka-Regular", cursive; }
 
 .subnav {
   position: absolute; }
@@ -14594,6 +14834,46 @@ body {
 * Autoprefixer: v9.7.6
 * Browsers: last 4 version
 */
+@font-face {
+  font-family: "HennyPenny-Regular";
+  src: url("../assets/fonts/HennyPenny-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/HennyPenny-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/HennyPenny-Regular.otf") format("opentype"), url("../assets/fonts/HennyPenny-Regular.svg") format("svg"), url("../assets/fonts/HennyPenny-Regular.ttf") format("truetype"), url("../assets/fonts/HennyPenny-Regular.woff") format("woff"), url("../assets/fonts/HennyPenny-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "Chilanka-Regular";
+  src: url("../assets/fonts/Chilanka-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/Chilanka-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Chilanka-Regular.otf") format("opentype"), url("../assets/fonts/Chilanka-Regular.svg") format("svg"), url("../assets/fonts/Chilanka-Regular.ttf") format("truetype"), url("../assets/fonts/Chilanka-Regular.woff") format("woff"), url("../assets/fonts/Chilanka-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "BebasNeue-Regular";
+  src: url("../assets/fonts/BebasNeue-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/BebasNeue-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/BebasNeue-Regular.otf") format("opentype"), url("../assets/fonts/BebasNeue-Regular.svg") format("svg"), url("../assets/fonts/BebasNeue-Regular.ttf") format("truetype"), url("../assets/fonts/BebasNeue-Regular.woff") format("woff"), url("../assets/fonts/BebasNeue-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "Kanit-Regular";
+  src: url("../assets/fonts/Kanit-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/Kanit-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Kanit-Regular.otf") format("opentype"), url("../assets/fonts/Kanit-Regular.svg") format("svg"), url("../assets/fonts/Kanit-Regular.ttf") format("truetype"), url("../assets/fonts/Kanit-Regular.woff") format("woff"), url("../assets/fonts/Kanit-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "SansitaSwashed-Light";
+  src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.otf") format("opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.svg") format("svg"), url("../assets/fonts/SansitaSwashed-VariableFontwght.ttf") format("truetype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff") format("woff"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
 .purchase-button,
 .read-more-button,
 #dropdownMenuButton, .grow, .mail-to .email-link, .send-btn, .learn-more-btn {
@@ -14653,7 +14933,7 @@ body {
         margin: 0px 20% 0px 20%; } }
 
 body {
-  font-family: "Chilanka", cursive; }
+  font-family: "Chilanka-Regular", cursive; }
 
 .subnav {
   position: absolute; }
@@ -14674,6 +14954,46 @@ body {
  * Hover.css Copyright Ian Lunn 2017. Generated with Sass.
  */
 /* 2D TRANSITIONS */
+@font-face {
+  font-family: "HennyPenny-Regular";
+  src: url("../assets/fonts/HennyPenny-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/HennyPenny-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/HennyPenny-Regular.otf") format("opentype"), url("../assets/fonts/HennyPenny-Regular.svg") format("svg"), url("../assets/fonts/HennyPenny-Regular.ttf") format("truetype"), url("../assets/fonts/HennyPenny-Regular.woff") format("woff"), url("../assets/fonts/HennyPenny-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "Chilanka-Regular";
+  src: url("../assets/fonts/Chilanka-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/Chilanka-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Chilanka-Regular.otf") format("opentype"), url("../assets/fonts/Chilanka-Regular.svg") format("svg"), url("../assets/fonts/Chilanka-Regular.ttf") format("truetype"), url("../assets/fonts/Chilanka-Regular.woff") format("woff"), url("../assets/fonts/Chilanka-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "BebasNeue-Regular";
+  src: url("../assets/fonts/BebasNeue-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/BebasNeue-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/BebasNeue-Regular.otf") format("opentype"), url("../assets/fonts/BebasNeue-Regular.svg") format("svg"), url("../assets/fonts/BebasNeue-Regular.ttf") format("truetype"), url("../assets/fonts/BebasNeue-Regular.woff") format("woff"), url("../assets/fonts/BebasNeue-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "Kanit-Regular";
+  src: url("../assets/fonts/Kanit-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/Kanit-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Kanit-Regular.otf") format("opentype"), url("../assets/fonts/Kanit-Regular.svg") format("svg"), url("../assets/fonts/Kanit-Regular.ttf") format("truetype"), url("../assets/fonts/Kanit-Regular.woff") format("woff"), url("../assets/fonts/Kanit-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "SansitaSwashed-Light";
+  src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.otf") format("opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.svg") format("svg"), url("../assets/fonts/SansitaSwashed-VariableFontwght.ttf") format("truetype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff") format("woff"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
 .purchase-button,
 .read-more-button,
 #dropdownMenuButton, .grow, .mail-to .email-link, .send-btn, .learn-more-btn {
@@ -14733,7 +15053,7 @@ body {
         margin: 0px 20% 0px 20%; } }
 
 body {
-  font-family: "Chilanka", cursive; }
+  font-family: "Chilanka-Regular", cursive; }
 
 .subnav {
   position: absolute; }
@@ -18624,7 +18944,7 @@ body {
       -ms-flex-line-pack: start;
       align-content: flex-start; } }
   .mega-menu .bold {
-    font-family: "Kanit", sans-serif;
+    font-family: "Kanit-Regular", sans-serif;
     text-transform: uppercase;
     cursor: pointer; }
   .mega-menu .show {
@@ -18692,6 +19012,46 @@ body {
 * Autoprefixer: v9.7.6
 * Browsers: last 4 version
 */
+@font-face {
+  font-family: "HennyPenny-Regular";
+  src: url("../assets/fonts/HennyPenny-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/HennyPenny-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/HennyPenny-Regular.otf") format("opentype"), url("../assets/fonts/HennyPenny-Regular.svg") format("svg"), url("../assets/fonts/HennyPenny-Regular.ttf") format("truetype"), url("../assets/fonts/HennyPenny-Regular.woff") format("woff"), url("../assets/fonts/HennyPenny-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "Chilanka-Regular";
+  src: url("../assets/fonts/Chilanka-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/Chilanka-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Chilanka-Regular.otf") format("opentype"), url("../assets/fonts/Chilanka-Regular.svg") format("svg"), url("../assets/fonts/Chilanka-Regular.ttf") format("truetype"), url("../assets/fonts/Chilanka-Regular.woff") format("woff"), url("../assets/fonts/Chilanka-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "BebasNeue-Regular";
+  src: url("../assets/fonts/BebasNeue-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/BebasNeue-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/BebasNeue-Regular.otf") format("opentype"), url("../assets/fonts/BebasNeue-Regular.svg") format("svg"), url("../assets/fonts/BebasNeue-Regular.ttf") format("truetype"), url("../assets/fonts/BebasNeue-Regular.woff") format("woff"), url("../assets/fonts/BebasNeue-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "Kanit-Regular";
+  src: url("../assets/fonts/Kanit-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/Kanit-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Kanit-Regular.otf") format("opentype"), url("../assets/fonts/Kanit-Regular.svg") format("svg"), url("../assets/fonts/Kanit-Regular.ttf") format("truetype"), url("../assets/fonts/Kanit-Regular.woff") format("woff"), url("../assets/fonts/Kanit-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "SansitaSwashed-Light";
+  src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.otf") format("opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.svg") format("svg"), url("../assets/fonts/SansitaSwashed-VariableFontwght.ttf") format("truetype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff") format("woff"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
 .purchase-button,
 .read-more-button,
 #dropdownMenuButton, .grow, .mail-to .email-link, .send-btn, .learn-more-btn {
@@ -18751,7 +19111,7 @@ body {
         margin: 0px 20% 0px 20%; } }
 
 body {
-  font-family: "Chilanka", cursive; }
+  font-family: "Chilanka-Regular", cursive; }
 
 .subnav {
   position: absolute; }
@@ -18846,6 +19206,46 @@ footer ul {
  * Hover.css Copyright Ian Lunn 2017. Generated with Sass.
  */
 /* 2D TRANSITIONS */
+@font-face {
+  font-family: "HennyPenny-Regular";
+  src: url("../assets/fonts/HennyPenny-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/HennyPenny-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/HennyPenny-Regular.otf") format("opentype"), url("../assets/fonts/HennyPenny-Regular.svg") format("svg"), url("../assets/fonts/HennyPenny-Regular.ttf") format("truetype"), url("../assets/fonts/HennyPenny-Regular.woff") format("woff"), url("../assets/fonts/HennyPenny-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "Chilanka-Regular";
+  src: url("../assets/fonts/Chilanka-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/Chilanka-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Chilanka-Regular.otf") format("opentype"), url("../assets/fonts/Chilanka-Regular.svg") format("svg"), url("../assets/fonts/Chilanka-Regular.ttf") format("truetype"), url("../assets/fonts/Chilanka-Regular.woff") format("woff"), url("../assets/fonts/Chilanka-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "BebasNeue-Regular";
+  src: url("../assets/fonts/BebasNeue-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/BebasNeue-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/BebasNeue-Regular.otf") format("opentype"), url("../assets/fonts/BebasNeue-Regular.svg") format("svg"), url("../assets/fonts/BebasNeue-Regular.ttf") format("truetype"), url("../assets/fonts/BebasNeue-Regular.woff") format("woff"), url("../assets/fonts/BebasNeue-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "Kanit-Regular";
+  src: url("../assets/fonts/Kanit-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/Kanit-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Kanit-Regular.otf") format("opentype"), url("../assets/fonts/Kanit-Regular.svg") format("svg"), url("../assets/fonts/Kanit-Regular.ttf") format("truetype"), url("../assets/fonts/Kanit-Regular.woff") format("woff"), url("../assets/fonts/Kanit-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "SansitaSwashed-Light";
+  src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.otf") format("opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.svg") format("svg"), url("../assets/fonts/SansitaSwashed-VariableFontwght.ttf") format("truetype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff") format("woff"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
 .purchase-button,
 .read-more-button,
 #dropdownMenuButton, .grow, .mail-to .email-link, .send-btn, .learn-more-btn {
@@ -18905,7 +19305,7 @@ footer ul {
         margin: 0px 20% 0px 20%; } }
 
 body {
-  font-family: "Chilanka", cursive; }
+  font-family: "Chilanka-Regular", cursive; }
 
 .subnav {
   position: absolute; }
@@ -22888,7 +23288,7 @@ html {
     text-decoration: none;
     color: #1a9cbc; }
   .book-container p {
-    font-family: "Chilanka", cursive;
+    font-family: "Chilanka-Regular", cursive;
     font-size: 1.3em;
     padding: 5px 10px;
     margin: 0 0 10px 0;
@@ -22960,7 +23360,7 @@ html {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  font-family: "Kanit", sans-serif;
+  font-family: "Kanit-Regular", sans-serif;
   text-transform: uppercase; }
 
 .hangingindent {
@@ -23064,7 +23464,7 @@ hr {
 
 .title-text {
   text-shadow: 4px 4px 4px #c2c3c4;
-  font-family: "Henny Penny", cursive !important;
+  font-family: "HennyPenny-Regular", cursive !important;
   color: #009FB7;
   margin-top: 40px;
   padding: 0;
@@ -23080,6 +23480,46 @@ hr {
 * Autoprefixer: v9.7.6
 * Browsers: last 4 version
 */
+@font-face {
+  font-family: "HennyPenny-Regular";
+  src: url("../assets/fonts/HennyPenny-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/HennyPenny-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/HennyPenny-Regular.otf") format("opentype"), url("../assets/fonts/HennyPenny-Regular.svg") format("svg"), url("../assets/fonts/HennyPenny-Regular.ttf") format("truetype"), url("../assets/fonts/HennyPenny-Regular.woff") format("woff"), url("../assets/fonts/HennyPenny-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "Chilanka-Regular";
+  src: url("../assets/fonts/Chilanka-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/Chilanka-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Chilanka-Regular.otf") format("opentype"), url("../assets/fonts/Chilanka-Regular.svg") format("svg"), url("../assets/fonts/Chilanka-Regular.ttf") format("truetype"), url("../assets/fonts/Chilanka-Regular.woff") format("woff"), url("../assets/fonts/Chilanka-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "BebasNeue-Regular";
+  src: url("../assets/fonts/BebasNeue-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/BebasNeue-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/BebasNeue-Regular.otf") format("opentype"), url("../assets/fonts/BebasNeue-Regular.svg") format("svg"), url("../assets/fonts/BebasNeue-Regular.ttf") format("truetype"), url("../assets/fonts/BebasNeue-Regular.woff") format("woff"), url("../assets/fonts/BebasNeue-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "Kanit-Regular";
+  src: url("../assets/fonts/Kanit-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/Kanit-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Kanit-Regular.otf") format("opentype"), url("../assets/fonts/Kanit-Regular.svg") format("svg"), url("../assets/fonts/Kanit-Regular.ttf") format("truetype"), url("../assets/fonts/Kanit-Regular.woff") format("woff"), url("../assets/fonts/Kanit-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "SansitaSwashed-Light";
+  src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.otf") format("opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.svg") format("svg"), url("../assets/fonts/SansitaSwashed-VariableFontwght.ttf") format("truetype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff") format("woff"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
 .purchase-button,
 .read-more-button,
 #dropdownMenuButton, .grow, .mail-to .email-link, .send-btn, .learn-more-btn {
@@ -23139,7 +23579,7 @@ hr {
         margin: 0px 20% 0px 20%; } }
 
 body {
-  font-family: "Chilanka", cursive; }
+  font-family: "Chilanka-Regular", cursive; }
 
 .subnav {
   position: absolute; }
@@ -23156,6 +23596,46 @@ body {
 * Autoprefixer: v9.7.6
 * Browsers: last 4 version
 */
+@font-face {
+  font-family: "HennyPenny-Regular";
+  src: url("../assets/fonts/HennyPenny-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/HennyPenny-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/HennyPenny-Regular.otf") format("opentype"), url("../assets/fonts/HennyPenny-Regular.svg") format("svg"), url("../assets/fonts/HennyPenny-Regular.ttf") format("truetype"), url("../assets/fonts/HennyPenny-Regular.woff") format("woff"), url("../assets/fonts/HennyPenny-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "Chilanka-Regular";
+  src: url("../assets/fonts/Chilanka-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/Chilanka-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Chilanka-Regular.otf") format("opentype"), url("../assets/fonts/Chilanka-Regular.svg") format("svg"), url("../assets/fonts/Chilanka-Regular.ttf") format("truetype"), url("../assets/fonts/Chilanka-Regular.woff") format("woff"), url("../assets/fonts/Chilanka-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "BebasNeue-Regular";
+  src: url("../assets/fonts/BebasNeue-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/BebasNeue-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/BebasNeue-Regular.otf") format("opentype"), url("../assets/fonts/BebasNeue-Regular.svg") format("svg"), url("../assets/fonts/BebasNeue-Regular.ttf") format("truetype"), url("../assets/fonts/BebasNeue-Regular.woff") format("woff"), url("../assets/fonts/BebasNeue-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "Kanit-Regular";
+  src: url("../assets/fonts/Kanit-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/Kanit-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Kanit-Regular.otf") format("opentype"), url("../assets/fonts/Kanit-Regular.svg") format("svg"), url("../assets/fonts/Kanit-Regular.ttf") format("truetype"), url("../assets/fonts/Kanit-Regular.woff") format("woff"), url("../assets/fonts/Kanit-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "SansitaSwashed-Light";
+  src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.otf") format("opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.svg") format("svg"), url("../assets/fonts/SansitaSwashed-VariableFontwght.ttf") format("truetype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff") format("woff"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
 .purchase-button,
 .read-more-button,
 #dropdownMenuButton, .grow, .mail-to .email-link, .send-btn, .learn-more-btn {
@@ -23215,7 +23695,7 @@ body {
         margin: 0px 20% 0px 20%; } }
 
 body {
-  font-family: "Chilanka", cursive; }
+  font-family: "Chilanka-Regular", cursive; }
 
 .subnav {
   position: absolute; }
@@ -23236,6 +23716,46 @@ body {
  * Hover.css Copyright Ian Lunn 2017. Generated with Sass.
  */
 /* 2D TRANSITIONS */
+@font-face {
+  font-family: "HennyPenny-Regular";
+  src: url("../assets/fonts/HennyPenny-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/HennyPenny-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/HennyPenny-Regular.otf") format("opentype"), url("../assets/fonts/HennyPenny-Regular.svg") format("svg"), url("../assets/fonts/HennyPenny-Regular.ttf") format("truetype"), url("../assets/fonts/HennyPenny-Regular.woff") format("woff"), url("../assets/fonts/HennyPenny-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "Chilanka-Regular";
+  src: url("../assets/fonts/Chilanka-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/Chilanka-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Chilanka-Regular.otf") format("opentype"), url("../assets/fonts/Chilanka-Regular.svg") format("svg"), url("../assets/fonts/Chilanka-Regular.ttf") format("truetype"), url("../assets/fonts/Chilanka-Regular.woff") format("woff"), url("../assets/fonts/Chilanka-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "BebasNeue-Regular";
+  src: url("../assets/fonts/BebasNeue-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/BebasNeue-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/BebasNeue-Regular.otf") format("opentype"), url("../assets/fonts/BebasNeue-Regular.svg") format("svg"), url("../assets/fonts/BebasNeue-Regular.ttf") format("truetype"), url("../assets/fonts/BebasNeue-Regular.woff") format("woff"), url("../assets/fonts/BebasNeue-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "Kanit-Regular";
+  src: url("../assets/fonts/Kanit-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/Kanit-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Kanit-Regular.otf") format("opentype"), url("../assets/fonts/Kanit-Regular.svg") format("svg"), url("../assets/fonts/Kanit-Regular.ttf") format("truetype"), url("../assets/fonts/Kanit-Regular.woff") format("woff"), url("../assets/fonts/Kanit-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "SansitaSwashed-Light";
+  src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.otf") format("opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.svg") format("svg"), url("../assets/fonts/SansitaSwashed-VariableFontwght.ttf") format("truetype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff") format("woff"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
 .purchase-button,
 .read-more-button,
 #dropdownMenuButton, .grow, .mail-to .email-link, .send-btn, .learn-more-btn {
@@ -23295,7 +23815,7 @@ body {
         margin: 0px 20% 0px 20%; } }
 
 body {
-  font-family: "Chilanka", cursive; }
+  font-family: "Chilanka-Regular", cursive; }
 
 .subnav {
   position: absolute; }
@@ -27186,7 +27706,7 @@ body {
       -ms-flex-line-pack: start;
       align-content: flex-start; } }
   .mega-menu .bold {
-    font-family: "Kanit", sans-serif;
+    font-family: "Kanit-Regular", sans-serif;
     text-transform: uppercase;
     cursor: pointer; }
   .mega-menu .show {
@@ -27254,6 +27774,46 @@ body {
 * Autoprefixer: v9.7.6
 * Browsers: last 4 version
 */
+@font-face {
+  font-family: "HennyPenny-Regular";
+  src: url("../assets/fonts/HennyPenny-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/HennyPenny-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/HennyPenny-Regular.otf") format("opentype"), url("../assets/fonts/HennyPenny-Regular.svg") format("svg"), url("../assets/fonts/HennyPenny-Regular.ttf") format("truetype"), url("../assets/fonts/HennyPenny-Regular.woff") format("woff"), url("../assets/fonts/HennyPenny-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "Chilanka-Regular";
+  src: url("../assets/fonts/Chilanka-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/Chilanka-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Chilanka-Regular.otf") format("opentype"), url("../assets/fonts/Chilanka-Regular.svg") format("svg"), url("../assets/fonts/Chilanka-Regular.ttf") format("truetype"), url("../assets/fonts/Chilanka-Regular.woff") format("woff"), url("../assets/fonts/Chilanka-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "BebasNeue-Regular";
+  src: url("../assets/fonts/BebasNeue-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/BebasNeue-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/BebasNeue-Regular.otf") format("opentype"), url("../assets/fonts/BebasNeue-Regular.svg") format("svg"), url("../assets/fonts/BebasNeue-Regular.ttf") format("truetype"), url("../assets/fonts/BebasNeue-Regular.woff") format("woff"), url("../assets/fonts/BebasNeue-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "Kanit-Regular";
+  src: url("../assets/fonts/Kanit-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/Kanit-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Kanit-Regular.otf") format("opentype"), url("../assets/fonts/Kanit-Regular.svg") format("svg"), url("../assets/fonts/Kanit-Regular.ttf") format("truetype"), url("../assets/fonts/Kanit-Regular.woff") format("woff"), url("../assets/fonts/Kanit-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "SansitaSwashed-Light";
+  src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.otf") format("opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.svg") format("svg"), url("../assets/fonts/SansitaSwashed-VariableFontwght.ttf") format("truetype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff") format("woff"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
 .purchase-button,
 .read-more-button,
 #dropdownMenuButton, .grow, .mail-to .email-link, .send-btn, .learn-more-btn {
@@ -27313,7 +27873,7 @@ body {
         margin: 0px 20% 0px 20%; } }
 
 body {
-  font-family: "Chilanka", cursive; }
+  font-family: "Chilanka-Regular", cursive; }
 
 .subnav {
   position: absolute; }
@@ -27408,6 +27968,46 @@ footer ul {
  * Hover.css Copyright Ian Lunn 2017. Generated with Sass.
  */
 /* 2D TRANSITIONS */
+@font-face {
+  font-family: "HennyPenny-Regular";
+  src: url("../assets/fonts/HennyPenny-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/HennyPenny-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/HennyPenny-Regular.otf") format("opentype"), url("../assets/fonts/HennyPenny-Regular.svg") format("svg"), url("../assets/fonts/HennyPenny-Regular.ttf") format("truetype"), url("../assets/fonts/HennyPenny-Regular.woff") format("woff"), url("../assets/fonts/HennyPenny-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "Chilanka-Regular";
+  src: url("../assets/fonts/Chilanka-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/Chilanka-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Chilanka-Regular.otf") format("opentype"), url("../assets/fonts/Chilanka-Regular.svg") format("svg"), url("../assets/fonts/Chilanka-Regular.ttf") format("truetype"), url("../assets/fonts/Chilanka-Regular.woff") format("woff"), url("../assets/fonts/Chilanka-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "BebasNeue-Regular";
+  src: url("../assets/fonts/BebasNeue-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/BebasNeue-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/BebasNeue-Regular.otf") format("opentype"), url("../assets/fonts/BebasNeue-Regular.svg") format("svg"), url("../assets/fonts/BebasNeue-Regular.ttf") format("truetype"), url("../assets/fonts/BebasNeue-Regular.woff") format("woff"), url("../assets/fonts/BebasNeue-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "Kanit-Regular";
+  src: url("../assets/fonts/Kanit-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/Kanit-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Kanit-Regular.otf") format("opentype"), url("../assets/fonts/Kanit-Regular.svg") format("svg"), url("../assets/fonts/Kanit-Regular.ttf") format("truetype"), url("../assets/fonts/Kanit-Regular.woff") format("woff"), url("../assets/fonts/Kanit-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "SansitaSwashed-Light";
+  src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.otf") format("opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.svg") format("svg"), url("../assets/fonts/SansitaSwashed-VariableFontwght.ttf") format("truetype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff") format("woff"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
 .purchase-button,
 .read-more-button,
 #dropdownMenuButton, .grow, .mail-to .email-link, .send-btn, .learn-more-btn {
@@ -27467,7 +28067,7 @@ footer ul {
         margin: 0px 20% 0px 20%; } }
 
 body {
-  font-family: "Chilanka", cursive; }
+  font-family: "Chilanka-Regular", cursive; }
 
 .subnav {
   position: absolute; }
@@ -31191,7 +31791,7 @@ body {
 
 /*# sourceMappingURL=hover.css.map */
 .title-text {
-  font-family: "Henny Penny", cursive !important; }
+  font-family: "HennyPenny-Regular", cursive !important; }
 
 .fanart-title {
   padding: 60px 30px 40px 30px; }
@@ -31345,6 +31945,46 @@ body {
 * Autoprefixer: v9.7.6
 * Browsers: last 4 version
 */
+@font-face {
+  font-family: "HennyPenny-Regular";
+  src: url("../assets/fonts/HennyPenny-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/HennyPenny-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/HennyPenny-Regular.otf") format("opentype"), url("../assets/fonts/HennyPenny-Regular.svg") format("svg"), url("../assets/fonts/HennyPenny-Regular.ttf") format("truetype"), url("../assets/fonts/HennyPenny-Regular.woff") format("woff"), url("../assets/fonts/HennyPenny-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "Chilanka-Regular";
+  src: url("../assets/fonts/Chilanka-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/Chilanka-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Chilanka-Regular.otf") format("opentype"), url("../assets/fonts/Chilanka-Regular.svg") format("svg"), url("../assets/fonts/Chilanka-Regular.ttf") format("truetype"), url("../assets/fonts/Chilanka-Regular.woff") format("woff"), url("../assets/fonts/Chilanka-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "BebasNeue-Regular";
+  src: url("../assets/fonts/BebasNeue-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/BebasNeue-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/BebasNeue-Regular.otf") format("opentype"), url("../assets/fonts/BebasNeue-Regular.svg") format("svg"), url("../assets/fonts/BebasNeue-Regular.ttf") format("truetype"), url("../assets/fonts/BebasNeue-Regular.woff") format("woff"), url("../assets/fonts/BebasNeue-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "Kanit-Regular";
+  src: url("../assets/fonts/Kanit-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/Kanit-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Kanit-Regular.otf") format("opentype"), url("../assets/fonts/Kanit-Regular.svg") format("svg"), url("../assets/fonts/Kanit-Regular.ttf") format("truetype"), url("../assets/fonts/Kanit-Regular.woff") format("woff"), url("../assets/fonts/Kanit-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "SansitaSwashed-Light";
+  src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.otf") format("opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.svg") format("svg"), url("../assets/fonts/SansitaSwashed-VariableFontwght.ttf") format("truetype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff") format("woff"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
 .purchase-button,
 .read-more-button,
 #dropdownMenuButton, .grow, .mail-to .email-link, .send-btn, .learn-more-btn {
@@ -31404,7 +32044,7 @@ body {
         margin: 0px 20% 0px 20%; } }
 
 body {
-  font-family: "Chilanka", cursive; }
+  font-family: "Chilanka-Regular", cursive; }
 
 .subnav {
   position: absolute; }
@@ -31421,6 +32061,46 @@ body {
 * Autoprefixer: v9.7.6
 * Browsers: last 4 version
 */
+@font-face {
+  font-family: "HennyPenny-Regular";
+  src: url("../assets/fonts/HennyPenny-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/HennyPenny-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/HennyPenny-Regular.otf") format("opentype"), url("../assets/fonts/HennyPenny-Regular.svg") format("svg"), url("../assets/fonts/HennyPenny-Regular.ttf") format("truetype"), url("../assets/fonts/HennyPenny-Regular.woff") format("woff"), url("../assets/fonts/HennyPenny-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "Chilanka-Regular";
+  src: url("../assets/fonts/Chilanka-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/Chilanka-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Chilanka-Regular.otf") format("opentype"), url("../assets/fonts/Chilanka-Regular.svg") format("svg"), url("../assets/fonts/Chilanka-Regular.ttf") format("truetype"), url("../assets/fonts/Chilanka-Regular.woff") format("woff"), url("../assets/fonts/Chilanka-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "BebasNeue-Regular";
+  src: url("../assets/fonts/BebasNeue-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/BebasNeue-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/BebasNeue-Regular.otf") format("opentype"), url("../assets/fonts/BebasNeue-Regular.svg") format("svg"), url("../assets/fonts/BebasNeue-Regular.ttf") format("truetype"), url("../assets/fonts/BebasNeue-Regular.woff") format("woff"), url("../assets/fonts/BebasNeue-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "Kanit-Regular";
+  src: url("../assets/fonts/Kanit-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/Kanit-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Kanit-Regular.otf") format("opentype"), url("../assets/fonts/Kanit-Regular.svg") format("svg"), url("../assets/fonts/Kanit-Regular.ttf") format("truetype"), url("../assets/fonts/Kanit-Regular.woff") format("woff"), url("../assets/fonts/Kanit-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "SansitaSwashed-Light";
+  src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.otf") format("opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.svg") format("svg"), url("../assets/fonts/SansitaSwashed-VariableFontwght.ttf") format("truetype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff") format("woff"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
 .purchase-button,
 .read-more-button,
 #dropdownMenuButton, .grow, .mail-to .email-link, .send-btn, .learn-more-btn {
@@ -31480,7 +32160,7 @@ body {
         margin: 0px 20% 0px 20%; } }
 
 body {
-  font-family: "Chilanka", cursive; }
+  font-family: "Chilanka-Regular", cursive; }
 
 .subnav {
   position: absolute; }
@@ -31501,6 +32181,46 @@ body {
  * Hover.css Copyright Ian Lunn 2017. Generated with Sass.
  */
 /* 2D TRANSITIONS */
+@font-face {
+  font-family: "HennyPenny-Regular";
+  src: url("../assets/fonts/HennyPenny-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/HennyPenny-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/HennyPenny-Regular.otf") format("opentype"), url("../assets/fonts/HennyPenny-Regular.svg") format("svg"), url("../assets/fonts/HennyPenny-Regular.ttf") format("truetype"), url("../assets/fonts/HennyPenny-Regular.woff") format("woff"), url("../assets/fonts/HennyPenny-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "Chilanka-Regular";
+  src: url("../assets/fonts/Chilanka-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/Chilanka-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Chilanka-Regular.otf") format("opentype"), url("../assets/fonts/Chilanka-Regular.svg") format("svg"), url("../assets/fonts/Chilanka-Regular.ttf") format("truetype"), url("../assets/fonts/Chilanka-Regular.woff") format("woff"), url("../assets/fonts/Chilanka-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "BebasNeue-Regular";
+  src: url("../assets/fonts/BebasNeue-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/BebasNeue-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/BebasNeue-Regular.otf") format("opentype"), url("../assets/fonts/BebasNeue-Regular.svg") format("svg"), url("../assets/fonts/BebasNeue-Regular.ttf") format("truetype"), url("../assets/fonts/BebasNeue-Regular.woff") format("woff"), url("../assets/fonts/BebasNeue-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "Kanit-Regular";
+  src: url("../assets/fonts/Kanit-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/Kanit-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Kanit-Regular.otf") format("opentype"), url("../assets/fonts/Kanit-Regular.svg") format("svg"), url("../assets/fonts/Kanit-Regular.ttf") format("truetype"), url("../assets/fonts/Kanit-Regular.woff") format("woff"), url("../assets/fonts/Kanit-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "SansitaSwashed-Light";
+  src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.otf") format("opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.svg") format("svg"), url("../assets/fonts/SansitaSwashed-VariableFontwght.ttf") format("truetype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff") format("woff"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
 .purchase-button,
 .read-more-button,
 #dropdownMenuButton, .grow, .mail-to .email-link, .send-btn, .learn-more-btn {
@@ -31560,7 +32280,7 @@ body {
         margin: 0px 20% 0px 20%; } }
 
 body {
-  font-family: "Chilanka", cursive; }
+  font-family: "Chilanka-Regular", cursive; }
 
 .subnav {
   position: absolute; }
@@ -35451,7 +36171,7 @@ body {
       -ms-flex-line-pack: start;
       align-content: flex-start; } }
   .mega-menu .bold {
-    font-family: "Kanit", sans-serif;
+    font-family: "Kanit-Regular", sans-serif;
     text-transform: uppercase;
     cursor: pointer; }
   .mega-menu .show {
@@ -35519,6 +36239,46 @@ body {
 * Autoprefixer: v9.7.6
 * Browsers: last 4 version
 */
+@font-face {
+  font-family: "HennyPenny-Regular";
+  src: url("../assets/fonts/HennyPenny-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/HennyPenny-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/HennyPenny-Regular.otf") format("opentype"), url("../assets/fonts/HennyPenny-Regular.svg") format("svg"), url("../assets/fonts/HennyPenny-Regular.ttf") format("truetype"), url("../assets/fonts/HennyPenny-Regular.woff") format("woff"), url("../assets/fonts/HennyPenny-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "Chilanka-Regular";
+  src: url("../assets/fonts/Chilanka-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/Chilanka-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Chilanka-Regular.otf") format("opentype"), url("../assets/fonts/Chilanka-Regular.svg") format("svg"), url("../assets/fonts/Chilanka-Regular.ttf") format("truetype"), url("../assets/fonts/Chilanka-Regular.woff") format("woff"), url("../assets/fonts/Chilanka-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "BebasNeue-Regular";
+  src: url("../assets/fonts/BebasNeue-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/BebasNeue-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/BebasNeue-Regular.otf") format("opentype"), url("../assets/fonts/BebasNeue-Regular.svg") format("svg"), url("../assets/fonts/BebasNeue-Regular.ttf") format("truetype"), url("../assets/fonts/BebasNeue-Regular.woff") format("woff"), url("../assets/fonts/BebasNeue-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "Kanit-Regular";
+  src: url("../assets/fonts/Kanit-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/Kanit-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Kanit-Regular.otf") format("opentype"), url("../assets/fonts/Kanit-Regular.svg") format("svg"), url("../assets/fonts/Kanit-Regular.ttf") format("truetype"), url("../assets/fonts/Kanit-Regular.woff") format("woff"), url("../assets/fonts/Kanit-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "SansitaSwashed-Light";
+  src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.otf") format("opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.svg") format("svg"), url("../assets/fonts/SansitaSwashed-VariableFontwght.ttf") format("truetype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff") format("woff"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
 .purchase-button,
 .read-more-button,
 #dropdownMenuButton, .grow, .mail-to .email-link, .send-btn, .learn-more-btn {
@@ -35578,7 +36338,7 @@ body {
         margin: 0px 20% 0px 20%; } }
 
 body {
-  font-family: "Chilanka", cursive; }
+  font-family: "Chilanka-Regular", cursive; }
 
 .subnav {
   position: absolute; }
@@ -35673,6 +36433,46 @@ footer ul {
  * Hover.css Copyright Ian Lunn 2017. Generated with Sass.
  */
 /* 2D TRANSITIONS */
+@font-face {
+  font-family: "HennyPenny-Regular";
+  src: url("../assets/fonts/HennyPenny-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/HennyPenny-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/HennyPenny-Regular.otf") format("opentype"), url("../assets/fonts/HennyPenny-Regular.svg") format("svg"), url("../assets/fonts/HennyPenny-Regular.ttf") format("truetype"), url("../assets/fonts/HennyPenny-Regular.woff") format("woff"), url("../assets/fonts/HennyPenny-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "Chilanka-Regular";
+  src: url("../assets/fonts/Chilanka-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/Chilanka-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Chilanka-Regular.otf") format("opentype"), url("../assets/fonts/Chilanka-Regular.svg") format("svg"), url("../assets/fonts/Chilanka-Regular.ttf") format("truetype"), url("../assets/fonts/Chilanka-Regular.woff") format("woff"), url("../assets/fonts/Chilanka-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "BebasNeue-Regular";
+  src: url("../assets/fonts/BebasNeue-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/BebasNeue-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/BebasNeue-Regular.otf") format("opentype"), url("../assets/fonts/BebasNeue-Regular.svg") format("svg"), url("../assets/fonts/BebasNeue-Regular.ttf") format("truetype"), url("../assets/fonts/BebasNeue-Regular.woff") format("woff"), url("../assets/fonts/BebasNeue-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "Kanit-Regular";
+  src: url("../assets/fonts/Kanit-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/Kanit-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Kanit-Regular.otf") format("opentype"), url("../assets/fonts/Kanit-Regular.svg") format("svg"), url("../assets/fonts/Kanit-Regular.ttf") format("truetype"), url("../assets/fonts/Kanit-Regular.woff") format("woff"), url("../assets/fonts/Kanit-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "SansitaSwashed-Light";
+  src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.otf") format("opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.svg") format("svg"), url("../assets/fonts/SansitaSwashed-VariableFontwght.ttf") format("truetype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff") format("woff"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
 .purchase-button,
 .read-more-button,
 #dropdownMenuButton, .grow, .mail-to .email-link, .send-btn, .learn-more-btn {
@@ -35732,7 +36532,7 @@ footer ul {
         margin: 0px 20% 0px 20%; } }
 
 body {
-  font-family: "Chilanka", cursive; }
+  font-family: "Chilanka-Regular", cursive; }
 
 .subnav {
   position: absolute; }
@@ -39517,7 +40317,7 @@ body {
         margin-right: 20% !important; } }
 
 .title-text {
-  font-family: "Henny Penny", cursive !important; }
+  font-family: "HennyPenny-Regular", cursive !important; }
 
 .contact-form-div {
   background-color: #a8dadc;
@@ -39568,7 +40368,7 @@ textarea {
   margin: 0 5%; }
 
 .title-text {
-  font-family: "Henny Penny", cursive !important; }
+  font-family: "HennyPenny-Regular", cursive !important; }
 
 .send-btn {
   cursor: pointer;
@@ -39602,6 +40402,46 @@ textarea:focus {
 * Autoprefixer: v9.7.6
 * Browsers: last 4 version
 */
+@font-face {
+  font-family: "HennyPenny-Regular";
+  src: url("../assets/fonts/HennyPenny-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/HennyPenny-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/HennyPenny-Regular.otf") format("opentype"), url("../assets/fonts/HennyPenny-Regular.svg") format("svg"), url("../assets/fonts/HennyPenny-Regular.ttf") format("truetype"), url("../assets/fonts/HennyPenny-Regular.woff") format("woff"), url("../assets/fonts/HennyPenny-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "Chilanka-Regular";
+  src: url("../assets/fonts/Chilanka-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/Chilanka-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Chilanka-Regular.otf") format("opentype"), url("../assets/fonts/Chilanka-Regular.svg") format("svg"), url("../assets/fonts/Chilanka-Regular.ttf") format("truetype"), url("../assets/fonts/Chilanka-Regular.woff") format("woff"), url("../assets/fonts/Chilanka-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "BebasNeue-Regular";
+  src: url("../assets/fonts/BebasNeue-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/BebasNeue-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/BebasNeue-Regular.otf") format("opentype"), url("../assets/fonts/BebasNeue-Regular.svg") format("svg"), url("../assets/fonts/BebasNeue-Regular.ttf") format("truetype"), url("../assets/fonts/BebasNeue-Regular.woff") format("woff"), url("../assets/fonts/BebasNeue-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "Kanit-Regular";
+  src: url("../assets/fonts/Kanit-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/Kanit-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Kanit-Regular.otf") format("opentype"), url("../assets/fonts/Kanit-Regular.svg") format("svg"), url("../assets/fonts/Kanit-Regular.ttf") format("truetype"), url("../assets/fonts/Kanit-Regular.woff") format("woff"), url("../assets/fonts/Kanit-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "SansitaSwashed-Light";
+  src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.otf") format("opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.svg") format("svg"), url("../assets/fonts/SansitaSwashed-VariableFontwght.ttf") format("truetype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff") format("woff"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
 .purchase-button,
 .read-more-button,
 #dropdownMenuButton, .grow, .mail-to .email-link, .send-btn, .learn-more-btn {
@@ -39661,7 +40501,7 @@ textarea:focus {
         margin: 0px 20% 0px 20%; } }
 
 body {
-  font-family: "Chilanka", cursive; }
+  font-family: "Chilanka-Regular", cursive; }
 
 .subnav {
   position: absolute; }
@@ -39682,6 +40522,46 @@ body {
  * Hover.css Copyright Ian Lunn 2017. Generated with Sass.
  */
 /* 2D TRANSITIONS */
+@font-face {
+  font-family: "HennyPenny-Regular";
+  src: url("../assets/fonts/HennyPenny-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/HennyPenny-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/HennyPenny-Regular.otf") format("opentype"), url("../assets/fonts/HennyPenny-Regular.svg") format("svg"), url("../assets/fonts/HennyPenny-Regular.ttf") format("truetype"), url("../assets/fonts/HennyPenny-Regular.woff") format("woff"), url("../assets/fonts/HennyPenny-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "Chilanka-Regular";
+  src: url("../assets/fonts/Chilanka-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/Chilanka-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Chilanka-Regular.otf") format("opentype"), url("../assets/fonts/Chilanka-Regular.svg") format("svg"), url("../assets/fonts/Chilanka-Regular.ttf") format("truetype"), url("../assets/fonts/Chilanka-Regular.woff") format("woff"), url("../assets/fonts/Chilanka-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "BebasNeue-Regular";
+  src: url("../assets/fonts/BebasNeue-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/BebasNeue-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/BebasNeue-Regular.otf") format("opentype"), url("../assets/fonts/BebasNeue-Regular.svg") format("svg"), url("../assets/fonts/BebasNeue-Regular.ttf") format("truetype"), url("../assets/fonts/BebasNeue-Regular.woff") format("woff"), url("../assets/fonts/BebasNeue-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "Kanit-Regular";
+  src: url("../assets/fonts/Kanit-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/Kanit-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Kanit-Regular.otf") format("opentype"), url("../assets/fonts/Kanit-Regular.svg") format("svg"), url("../assets/fonts/Kanit-Regular.ttf") format("truetype"), url("../assets/fonts/Kanit-Regular.woff") format("woff"), url("../assets/fonts/Kanit-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "SansitaSwashed-Light";
+  src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.otf") format("opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.svg") format("svg"), url("../assets/fonts/SansitaSwashed-VariableFontwght.ttf") format("truetype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff") format("woff"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
 .purchase-button,
 .read-more-button,
 #dropdownMenuButton, .grow, .mail-to .email-link, .send-btn, .learn-more-btn {
@@ -39741,7 +40621,7 @@ body {
         margin: 0px 20% 0px 20%; } }
 
 body {
-  font-family: "Chilanka", cursive; }
+  font-family: "Chilanka-Regular", cursive; }
 
 .subnav {
   position: absolute; }
@@ -43632,7 +44512,7 @@ body {
       -ms-flex-line-pack: start;
       align-content: flex-start; } }
   .mega-menu .bold {
-    font-family: "Kanit", sans-serif;
+    font-family: "Kanit-Regular", sans-serif;
     text-transform: uppercase;
     cursor: pointer; }
   .mega-menu .show {
@@ -43700,6 +44580,46 @@ body {
 * Autoprefixer: v9.7.6
 * Browsers: last 4 version
 */
+@font-face {
+  font-family: "HennyPenny-Regular";
+  src: url("../assets/fonts/HennyPenny-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/HennyPenny-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/HennyPenny-Regular.otf") format("opentype"), url("../assets/fonts/HennyPenny-Regular.svg") format("svg"), url("../assets/fonts/HennyPenny-Regular.ttf") format("truetype"), url("../assets/fonts/HennyPenny-Regular.woff") format("woff"), url("../assets/fonts/HennyPenny-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "Chilanka-Regular";
+  src: url("../assets/fonts/Chilanka-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/Chilanka-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Chilanka-Regular.otf") format("opentype"), url("../assets/fonts/Chilanka-Regular.svg") format("svg"), url("../assets/fonts/Chilanka-Regular.ttf") format("truetype"), url("../assets/fonts/Chilanka-Regular.woff") format("woff"), url("../assets/fonts/Chilanka-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "BebasNeue-Regular";
+  src: url("../assets/fonts/BebasNeue-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/BebasNeue-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/BebasNeue-Regular.otf") format("opentype"), url("../assets/fonts/BebasNeue-Regular.svg") format("svg"), url("../assets/fonts/BebasNeue-Regular.ttf") format("truetype"), url("../assets/fonts/BebasNeue-Regular.woff") format("woff"), url("../assets/fonts/BebasNeue-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "Kanit-Regular";
+  src: url("../assets/fonts/Kanit-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/Kanit-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Kanit-Regular.otf") format("opentype"), url("../assets/fonts/Kanit-Regular.svg") format("svg"), url("../assets/fonts/Kanit-Regular.ttf") format("truetype"), url("../assets/fonts/Kanit-Regular.woff") format("woff"), url("../assets/fonts/Kanit-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "SansitaSwashed-Light";
+  src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.otf") format("opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.svg") format("svg"), url("../assets/fonts/SansitaSwashed-VariableFontwght.ttf") format("truetype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff") format("woff"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
 .purchase-button,
 .read-more-button,
 #dropdownMenuButton, .grow, .mail-to .email-link, .send-btn, .learn-more-btn {
@@ -43759,7 +44679,7 @@ body {
         margin: 0px 20% 0px 20%; } }
 
 body {
-  font-family: "Chilanka", cursive; }
+  font-family: "Chilanka-Regular", cursive; }
 
 .subnav {
   position: absolute; }
@@ -43776,6 +44696,46 @@ body {
 * Autoprefixer: v9.7.6
 * Browsers: last 4 version
 */
+@font-face {
+  font-family: "HennyPenny-Regular";
+  src: url("../assets/fonts/HennyPenny-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/HennyPenny-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/HennyPenny-Regular.otf") format("opentype"), url("../assets/fonts/HennyPenny-Regular.svg") format("svg"), url("../assets/fonts/HennyPenny-Regular.ttf") format("truetype"), url("../assets/fonts/HennyPenny-Regular.woff") format("woff"), url("../assets/fonts/HennyPenny-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "Chilanka-Regular";
+  src: url("../assets/fonts/Chilanka-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/Chilanka-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Chilanka-Regular.otf") format("opentype"), url("../assets/fonts/Chilanka-Regular.svg") format("svg"), url("../assets/fonts/Chilanka-Regular.ttf") format("truetype"), url("../assets/fonts/Chilanka-Regular.woff") format("woff"), url("../assets/fonts/Chilanka-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "BebasNeue-Regular";
+  src: url("../assets/fonts/BebasNeue-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/BebasNeue-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/BebasNeue-Regular.otf") format("opentype"), url("../assets/fonts/BebasNeue-Regular.svg") format("svg"), url("../assets/fonts/BebasNeue-Regular.ttf") format("truetype"), url("../assets/fonts/BebasNeue-Regular.woff") format("woff"), url("../assets/fonts/BebasNeue-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "Kanit-Regular";
+  src: url("../assets/fonts/Kanit-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/Kanit-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Kanit-Regular.otf") format("opentype"), url("../assets/fonts/Kanit-Regular.svg") format("svg"), url("../assets/fonts/Kanit-Regular.ttf") format("truetype"), url("../assets/fonts/Kanit-Regular.woff") format("woff"), url("../assets/fonts/Kanit-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "SansitaSwashed-Light";
+  src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.otf") format("opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.svg") format("svg"), url("../assets/fonts/SansitaSwashed-VariableFontwght.ttf") format("truetype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff") format("woff"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
 .purchase-button,
 .read-more-button,
 #dropdownMenuButton, .grow, .mail-to .email-link, .send-btn, .learn-more-btn {
@@ -43835,7 +44795,7 @@ body {
         margin: 0px 20% 0px 20%; } }
 
 body {
-  font-family: "Chilanka", cursive; }
+  font-family: "Chilanka-Regular", cursive; }
 
 .subnav {
   position: absolute; }
@@ -43856,6 +44816,46 @@ body {
  * Hover.css Copyright Ian Lunn 2017. Generated with Sass.
  */
 /* 2D TRANSITIONS */
+@font-face {
+  font-family: "HennyPenny-Regular";
+  src: url("../assets/fonts/HennyPenny-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/HennyPenny-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/HennyPenny-Regular.otf") format("opentype"), url("../assets/fonts/HennyPenny-Regular.svg") format("svg"), url("../assets/fonts/HennyPenny-Regular.ttf") format("truetype"), url("../assets/fonts/HennyPenny-Regular.woff") format("woff"), url("../assets/fonts/HennyPenny-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "Chilanka-Regular";
+  src: url("../assets/fonts/Chilanka-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/Chilanka-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Chilanka-Regular.otf") format("opentype"), url("../assets/fonts/Chilanka-Regular.svg") format("svg"), url("../assets/fonts/Chilanka-Regular.ttf") format("truetype"), url("../assets/fonts/Chilanka-Regular.woff") format("woff"), url("../assets/fonts/Chilanka-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "BebasNeue-Regular";
+  src: url("../assets/fonts/BebasNeue-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/BebasNeue-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/BebasNeue-Regular.otf") format("opentype"), url("../assets/fonts/BebasNeue-Regular.svg") format("svg"), url("../assets/fonts/BebasNeue-Regular.ttf") format("truetype"), url("../assets/fonts/BebasNeue-Regular.woff") format("woff"), url("../assets/fonts/BebasNeue-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "Kanit-Regular";
+  src: url("../assets/fonts/Kanit-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/Kanit-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Kanit-Regular.otf") format("opentype"), url("../assets/fonts/Kanit-Regular.svg") format("svg"), url("../assets/fonts/Kanit-Regular.ttf") format("truetype"), url("../assets/fonts/Kanit-Regular.woff") format("woff"), url("../assets/fonts/Kanit-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "SansitaSwashed-Light";
+  src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.otf") format("opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.svg") format("svg"), url("../assets/fonts/SansitaSwashed-VariableFontwght.ttf") format("truetype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff") format("woff"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
 .purchase-button,
 .read-more-button,
 #dropdownMenuButton, .grow, .mail-to .email-link, .send-btn, .learn-more-btn {
@@ -43915,7 +44915,7 @@ body {
         margin: 0px 20% 0px 20%; } }
 
 body {
-  font-family: "Chilanka", cursive; }
+  font-family: "Chilanka-Regular", cursive; }
 
 .subnav {
   position: absolute; }
@@ -47806,7 +48806,7 @@ body {
       -ms-flex-line-pack: start;
       align-content: flex-start; } }
   .mega-menu .bold {
-    font-family: "Kanit", sans-serif;
+    font-family: "Kanit-Regular", sans-serif;
     text-transform: uppercase;
     cursor: pointer; }
   .mega-menu .show {
@@ -47874,6 +48874,46 @@ body {
 * Autoprefixer: v9.7.6
 * Browsers: last 4 version
 */
+@font-face {
+  font-family: "HennyPenny-Regular";
+  src: url("../assets/fonts/HennyPenny-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/HennyPenny-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/HennyPenny-Regular.otf") format("opentype"), url("../assets/fonts/HennyPenny-Regular.svg") format("svg"), url("../assets/fonts/HennyPenny-Regular.ttf") format("truetype"), url("../assets/fonts/HennyPenny-Regular.woff") format("woff"), url("../assets/fonts/HennyPenny-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "Chilanka-Regular";
+  src: url("../assets/fonts/Chilanka-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/Chilanka-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Chilanka-Regular.otf") format("opentype"), url("../assets/fonts/Chilanka-Regular.svg") format("svg"), url("../assets/fonts/Chilanka-Regular.ttf") format("truetype"), url("../assets/fonts/Chilanka-Regular.woff") format("woff"), url("../assets/fonts/Chilanka-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "BebasNeue-Regular";
+  src: url("../assets/fonts/BebasNeue-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/BebasNeue-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/BebasNeue-Regular.otf") format("opentype"), url("../assets/fonts/BebasNeue-Regular.svg") format("svg"), url("../assets/fonts/BebasNeue-Regular.ttf") format("truetype"), url("../assets/fonts/BebasNeue-Regular.woff") format("woff"), url("../assets/fonts/BebasNeue-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "Kanit-Regular";
+  src: url("../assets/fonts/Kanit-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/Kanit-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Kanit-Regular.otf") format("opentype"), url("../assets/fonts/Kanit-Regular.svg") format("svg"), url("../assets/fonts/Kanit-Regular.ttf") format("truetype"), url("../assets/fonts/Kanit-Regular.woff") format("woff"), url("../assets/fonts/Kanit-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "SansitaSwashed-Light";
+  src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.otf") format("opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.svg") format("svg"), url("../assets/fonts/SansitaSwashed-VariableFontwght.ttf") format("truetype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff") format("woff"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
 .purchase-button,
 .read-more-button,
 #dropdownMenuButton, .grow, .mail-to .email-link, .send-btn, .learn-more-btn {
@@ -47933,7 +48973,7 @@ body {
         margin: 0px 20% 0px 20%; } }
 
 body {
-  font-family: "Chilanka", cursive; }
+  font-family: "Chilanka-Regular", cursive; }
 
 .subnav {
   position: absolute; }
@@ -48028,6 +49068,46 @@ footer ul {
  * Hover.css Copyright Ian Lunn 2017. Generated with Sass.
  */
 /* 2D TRANSITIONS */
+@font-face {
+  font-family: "HennyPenny-Regular";
+  src: url("../assets/fonts/HennyPenny-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/HennyPenny-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/HennyPenny-Regular.otf") format("opentype"), url("../assets/fonts/HennyPenny-Regular.svg") format("svg"), url("../assets/fonts/HennyPenny-Regular.ttf") format("truetype"), url("../assets/fonts/HennyPenny-Regular.woff") format("woff"), url("../assets/fonts/HennyPenny-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "Chilanka-Regular";
+  src: url("../assets/fonts/Chilanka-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/Chilanka-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Chilanka-Regular.otf") format("opentype"), url("../assets/fonts/Chilanka-Regular.svg") format("svg"), url("../assets/fonts/Chilanka-Regular.ttf") format("truetype"), url("../assets/fonts/Chilanka-Regular.woff") format("woff"), url("../assets/fonts/Chilanka-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "BebasNeue-Regular";
+  src: url("../assets/fonts/BebasNeue-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/BebasNeue-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/BebasNeue-Regular.otf") format("opentype"), url("../assets/fonts/BebasNeue-Regular.svg") format("svg"), url("../assets/fonts/BebasNeue-Regular.ttf") format("truetype"), url("../assets/fonts/BebasNeue-Regular.woff") format("woff"), url("../assets/fonts/BebasNeue-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "Kanit-Regular";
+  src: url("../assets/fonts/Kanit-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/Kanit-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Kanit-Regular.otf") format("opentype"), url("../assets/fonts/Kanit-Regular.svg") format("svg"), url("../assets/fonts/Kanit-Regular.ttf") format("truetype"), url("../assets/fonts/Kanit-Regular.woff") format("woff"), url("../assets/fonts/Kanit-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "SansitaSwashed-Light";
+  src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.otf") format("opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.svg") format("svg"), url("../assets/fonts/SansitaSwashed-VariableFontwght.ttf") format("truetype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff") format("woff"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
 .purchase-button,
 .read-more-button,
 #dropdownMenuButton, .grow, .mail-to .email-link, .send-btn, .learn-more-btn {
@@ -48087,7 +49167,7 @@ footer ul {
         margin: 0px 20% 0px 20%; } }
 
 body {
-  font-family: "Chilanka", cursive; }
+  font-family: "Chilanka-Regular", cursive; }
 
 .subnav {
   position: absolute; }
@@ -51858,6 +52938,46 @@ body {
   background-repeat: no-repeat;
   background-size: 100% 100%; }
 
+@font-face {
+  font-family: "HennyPenny-Regular";
+  src: url("../assets/fonts/HennyPenny-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/HennyPenny-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/HennyPenny-Regular.otf") format("opentype"), url("../assets/fonts/HennyPenny-Regular.svg") format("svg"), url("../assets/fonts/HennyPenny-Regular.ttf") format("truetype"), url("../assets/fonts/HennyPenny-Regular.woff") format("woff"), url("../assets/fonts/HennyPenny-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "Chilanka-Regular";
+  src: url("../assets/fonts/Chilanka-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/Chilanka-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Chilanka-Regular.otf") format("opentype"), url("../assets/fonts/Chilanka-Regular.svg") format("svg"), url("../assets/fonts/Chilanka-Regular.ttf") format("truetype"), url("../assets/fonts/Chilanka-Regular.woff") format("woff"), url("../assets/fonts/Chilanka-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "BebasNeue-Regular";
+  src: url("../assets/fonts/BebasNeue-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/BebasNeue-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/BebasNeue-Regular.otf") format("opentype"), url("../assets/fonts/BebasNeue-Regular.svg") format("svg"), url("../assets/fonts/BebasNeue-Regular.ttf") format("truetype"), url("../assets/fonts/BebasNeue-Regular.woff") format("woff"), url("../assets/fonts/BebasNeue-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "Kanit-Regular";
+  src: url("../assets/fonts/Kanit-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/Kanit-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Kanit-Regular.otf") format("opentype"), url("../assets/fonts/Kanit-Regular.svg") format("svg"), url("../assets/fonts/Kanit-Regular.ttf") format("truetype"), url("../assets/fonts/Kanit-Regular.woff") format("woff"), url("../assets/fonts/Kanit-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "SansitaSwashed-Light";
+  src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.otf") format("opentype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.svg") format("svg"), url("../assets/fonts/SansitaSwashed-VariableFontwght.ttf") format("truetype"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff") format("woff"), url("../assets/fonts/SansitaSwashed-VariableFontwght.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
 .purchase-button,
 .read-more-button,
 #dropdownMenuButton, .grow, .mail-to .email-link, .send-btn, .learn-more-btn {
@@ -51917,7 +53037,7 @@ body {
         margin: 0px 20% 0px 20%; } }
 
 body {
-  font-family: "Chilanka", cursive; }
+  font-family: "Chilanka-Regular", cursive; }
 
 .subnav {
   position: absolute; }

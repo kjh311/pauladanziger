@@ -1,9 +1,99 @@
 // FONTS
-$swashed: 'Sansita Swashed', cursive;
-$chilanka: 'Chilanka', cursive;
-$bebas:  'Bebas Neue', cursive;
-$kanit:  'Kanit', sans-serif;
-$penny: 'Henny Penny', cursive;;
+// @font-face {
+//   font-family: Sansita Swashed;
+//   src: url('../assets/fonts/SansitaSwashed-VariableFont_wght.ttf');
+// }
+
+
+
+@font-face {
+  font-family: "HennyPenny-Regular";
+  src: url("../assets/fonts/HennyPenny-Regular.eot"); /* IE9 Compat Modes */
+  src: url("../assets/fonts/HennyPenny-Regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../assets/fonts/HennyPenny-Regular.otf") format("opentype"), /* Open Type Font */
+    url("../assets/fonts/HennyPenny-Regular.svg") format("svg"), /* Legacy iOS */
+    url("../assets/fonts/HennyPenny-Regular.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../assets/fonts/HennyPenny-Regular.woff") format("woff"), /* Modern Browsers */
+    url("../assets/fonts/HennyPenny-Regular.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+// @font-face {
+//   font-family: Chilanka;
+//   src: url('../assets/fonts/Chilanka-Regular.ttf');
+// }
+
+@font-face {
+  font-family: "Chilanka-Regular";
+  src: url("../assets/fonts/Chilanka-Regular.eot"); /* IE9 Compat Modes */
+  src: url("../assets/fonts/Chilanka-Regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../assets/fonts/Chilanka-Regular.otf") format("opentype"), /* Open Type Font */
+    url("../assets/fonts/Chilanka-Regular.svg") format("svg"), /* Legacy iOS */
+    url("../assets/fonts/Chilanka-Regular.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../assets/fonts/Chilanka-Regular.woff") format("woff"), /* Modern Browsers */
+    url("../assets/fonts/Chilanka-Regular.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+// @font-face {
+//   font-family: Bebas Neue;
+//   src: url('../assets/fonts/BebasNeue-Regular.ttf');
+// }
+
+@font-face {
+  font-family: "BebasNeue-Regular";
+  src: url("../assets/fonts/BebasNeue-Regular.eot"); /* IE9 Compat Modes */
+  src: url("../assets/fonts/BebasNeue-Regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../assets/fonts/BebasNeue-Regular.otf") format("opentype"), /* Open Type Font */
+    url("../assets/fonts/BebasNeue-Regular.svg") format("svg"), /* Legacy iOS */
+    url("../assets/fonts/BebasNeue-Regular.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../assets/fonts/BebasNeue-Regular.woff") format("woff"), /* Modern Browsers */
+    url("../assets/fonts/BebasNeue-Regular.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+@font-face {
+  font-family: "Kanit-Regular";
+  src: url("../assets/fonts/Kanit-Regular.eot"); /* IE9 Compat Modes */
+  src: url("../assets/fonts/Kanit-Regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../assets/fonts/Kanit-Regular.otf") format("opentype"), /* Open Type Font */
+    url("../assets/fonts/Kanit-Regular.svg") format("svg"), /* Legacy iOS */
+    url("../assets/fonts/Kanit-Regular.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../assets/fonts/Kanit-Regular.woff") format("woff"), /* Modern Browsers */
+    url("../assets/fonts/Kanit-Regular.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+// @font-face {
+//   font-family: Henny Penny;
+//   src: url('../assets/fonts/HennyPenny-Regular.ttf');
+// }
+
+@font-face {
+  font-family: "SansitaSwashed-Light";
+  src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot"); /* IE9 Compat Modes */
+  src: url("../assets/fonts/SansitaSwashed-VariableFontwght.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../assets/fonts/SansitaSwashed-VariableFontwght.otf") format("opentype"), /* Open Type Font */
+    url("../assets/fonts/SansitaSwashed-VariableFontwght.svg") format("svg"), /* Legacy iOS */
+    url("../assets/fonts/SansitaSwashed-VariableFontwght.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../assets/fonts/SansitaSwashed-VariableFontwght.woff") format("woff"), /* Modern Browsers */
+    url("../assets/fonts/SansitaSwashed-VariableFontwght.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+$swashed: 'SansitaSwashed-Light', cursive;
+$chilanka: 'Chilanka-Regular', cursive;
+$bebas:  'BebasNeue-Regular', cursive;
+$kanit:  'Kanit-Regular', sans-serif;
+$penny: 'HennyPenny-Regular', cursive;;
 
 
 
