@@ -14729,7 +14729,6 @@ body {
   line-height: 30px;
   font-size: 1.2em;
   font-family: "Chilanka-Regular", cursive;
-  text-align: justify;
   margin: 10px; }
   @media (min-width: 576px) {
     .about-paula-div > p {
@@ -23389,8 +23388,7 @@ html {
     font-family: "Chilanka-Regular", cursive;
     font-size: 1.3em;
     padding: 5px 10px;
-    margin: 0 0 10px 0;
-    text-align: justify; }
+    margin: 0 0 10px 0; }
     @media (min-width: 576px) {
       .book-container p {
         font-size: 1.5em; } }
@@ -23478,9 +23476,6 @@ html {
 
 .sub-menu-heading:focus, .dropdown-collapsed > p:focus {
   background-color: #E9ECEF !important; }
-
-.details {
-  text-align: justify; }
 
 .card {
   margin: 3% !important;
@@ -31973,8 +31968,6 @@ body {
   background-color: #fff;
   border-radius: 10px;
   max-height: 50vh; }
-  .pic-card h3 {
-    margin-top: 20px; }
   @media (min-width: 576px) {
     .pic-card {
       margin: 5% !important;
@@ -31983,6 +31976,14 @@ body {
     .pic-card {
       margin: 2% !important;
       width: 29.3% !important; } }
+  .pic-card .card-headline {
+    font-size: 1.4em;
+    margin-top: 10px;
+    margin-bottom: 0 !important; }
+  .pic-card .card-subtext {
+    font-size: 1em;
+    margin: 0 !important;
+    padding-bottom: 20px; }
   .pic-card img {
     -o-object-fit: cover !important;
     object-fit: cover !important;
@@ -53358,7 +53359,6 @@ body {
   font-size: 1.3em;
   padding: 0 5%;
   margin-bottom: 0;
-  text-align: justify;
   line-height: 30px;
   top: 30px;
   position: relative; }
