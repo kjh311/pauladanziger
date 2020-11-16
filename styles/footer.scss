@@ -40,7 +40,7 @@ footer {
     -webkit-transition: all 0.3s !important;
     -o-transition: all 0.3s !important;
     transition: all 0.3s !important;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 
@@ -57,11 +57,11 @@ footer {
 
 
 .kevin-link:hover {
-    color: $light-text;
+    color: $light-red;
     -webkit-transition: all 0.3s !important;
     -o-transition: all 0.3s !important;
     transition: all 0.3s !important;
-    text-decoration: none;
+    // text-decoration: un;
 }
 
 footer ul {

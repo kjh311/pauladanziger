@@ -6483,6 +6483,10 @@ body {
 [data-visually-hidden="false"] {
   display: block; }
 
+.books-icon {
+  width: 30px;
+  height: 30px; }
+
 /*
 * Prefixed by https://autoprefixer.github.io
 * PostCSS: v7.0.29,
@@ -6612,6 +6616,10 @@ body {
 
 [data-visually-hidden="false"] {
   display: block; }
+
+.books-icon {
+  width: 30px;
+  height: 30px; }
 
 /*!
  * Hover.css (http://ianlunn.github.io/Hover/)
@@ -6746,6 +6754,10 @@ body {
 
 [data-visually-hidden="false"] {
   display: block; }
+
+.books-icon {
+  width: 30px;
+  height: 30px; }
 
 /* Grow */
 .hvr-grow {
@@ -10828,6 +10840,10 @@ body {
 [data-visually-hidden="false"] {
   display: block; }
 
+.books-icon {
+  width: 30px;
+  height: 30px; }
+
 footer {
   border-top: 2px solid #E9ECEF;
   bottom: 0; }
@@ -10851,7 +10867,7 @@ footer {
   -webkit-transition: all 0.3s !important;
   -o-transition: all 0.3s !important;
   transition: all 0.3s !important;
-  text-decoration: none; }
+  text-decoration: underline; }
 
 @-webkit-keyframes shine {
   from {
@@ -10859,11 +10875,10 @@ footer {
   to {
     -webkit-mask-position: -50%; } }
 .kevin-link:hover {
-  color: #fff;
+  color: #F66E6E;
   -webkit-transition: all 0.3s !important;
   -o-transition: all 0.3s !important;
-  transition: all 0.3s !important;
-  text-decoration: none; }
+  transition: all 0.3s !important; }
 
 footer ul {
   list-style-type: none;
@@ -11035,6 +11050,10 @@ body {
 
 [data-visually-hidden="false"] {
   display: block; }
+
+.books-icon {
+  width: 30px;
+  height: 30px; }
 
 /* Grow */
 .hvr-grow {
@@ -14920,6 +14939,10 @@ body {
 [data-visually-hidden="false"] {
   display: block; }
 
+.books-icon {
+  width: 30px;
+  height: 30px; }
+
 /*
 * Prefixed by https://autoprefixer.github.io
 * PostCSS: v7.0.29,
@@ -15049,6 +15072,10 @@ body {
 
 [data-visually-hidden="false"] {
   display: block; }
+
+.books-icon {
+  width: 30px;
+  height: 30px; }
 
 /*!
  * Hover.css (http://ianlunn.github.io/Hover/)
@@ -15183,6 +15210,10 @@ body {
 
 [data-visually-hidden="false"] {
   display: block; }
+
+.books-icon {
+  width: 30px;
+  height: 30px; }
 
 /* Grow */
 .hvr-grow {
@@ -19265,6 +19296,10 @@ body {
 [data-visually-hidden="false"] {
   display: block; }
 
+.books-icon {
+  width: 30px;
+  height: 30px; }
+
 footer {
   border-top: 2px solid #E9ECEF;
   bottom: 0; }
@@ -19288,7 +19323,7 @@ footer {
   -webkit-transition: all 0.3s !important;
   -o-transition: all 0.3s !important;
   transition: all 0.3s !important;
-  text-decoration: none; }
+  text-decoration: underline; }
 
 @-webkit-keyframes shine {
   from {
@@ -19296,11 +19331,10 @@ footer {
   to {
     -webkit-mask-position: -50%; } }
 .kevin-link:hover {
-  color: #fff;
+  color: #F66E6E;
   -webkit-transition: all 0.3s !important;
   -o-transition: all 0.3s !important;
-  transition: all 0.3s !important;
-  text-decoration: none; }
+  transition: all 0.3s !important; }
 
 footer ul {
   list-style-type: none;
@@ -19472,6 +19506,10 @@ body {
 
 [data-visually-hidden="false"] {
   display: block; }
+
+.books-icon {
+  width: 30px;
+  height: 30px; }
 
 /* Grow */
 .hvr-grow {
@@ -23757,6 +23795,10 @@ body {
 [data-visually-hidden="false"] {
   display: block; }
 
+.books-icon {
+  width: 30px;
+  height: 30px; }
+
 /*
 * Prefixed by https://autoprefixer.github.io
 * PostCSS: v7.0.29,
@@ -23886,6 +23928,10 @@ body {
 
 [data-visually-hidden="false"] {
   display: block; }
+
+.books-icon {
+  width: 30px;
+  height: 30px; }
 
 /*!
  * Hover.css (http://ianlunn.github.io/Hover/)
@@ -24020,6 +24066,10 @@ body {
 
 [data-visually-hidden="false"] {
   display: block; }
+
+.books-icon {
+  width: 30px;
+  height: 30px; }
 
 /* Grow */
 .hvr-grow {
@@ -28102,6 +28152,10 @@ body {
 [data-visually-hidden="false"] {
   display: block; }
 
+.books-icon {
+  width: 30px;
+  height: 30px; }
+
 footer {
   border-top: 2px solid #E9ECEF;
   bottom: 0; }
@@ -28125,7 +28179,7 @@ footer {
   -webkit-transition: all 0.3s !important;
   -o-transition: all 0.3s !important;
   transition: all 0.3s !important;
-  text-decoration: none; }
+  text-decoration: underline; }
 
 @-webkit-keyframes shine {
   from {
@@ -28133,11 +28187,10 @@ footer {
   to {
     -webkit-mask-position: -50%; } }
 .kevin-link:hover {
-  color: #fff;
+  color: #F66E6E;
   -webkit-transition: all 0.3s !important;
   -o-transition: all 0.3s !important;
-  transition: all 0.3s !important;
-  text-decoration: none; }
+  transition: all 0.3s !important; }
 
 footer ul {
   list-style-type: none;
@@ -28309,6 +28362,10 @@ body {
 
 [data-visually-hidden="false"] {
   display: block; }
+
+.books-icon {
+  width: 30px;
+  height: 30px; }
 
 /* Grow */
 .hvr-grow {
@@ -32029,7 +32086,7 @@ body {
   padding: 60px 30px 40px 30px; }
 
 .card {
-  background-color: #4491dd; }
+  background-color: #24628C; }
 
 @media (min-width: 576px) {
   .modal {
@@ -32310,6 +32367,10 @@ body {
 [data-visually-hidden="false"] {
   display: block; }
 
+.books-icon {
+  width: 30px;
+  height: 30px; }
+
 /*
 * Prefixed by https://autoprefixer.github.io
 * PostCSS: v7.0.29,
@@ -32439,6 +32500,10 @@ body {
 
 [data-visually-hidden="false"] {
   display: block; }
+
+.books-icon {
+  width: 30px;
+  height: 30px; }
 
 /*!
  * Hover.css (http://ianlunn.github.io/Hover/)
@@ -32573,6 +32638,10 @@ body {
 
 [data-visually-hidden="false"] {
   display: block; }
+
+.books-icon {
+  width: 30px;
+  height: 30px; }
 
 /* Grow */
 .hvr-grow {
@@ -36655,6 +36724,10 @@ body {
 [data-visually-hidden="false"] {
   display: block; }
 
+.books-icon {
+  width: 30px;
+  height: 30px; }
+
 footer {
   border-top: 2px solid #E9ECEF;
   bottom: 0; }
@@ -36678,7 +36751,7 @@ footer {
   -webkit-transition: all 0.3s !important;
   -o-transition: all 0.3s !important;
   transition: all 0.3s !important;
-  text-decoration: none; }
+  text-decoration: underline; }
 
 @-webkit-keyframes shine {
   from {
@@ -36686,11 +36759,10 @@ footer {
   to {
     -webkit-mask-position: -50%; } }
 .kevin-link:hover {
-  color: #fff;
+  color: #F66E6E;
   -webkit-transition: all 0.3s !important;
   -o-transition: all 0.3s !important;
-  transition: all 0.3s !important;
-  text-decoration: none; }
+  transition: all 0.3s !important; }
 
 footer ul {
   list-style-type: none;
@@ -36862,6 +36934,10 @@ body {
 
 [data-visually-hidden="false"] {
   display: block; }
+
+.books-icon {
+  width: 30px;
+  height: 30px; }
 
 /* Grow */
 .hvr-grow {
@@ -40640,7 +40716,7 @@ body {
   font-family: "HennyPenny-Regular", cursive !important; }
 
 .contact-form-div {
-  background-color: #4491dd;
+  background-color: #24628C;
   -webkit-box-shadow: 15px 15px 8px rgba(0, 0, 0, 0.4);
   box-shadow: 15px 15px 8px rgba(0, 0, 0, 0.4);
   color: white; }
@@ -40847,6 +40923,10 @@ body {
 [data-visually-hidden="false"] {
   display: block; }
 
+.books-icon {
+  width: 30px;
+  height: 30px; }
+
 /*!
  * Hover.css (http://ianlunn.github.io/Hover/)
  * Version: 2.3.2
@@ -40980,6 +41060,10 @@ body {
 
 [data-visually-hidden="false"] {
   display: block; }
+
+.books-icon {
+  width: 30px;
+  height: 30px; }
 
 /* Grow */
 .hvr-grow {
@@ -45062,6 +45146,10 @@ body {
 [data-visually-hidden="false"] {
   display: block; }
 
+.books-icon {
+  width: 30px;
+  height: 30px; }
+
 /*
 * Prefixed by https://autoprefixer.github.io
 * PostCSS: v7.0.29,
@@ -45191,6 +45279,10 @@ body {
 
 [data-visually-hidden="false"] {
   display: block; }
+
+.books-icon {
+  width: 30px;
+  height: 30px; }
 
 /*!
  * Hover.css (http://ianlunn.github.io/Hover/)
@@ -45325,6 +45417,10 @@ body {
 
 [data-visually-hidden="false"] {
   display: block; }
+
+.books-icon {
+  width: 30px;
+  height: 30px; }
 
 /* Grow */
 .hvr-grow {
@@ -49406,6 +49502,10 @@ body {
 
 [data-visually-hidden="false"] {
   display: block; }
+
+.books-icon {
+  width: 30px;
+  height: 30px; }
 
 footer {
   border-top: 2px solid #E9ECEF;
@@ -49430,7 +49530,7 @@ footer {
   -webkit-transition: all 0.3s !important;
   -o-transition: all 0.3s !important;
   transition: all 0.3s !important;
-  text-decoration: none; }
+  text-decoration: underline; }
 
 @-webkit-keyframes shine {
   from {
@@ -49438,11 +49538,10 @@ footer {
   to {
     -webkit-mask-position: -50%; } }
 .kevin-link:hover {
-  color: #fff;
+  color: #F66E6E;
   -webkit-transition: all 0.3s !important;
   -o-transition: all 0.3s !important;
-  transition: all 0.3s !important;
-  text-decoration: none; }
+  transition: all 0.3s !important; }
 
 footer ul {
   list-style-type: none;
@@ -49614,6 +49713,10 @@ body {
 
 [data-visually-hidden="false"] {
   display: block; }
+
+.books-icon {
+  width: 30px;
+  height: 30px; }
 
 /* Grow */
 .hvr-grow {
@@ -53499,6 +53602,10 @@ body {
 [data-visually-hidden="false"] {
   display: block; }
 
+.books-icon {
+  width: 30px;
+  height: 30px; }
+
 .learn-more-btn {
   background-color: #0b9fc4;
   padding-top: 12px;
@@ -53559,8 +53666,11 @@ hr {
       height: auto;
       margin: 30px; } }
 
+.children-reading {
+  width: 200px; }
+
 .intro-text {
   padding-bottom: 50px !important;
-  background-color: #4491dd; }
+  background-color: #24628C; }
 
 /*# sourceMappingURL=style.css.map */

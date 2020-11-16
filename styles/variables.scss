@@ -124,7 +124,9 @@ $light-navbar: #56c7dd;
 // $card: #8c8c8c;
 // $card: #e76f51;
 // $card: #a8dadc;
-$card: #4491dd;
+// $card: #4361ee;
+$card: #24628C;
+// $card: #4491dd;
 // $title-text: #333333;
 $title-text: #009FB7;
 $jumbotron: #F4F4F8;
@@ -254,4 +256,9 @@ body{
 }
 [data-visually-hidden="false"] {
   display: block;
+}
+
+.books-icon{
+  width: 30px;
+  height: 30px;
 }
