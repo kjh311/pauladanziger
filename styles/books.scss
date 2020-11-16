@@ -200,7 +200,7 @@ html {
 
 .book-dropdown::-webkit-scrollbar {
     -webkit-appearance: none;
-    background-color: #fff;
+    background-color: $light-text;
 }
 
 .book-dropdown::-webkit-scrollbar:vertical {

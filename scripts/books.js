@@ -95,9 +95,9 @@ Pil.init();
         $this.toggleClass("open");
 
         if ($this.hasClass("open")) {
-            $this.html("Read Less");
+            $this.html("Read Less ⬆");
         } else {
-            $this.html("Read More");
+            $this.html("Read More ⬇");
         }
         $(".summary01").toggle();
     });
@@ -109,9 +109,9 @@ Pil.init();
         $this.toggleClass("open");
 
         if ($this.hasClass("open")) {
-            $this.html("Read Less");
+            $this.html("Read Less ⬆");
         } else {
-            $this.html("Read More");
+            $this.html("Read More ⬇");
         }
         $(".summary02").toggle();
     });
@@ -123,9 +123,9 @@ Pil.init();
         $this.toggleClass("open");
 
         if ($this.hasClass("open")) {
-            $this.html("Read Less");
+            $this.html("Read Less ⬆");
         } else {
-            $this.html("Read More");
+            $this.html("Read More ⬇");
         }
         $(".summary03").toggle();
     });
@@ -137,9 +137,9 @@ Pil.init();
         $this.toggleClass("open");
 
         if ($this.hasClass("open")) {
-            $this.html("Read Less");
+            $this.html("Read Less ⬆");
         } else {
-            $this.html("Read More");
+            $this.html("Read More ⬇");
         }
         $(".summary04").toggle();
     });
@@ -151,9 +151,9 @@ Pil.init();
         $this.toggleClass("open");
 
         if ($this.hasClass("open")) {
-            $this.html("Read Less");
+            $this.html("Read Less ⬆");
         } else {
-            $this.html("Read More");
+            $this.html("Read More ⬇");
         }
         $(".summary05").toggle();
     });
@@ -165,9 +165,9 @@ Pil.init();
         $this.toggleClass("open");
 
         if ($this.hasClass("open")) {
-            $this.html("Read Less");
+            $this.html("Read Less ⬆");
         } else {
-            $this.html("Read More");
+            $this.html("Read More ⬇");
         }
         $(".summary06").toggle();
     });
@@ -179,9 +179,9 @@ Pil.init();
         $this.toggleClass("open");
 
         if ($this.hasClass("open")) {
-            $this.html("Read Less");
+            $this.html("Read Less ⬆");
         } else {
-            $this.html("Read More");
+            $this.html("Read More ⬇");
         }
         $(".summary07").toggle();
     });
@@ -193,9 +193,9 @@ Pil.init();
         $this.toggleClass("open");
 
         if ($this.hasClass("open")) {
-            $this.html("Read Less");
+            $this.html("Read Less ⬆");
         } else {
-            $this.html("Read More");
+            $this.html("Read More ⬇");
         }
         $(".summary08").toggle();
     });
@@ -207,9 +207,9 @@ Pil.init();
         $this.toggleClass("open");
 
         if ($this.hasClass("open")) {
-            $this.html("Read Less");
+            $this.html("Read Less ⬆");
         } else {
-            $this.html("Read More");
+            $this.html("Read More ⬇");
         }
         $(".summary09").toggle();
     });
@@ -221,9 +221,9 @@ Pil.init();
         $this.toggleClass("open");
 
         if ($this.hasClass("open")) {
-            $this.html("Read Less");
+            $this.html("Read Less ⬆");
         } else {
-            $this.html("Read More");
+            $this.html("Read More ⬇");
         }
         $(".summary10").toggle();
     });
@@ -235,9 +235,9 @@ Pil.init();
         $this.toggleClass("open");
 
         if ($this.hasClass("open")) {
-            $this.html("Read Less");
+            $this.html("Read Less ⬆");
         } else {
-            $this.html("Read More");
+            $this.html("Read More ⬇");
         }
         $(".summary11").toggle();
     });
@@ -249,9 +249,9 @@ Pil.init();
         $this.toggleClass("open");
 
         if ($this.hasClass("open")) {
-            $this.html("Read Less");
+            $this.html("Read Less ⬆");
         } else {
-            $this.html("Read More");
+            $this.html("Read More ⬇");
         }
         $(".summary12").toggle();
     });
@@ -263,9 +263,9 @@ Pil.init();
         $this.toggleClass("open");
 
         if ($this.hasClass("open")) {
-            $this.html("Read Less");
+            $this.html("Read Less ⬆");
         } else {
-            $this.html("Read More");
+            $this.html("Read More ⬇");
         }
         $(".summary13").toggle();
     });
@@ -277,9 +277,9 @@ Pil.init();
         $this.toggleClass("open");
 
         if ($this.hasClass("open")) {
-            $this.html("Read Less");
+            $this.html("Read Less ⬆");
         } else {
-            $this.html("Read More");
+            $this.html("Read More ⬇");
         }
         $(".summary14").toggle();
     });
@@ -291,9 +291,9 @@ Pil.init();
         $this.toggleClass("open");
 
         if ($this.hasClass("open")) {
-            $this.html("Read Less");
+            $this.html("Read Less ⬆");
         } else {
-            $this.html("Read More");
+            $this.html("Read More ⬇");
         }
         $(".summary15").toggle();
     });
@@ -305,9 +305,9 @@ Pil.init();
         $this.toggleClass("open");
 
         if ($this.hasClass("open")) {
-            $this.html("Read Less");
+            $this.html("Read Less ⬆");
         } else {
-            $this.html("Read More");
+            $this.html("Read More ⬇");
         }
         $(".summary16").toggle();
     });
@@ -319,9 +319,9 @@ Pil.init();
         $this.toggleClass("open");
 
         if ($this.hasClass("open")) {
-            $this.html("Read Less");
+            $this.html("Read Less ⬆");
         } else {
-            $this.html("Read More");
+            $this.html("Read More ⬇");
         }
         $(".summary17").toggle();
     });
@@ -333,9 +333,9 @@ Pil.init();
         $this.toggleClass("open");
 
         if ($this.hasClass("open")) {
-            $this.html("Read Less");
+            $this.html("Read Less ⬆");
         } else {
-            $this.html("Read More");
+            $this.html("Read More ⬇");
         }
         $(".summary18").toggle();
     });
@@ -347,9 +347,9 @@ Pil.init();
         $this.toggleClass("open");
 
         if ($this.hasClass("open")) {
-            $this.html("Read Less");
+            $this.html("Read Less ⬆");
         } else {
-            $this.html("Read More");
+            $this.html("Read More ⬇");
         }
         $(".summary19").toggle();
     });
@@ -361,9 +361,9 @@ Pil.init();
         $this.toggleClass("open");
 
         if ($this.hasClass("open")) {
-            $this.html("Read Less");
+            $this.html("Read Less ⬆");
         } else {
-            $this.html("Read More");
+            $this.html("Read More ⬇");
         }
         $(".summary20").toggle();
     });
@@ -375,9 +375,9 @@ Pil.init();
         $this.toggleClass("open");
 
         if ($this.hasClass("open")) {
-            $this.html("Read Less");
+            $this.html("Read Less ⬆");
         } else {
-            $this.html("Read More");
+            $this.html("Read More ⬇");
         }
         $(".summary21").toggle();
     });
@@ -389,9 +389,9 @@ Pil.init();
         $this.toggleClass("open");
 
         if ($this.hasClass("open")) {
-            $this.html("Read Less");
+            $this.html("Read Less ⬆");
         } else {
-            $this.html("Read More");
+            $this.html("Read More ⬇");
         }
         $(".summary22").toggle();
     });
@@ -403,9 +403,9 @@ Pil.init();
         $this.toggleClass("open");
 
         if ($this.hasClass("open")) {
-            $this.html("Read Less");
+            $this.html("Read Less ⬆");
         } else {
-            $this.html("Read More");
+            $this.html("Read More ⬇");
         }
         $(".summary23").toggle();
     });
@@ -417,9 +417,9 @@ Pil.init();
         $this.toggleClass("open");
 
         if ($this.hasClass("open")) {
-            $this.html("Read Less");
+            $this.html("Read Less ⬆");
         } else {
-            $this.html("Read More");
+            $this.html("Read More ⬇");
         }
         $(".summary24").toggle();
     });
@@ -431,9 +431,9 @@ Pil.init();
         $this.toggleClass("open");
 
         if ($this.hasClass("open")) {
-            $this.html("Read Less");
+            $this.html("Read Less ⬆");
         } else {
-            $this.html("Read More");
+            $this.html("Read More ⬇");
         }
         $(".summary25").toggle();
     });
@@ -445,9 +445,9 @@ Pil.init();
         $this.toggleClass("open");
 
         if ($this.hasClass("open")) {
-            $this.html("Read Less");
+            $this.html("Read Less ⬆");
         } else {
-            $this.html("Read More");
+            $this.html("Read More ⬇");
         }
         $(".summary26").toggle();
     });
@@ -459,9 +459,9 @@ Pil.init();
         $this.toggleClass("open");
 
         if ($this.hasClass("open")) {
-            $this.html("Read Less");
+            $this.html("Read Less ⬆");
         } else {
-            $this.html("Read More");
+            $this.html("Read More ⬇");
         }
         $(".summary27").toggle();
     });
@@ -473,9 +473,9 @@ Pil.init();
         $this.toggleClass("open");
 
         if ($this.hasClass("open")) {
-            $this.html("Read Less");
+            $this.html("Read Less ⬆");
         } else {
-            $this.html("Read More");
+            $this.html("Read More ⬇");
         }
         $(".summary28").toggle();
     });
@@ -487,9 +487,9 @@ Pil.init();
         $this.toggleClass("open");
 
         if ($this.hasClass("open")) {
-            $this.html("Read Less");
+            $this.html("Read Less ⬆");
         } else {
-            $this.html("Read More");
+            $this.html("Read More ⬇");
         }
         $(".summary29").toggle();
     });
@@ -501,9 +501,9 @@ Pil.init();
         $this.toggleClass("open");
 
         if ($this.hasClass("open")) {
-            $this.html("Read Less");
+            $this.html("Read Less ⬆");
         } else {
-            $this.html("Read More");
+            $this.html("Read More ⬇");
         }
         $(".summary30").toggle();
     });
@@ -515,9 +515,9 @@ Pil.init();
         $this.toggleClass("open");
 
         if ($this.hasClass("open")) {
-            $this.html("Read Less");
+            $this.html("Read Less ⬆");
         } else {
-            $this.html("Read More");
+            $this.html("Read More ⬇");
         }
         $(".summary31").toggle();
     });
@@ -529,9 +529,9 @@ Pil.init();
         $this.toggleClass("open");
 
         if ($this.hasClass("open")) {
-            $this.html("Read Less");
+            $this.html("Read Less ⬆");
         } else {
-            $this.html("Read More");
+            $this.html("Read More ⬇");
         }
         $(".summary32").toggle();
     });
@@ -543,9 +543,9 @@ Pil.init();
         $this.toggleClass("open");
 
         if ($this.hasClass("open")) {
-            $this.html("Read Less");
+            $this.html("Read Less ⬆");
         } else {
-            $this.html("Read More");
+            $this.html("Read More ⬇");
         }
         $(".summary33").toggle();
     });
@@ -557,9 +557,9 @@ Pil.init();
         $this.toggleClass("open");
 
         if ($this.hasClass("open")) {
-            $this.html("Read Less");
+            $this.html("Read Less ⬆");
         } else {
-            $this.html("Read More");
+            $this.html("Read More ⬇");
         }
         $(".summary34").toggle();
     });
@@ -571,9 +571,9 @@ Pil.init();
         $this.toggleClass("open");
 
         if ($this.hasClass("open")) {
-            $this.html("Read Less");
+            $this.html("Read Less ⬆");
         } else {
-            $this.html("Read More");
+            $this.html("Read More ⬇");
         }
         $(".summary35").toggle();
     });
@@ -585,9 +585,9 @@ Pil.init();
         $this.toggleClass("open");
 
         if ($this.hasClass("open")) {
-            $this.html("Read Less");
+            $this.html("Read Less ⬆");
         } else {
-            $this.html("Read More");
+            $this.html("Read More ⬇");
         }
         $(".summary36").toggle();
     });

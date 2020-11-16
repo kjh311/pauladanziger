@@ -36,7 +36,7 @@ footer {
 }
 
 .kevin-link {
-    color: white;
+    color: $light-text;
     -webkit-transition: all 0.3s !important;
     -o-transition: all 0.3s !important;
     transition: all 0.3s !important;
@@ -57,7 +57,7 @@ footer {
 
 
 .kevin-link:hover {
-    color: white;
+    color: $light-text;
     -webkit-transition: all 0.3s !important;
     -o-transition: all 0.3s !important;
     transition: all 0.3s !important;
@@ -90,18 +90,18 @@ footer ul {
 }
 
 .active-footer-link {
-    color: white;
+    color: $light-text;
 }
 
 .footer-link:hover {
-    color: #fff;
+    color: $light-text;
     -webkit-transition: color 0.3s;
     -o-transition: color 0.3s;
     transition: color 0.3s;
 }
 
 .active-footer-link:hover {
-    color: white;
+    color: $light-text;
 }
 
 .links {

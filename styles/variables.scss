@@ -102,6 +102,15 @@ $text: rgba(255,255,255,.7);
 $hover: darken($bg, 15%);
 $light-green: #80FFDB;
 
+$light-text: #fff; 
+$dark-text: #000000;
+.light-text{
+  color: $light-text;
+}
+.dark-text{
+  color: $dark-text;
+}
+
 // color pallete 1
 $purchase: #298838;
 $purchase-dark: #127521;
@@ -114,12 +123,14 @@ $dark-navbar: #187487;
 $light-navbar: #56c7dd;
 // $card: #8c8c8c;
 // $card: #e76f51;
-$card: #a8dadc;
+// $card: #a8dadc;
+$card: #4491dd;
 // $title-text: #333333;
 $title-text: #009FB7;
 $jumbotron: #F4F4F8;
 // $link: #1956B7;
 $link: #1a9cbc;
+
 
 
 

@@ -216,10 +216,10 @@
     -webkit-transition: all 0.2s;
     -o-transition: all 0.2s;
     transition: all 0.2s;
-    color: #fff !important;
+    color: $light-text !important;
 
     &:hover {
-        color: #fff !important;
+        color: $light-text !important;
     }
 }
 
