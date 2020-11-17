@@ -136,7 +136,7 @@ html {
         font-size: 1.3em;
         padding: 5px 10px;
         margin: 0 0 10px 0;
-        // text-align: justify;
+        text-align: justify;
 
         @include media-breakpoint-up(sm) {
             font-size: 1.5em;
@@ -251,7 +251,7 @@ html {
 
 
 .details {
-    // text-align: justify;
+    text-align: justify;
 }
 
 .card {
@@ -285,7 +285,7 @@ html {
     margin-top: 20px;
     cursor: pointer;
     padding-top: 10px;
-    color: white;
+    color: $light-text;
     text-decoration: none !important;
     margin: 0px 10% 0px 10%;
     @extend %hover-grow;

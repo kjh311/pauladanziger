@@ -40,7 +40,7 @@
         width: 100%;
         cursor: pointer;
         background: #FF6F66;
-        color: #fff;
+        color: $light-text;
         margin: 0 auto;
         text-align: center;
         padding: 10px;
@@ -107,7 +107,7 @@
     background-color: $card;
     -webkit-box-shadow: 15px 15px 8px rgba(0, 0, 0, 0.4);
     box-shadow: 15px 15px 8px rgba(0, 0, 0, 0.4);
-    color: white;
+    color: $light-text;
 }
 
 label {
@@ -177,7 +177,7 @@ textarea {
 .send-btn {
     cursor: pointer;
     padding-top: 12px;
-    color: white;
+    color: $light-text;
     @extend %hover-grow;
 }
 

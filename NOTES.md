@@ -15,7 +15,7 @@ https://css-tricks.com/creating-a-modal-image-gallery-with-bootstrap-components/
 
 TO DO:
 <!-- Lower img file size -->
-accesibility
+<!-- accesibility -->
 <!-- seo -->
 LOGO?
 <!-- cross browser consistency -->
@@ -34,7 +34,7 @@ color scheme
 <!-- typos -->
 <!-- each page has a 'top' anchor tag -->
 new paula img on index
-download fonts?
+<!-- download fonts? -->
 <!-- Better Readme file -->
 <!-- New Icon? -->
 Register your website with Google Search Console

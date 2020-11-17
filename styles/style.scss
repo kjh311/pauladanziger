@@ -26,7 +26,61 @@
     }
 }
 
+.index-button{
+    padding-top: 12px;
+    // background-color: $light-blue;
+    &:hover {
+        // background-color: $read-more-dark;
+    }
+}
 
+.lead-h1{
+    font-family: $penny;
+    // margin-top: 20px;
+    @include media-breakpoint-up(md) {
+        margin-top: 0px;
+    }
+}
+
+.far-art-img{
+    display: block;
+    width: 200px !important;
+    margin-left: auto;
+    margin-right: auto;
+    @extend %hover-grow-no-shadow;
+    @include media-breakpoint-up(md) {
+        width: 250px;
+    }
+}
+
+.fan-art-link{
+    // @extend %hover-grow-no-shadow;
+}
+
+
+
+.bestsellers-ul{
+    list-style-type: none;
+    padding: 0;
+    
+    font-size: 1em;
+    @include media-breakpoint-up(md) {
+        font-size: 1.2em;
+    }
+    li{
+        color: $light-blue;
+        display: block;
+        @extend %hover-grow-no-shadow;
+        text-decoration: none;
+        line-height: 30px;
+        transition: all 0.3s;
+        &:hover {
+            text-decoration: underline;
+            transition: all 0.3s;
+            color: $light-text;
+         }
+    }
+}
 
 .learn-more-text {
     margin-top: 20px;
@@ -37,6 +91,15 @@
 body {
     font-size: 16px;
     overflow-x: hidden;
+}
+
+.teddy{
+    width: 200px;
+    margin-top: 30px;
+    @extend %hover-grow-no-shadow;
+    @include media-breakpoint-up(md) {
+        width: 250px;
+    }
 }
 
 
@@ -58,10 +121,11 @@ body {
     font-size: 1.3em;
     padding: 0 5%;
     margin-bottom: 0;
-    // text-align: justify;
+    text-align: justify;
     line-height: 30px;
     top: 30px;
     position: relative;
+    text-indent: 30px;
 
     @include media-breakpoint-up(sm) {
         top: 0px;
@@ -76,21 +140,28 @@ hr {
     border: 1px solid #fff;
 }
 
-.user-image,
-.teddy {
+.user-image{
     width: 94%;
     display: inline;
     height: auto;
     float: left;
-    margin: 0 3%;
-    border: 2px solid black;
+    margin: 3% 3%;
+    // border: 2px solid black;
     border-radius: 5px;
+    padding-bottom: 20px;
 
     @include media-breakpoint-up(sm) {
         width: 40%;
         height: auto;
         margin: 30px;
+        padding-bottom: 0px;
+        padding-top: 0;
+        margin-top: 0;
     }
+}
+
+.bestsellers{
+    text-decoration: underline !important;
 }
 
 .children-reading{
