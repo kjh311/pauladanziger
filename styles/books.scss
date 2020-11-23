@@ -198,24 +198,26 @@ html {
     display: inline;
 }
 
-.book-dropdown::-webkit-scrollbar {
-    -webkit-appearance: none;
-    background-color: $light-text;
-}
+// .book-dropdown::-webkit-scrollbar {
+//     -webkit-appearance: none;
+//     background-color: $light-text;
+// }
 
-.book-dropdown::-webkit-scrollbar:vertical {
-    width: 11px;
-}
+// .book-dropdown::-webkit-scrollbar:vertical {
+//     width: 11px;
+// }
 
-.book-dropdown::-webkit-scrollbar:horizontal {
-    height: 11px;
-}
+// .book-dropdown::-webkit-scrollbar:horizontal {
+//     height: 11px;
+// }
 
-.book-dropdown::-webkit-scrollbar-thumb {
-    border-radius: 8px;
-    border: 2px solid white;
-    background-color: rgba(0, 0, 0, 0.5);
-}
+
+
+// .book-dropdown::-webkit-scrollbar-thumb {
+//     border-radius: 8px;
+//     border: 2px solid white;
+//     background-color: rgba(0, 0, 0, 0.5);
+// }
 
 .series {
     -webkit-user-select: none;

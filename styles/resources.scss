@@ -48,15 +48,19 @@
             .img {
                 width: 200px;
             }
+            a{
+                color: $light-blue;
+                &:hover {
+                    color: $light-text;
+                }
+            }
 
             h3 {
                 color: $light-blue;
                 @extend %hover-grow-no-shadow;
                 padding: 0 10px;
-                text-decoration: none !important;
                 transition: all 0.3s;
                 &:hover {
-                    text-decoration: underline;
                     color: $light-text;
                     transition: all 0.3s;
                 }

@@ -232,6 +232,7 @@ $link: #1a9cbc;
 }
 .title-text{
   font-size: 2em;
+  // animation: fadeInUp 1000ms 300ms both;
   padding-bottom: 20px;
   @include media-breakpoint-up(md) {
           font-size: 3em;
@@ -258,7 +259,17 @@ body{
 }
 
 
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translate3d(0, 100%, 0);
+    }
 
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
 
 .subnav {
   position: absolute;

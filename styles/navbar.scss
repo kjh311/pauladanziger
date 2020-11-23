@@ -47,7 +47,8 @@
     transition: 0.3s;
 
     @include media-breakpoint-up(lg) {
-        width: 40vw;
+        width: 39.7vw;
+        margin-left: 1px;
     }
 }
 
@@ -67,6 +68,7 @@
 }
 
 .dropdown-menu {
+
     .dropdown-collapsed {
         a {
             text-align: left;
@@ -128,7 +130,7 @@
     overflow-x: hidden !important;
     height: 300px;
     max-height: 40vh;
-    border: 2px solid $navbar;
+    outline: 2px solid $navbar;
     -webkit-box-shadow: 15px 15px 8px rgba(0, 0, 0, 0.4);
     box-shadow: 15px 15px 8px rgba(0, 0, 0, 0.4);
 
@@ -140,6 +142,10 @@
 
 
     }
+
+//     .mega-menu::-webkit-scrollbar:horizontal, .mega-menu::-webkit-scrollbar-thumb {
+//     display: none;
+// }
 
     .row {
         @include media-breakpoint-up(lg) {

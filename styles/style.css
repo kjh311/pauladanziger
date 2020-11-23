@@ -6481,6 +6481,13 @@ a.text-dark:focus, a.text-dark:hover {
 body {
   font-family: "Chilanka-Regular", cursive; }
 
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0); }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0); } }
 .subnav {
   position: absolute; }
 
@@ -6622,6 +6629,13 @@ body {
 body {
   font-family: "Chilanka-Regular", cursive; }
 
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0); }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0); } }
 .subnav {
   position: absolute; }
 
@@ -6767,6 +6781,13 @@ body {
 body {
   font-family: "Chilanka-Regular", cursive; }
 
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0); }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0); } }
 .subnav {
   position: absolute; }
 
@@ -10578,7 +10599,8 @@ body {
   @media (min-width: 992px) {
     .dropdown-collapsed p,
     .sub-menu-heading {
-      width: 40vw; } }
+      width: 39.7vw;
+      margin-left: 2px; } }
 
 .dropdown-collapsed p:hover,
 .sub-menu-heading:hover {
@@ -10635,10 +10657,10 @@ body {
 
 .mega-menu {
   overflow-y: scroll;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
   height: 300px;
   max-height: 40vh;
-  border: 2px solid #009FB7;
+  outline: 2px solid #009FB7;
   -webkit-box-shadow: 15px 15px 8px rgba(0, 0, 0, 0.4);
   box-shadow: 15px 15px 8px rgba(0, 0, 0, 0.4); }
   @media (min-width: 992px) {
@@ -10859,6 +10881,13 @@ body {
 body {
   font-family: "Chilanka-Regular", cursive; }
 
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0); }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0); } }
 .subnav {
   position: absolute; }
 
@@ -11077,6 +11106,13 @@ footer ul {
 body {
   font-family: "Chilanka-Regular", cursive; }
 
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0); }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0); } }
 .subnav {
   position: absolute; }
 
@@ -14973,6 +15009,13 @@ body {
 body {
   font-family: "Chilanka-Regular", cursive; }
 
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0); }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0); } }
 .subnav {
   position: absolute; }
 
@@ -15114,6 +15157,13 @@ body {
 body {
   font-family: "Chilanka-Regular", cursive; }
 
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0); }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0); } }
 .subnav {
   position: absolute; }
 
@@ -15259,6 +15309,13 @@ body {
 body {
   font-family: "Chilanka-Regular", cursive; }
 
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0); }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0); } }
 .subnav {
   position: absolute; }
 
@@ -19070,7 +19127,8 @@ body {
   @media (min-width: 992px) {
     .dropdown-collapsed p,
     .sub-menu-heading {
-      width: 40vw; } }
+      width: 39.7vw;
+      margin-left: 2px; } }
 
 .dropdown-collapsed p:hover,
 .sub-menu-heading:hover {
@@ -19127,10 +19185,10 @@ body {
 
 .mega-menu {
   overflow-y: scroll;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
   height: 300px;
   max-height: 40vh;
-  border: 2px solid #009FB7;
+  outline: 2px solid #009FB7;
   -webkit-box-shadow: 15px 15px 8px rgba(0, 0, 0, 0.4);
   box-shadow: 15px 15px 8px rgba(0, 0, 0, 0.4); }
   @media (min-width: 992px) {
@@ -19351,6 +19409,13 @@ body {
 body {
   font-family: "Chilanka-Regular", cursive; }
 
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0); }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0); } }
 .subnav {
   position: absolute; }
 
@@ -19569,6 +19634,13 @@ footer ul {
 body {
   font-family: "Chilanka-Regular", cursive; }
 
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0); }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0); } }
 .subnav {
   position: absolute; }
 
@@ -23606,21 +23678,6 @@ html {
   height: 20px;
   display: inline; }
 
-.book-dropdown::-webkit-scrollbar {
-  -webkit-appearance: none;
-  background-color: #fff; }
-
-.book-dropdown::-webkit-scrollbar:vertical {
-  width: 11px; }
-
-.book-dropdown::-webkit-scrollbar:horizontal {
-  height: 11px; }
-
-.book-dropdown::-webkit-scrollbar-thumb {
-  border-radius: 8px;
-  border: 2px solid white;
-  background-color: rgba(0, 0, 0, 0.5); }
-
 .series {
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -23868,6 +23925,13 @@ hr {
 body {
   font-family: "Chilanka-Regular", cursive; }
 
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0); }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0); } }
 .subnav {
   position: absolute; }
 
@@ -24009,6 +24073,13 @@ body {
 body {
   font-family: "Chilanka-Regular", cursive; }
 
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0); }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0); } }
 .subnav {
   position: absolute; }
 
@@ -24154,6 +24225,13 @@ body {
 body {
   font-family: "Chilanka-Regular", cursive; }
 
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0); }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0); } }
 .subnav {
   position: absolute; }
 
@@ -27965,7 +28043,8 @@ body {
   @media (min-width: 992px) {
     .dropdown-collapsed p,
     .sub-menu-heading {
-      width: 40vw; } }
+      width: 39.7vw;
+      margin-left: 2px; } }
 
 .dropdown-collapsed p:hover,
 .sub-menu-heading:hover {
@@ -28022,10 +28101,10 @@ body {
 
 .mega-menu {
   overflow-y: scroll;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
   height: 300px;
   max-height: 40vh;
-  border: 2px solid #009FB7;
+  outline: 2px solid #009FB7;
   -webkit-box-shadow: 15px 15px 8px rgba(0, 0, 0, 0.4);
   box-shadow: 15px 15px 8px rgba(0, 0, 0, 0.4); }
   @media (min-width: 992px) {
@@ -28246,6 +28325,13 @@ body {
 body {
   font-family: "Chilanka-Regular", cursive; }
 
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0); }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0); } }
 .subnav {
   position: absolute; }
 
@@ -28464,6 +28550,13 @@ footer ul {
 body {
   font-family: "Chilanka-Regular", cursive; }
 
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0); }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0); } }
 .subnav {
   position: absolute; }
 
@@ -32474,6 +32567,13 @@ body {
 body {
   font-family: "Chilanka-Regular", cursive; }
 
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0); }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0); } }
 .subnav {
   position: absolute; }
 
@@ -32615,6 +32715,13 @@ body {
 body {
   font-family: "Chilanka-Regular", cursive; }
 
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0); }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0); } }
 .subnav {
   position: absolute; }
 
@@ -32760,6 +32867,13 @@ body {
 body {
   font-family: "Chilanka-Regular", cursive; }
 
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0); }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0); } }
 .subnav {
   position: absolute; }
 
@@ -36571,7 +36685,8 @@ body {
   @media (min-width: 992px) {
     .dropdown-collapsed p,
     .sub-menu-heading {
-      width: 40vw; } }
+      width: 39.7vw;
+      margin-left: 2px; } }
 
 .dropdown-collapsed p:hover,
 .sub-menu-heading:hover {
@@ -36628,10 +36743,10 @@ body {
 
 .mega-menu {
   overflow-y: scroll;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
   height: 300px;
   max-height: 40vh;
-  border: 2px solid #009FB7;
+  outline: 2px solid #009FB7;
   -webkit-box-shadow: 15px 15px 8px rgba(0, 0, 0, 0.4);
   box-shadow: 15px 15px 8px rgba(0, 0, 0, 0.4); }
   @media (min-width: 992px) {
@@ -36852,6 +36967,13 @@ body {
 body {
   font-family: "Chilanka-Regular", cursive; }
 
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0); }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0); } }
 .subnav {
   position: absolute; }
 
@@ -37070,6 +37192,13 @@ footer ul {
 body {
   font-family: "Chilanka-Regular", cursive; }
 
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0); }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0); } }
 .subnav {
   position: absolute; }
 
@@ -41065,6 +41194,13 @@ textarea:focus {
 body {
   font-family: "Chilanka-Regular", cursive; }
 
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0); }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0); } }
 .subnav {
   position: absolute; }
 
@@ -41210,6 +41346,13 @@ body {
 body {
   font-family: "Chilanka-Regular", cursive; }
 
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0); }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0); } }
 .subnav {
   position: absolute; }
 
@@ -45021,7 +45164,8 @@ body {
   @media (min-width: 992px) {
     .dropdown-collapsed p,
     .sub-menu-heading {
-      width: 40vw; } }
+      width: 39.7vw;
+      margin-left: 2px; } }
 
 .dropdown-collapsed p:hover,
 .sub-menu-heading:hover {
@@ -45078,10 +45222,10 @@ body {
 
 .mega-menu {
   overflow-y: scroll;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
   height: 300px;
   max-height: 40vh;
-  border: 2px solid #009FB7;
+  outline: 2px solid #009FB7;
   -webkit-box-shadow: 15px 15px 8px rgba(0, 0, 0, 0.4);
   box-shadow: 15px 15px 8px rgba(0, 0, 0, 0.4); }
   @media (min-width: 992px) {
@@ -45302,6 +45446,13 @@ body {
 body {
   font-family: "Chilanka-Regular", cursive; }
 
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0); }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0); } }
 .subnav {
   position: absolute; }
 
@@ -45443,6 +45594,13 @@ body {
 body {
   font-family: "Chilanka-Regular", cursive; }
 
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0); }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0); } }
 .subnav {
   position: absolute; }
 
@@ -45588,6 +45746,13 @@ body {
 body {
   font-family: "Chilanka-Regular", cursive; }
 
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0); }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0); } }
 .subnav {
   position: absolute; }
 
@@ -49399,7 +49564,8 @@ body {
   @media (min-width: 992px) {
     .dropdown-collapsed p,
     .sub-menu-heading {
-      width: 40vw; } }
+      width: 39.7vw;
+      margin-left: 2px; } }
 
 .dropdown-collapsed p:hover,
 .sub-menu-heading:hover {
@@ -49456,10 +49622,10 @@ body {
 
 .mega-menu {
   overflow-y: scroll;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
   height: 300px;
   max-height: 40vh;
-  border: 2px solid #009FB7;
+  outline: 2px solid #009FB7;
   -webkit-box-shadow: 15px 15px 8px rgba(0, 0, 0, 0.4);
   box-shadow: 15px 15px 8px rgba(0, 0, 0, 0.4); }
   @media (min-width: 992px) {
@@ -49680,6 +49846,13 @@ body {
 body {
   font-family: "Chilanka-Regular", cursive; }
 
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0); }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0); } }
 .subnav {
   position: absolute; }
 
@@ -49898,6 +50071,13 @@ footer ul {
 body {
   font-family: "Chilanka-Regular", cursive; }
 
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0); }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0); } }
 .subnav {
   position: absolute; }
 
@@ -53646,13 +53826,15 @@ body {
       height: 40px; }
     .resources-div ul li .img {
       width: 200px; }
+    .resources-div ul li a {
+      color: #60CFF3; }
+      .resources-div ul li a:hover {
+        color: #fff; }
     .resources-div ul li h3 {
       color: #60CFF3;
       padding: 0 10px;
-      text-decoration: none !important;
       transition: all 0.3s; }
       .resources-div ul li h3:hover {
-        text-decoration: underline;
         color: #fff;
         transition: all 0.3s; }
 .resources-div .resource-wrapper {
@@ -53799,6 +53981,13 @@ body {
 body {
   font-family: "Chilanka-Regular", cursive; }
 
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0); }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0); } }
 .subnav {
   position: absolute; }
 
