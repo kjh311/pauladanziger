@@ -592,6 +592,20 @@ Pil.init();
         $(".summary36").toggle();
     });
 
+    // 37
+    $(".read-more-button37").click(function() {
+        $(".content37").slideToggle("slow");
+        var $this = $(this);
+        $this.toggleClass("open");
+
+        if ($this.hasClass("open")) {
+            $this.html("Read Less");
+        } else {
+            $this.html("Read More");
+        }
+        $(".summary37").toggle();
+    });
+
 
     
     

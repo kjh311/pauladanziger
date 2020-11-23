@@ -17,7 +17,8 @@ TO DO:
 <!-- Lower img file size -->
 <!-- accesibility -->
 <!-- seo -->
-LOGO?
+add new book to list
+<!-- LOGO? -->
 <!-- cross browser consistency -->
 google analitics
 amazon affiliate links
