@@ -44,6 +44,10 @@ Register your website with Google Search Console
 <!-- HTML or XHTML validation -->
 <!-- test all links -->
 
+research domain hosting/costs / send ben spreadsheet of comparisons
+make sure it supports domain transfers
+
+
 
 
 
